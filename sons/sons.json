@@ -1,0 +1,1342 @@
+{
+ "reload_venusien_mid": {
+  "f": [
+   "reload_venusien_mid_n_0.mp4"
+  ],
+  "vol": 0.525
+ },
+ "step_venusien": {
+  "f": [
+   "step_venusien_0.mp4",
+   "step_venusien_1.mp4",
+   "step_venusien_2.mp4",
+   "step_venusien_3.mp4",
+   "step_venusien_4.mp4",
+   "step_venusien_5.mp4",
+   "step_venusien_6.mp4",
+   "step_venusien_7.mp4",
+   "step_venusien_8.mp4",
+   "step_venusien_9.mp4",
+   "step_venusien_10.mp4",
+   "step_venusien_11.mp4"
+  ],
+  "vol": 1
+ },
+ "amb_op1_m1": {
+  "f": [
+   "amb_op1_m1_0.mp4"
+  ],
+  "vol": 0.315
+ },
+ "amb_op1_m2": {
+  "f": [
+   "amb_op1_m2_0.mp4"
+  ],
+  "vol": 0.315
+ },
+ "amb_op1_m3": {
+  "f": [
+   "amb_op1_m3_0.mp4"
+  ],
+  "vol": 0.315
+ },
+ "amb_op1_m4": {
+  "f": [
+   "amb_op1_m4_0.mp4"
+  ],
+  "vol": 0.315
+ },
+ "amb_op1_m5": {
+  "f": [
+   "amb_op1_m5_0.mp4"
+  ],
+  "vol": 0.315
+ },
+ "reload_terrien_long": [
+  "reload_terrien_long_0.mp4",
+  "reload_terrien_long_1.mp4"
+ ],
+ "reload_terrien_mid": "reload_terrien_mid_0.mp4",
+ "reload_terrien_short": [
+  "reload_terrien_short_0.mp4",
+  "reload_terrien_short_1.mp4",
+  "reload_terrien_short_2.mp4"
+ ],
+ "cool": [
+  "cool_0.mp4",
+  "cool_1.mp4",
+  "cool_2.mp4"
+ ],
+ "reload_draco": [
+  "reload_draco_0.mp4",
+  "reload_draco_1.mp4"
+ ],
+ "whistle_draco": [
+  "whistle_draco_0.mp4",
+  "whistle_draco_1.mp4",
+  "whistle_draco_2.mp4",
+  "whistle_draco_3.mp4"
+ ],
+ "reload_mentis": "reload_mentis_0.mp4",
+ "reload_arcturien": [
+  "reload_arcturien_0.mp4",
+  "reload_arcturien_1.mp4"
+ ],
+ "whistle_arcturien": [
+  "whistle_arcturien_0.mp4",
+  "whistle_arcturien_1.mp4",
+  "whistle_arcturien_2.mp4",
+  "whistle_arcturien_3.mp4"
+ ],
+ "reload": [
+  "reload_0.mp4",
+  "reload_venusien_mid_0.mp4"
+ ],
+ "alarm_long": {
+  "f": [
+   "alarm_long_0.mp4"
+  ],
+  "vol": 0.35
+ },
+ "alarm_mid": {
+  "f": [
+   "alarm_mid_0.mp4"
+  ],
+  "vol": 0.715
+ },
+ "alarm_short": {
+  "f": [
+   "alarm_short_0.mp4"
+  ],
+  "vol": 1.6
+ },
+ "boss": {
+  "f": [
+   "boss_0.mp4"
+  ],
+  "vol": 0.5
+ },
+ "soon": "soon_0.mp4",
+ "ui_hq": {
+  "f": [
+   "ui_hq_0.mp4"
+  ],
+  "vol": 0.8
+ },
+ "spawn": {
+  "f": [
+   "spawn_0.mp4"
+  ],
+  "vol": 0.5
+ },
+ "eshotCmd_1": {
+  "f": [
+   "eshotCmd_n0.mp4",
+   "eshotCmd_n1.mp4",
+   "eshotCmd_n2.mp4",
+   "eshotCmd_n3.mp4",
+   "eshotCmd_n4.mp4"
+  ],
+  "vol": 0.804
+ },
+ "eshotCmd_2": {
+  "f": [
+   "eshotCmd_n0.mp4",
+   "eshotCmd_n1.mp4",
+   "eshotCmd_n2.mp4",
+   "eshotCmd_n3.mp4",
+   "eshotCmd_n4.mp4"
+  ],
+  "vol": 0.804
+ },
+ "eshotCmd_3": {
+  "f": [
+   "eshotCmd_n0.mp4",
+   "eshotCmd_n1.mp4",
+   "eshotCmd_n2.mp4",
+   "eshotCmd_n3.mp4",
+   "eshotCmd_n4.mp4"
+  ],
+  "vol": 0.804
+ },
+ "loop_dair": {
+  "f": [
+   "loop_dair_0.mp4"
+  ],
+  "vol": 1.3
+ },
+ "loop_tank": "loop_tank_0.mp4",
+ "steps_dterre": {
+  "f": [
+   "steps_dterre_0.mp4",
+   "steps_dterre_1.mp4",
+   "steps_dterre_2.mp4",
+   "steps_dterre_3.mp4",
+   "steps_dterre_4.mp4",
+   "steps_dterre_5.mp4",
+   "steps_dterre_6.mp4",
+   "steps_dterre_7.mp4",
+   "steps_dterre_8.mp4",
+   "steps_dterre_9.mp4"
+  ],
+  "vol": 1.56
+ },
+ "steps_dcmd": {
+  "f": [
+   "steps_dcmd_0.mp4",
+   "steps_dcmd_1.mp4",
+   "steps_dcmd_2.mp4",
+   "steps_dcmd_3.mp4",
+   "steps_dcmd_4.mp4",
+   "steps_dcmd_5.mp4",
+   "steps_dcmd_6.mp4",
+   "steps_dcmd_7.mp4",
+   "steps_dcmd_8.mp4",
+   "steps_dcmd_9.mp4"
+  ],
+  "vol": 1.6
+ },
+ "killOf_dterre": "killOf_dterre_n0.mp4",
+ "killOf_dair": {
+  "f": [
+   "killOf_dair_n0.mp4"
+  ],
+  "vol": 1.3
+ },
+ "killOf_tank": "killOf_tank_0.mp4",
+ "boom": [
+  "boom_0.mp4",
+  "boom_1.mp4"
+ ],
+ "kill": {
+  "f": [
+   "kill_0.mp4"
+  ],
+  "vol": 0.5
+ },
+ "wrong": "wrong_0.mp4",
+ "swap": {
+  "f": [
+   "swap_v0.mp4"
+  ],
+  "vol": 1.704
+ },
+ "step_draco": {
+  "f": [
+   "step_draco_0.mp4",
+   "step_draco_1.mp4",
+   "step_draco_2.mp4",
+   "step_draco_3.mp4",
+   "step_draco_4.mp4",
+   "step_draco_5.mp4",
+   "step_draco_6.mp4",
+   "step_draco_7.mp4",
+   "step_draco_8.mp4",
+   "step_draco_9.mp4"
+  ],
+  "vol": 3.5
+ },
+ "swoosh_venusien": [
+  "swoosh_venusien_0.mp4",
+  "swoosh_venusien_1.mp4",
+  "swoosh_venusien_2.mp4",
+  "swoosh_venusien_3.mp4"
+ ],
+ "swoosh": [
+  "swoosh_venusien_0.mp4",
+  "swoosh_venusien_1.mp4",
+  "swoosh_venusien_2.mp4",
+  "swoosh_venusien_3.mp4"
+ ],
+ "death": {
+  "f": [
+   "death_n0.mp4"
+  ],
+  "vol": 1.306
+ },
+ "breach": "breach_0.mp4",
+ "music_menu": {
+  "f": [
+   "music_menu_0.mp4"
+  ],
+  "vol": 0.35
+ },
+ "rivalNear": {
+  "f": [
+   "rivalNear_n0.mp4"
+  ],
+  "vol": 3
+ },
+ "weaponGain": "weaponGain_n0.mp4",
+ "weaponLoss": "weaponLoss_n0.mp4",
+ "killOf_metal": [
+  "killOf_metal_0.mp4",
+  "killOf_metal_1.mp4",
+  "killOf_metal_2.mp4"
+ ],
+ "shieldPulse": {
+  "f": [
+   "shieldPulse_0.mp4"
+  ],
+  "vol": 1.2
+ },
+ "armorPulse": "armorPulse_0.mp4",
+ "pickupOf_grenade": "pickupOf_grenade_0.mp4",
+ "pickupOf_rocket": "pickupOf_rocket_0.mp4",
+ "pickupOf_weapon": "pickupOf_weapon_0.mp4",
+ "pickupOf_ressource": {
+  "f": [
+   "pickupOf_ressource_n0.mp4"
+  ],
+  "vol": 1.118
+ },
+ "voice_loot": {
+  "f": [
+   "voice_loot_n0.mp4"
+  ],
+  "vol": 2.383
+ },
+ "whiz": {
+  "f": [
+   "whiz_0.mp4",
+   "whiz_1.mp4",
+   "whiz_2.mp4"
+  ],
+  "vol": 0.7
+ },
+ "hitOn_organic": {
+  "f": [
+   "hitOn_organic_0.mp4",
+   "hitOn_organic_1.mp4",
+   "hitOn_organic_2.mp4",
+   "hitOn_organic_3.mp4",
+   "hitOn_organic_4.mp4",
+   "hitOn_organic_5.mp4",
+   "hitOn_organic_6.mp4",
+   "hitOn_organic_7.mp4",
+   "hitOn_organic_8.mp4"
+  ],
+  "vol": 1.3
+ },
+ "hitOn_shield": {
+  "f": [
+   "hitOn_organic_0.mp4",
+   "hitOn_organic_1.mp4",
+   "hitOn_organic_2.mp4",
+   "hitOn_organic_3.mp4",
+   "hitOn_organic_4.mp4",
+   "hitOn_organic_5.mp4",
+   "hitOn_organic_6.mp4",
+   "hitOn_organic_7.mp4",
+   "hitOn_organic_8.mp4"
+  ],
+  "vol": 1.3
+ },
+ "hitOn_metal": {
+  "f": [
+   "hitOn_metal_0.mp4",
+   "hitOn_metal_1.mp4",
+   "hitOn_metal_2.mp4",
+   "hitOn_metal_3.mp4",
+   "hitOn_metal_4.mp4",
+   "hitOn_metal_5.mp4",
+   "hitOn_metal_6.mp4",
+   "hitOn_metal_7.mp4",
+   "hitOn_metal_8.mp4",
+   "hitOn_metal_9.mp4",
+   "hitOn_metal_10.mp4"
+  ],
+  "vol": 1.3
+ },
+ "hurtOn_shield": [
+  "hurtOn_shield_n0.mp4",
+  "hurtOn_shield_n1.mp4",
+  "hurtOn_shield_n2.mp4"
+ ],
+ "hurtOn_armor": {
+  "f": [
+   "hurtOn_armor_n0.mp4"
+  ],
+  "vol": 1.995
+ },
+ "ui_move": "ui_move_0.mp4",
+ "ui_sel": "ui_sel_0.mp4",
+ "ui_back": "ui_back_0.mp4",
+ "ui_deny": "ui_deny_0.mp4",
+ "ui_locked": "ui_locked_0.mp4",
+ "defeat": "defeat_0.mp4",
+ "victory": [
+  "victory_0.mp4",
+  "victory_1.mp4",
+  "victory_2.mp4",
+  "victory_3.mp4",
+  "victory_4.mp4",
+  "victory_5.mp4",
+  "victory_6.mp4",
+  "victory_7.mp4",
+  "victory_8.mp4"
+ ],
+ "upgrade": [
+  "victory_0.mp4",
+  "victory_1.mp4",
+  "victory_2.mp4",
+  "victory_3.mp4",
+  "victory_4.mp4",
+  "victory_5.mp4",
+  "victory_6.mp4",
+  "victory_7.mp4",
+  "victory_8.mp4"
+ ],
+ "amb_venus": {
+  "f": [
+   "amb_venus_0.mp4"
+  ],
+  "vol": 0.8
+ },
+ "amb_venus_academy": {
+  "f": [
+   "amb_venus_academy_n0.mp4"
+  ],
+  "vol": 1
+ },
+ "amb_venus_cascade": {
+  "f": [
+   "amb_venus_cascade_n0.mp4"
+  ],
+  "vol": 1
+ },
+ "amb_venus_plage": {
+  "f": [
+   "amb_venus_plage_n0.mp4"
+  ],
+  "vol": 1
+ },
+ "amb_venus_pyramide": {
+  "f": [
+   "amb_venus_pyramide_n0.mp4"
+  ],
+  "vol": 1
+ },
+ "amb_venus_solarium": {
+  "f": [
+   "amb_venus_solarium_n0.mp4"
+  ],
+  "vol": 1
+ },
+ "ground_academy": {
+  "f": [
+   "ground_academy_0.mp4",
+   "ground_academy_1.mp4",
+   "ground_academy_2.mp4",
+   "ground_academy_3.mp4",
+   "ground_academy_4.mp4",
+   "ground_academy_5.mp4",
+   "ground_academy_6.mp4",
+   "ground_academy_7.mp4",
+   "ground_academy_8.mp4",
+   "ground_academy_9.mp4",
+   "ground_academy_10.mp4",
+   "ground_academy_11.mp4"
+  ],
+  "vol": 1
+ },
+ "ground_cascade": {
+  "f": [
+   "ground_cascade_0.mp4",
+   "ground_cascade_1.mp4",
+   "ground_cascade_2.mp4",
+   "ground_cascade_3.mp4",
+   "ground_cascade_4.mp4",
+   "ground_cascade_5.mp4",
+   "ground_cascade_6.mp4",
+   "ground_cascade_7.mp4",
+   "ground_cascade_8.mp4",
+   "ground_cascade_9.mp4"
+  ],
+  "vol": 1
+ },
+ "ground_plage": {
+  "f": [
+   "ground_plage_0.mp4",
+   "ground_plage_1.mp4",
+   "ground_plage_2.mp4",
+   "ground_plage_3.mp4",
+   "ground_plage_4.mp4",
+   "ground_plage_5.mp4",
+   "ground_plage_6.mp4",
+   "ground_plage_7.mp4",
+   "ground_plage_8.mp4",
+   "ground_plage_9.mp4",
+   "ground_plage_10.mp4"
+  ],
+  "vol": 0.7
+ },
+ "ground_pyramide": {
+  "f": [
+   "ground_pyramide_0.mp4",
+   "ground_pyramide_1.mp4",
+   "ground_pyramide_2.mp4",
+   "ground_pyramide_3.mp4",
+   "ground_pyramide_4.mp4",
+   "ground_pyramide_5.mp4",
+   "ground_pyramide_6.mp4",
+   "ground_pyramide_7.mp4",
+   "ground_pyramide_8.mp4",
+   "ground_pyramide_9.mp4",
+   "ground_pyramide_10.mp4",
+   "ground_pyramide_11.mp4"
+  ],
+  "vol": 0.7
+ },
+ "empty": {
+  "f": [
+   "empty_0.mp4"
+  ],
+  "vol": 0.5
+ },
+ "overheat": {
+  "f": [
+   "overheat_0.mp4"
+  ],
+  "vol": 0.5
+ },
+ "wall": {
+  "f": [
+   "wall_0.mp4"
+  ],
+  "vol": 0.5
+ },
+ "intro_voice": {
+  "f": [
+   "intro_voice_0.mp4"
+  ],
+  "vol": 1
+ },
+ "eshotOf_dair": {
+  "f": [
+   "eshotDrone_n0.mp4",
+   "eshotDrone_n1.mp4",
+   "eshotDrone_n2.mp4",
+   "eshotDrone_n3.mp4",
+   "eshotDrone_n4.mp4",
+   "eshotDrone_n5.mp4",
+   "eshotDrone_n6.mp4",
+   "eshotDrone_n7.mp4",
+   "eshotDrone_n8.mp4",
+   "eshotDrone_n9.mp4",
+   "eshotDrone_n10.mp4",
+   "eshotDrone_n11.mp4",
+   "eshotDrone_n12.mp4",
+   "eshotDrone_n13.mp4"
+  ],
+  "vol": 0.382
+ },
+ "eshotOf_dterre": {
+  "f": [
+   "eshotDrone_n0.mp4",
+   "eshotDrone_n1.mp4",
+   "eshotDrone_n2.mp4",
+   "eshotDrone_n3.mp4",
+   "eshotDrone_n4.mp4",
+   "eshotDrone_n5.mp4",
+   "eshotDrone_n6.mp4",
+   "eshotDrone_n7.mp4",
+   "eshotDrone_n8.mp4",
+   "eshotDrone_n9.mp4",
+   "eshotDrone_n10.mp4",
+   "eshotDrone_n11.mp4",
+   "eshotDrone_n12.mp4",
+   "eshotDrone_n13.mp4"
+  ],
+  "vol": 0.404
+ },
+ "land": {
+  "f": [
+   "land_n0.mp4"
+  ],
+  "vol": 1.503
+ },
+ "reload_venusien_long": {
+  "f": [
+   "reload_venusien_long_n_0.mp4"
+  ],
+  "vol": 1.109
+ },
+ "reload_venusien_short": {
+  "f": [
+   "reload_venusien_short_n_0.mp4"
+  ],
+  "vol": 1.549
+ },
+ "turn": {
+  "f": [
+   "turn_0.mp4",
+   "turn_1.mp4",
+   "turn_2.mp4",
+   "turn_3.mp4"
+  ],
+  "vol": 2.5
+ },
+ "spawnCmd": {
+  "f": [
+   "spawnCmd_0.mp4",
+   "spawnCmd_1.mp4",
+   "spawnCmd_2.mp4",
+   "spawnCmd_3.mp4",
+   "spawnCmd_4.mp4",
+   "spawnCmd_5.mp4",
+   "spawnCmd_6.mp4"
+  ],
+  "vol": 0.5
+ },
+ "menuIn": {
+  "f": [
+   "menuIn_0.mp4"
+  ],
+  "vol": 0.8
+ },
+ "loop_mate": {
+  "f": [
+   "loop_mate_0.mp4"
+  ],
+  "vol": 0.6
+ },
+ "invite": {
+  "f": [
+   "invite_0.mp4"
+  ],
+  "vol": 0.8
+ },
+ "ground_metal": {
+  "f": [
+   "ground_metal_0.mp4",
+   "ground_metal_1.mp4",
+   "ground_metal_2.mp4",
+   "ground_metal_3.mp4",
+   "ground_metal_4.mp4",
+   "ground_metal_5.mp4",
+   "ground_metal_6.mp4",
+   "ground_metal_7.mp4"
+  ],
+  "vol": 1
+ },
+ "steps_mech": {
+  "f": [
+   "steps_mech_0.mp4",
+   "steps_mech_1.mp4",
+   "steps_mech_2.mp4",
+   "steps_mech_3.mp4",
+   "steps_mech_4.mp4",
+   "steps_mech_5.mp4",
+   "steps_mech_6.mp4",
+   "steps_mech_7.mp4"
+  ],
+  "vol": 1
+ },
+ "eshotOf_mech": {
+  "f": [
+   "eshotOf_mech_n0.mp4",
+   "eshotOf_mech_n1.mp4",
+   "eshotOf_mech_n2.mp4",
+   "eshotOf_mech_n3.mp4",
+   "eshotOf_mech_n4.mp4"
+  ],
+  "vol": 1
+ },
+ "hitOn_mech": {
+  "f": [
+   "hitOn_mech_0.mp4"
+  ],
+  "vol": 0.7,
+  "semi": 2
+ },
+ "killOf_mech": {
+  "f": [
+   "killOf_mech_0.mp4",
+   "killOf_mech_1.mp4",
+   "killOf_mech_2.mp4",
+   "killOf_mech_3.mp4"
+  ],
+  "vol": 1
+ },
+ "spawnMech": {
+  "f": [
+   "spawnMech_0.mp4",
+   "spawnMech_1.mp4"
+  ],
+  "vol": 1
+ },
+ "mechGrenade": {
+  "f": [
+   "mechGrenade_0.mp4",
+   "mechGrenade_1.mp4",
+   "mechGrenade_2.mp4",
+   "mechGrenade_3.mp4",
+   "mechGrenade_4.mp4",
+   "mechGrenade_5.mp4",
+   "mechGrenade_6.mp4"
+  ],
+  "vol": 1
+ },
+ "cellOpen": {
+  "f": [
+   "cellOpen_0.mp4",
+   "cellOpen_1.mp4",
+   "cellOpen_2.mp4",
+   "cellOpen_3.mp4"
+  ],
+  "vol": 1
+ },
+ "cell_closed": {
+  "f": [
+   "cell_closed_0.mp4"
+  ],
+  "vol": 1
+ },
+ "cell_open": {
+  "f": [
+   "cell_open_0.mp4"
+  ],
+  "vol": 1
+ },
+ "amb_olymp_vent": {
+  "f": [
+   "amb_olymp_vent_n0.mp4"
+  ],
+  "vol": 1
+ },
+ "amb_olymp_ateliers": {
+  "f": [
+   "amb_olymp_ateliers_n0.mp4"
+  ],
+  "vol": 1
+ },
+ "amb_olymp_generateur": {
+  "f": [
+   "amb_olymp_generateur_n0.mp4"
+  ],
+  "vol": 1
+ },
+ "cellAlert": {
+  "f": [
+   "cellAlert_0.mp4"
+  ],
+  "vol": 1
+ },
+ "cageOpen": {
+  "f": [
+   "cageOpen_n0.mp4"
+  ],
+  "vol": 1
+ },
+ "cage": {
+  "f": [
+   "cage_n0.mp4"
+  ],
+  "vol": 1
+ },
+ "knife": {
+  "f": [
+   "knife_0.mp4",
+   "knife_1.mp4",
+   "knife_2.mp4",
+   "knife_3.mp4"
+  ],
+  "vol": 0.9
+ },
+ "amb_olymp_cellule": {
+  "f": [
+   "amb_olymp_cellule_0.mp4"
+  ],
+  "vol": 0.8
+ },
+ "tinnitus": {
+  "f": [
+   "tinnitus_0.mp4"
+  ],
+  "vol": 0.5
+ },
+ "flash": {
+  "f": [
+   "flash_0.mp4"
+  ],
+  "vol": 0.9
+ },
+ "drop": [
+  "drop_n0.mp4"
+ ],
+ "amb_olymp_plateforme": {
+  "f": [
+   "amb_olymp_plateforme_n0.mp4"
+  ],
+  "vol": 1
+ },
+ "amb_olymp_egouts": {
+  "f": [
+   "amb_olymp_egouts_n0.mp4"
+  ],
+  "vol": 1
+ },
+ "amb_olymp": {
+  "f": [
+   "amb_olymp_n0.mp4"
+  ],
+  "vol": 1
+ },
+ "beacon": {
+  "f": [
+   "beacon_0.mp4"
+  ],
+  "vol": 0.9
+ },
+ "heal": {
+  "f": [
+   "heal_0.mp4"
+  ],
+  "vol": 0.8
+ },
+ "ground_or": {
+  "f": [
+   "ground_or_0.mp4",
+   "ground_or_1.mp4",
+   "ground_or_2.mp4",
+   "ground_or_3.mp4"
+  ],
+  "vol": 1
+ },
+ "killOf_mech2": {
+  "f": [
+   "killOf_mech2_0.mp4"
+  ],
+  "vol": 1
+ },
+ "shot_assassin": {
+  "f": [
+   "shot_assassin_0.mp4",
+   "shot_assassin_1.mp4",
+   "shot_assassin_2.mp4",
+   "shot_assassin_3.mp4",
+   "shot_assassin_4.mp4"
+  ],
+  "vol": 1
+ },
+ "towerBoom": {
+  "f": [
+   "towerBoom_0.mp4",
+   "towerBoom_1.mp4",
+   "towerBoom_2.mp4",
+   "towerBoom_3.mp4"
+  ],
+  "vol": 1
+ },
+ "grenadeBeep": {
+  "f": [
+   "grenadeBeep_0.mp4"
+  ],
+  "vol": 0.9
+ },
+ "micOn": {
+  "f": [
+   "micOn_0.mp4"
+  ],
+  "vol": 0.9
+ },
+ "overcharge": {
+  "f": [
+   "overcharge_0.mp4"
+  ],
+  "vol": 0.7
+ },
+ "crane": {
+  "f": [
+   "crane_0.mp4"
+  ],
+  "vol": 0.8
+ },
+ "amb_tb": {
+  "f": [
+   "amb_tb_n0.mp4"
+  ],
+  "vol": 0.534
+ },
+ "amb_tb_cm": {
+  "f": [
+   "amb_tb_cm_n0.mp4"
+  ],
+  "vol": 0.455
+ },
+ "amb_tb_co": {
+  "f": [
+   "amb_tb_co_n0.mp4"
+  ],
+  "vol": 0.38
+ },
+ "amb_tb_ce": {
+  "f": [
+   "amb_tb_ce_n0.mp4"
+  ],
+  "vol": 0.595
+ },
+ "amb_tb_nm": {
+  "f": [
+   "amb_tb_nm_n0.mp4"
+  ],
+  "vol": 0.25
+ },
+ "amb_tb_ne": {
+  "f": [
+   "amb_tb_ne_n0.mp4"
+  ],
+  "vol": 0.499
+ },
+ "amb_tb_no": {
+  "f": [
+   "amb_tb_no_n0.mp4"
+  ],
+  "vol": 2.499
+ },
+ "amb_tb_se": {
+  "f": [
+   "amb_tb_se_n0.mp4"
+  ],
+  "vol": 3
+ },
+ "amb_tb_sm": {
+  "f": [
+   "amb_tb_sm_n0.mp4"
+  ],
+  "vol": 1.779
+ },
+ "amb_tb_so": {
+  "f": [
+   "amb_tb_so_n0.mp4"
+  ],
+  "vol": 0.903
+ },
+ "turnL": {
+  "f": [
+   "turnL_n0.mp4"
+  ],
+  "vol": 2.196
+ },
+ "turnR": {
+  "f": [
+   "turnR_n0.mp4"
+  ],
+  "vol": 2.529
+ },
+ "uturn": {
+  "f": [
+   "uturn_n0.mp4",
+   "uturn_n1.mp4",
+   "uturn_n2.mp4",
+   "uturn_n3.mp4",
+   "uturn_n4.mp4"
+  ],
+  "vol": 0.513
+ },
+ "dodgeL": {
+  "f": [
+   "dodgeL_n0.mp4",
+   "dodgeL_n1.mp4",
+   "dodgeL_n2.mp4"
+  ],
+  "vol": 0.444
+ },
+ "dodgeR": {
+  "f": [
+   "dodgeR_n0.mp4",
+   "dodgeR_n1.mp4",
+   "dodgeR_n2.mp4"
+  ],
+  "vol": 0.938
+ },
+ "rope": {
+  "f": [
+   "rope_n0.mp4"
+  ],
+  "vol": 0.908
+ },
+ "respawn": {
+  "f": [
+   "respawn_n0.mp4"
+  ],
+  "vol": 1.529
+ },
+ "detEnemy": {
+  "f": [
+   "detEnemy_n0.mp4"
+  ],
+  "vol": 1.764
+ },
+ "longEnemy": {
+  "f": [
+   "longEnemy_n0.mp4"
+  ],
+  "vol": 1.956
+ },
+ "longRival": {
+  "f": [
+   "longRival_n0.mp4"
+  ],
+  "vol": 0.919
+ },
+ "hurtVoice_venusien_h": {
+  "f": [
+   "hurtVoice_venusien_h_n0.mp4",
+   "hurtVoice_venusien_h_n1.mp4",
+   "hurtVoice_venusien_h_n2.mp4",
+   "hurtVoice_venusien_h_n3.mp4",
+   "hurtVoice_venusien_h_n4.mp4"
+  ],
+  "vol": 1.458
+ },
+ "hurtFatal_venusien_h": {
+  "f": [
+   "hurtFatal_venusien_h_n0.mp4"
+  ],
+  "vol": 3
+ },
+ "hurtVoice_venusien_f": {
+  "f": [
+   "hurtVoice_venusien_f_n0.mp4"
+  ],
+  "vol": 1.211
+ },
+ "boostShot": {
+  "f": [
+   "boostShot_n0.mp4"
+  ],
+  "vol": 0.255
+ },
+ "medkit": {
+  "f": [
+   "medkit_n0.mp4"
+  ],
+  "vol": 2.487
+ },
+ "cooldown": {
+  "f": [
+   "cooldown_n0.mp4"
+  ],
+  "vol": 1.189
+ },
+ "shot_venusien_long_t0_n1": [
+  "shot_venusien_long_t0_n1_n0.mp4",
+  "shot_venusien_long_t0_n1_n1.mp4",
+  "shot_venusien_long_t0_n1_n2.mp4",
+  "shot_venusien_long_t0_n1_n3.mp4",
+  "shot_venusien_long_t0_n1_n4.mp4"
+ ],
+ "shot_venusien_long_t0_n2": [
+  "shot_venusien_long_t0_n2_n0.mp4",
+  "shot_venusien_long_t0_n2_n1.mp4",
+  "shot_venusien_long_t0_n2_n2.mp4",
+  "shot_venusien_long_t0_n2_n3.mp4",
+  "shot_venusien_long_t0_n2_n4.mp4"
+ ],
+ "shot_venusien_long_t0_n3": [
+  "shot_venusien_long_t0_n3_n0.mp4",
+  "shot_venusien_long_t0_n3_n1.mp4",
+  "shot_venusien_long_t0_n3_n2.mp4",
+  "shot_venusien_long_t0_n3_n3.mp4",
+  "shot_venusien_long_t0_n3_n4.mp4"
+ ],
+ "shot_venusien_long_t1_n1": [
+  "shot_venusien_long_t1_n1_0a.mp4",
+  "shot_venusien_long_t1_n1_0b.mp4",
+  "shot_venusien_long_t1_n1_0c.mp4",
+  "shot_venusien_long_t1_n1_0d.mp4"
+ ],
+ "shot_venusien_long_t1_n2": [
+  "shot_venusien_long_t1_n2_0a.mp4",
+  "shot_venusien_long_t1_n2_0b.mp4",
+  "shot_venusien_long_t1_n2_0c.mp4",
+  "shot_venusien_long_t1_n2_0d.mp4"
+ ],
+ "shot_venusien_long_t1_n3": [
+  "shot_venusien_long_t1_n3_0a.mp4",
+  "shot_venusien_long_t1_n3_0b.mp4",
+  "shot_venusien_long_t1_n3_0c.mp4",
+  "shot_venusien_long_t1_n3_0d.mp4"
+ ],
+ "shot_venusien_long_t2_n1": [
+  "shot_venusien_long_t2_n1_0a.mp4",
+  "shot_venusien_long_t2_n1_0b.mp4",
+  "shot_venusien_long_t2_n1_0c.mp4",
+  "shot_venusien_long_t2_n1_0d.mp4"
+ ],
+ "shot_venusien_long_t2_n2": [
+  "shot_venusien_long_t2_n2_0a.mp4",
+  "shot_venusien_long_t2_n2_0b.mp4",
+  "shot_venusien_long_t2_n2_0c.mp4",
+  "shot_venusien_long_t2_n2_0d.mp4"
+ ],
+ "shot_venusien_long_t2_n3": [
+  "shot_venusien_long_t2_n3_0a.mp4",
+  "shot_venusien_long_t2_n3_0b.mp4",
+  "shot_venusien_long_t2_n3_0c.mp4",
+  "shot_venusien_long_t2_n3_0d.mp4"
+ ],
+ "shot_venusien_mid_t0_n1": [
+  "shot_venusien_mid_t0_n1_n0.mp4",
+  "shot_venusien_mid_t0_n1_n1.mp4",
+  "shot_venusien_mid_t0_n1_n2.mp4",
+  "shot_venusien_mid_t0_n1_n3.mp4",
+  "shot_venusien_mid_t0_n1_n4.mp4"
+ ],
+ "shot_venusien_mid_t0_n2": [
+  "shot_venusien_mid_t0_n2_n0.mp4",
+  "shot_venusien_mid_t0_n2_n1.mp4",
+  "shot_venusien_mid_t0_n2_n2.mp4",
+  "shot_venusien_mid_t0_n2_n3.mp4",
+  "shot_venusien_mid_t0_n2_n4.mp4"
+ ],
+ "shot_venusien_mid_t0_n3": [
+  "shot_venusien_mid_t0_n3_n0.mp4",
+  "shot_venusien_mid_t0_n3_n1.mp4",
+  "shot_venusien_mid_t0_n3_n2.mp4",
+  "shot_venusien_mid_t0_n3_n3.mp4",
+  "shot_venusien_mid_t0_n3_n4.mp4"
+ ],
+ "shot_venusien_mid_t1_n1": [
+  "shot_venusien_mid_t1_n1_0a.mp4",
+  "shot_venusien_mid_t1_n1_0b.mp4",
+  "shot_venusien_mid_t1_n1_0c.mp4",
+  "shot_venusien_mid_t1_n1_0d.mp4"
+ ],
+ "shot_venusien_mid_t1_n2": [
+  "shot_venusien_mid_t1_n2_0a.mp4",
+  "shot_venusien_mid_t1_n2_0b.mp4",
+  "shot_venusien_mid_t1_n2_0c.mp4",
+  "shot_venusien_mid_t1_n2_0d.mp4"
+ ],
+ "shot_venusien_mid_t1_n3": [
+  "shot_venusien_mid_t1_n3_0a.mp4",
+  "shot_venusien_mid_t1_n3_0b.mp4",
+  "shot_venusien_mid_t1_n3_0c.mp4",
+  "shot_venusien_mid_t1_n3_0d.mp4",
+  "shot_venusien_mid_t1_n3_0e.mp4"
+ ],
+ "shot_venusien_mid_t2_n1": [
+  "shot_venusien_mid_t2_n1_0a.mp4",
+  "shot_venusien_mid_t2_n1_0b.mp4",
+  "shot_venusien_mid_t2_n1_0c.mp4",
+  "shot_venusien_mid_t2_n1_0d.mp4"
+ ],
+ "shot_venusien_mid_t2_n2": [
+  "shot_venusien_mid_t2_n2_0a.mp4",
+  "shot_venusien_mid_t2_n2_0b.mp4",
+  "shot_venusien_mid_t2_n2_0c.mp4",
+  "shot_venusien_mid_t2_n2_0d.mp4"
+ ],
+ "shot_venusien_mid_t2_n3": [
+  "shot_venusien_mid_t2_n3_0a.mp4",
+  "shot_venusien_mid_t2_n3_0b.mp4",
+  "shot_venusien_mid_t2_n3_0c.mp4",
+  "shot_venusien_mid_t2_n3_0d.mp4"
+ ],
+ "shot_venusien_short_t0_n1": [
+  "shot_venusien_short_t0_n1_n0.mp4",
+  "shot_venusien_short_t0_n1_n1.mp4",
+  "shot_venusien_short_t0_n1_n2.mp4",
+  "shot_venusien_short_t0_n1_n3.mp4",
+  "shot_venusien_short_t0_n1_n4.mp4"
+ ],
+ "shot_venusien_short_t0_n2": [
+  "shot_venusien_short_t0_n2_n0.mp4",
+  "shot_venusien_short_t0_n2_n1.mp4",
+  "shot_venusien_short_t0_n2_n2.mp4",
+  "shot_venusien_short_t0_n2_n3.mp4",
+  "shot_venusien_short_t0_n2_n4.mp4"
+ ],
+ "shot_venusien_short_t0_n3": [
+  "shot_venusien_short_t0_n3_n0.mp4",
+  "shot_venusien_short_t0_n3_n1.mp4",
+  "shot_venusien_short_t0_n3_n2.mp4",
+  "shot_venusien_short_t0_n3_n3.mp4",
+  "shot_venusien_short_t0_n3_n4.mp4"
+ ],
+ "shot_venusien_short_t1_n1": [
+  "shot_venusien_short_t1_n1_0a.mp4",
+  "shot_venusien_short_t1_n1_0b.mp4",
+  "shot_venusien_short_t1_n1_0c.mp4",
+  "shot_venusien_short_t1_n1_0d.mp4"
+ ],
+ "shot_venusien_short_t1_n2": [
+  "shot_venusien_short_t1_n2_0a.mp4",
+  "shot_venusien_short_t1_n2_0b.mp4",
+  "shot_venusien_short_t1_n2_0c.mp4",
+  "shot_venusien_short_t1_n2_0d.mp4"
+ ],
+ "shot_venusien_short_t1_n3": [
+  "shot_venusien_short_t1_n3_0.mp4",
+  "shot_venusien_short_t1_n3_1.mp4",
+  "shot_venusien_short_t1_n3_2.mp4",
+  "shot_venusien_short_t1_n3_3.mp4"
+ ],
+ "shot_venusien_short_t2_n1": "shot_venusien_short_t2_n1_0.mp4",
+ "shot_venusien_short_t2_n2": [
+  "shot_venusien_short_t2_n2_0a.mp4",
+  "shot_venusien_short_t2_n2_0b.mp4",
+  "shot_venusien_short_t2_n2_0c.mp4",
+  "shot_venusien_short_t2_n2_0d.mp4"
+ ],
+ "shot_venusien_short_t2_n3": [
+  "shot_venusien_short_t2_n3_0a.mp4",
+  "shot_venusien_short_t2_n3_0b.mp4",
+  "shot_venusien_short_t2_n3_0c.mp4",
+  "shot_venusien_short_t2_n3_0d.mp4"
+ ],
+ "shot_terrien_long_n1": [
+  "shot_terrien_long_n1_0.mp4",
+  "shot_terrien_long_n1_1.mp4",
+  "shot_terrien_long_n1_2.mp4"
+ ],
+ "shot_terrien_long_n2": [
+  "shot_terrien_long_n1_0.mp4",
+  "shot_terrien_long_n1_1.mp4",
+  "shot_terrien_long_n1_2.mp4"
+ ],
+ "shot_terrien_long_n3": [
+  "shot_terrien_long_n3_0.mp4",
+  "shot_terrien_long_n3_1.mp4",
+  "shot_terrien_long_n3_2.mp4"
+ ],
+ "shot_draco_long": [
+  "shot_draco_long_0.mp4",
+  "shot_draco_long_1.mp4",
+  "shot_draco_long_2.mp4",
+  "shot_draco_long_3.mp4"
+ ],
+ "shot_draco_mid": [
+  "shot_draco_mid_0.mp4",
+  "shot_draco_mid_1.mp4",
+  "shot_draco_mid_2.mp4"
+ ],
+ "shot_draco_short": [
+  "shot_draco_short_0.mp4",
+  "shot_draco_short_1.mp4",
+  "shot_draco_short_2.mp4",
+  "shot_draco_short_3.mp4",
+  "shot_draco_short_4.mp4"
+ ],
+ "shot_mentis_long": [
+  "shot_mentis_long_0.mp4",
+  "shot_mentis_long_1.mp4",
+  "shot_mentis_long_2.mp4",
+  "shot_mentis_long_3.mp4"
+ ],
+ "shot_mentis_mid": [
+  "shot_mentis_mid_0.mp4",
+  "shot_mentis_mid_1.mp4",
+  "shot_mentis_mid_2.mp4",
+  "shot_mentis_mid_3.mp4"
+ ],
+ "shot_mentis_short": [
+  "shot_mentis_short_0.mp4",
+  "shot_mentis_short_1.mp4",
+  "shot_mentis_short_2.mp4"
+ ],
+ "shot_arcturien_long": [
+  "shot_arcturien_long_0.mp4",
+  "shot_arcturien_long_1.mp4",
+  "shot_arcturien_long_2.mp4"
+ ],
+ "shot_arcturien_mid": [
+  "shot_arcturien_mid_0.mp4",
+  "shot_arcturien_mid_1.mp4",
+  "shot_arcturien_mid_2.mp4"
+ ],
+ "shot_arcturien_short": [
+  "shot_arcturien_short_0.mp4",
+  "shot_arcturien_short_1.mp4",
+  "shot_arcturien_short_2.mp4"
+ ],
+ "reload_long_n1": {
+  "f": [
+   "reload_long_n1_v0.mp4",
+   "reload_long_n1_v1.mp4"
+  ],
+  "vol": 0.54
+ },
+ "reload_long_n2": {
+  "f": [
+   "reload_long_n2_v0.mp4",
+   "reload_long_n2_v1.mp4",
+   "reload_long_n2_v2.mp4"
+  ],
+  "vol": 0.484
+ },
+ "reload_long_n3": {
+  "f": [
+   "reload_long_n3_v0.mp4",
+   "reload_long_n3_v1.mp4",
+   "reload_long_n3_v2.mp4",
+   "reload_long_n3_v3.mp4",
+   "reload_long_n3_v4.mp4",
+   "reload_long_n3_v5.mp4",
+   "reload_long_n3_v6.mp4",
+   "reload_long_n3_v7.mp4"
+  ],
+  "vol": 0.528
+ },
+ "reload_mid_n1": {
+  "f": [
+   "reload_mid_n1_v0.mp4",
+   "reload_mid_n1_v1.mp4",
+   "reload_mid_n1_v2.mp4",
+   "reload_mid_n1_v3.mp4",
+   "reload_mid_n1_v4.mp4",
+   "reload_mid_n1_v5.mp4",
+   "reload_mid_n1_v6.mp4",
+   "reload_mid_n1_v7.mp4"
+  ],
+  "vol": 0.885
+ },
+ "reload_mid_n2": {
+  "f": [
+   "reload_mid_n2_v0.mp4",
+   "reload_mid_n2_v1.mp4",
+   "reload_mid_n2_v2.mp4",
+   "reload_mid_n2_v3.mp4",
+   "reload_mid_n2_v4.mp4",
+   "reload_mid_n2_v5.mp4"
+  ],
+  "vol": 0.627
+ },
+ "reload_mid_n3": {
+  "f": [
+   "reload_mid_n3_v0.mp4",
+   "reload_mid_n3_v1.mp4",
+   "reload_mid_n3_v2.mp4",
+   "reload_mid_n3_v3.mp4",
+   "reload_mid_n3_v4.mp4",
+   "reload_mid_n3_v5.mp4"
+  ],
+  "vol": 0.504
+ },
+ "reload_short_n1": {
+  "f": [
+   "reload_short_n1_v0.mp4",
+   "reload_short_n1_v1.mp4"
+  ],
+  "vol": 1.725
+ },
+ "reload_short_n2": {
+  "f": [
+   "reload_short_n2_v0.mp4",
+   "reload_short_n2_v1.mp4",
+   "reload_short_n2_v2.mp4"
+  ],
+  "vol": 0.537
+ },
+ "reload_short_n3": {
+  "f": [
+   "reload_short_n3_v0.mp4",
+   "reload_short_n3_v1.mp4",
+   "reload_short_n3_v2.mp4"
+  ],
+  "vol": 0.517
+ }
+}
