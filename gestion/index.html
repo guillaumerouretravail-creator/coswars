@@ -1,0 +1,750 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Coswars · gestion</title>
+<link rel="icon" href="logo.png">
+<style>
+  /* Couleurs du jeu : bleu nuit, jaune Coswars, violet des cristaux, vert de la puissance, encre noire épaisse (façon Borderlands) */
+  :root{--bg:#0b0624;--bg2:#140d33;--card:#1b1442;--card2:#271d57;--line:#3a2f78;--ink:#000;--txt:#f5f2ff;--sub:#c3bbe8;
+    --y:#ffd23f;--cr:#c18bff;--pw:#7dff3a;--c:#35e0ff;--p:#ff5c8f;--ok:#7dff6a;--apple:#eef0f6;--google:#3ddc84;--stripe:#8a84ff}
+  *{box-sizing:border-box}[hidden]{display:none!important}html{background:var(--bg)}
+  body{margin:0;background:radial-gradient(1200px 700px at 50% -10%,#24185c 0,var(--bg) 60%) fixed;color:var(--txt);font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  a{color:var(--c)}:focus-visible{outline:3px solid var(--y);outline-offset:2px}
+  .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+  header{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:8px 16px;background:rgba(20,13,51,.96);border-bottom:4px solid var(--ink)}
+  .home{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--y);font-weight:900;letter-spacing:.6px;font-size:18px}
+  .home img{width:40px;height:40px;border-radius:11px;border:3px solid var(--ink);box-shadow:3px 3px 0 var(--ink)}
+  nav.top{display:flex;gap:5px;flex-wrap:wrap}
+  nav.top a{color:var(--txt);text-decoration:none;background:var(--card);border:2px solid var(--ink);border-radius:9px;padding:5px 10px;font-weight:700;font-size:13px;box-shadow:2px 2px 0 var(--ink)}
+  nav.top a[aria-current=page]{background:var(--y);color:var(--ink)}
+  header .who{margin-left:auto;color:var(--sub);font-size:13px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+  main{padding:18px 16px 60px;max-width:1500px;margin:0 auto}
+  h1.page{margin:4px 0 14px;font-size:26px;color:var(--y);text-shadow:3px 3px 0 var(--ink)}
+  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(175px,1fr));gap:12px;margin-bottom:18px}
+  .card{background:var(--card);border:3px solid var(--ink);border-radius:14px;padding:11px 14px;box-shadow:4px 4px 0 var(--ink)}
+  .card .v{font-size:25px;font-weight:900;color:var(--y);line-height:1.15}.card .l{color:var(--sub);font-size:13px}.card .s{font-size:12px;color:var(--sub)}
+  .card.cr .v{color:var(--cr)}.card.pw .v{color:var(--pw)}.card.mo .v{color:var(--ok)}.card.ko .v{color:var(--p)}
+  .box{background:var(--card);border:3px solid var(--ink);border-radius:14px;padding:14px;margin-bottom:16px;box-shadow:4px 4px 0 var(--ink);overflow:auto}
+  .box h2{margin:0 0 10px;font-size:17px;color:var(--c)}.box h3{margin:12px 0 6px;font-size:14px;color:var(--y)}
+  .box p.note{margin:6px 0 0;color:var(--sub);font-size:13px}
+  table{border-collapse:collapse;width:100%;font-size:13px}th,td{padding:6px 8px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+  td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
+  th{color:var(--sub);font-weight:700;position:sticky;top:0;background:var(--card);z-index:1}
+  th button{all:unset;cursor:pointer;color:var(--sub);font-weight:700}th button:hover{color:var(--txt)}th[aria-sort] button{color:var(--y)}
+  tr.click{cursor:pointer}tr.click:hover,tr.click:focus-within{background:var(--card2)}
+  input,select{background:#0f0a2a;color:var(--txt);border:2px solid var(--line);border-radius:9px;padding:8px 10px;font:inherit}
+  button.act,a.act{display:inline-block;background:var(--y);color:var(--ink);border:3px solid var(--ink);border-radius:10px;padding:7px 14px;font-weight:800;cursor:pointer;text-decoration:none;box-shadow:3px 3px 0 var(--ink);font:inherit;font-weight:800}
+  button.sec,a.sec{background:var(--card2);color:var(--txt)}button.act:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--ink)}
+  .row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:12px}
+  .grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(360px,100%),1fr));gap:16px}
+  .grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));gap:16px}
+  .muted{color:var(--sub)}.ok{color:var(--ok)}.ko{color:var(--p)}.cry{color:var(--cr)}.pow{color:var(--pw)}
+  .tag{display:inline-block;padding:1px 7px;border-radius:7px;background:#3a2f78;font-size:12px;margin:1px 3px 1px 0}
+  .tag.test{background:#5b4a00;color:#ffe9a0}.tag.ref{background:#6b1030;color:#ffd0dd}.tag.adm{background:#00485a;color:#bff4ff}
+  .st{display:inline-flex;align-items:center;gap:5px;padding:1px 8px 1px 6px;border-radius:999px;font-size:12px;font-weight:700;border:2px solid var(--ink);color:var(--ink)}
+  .st::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--ink)}
+  .st.apple{background:var(--apple)}.st.google{background:var(--google)}.st.stripe{background:var(--stripe)}.st.autre{background:#999}
+  .dot{display:inline-block;width:10px;height:10px;border-radius:50%;background:#4a4170;border:2px solid var(--ink)}.dot.on{background:var(--ok);box-shadow:0 0 8px var(--ok)}
+  #login{max-width:400px;margin:70px auto}#login .box{display:grid;gap:10px}#login img{width:96px;margin:0 auto;border-radius:22px;border:4px solid var(--ink);box-shadow:5px 5px 0 var(--ink)}
+  pre{white-space:pre-wrap;word-break:break-word;font-size:12px;color:var(--sub);max-height:420px;overflow:auto}
+  details summary{cursor:pointer;color:var(--c);font-weight:700}
+  .bars{display:flex;align-items:flex-end;gap:3px;height:120px}.bars div{flex:1;background:var(--c);border-radius:3px 3px 0 0;min-height:2px;position:relative;border:1px solid var(--ink)}
+  .bars.mo div{background:var(--ok)}.bars.cr div{background:var(--cr)}.bars.y div{background:var(--y)}
+  .bars div:hover::after{content:attr(data-t);position:absolute;bottom:100%;left:50%;transform:translateX(-50%);background:#000;color:#fff;padding:3px 6px;border-radius:5px;font-size:11px;white-space:nowrap;z-index:2}
+  .hb{display:grid;grid-template-columns:minmax(110px,auto) 1fr auto;gap:6px 10px;align-items:center;font-size:13px}
+  .hb .t{height:14px;background:#0f0a2a;border:2px solid var(--ink);border-radius:7px;overflow:hidden}.hb .t i{display:block;height:100%;background:var(--c)}
+  .split{display:flex;height:22px;border:3px solid var(--ink);border-radius:9px;overflow:hidden;margin:6px 0 10px}.split i{display:block;height:100%}
+  #payToast{position:fixed;top:74px;right:20px;z-index:9;background:var(--ok);color:var(--ink);border:3px solid var(--ink);border-radius:14px;padding:14px 18px;font-weight:800;font-size:17px;box-shadow:6px 6px 0 var(--ink);max-width:440px}
+  .room{border:2px solid var(--line);border-radius:12px;padding:10px;margin-bottom:10px}
+  .net{display:block;font-size:11px;font-weight:700;color:var(--ok);line-height:1.3}.net.big{font-size:13px}.kpi .net.big{font-size:12px}
+  /* Parties en direct (mode dieu) : carte vue de dessus */
+  .god{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,380px);gap:16px}@media (max-width:980px){.god{grid-template-columns:1fr}}
+  .god canvas{width:100%;aspect-ratio:1/1;max-height:calc(100vh - 170px);background:#07041a;border:3px solid var(--ink);border-radius:14px;box-shadow:4px 4px 0 var(--ink);display:block}
+  .lg{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;color:var(--sub);margin-top:8px}.lg i{display:inline-block;width:11px;height:11px;border-radius:50%;border:2px solid var(--ink);vertical-align:-1px;margin-right:4px}
+  .lifebar{display:inline-flex;width:90px;height:9px;border:2px solid var(--ink);border-radius:5px;overflow:hidden;background:#0f0a2a;vertical-align:middle}.lifebar i{display:block;height:100%}
+  .warn{background:#3d2a00;border:3px solid var(--ink);border-radius:12px;padding:9px 12px;margin-bottom:14px;color:#ffe9a0;font-size:13px;box-shadow:3px 3px 0 var(--ink)}
+
+  /* ---- Cadran d'accueil : logo au centre, anneau des chiffres clés, cercle des sections ---- */
+  .dial{--S:clamp(720px,min(94vw,calc(100vh - 80px)),920px);position:relative;width:var(--S);height:var(--S);margin:0 auto 26px}
+  .dial .ring{position:absolute;left:50%;top:50%;border-radius:50%;transform:translate(-50%,-50%);pointer-events:none}
+  .dial .r1{width:calc(var(--S)*.66);height:calc(var(--S)*.66);border:4px solid var(--ink);box-shadow:0 0 0 3px #2b2166 inset,0 0 60px #35e0ff22;background:radial-gradient(circle,#1d1450 0,#140d33 70%)}
+  .dial .r2{width:calc(var(--S)*.97);height:calc(var(--S)*.97);border:3px dashed #3a2f78}
+  .dial .r0{width:calc(var(--S)*.22);height:calc(var(--S)*.22);border:4px solid var(--ink);background:#0b0624;box-shadow:0 0 0 6px var(--y),0 0 0 10px var(--ink),0 0 50px #ffd23f55}
+  .dial .logo{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:calc(var(--S)*.175);text-align:center;text-decoration:none}
+  .dial .logo img{width:100%;border-radius:24%;display:block}
+  .dial .logo b{display:block;position:absolute;left:50%;top:calc(100% + 18px);transform:translateX(-50%);color:var(--y);font-size:15px;letter-spacing:3px;text-shadow:2px 2px 0 var(--ink);white-space:nowrap}
+  .dial .it{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%) rotate(var(--a)) translate(var(--r)) rotate(calc(-1*var(--a)))}
+  .kpi{--r:calc(var(--S)*.225);width:calc(var(--S)*.155);text-align:center;background:var(--card);border:3px solid var(--ink);border-radius:16px;padding:8px 6px;box-shadow:4px 4px 0 var(--ink)}
+  .kpi .v{font-size:21px;font-weight:900;line-height:1.1;color:var(--y);font-variant-numeric:tabular-nums}.kpi .l{font-size:12px;color:var(--sub);line-height:1.25}.kpi .s{font-size:11px;color:var(--sub)}
+  .kpi.mo .v{color:var(--ok)}.kpi.on .v{color:var(--c)}.kpi.nw .v{color:var(--pw)}
+  .osec{--r:calc(var(--S)*.405)}
+  a.dbtn{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;width:calc(var(--S)*.15);min-height:96px;padding:8px 6px;text-align:center;text-decoration:none;color:var(--txt);
+    background:var(--card2);border:3px solid var(--ink);border-radius:50%/40%;box-shadow:4px 4px 0 var(--ink);transition:transform .12s,background .12s;position:relative}
+  a.dbtn:hover,a.dbtn:focus-visible{background:var(--y);color:var(--ink)}a.dbtn:hover .m,a.dbtn:focus-visible .m{color:#3a2a00}
+  a.dbtn .i{font-size:26px;line-height:1}a.dbtn .t{font-weight:900;font-size:14px;line-height:1.15}a.dbtn .m{font-size:11px;color:var(--sub)}
+  a.dbtn .badge{position:absolute;top:-6px;right:4px;background:var(--p);color:#fff;border:2px solid var(--ink);border-radius:999px;min-width:24px;padding:0 6px;font-weight:900;font-size:13px}
+  .dial .live{position:absolute;left:50%;bottom:calc(var(--S)*.205);transform:translateX(-50%);font-size:11px;color:var(--sub);white-space:nowrap}
+  @media (max-width:760px){
+    .dial{width:auto;height:auto;display:grid;gap:12px}
+    .dial .ring,.dial .live{display:none}.dial .logo{position:relative;left:auto;top:auto;transform:none;width:110px;margin:6px auto 30px}
+    .dial .it{position:relative;left:auto;top:auto;transform:none}.dial .kgrid,.dial .sgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px}
+    .kpi{width:auto}a.dbtn{width:auto;border-radius:16px;min-height:84px}
+  }
+  @media (min-width:761px){.dial .kgrid,.dial .sgrid{display:contents}}
+</style>
+</head>
+<body>
+<header>
+  <a class="home" href="#/" title="Revenir au cadran"><img src="logo.png" alt=""><span>COSWARS · gestion</span></a>
+  <nav class="top" id="tabs" aria-label="Sections" hidden></nav>
+  <span class="who" id="who"><button class="act sec" id="sonPay" hidden title="Son joué à chaque nouveau paiement">🔔 Son des paiements</button><button class="act sec" id="sonAcc" hidden title="Son joué à chaque nouveau compte créé">🔔 Son des nouveaux comptes</button><span id="whoTxt"></span></span>
+</header>
+<div id="payToast" role="status" aria-live="polite" hidden></div>
+<main>
+  <div id="login"><div class="box">
+    <img src="logo.png" alt="Logo de Coswars">
+    <h1 style="margin:0;color:var(--y);text-align:center">Connexion administrateur</h1>
+    <p class="muted" id="srv"></p>
+    <label class="sr" for="em">Adresse e-mail</label><input id="em" type="email" placeholder="Adresse e-mail du compte administrateur" autocomplete="username">
+    <label class="sr" for="pw">Mot de passe</label><input id="pw" type="password" placeholder="Mot de passe" autocomplete="current-password">
+    <button class="act" id="go">Se connecter</button>
+    <button class="act sec" id="new">Première connexion : créer le compte</button>
+    <p class="ko" id="err" role="alert"></p>
+    <p class="muted">Seuls les comptes déclarés administrateur entrent (table <code>admins</code>, voir LISEZMOI.md).</p>
+  </div></div>
+  <div id="view" aria-live="polite"></div>
+</main>
+<script>
+// Back de gestion de Coswars (2e version, 03/11) : un cadran d'accueil (logo, chiffres clés en direct, sections en cercle),
+// les comptes, les parties, les cristaux, les ventes par magasin (Apple, Google Play, Stripe) et par devise, l'audience,
+// les alertes, la boutique, les armes et le jeu en ligne en direct.
+// Il lit la base Supabase du jeu par les fonctions admin_* (supabase/migrations), réservées aux comptes de la table admins :
+// aucune clé secrète ici, seulement la clé publique du projet et votre connexion d'administrateur. Les fonctions de la
+// migration 20261103150000_back_v2.sql (admin_dashboard, admin_accounts, admin_purchases) sont utilisées si elles existent ;
+// sinon la page retombe sur les anciennes (admin_overview, admin_players, admin_sales).
+// ?essai dans l'adresse : faux Supabase local (node tools/faux-supabase.mjs 54321 demo), pour essayer sans toucher au vrai serveur.
+const ESSAI = location.search.includes('essai');
+const CFG = ESSAI ? {url: 'http://127.0.0.1:54321', key: 'cle-publique'} : {url: 'https://wnsvuzndmcfywbkzrbob.supabase.co', key: 'sb_publishable_BlpLjTWM8D8OQQlkueVW5g_92vJdL7Y'};
+const NET_JSON = location.protocol.startsWith('http') && !ESSAI ? '../net.json' : 'https://guillaumerouretravail-creator.github.io/coswars/net.json';
+const $ = s => document.querySelector(s), esc = v => String(v ?? '').replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]));
+const SP = {terrien: 'Terrien', venusien: 'Vénusien', draco: 'Draco', mentis: 'Mentis', arcturien: 'Arcturien'};
+// modes enregistrés dans games.mode (src/engine : baseMatch({mode})) ; les trois derniers ne sont plus au menu
+const MODES = {tourelle: 'Zone défensive', coal: 'Commando', evasion: 'Évasion', pred: 'Tireur d’élite (sniper)', predA: 'Tireur d’élite (assassin)',
+  commander: 'Commandeur', tb: 'Bataille par équipe', arene: 'Arène des titans', surv: 'Tournoi des As (survie)', champ: 'Tournoi des As (championnat)'};
+const OLD_MODES = {team: 'Bataille (ancienne)', duel: 'Duel de boss (ancien)', siege: 'Siège des titans (ancien)'};
+const modeName = m => MODES[m] || OLD_MODES[m] || m;
+// raisons réellement inscrites au registre des cristaux (fonctions des migrations)
+const REASONS = {achat: 'Achat (pack payé)', carte: 'Carte (cristaux du jour)', remboursement: 'Remboursement', jeu: 'Jeu (gain ou dépense)', arme: 'Achat d’arme', parrainage: 'Parrainage', pseudo: 'Changement de pseudo', admin: 'Administrateur'};
+const PLAT = {iphone: 'App iPhone', android: 'App Android', web: 'Navigateur (ordinateur)', telephone: 'Navigateur (téléphone)', mac: 'App Mac', '?': 'Inconnue'};
+const PLAYM = {voix: 'À la voix (non-voyant)', malvoyant: 'Malvoyant', vue: 'À la vue', inconnu: 'Pas encore choisi'};
+const EV = {achat: 'Achat', renouvellement: 'Renouvellement', remboursement: 'Remboursement', fin: 'Fin d’abonnement', 'arrêt': 'Renouvellement arrêté', reprise: 'Abonnement repris'};
+// magasin d'origine de chaque paiement (purchases.store, transmis par RevenueCat)
+const STORE = s => s === 'APP_STORE' || s === 'MAC_APP_STORE' ? 'apple' : s === 'PLAY_STORE' ? 'google' : s === 'STRIPE' || s === 'RC_BILLING' ? 'stripe' : 'autre';
+const STN = {apple: 'Apple', google: 'Google Play', stripe: 'Stripe (web)', autre: 'Autre'}, STC = {apple: 'var(--apple)', google: 'var(--google)', stripe: 'var(--stripe)', autre: '#999'};
+const stBadge = s => s ? `<span class="st ${STORE(s)}" title="${esc(s)}">${STN[STORE(s)]}</span>` : '<span class="muted">—</span>';
+const d = v => v ? new Date(v).toLocaleString('fr-FR', {dateStyle: 'short', timeStyle: 'short', timeZone: 'Europe/Paris'}) : '—';
+const dd = v => v ? new Date(v).toLocaleDateString('fr-FR', {timeZone: 'Europe/Paris'}) : '—';
+const dur = s => s == null ? '—' : `${Math.floor(s / 60)} min ${String(Math.round(s % 60)).padStart(2, '0')}`;
+const hours = s => !s ? '—' : s < 3600 ? Math.round(s / 60) + ' min' : (s / 3600).toFixed(1).replace('.', ',') + ' h';
+const nb = v => (+v || 0).toLocaleString('fr-FR'), pct = (a, b) => b ? Math.round(a / b * 100) + ' %' : '—';
+const ago = v => { if (!v) return '—'; const s = (Date.now() - new Date(v)) / 1000; return s < 90 ? 'à l’instant' : s < 3600 ? `il y a ${Math.round(s / 60)} min` : s < 86400 ? `il y a ${Math.round(s / 3600)} h` : `il y a ${Math.round(s / 86400)} j` };
+// jours et mois de Paris (les « aujourd'hui » et « ce mois » de l'argent)
+const PD = new Intl.DateTimeFormat('en-CA', {timeZone: 'Europe/Paris'}), dayKey = v => PD.format(new Date(v));
+// ---- Argent (décisions du 03/11) : TOUT en euros, et à côté du brut le NET qui revient à MERLIN après la part du magasin ----
+// Part gardée par chaque magasin : estimation validée par l'utilisateur, à changer ICI seulement (tout le back la lit).
+//   pct = part du prix, fixe = frais fixes en euros par paiement, rend = commission rendue quand le magasin rembourse
+//   (Apple et Google reprennent au vendeur sa part nette seulement ; Stripe garde ses frais).
+const FEES = {apple: {pct: .15, fixe: 0, rend: true}, google: {pct: .15, fixe: 0, rend: true}, stripe: {pct: .015, fixe: .25, rend: false}, autre: {pct: 0, fixe: 0, rend: true}};
+const feeTxt = () => `Apple ${FEES.apple.pct * 100} %, Google Play ${FEES.google.pct * 100} %, Stripe ${String(FEES.stripe.pct * 100).replace('.', ',')} % + ${String(FEES.stripe.fixe.toFixed(2)).replace('.', ',')} €`;
+// Taux de change : devises pour 1 € (taux de référence de la BCE, publiés chaque jour ouvré, lus par frankfurter.dev : gratuit,
+// sans clé), gardés 12 h dans ce navigateur. À défaut (hors ligne, site injoignable), ces taux fixes du 03/11/2026 :
+const RATES0 = {date: '2026-11-03', src: 'taux fixes de secours (BCE du 03/11/2026)', r: {USD: 1.118, GBP: .8336, CHF: .9166, CAD: 1.562, AUD: 1.601, JPY: 176.9, CNY: 7.459, HKD: 8.771,
+  SEK: 10.95, NOK: 10.32, DKK: 7.473, PLN: 4.419, CZK: 24.34, HUF: 364.4, RON: 5.343, TRY: 55.89, BRL: 6.141, MXN: 20.79, INR: 105.9, IDR: 20280, KRW: 1503, SGD: 1.432,
+  THB: 37.73, PHP: 70.94, MYR: 4.558, NZD: 1.988, ZAR: 18.6, ILS: 3.529, ISK: 136.2}};
+let RATES = RATES0; const UNK = new Set();   // devises sans taux connu (comptées 0, signalées)
+async function loadRates() { const K = 'coswars.taux';
+  try { const c = JSON.parse(localStorage.getItem(K) || 'null'); if (c && Date.now() - c.at < 12 * 3600e3 && c.r) { RATES = c; return } } catch (e) {}
+  try { const ctl = new AbortController(), to = setTimeout(() => ctl.abort(), 5000), r = await fetch('https://api.frankfurter.dev/v1/latest?base=EUR', {signal: ctl.signal}); clearTimeout(to);
+    const j = await r.json(); if (!j || !j.rates) throw 0; RATES = {date: j.date, src: 'BCE, lus sur frankfurter.dev', r: j.rates, at: Date.now()}; try { localStorage.setItem(K, JSON.stringify(RATES)) } catch (e) {} }
+  catch (e) { try { const c = JSON.parse(localStorage.getItem(K) || 'null'); if (c && c.r) RATES = {...c, src: c.src + ', gardés dans ce navigateur'} } catch (e2) {} } }
+const toEur = (v, c) => { c = String(c || 'EUR').toUpperCase(); if (c === 'EUR') return +v || 0; const t = RATES.r[c] || RATES0.r[c]; if (!t) { UNK.add(c); return 0 } return (+v || 0) / t };
+const rateNote = () => `Montants en euros : chaque paiement dans une autre devise est converti au taux du ${new Date(RATES.date).toLocaleDateString('fr-FR')} (${esc(RATES.src)}). Net = ce qui revient à MERLIN après la part estimée des magasins (${feeTxt()}).${UNK.size ? ` <span class="ko">Devise sans taux, comptée 0 : ${[...UNK].join(', ')}.</span>` : ''}`;
+// achats d'essai (sandbox, TestFlight, achats marqués « essai ») : jamais comptés ; un remboursement retire son prix
+const SALE = e => e === 'achat' || e === 'renouvellement';
+const real = x => !/^(SANDBOX|ESSAI|TEST)$/i.test(x.env || '') && !x.test && !x.essai && !x.sandbox;
+const amtOf = x => x.price == null ? 0 : SALE(x.event) ? +x.price : x.event === 'remboursement' ? -Math.abs(+x.price) : 0;   // dans sa devise
+const curOf = x => String(x.currency || 'EUR').toUpperCase();
+// une ligne → en euros : b = brut (+ vente, − remboursement), f = part du magasin, n = net pour MERLIN (b − f)
+function eurRow(x) { if (!real(x) || x.price == null) return {b: 0, f: 0, n: 0}; const p = toEur(Math.abs(+x.price), curOf(x)), F = FEES[STORE(x.store)];
+  if (SALE(x.event)) { const f = p ? p * F.pct + F.fixe : 0; return {b: p, f, n: p - f} }
+  if (x.event === 'remboursement') { const f = F.rend ? -p * F.pct : 0; return {b: -p, f, n: -p - f} }
+  return {b: 0, f: 0, n: 0} }
+// somme en euros : b brut (remboursements déduits), f part des magasins, n net, s ventes, r remboursements, k nombre de ventes
+function money(rows, f = () => true) { const o = {b: 0, f: 0, n: 0, s: 0, r: 0, k: 0};
+  for (const x of rows) if (real(x) && f(x)) { const e = eurRow(x); o.b += e.b; o.f += e.f; o.n += e.n; if (SALE(x.event)) { o.s += e.b; o.k++ } else if (x.event === 'remboursement') o.r -= e.b }
+  return o }
+const fmtCur = (v, c) => { try { return (+v).toLocaleString('fr-FR', {style: 'currency', currency: c}) } catch (e) { return (+v).toFixed(2).replace('.', ',') + ' ' + c } };
+const eur = v => fmtCur(v || 0, 'EUR'), e2 = v => (+v || 0).toFixed(2).replace('.', ',');
+// brut en grand, net pour MERLIN en dessous (vert)
+const fmtMoney = (o, big) => { o = o || {b: 0, n: 0}; return `${eur(o.b)}<span class="net${big ? ' big' : ''}">net ${o.n == null ? '—' : eur(o.n)}</span>` };
+// montant d'un paiement : dans sa devise, et en euros s'il n'est pas en euros
+const fmtPay = x => { if (x.price == null) return '—'; const s = x.event === 'remboursement' ? '−' : '', c = curOf(x), v = Math.abs(+x.price);
+  return s + fmtCur(v, c) + (c !== 'EUR' ? ` <span class="muted">≈ ${s}${eur(toEur(v, c))}</span>` : '') };
+// part gardée par le magasin sur un paiement (en euros ; négative = commission rendue lors d'un remboursement)
+const feeOf = x => eurRow(x).f;
+
+let sess = null, timer = 0, page = '';
+try { sess = JSON.parse(sessionStorage.getItem('coswars.admin') || 'null') } catch (e) {}
+$('#srv').textContent = ESSAI ? 'Mode essai : faux serveur local (node tools/faux-supabase.mjs 54321 demo).' : 'Base : projet Supabase « coswars ».';
+
+async function api(path, body, method) {
+  const r = await fetch(CFG.url + path, {method: method || (body === undefined ? 'GET' : 'POST'), headers: {apikey: CFG.key, 'Content-Type': 'application/json', Authorization: 'Bearer ' + (sess ? sess.access : CFG.key)}, body: body === undefined ? undefined : JSON.stringify(body)});
+  const t = await r.text(); let j = null; try { j = t ? JSON.parse(t) : null } catch (e) {}
+  if (r.status === 401 && sess && sess.refresh && !api.retry) { api.retry = true; try { await refresh(); return await api(path, body, method) } finally { api.retry = false } }
+  if (!r.ok) { const e = new Error((j && (j.msg || j.message || j.error_description)) || 'HTTP ' + r.status); e.code = j && j.code; e.status = r.status; throw e } return j }
+const rpc = (n, a = {}) => api('/rest/v1/rpc/' + n, a);
+// fonction absente du serveur (migration pas encore installée) : on retombe sur l'ancienne
+const missing = e => e && (e.code === 'PGRST202' || e.status === 404 || /could not find the function|does not exist|schema cache/i.test(e.message));
+function keep(j) { sess = {access: j.access_token, refresh: j.refresh_token, email: j.user && j.user.email}; sessionStorage.setItem('coswars.admin', JSON.stringify(sess)) }
+async function refresh() { const r = await fetch(CFG.url + '/auth/v1/token?grant_type=refresh_token', {method: 'POST', headers: {apikey: CFG.key, 'Content-Type': 'application/json'}, body: JSON.stringify({refresh_token: sess.refresh})}); if (!r.ok) { logout(); throw new Error('Session expirée') } keep(await r.json()) }
+function logout() { sess = null; sessionStorage.removeItem('coswars.admin'); clearInterval(timer); clearInterval(payT); $('#tabs').hidden = true; $('#sonPay').hidden = true; $('#sonAcc').hidden = true; clearInterval(accT); $('#view').innerHTML = ''; $('#login').hidden = false; $('#whoTxt').textContent = ''; for (const k in C) delete C[k] }
+$('#go').onclick = async () => { $('#err').textContent = '';
+  try { const r = await fetch(CFG.url + '/auth/v1/token?grant_type=password', {method: 'POST', headers: {apikey: CFG.key, 'Content-Type': 'application/json'}, body: JSON.stringify({email: $('#em').value.trim().toLowerCase(), password: $('#pw').value})});
+    const j = await r.json(); if (!r.ok) throw new Error(j.error_description || j.msg || 'Connexion refusée'); keep(j); $('#pw').value = '';
+    if (!await rpc('is_admin')) { logout(); throw new Error('Ce compte n’est pas administrateur.') } start() } catch (e) { $('#err').textContent = e.message } };
+$('#new').onclick = async () => { $('#err').textContent = '';
+  try { const em = $('#em').value.trim().toLowerCase(), pw = $('#pw').value; if (pw.length < 6) throw new Error('Mot de passe : 6 caractères au moins.');
+    const r = await fetch(CFG.url + '/auth/v1/signup', {method: 'POST', headers: {apikey: CFG.key, 'Content-Type': 'application/json'}, body: JSON.stringify({email: em, password: pw})});
+    const j = await r.json(); if (!r.ok) throw new Error(/already|registered|exists/i.test(j.msg || j.message || '') ? 'Ce compte existe déjà : utilisez « Se connecter ».' : (j.msg || j.message || 'Création refusée'));
+    if (!j.access_token) throw new Error('Compte créé : confirmez-le depuis l’e-mail reçu, puis connectez-vous.'); keep(j); $('#pw').value = '';
+    if (!await rpc('is_admin')) { logout(); throw new Error('Compte créé, mais cette adresse n’est pas administrateur (un administrateur l’ajoute dans la table admins).') } start() } catch (e) { $('#err').textContent = e.message } };
+$('#pw').onkeydown = e => { if (e.key === 'Enter') $('#go').click() };
+
+/* ---------------- Données (relues à chaque mise à jour en continu, toutes les 10 s) ---------------- */
+const C = {}, OLD = {};   // OLD[x] = vrai si on a dû retomber sur l'ancienne fonction
+async function cached(k, f, ttl = 30000) { const c = C[k]; if (c && Date.now() - c.t < ttl) return c.v; const v = await f(); C[k] = {t: Date.now(), v}; return v }
+const clearCache = () => { for (const k in C) delete C[k] };
+const products = () => cached('prod', () => api('/rest/v1/shop_products?select=*&order=sort'), 300000);
+const pName = async () => Object.fromEntries((await products()).map(p => [p.id, p.name]));
+// tous les paiements (achats, renouvellements, remboursements, essais)
+const purchases = () => cached('pur', async () => { const N = await pName();
+  try { return (await rpc('admin_purchases', {p_days: 3650, p_limit: 50000})).map(x => ({...x, product_name: x.product_name || N[x.product] || x.product})) }
+  catch (e) { if (!missing(e)) throw e; OLD.pur = true; return ((await rpc('admin_sales', {p_days: 3650})).list || []).map(x => ({...x, product_name: N[x.product] || x.product})) } });
+// chiffres de l'accueil et de l'audience
+const dash = () => cached('dash', async () => {
+  try { return await rpc('admin_dashboard') } catch (e) { if (!missing(e)) throw e; OLD.dash = true }
+  const o = await rpc('admin_overview'), pm = await rpc('admin_play_modes').catch(() => ({})), last = (o.days || []).slice(-1)[0] || {};
+  return {online: null, accounts: o.with_email, accounts_all: o.accounts, new_today: last.accounts, active_1d: o.active_1d, active_7d: o.active_7d, games: o.games, games_today: o.games_1d,
+    kills: o.kills, bosses: o.bosses, crystals_held: o.crystals_held, modes: Object.entries(o.by_mode || {}).map(([mode, parties]) => ({mode, parties})), species: o.species, play_modes: pm, days: o.days, alerts: null} });
+// tous les comptes, avec l'argent payé calculé depuis les paiements si la fonction admin_accounts manque
+const accounts = () => cached('acc', async () => {
+  let L; try { L = await rpc('admin_accounts', {p_search: '', p_limit: 10000}) } catch (e) { if (!missing(e)) throw e; OLD.acc = true; L = await rpc('admin_players', {p_search: '', p_limit: 1000}) }
+  const P = await purchases(), by = {};
+  for (const x of P) (by[x.user_id] = by[x.user_id] || []).push(x);
+  return L.map(a => { const mine = by[a.id] || [], st = {};
+    for (const x of mine) if (real(x) && SALE(x.event)) st[x.store] = (st[x.store] || 0) + 1;
+    // argent en euros (brut et net) d'après ses paiements ; à défaut, le total par devise de admin_accounts converti (net inconnu)
+    const paid = mine.length || !a.paid ? money(mine) : {b: Object.entries(a.paid).reduce((t, [c, v]) => t + toEur(v, c), 0), n: null}, stores = Object.keys(st).sort((p, q) => st[q] - st[p]);
+    return {...a, paid, paidEur: paid.b, paidNet: paid.n, store: a.store || stores[0] || null, stores,
+      crystals_bought: a.crystals_bought ?? mine.filter(x => real(x) && x.crystals > 0).reduce((s, x) => s + x.crystals, 0),
+      purchases: a.purchases ?? mine.filter(x => real(x) && SALE(x.event)).length, refunds: a.refunds ?? mine.filter(x => real(x) && x.event === 'remboursement').length,
+      power: a.power ?? null, online: !!a.online} }) });
+// serveurs de jeu : liste de net.json ; ?jeu=ws://localhost:2599 (plusieurs séparés par des virgules) pour un serveur d'essai local
+const JEU = new URLSearchParams(location.search).get('jeu'), httpOf = u => u.replace(/^wss:/, 'https:').replace(/^ws:/, 'http:');
+async function gameUrls() { if (JEU) return JEU.split(',').map(x => x.trim()).filter(Boolean); try { return (await (await fetch(NET_JSON + '?t=' + Date.now())).json()).urls || [] } catch (e) { return [] } }
+// /etat de chaque serveur (Multijoueur en direct)
+async function etat() { const urls = await gameUrls();
+  const R = await Promise.all(urls.map(async u => { const h = u.replace(/^wss:/, 'https:').replace(/^ws:/, 'http:');
+    try { const r = await fetch(h + '/etat', {headers: {Authorization: 'Bearer ' + sess.access}}); return r.ok ? {u, ...(await r.json())} : {u, erreur: r.status === 401 ? 'accès refusé (pas administrateur, ou serveur pas à jour)' : 'HTTP ' + r.status} } catch (e) { return {u, erreur: 'injoignable'} } }));
+  const rooms = R.flatMap(s => (s.rooms || []).map(r => ({...r, srv: s.proc})));
+  return {urls, R, rooms, up: R.filter(s => !s.erreur).length, playing: rooms.filter(r => r.started && r.match && !r.match.done).length,
+    players: rooms.reduce((n, r) => n + (r.players || []).filter(p => !p.left).length, 0)} }
+
+/* ---------------- Petits morceaux d'affichage ---------------- */
+const card = (v, l, cls = '', s = '') => `<div class="card ${cls}"><div class="v">${v}</div><div class="l">${l}</div>${s ? `<div class="s">${s}</div>` : ''}</div>`;
+function bars(days, key, lab, cls = '', fmt = nb) { if (!days || !days.length) return '<p class="muted">Rien pour l’instant.</p>'; const m = Math.max(1e-9, ...days.map(y => +y[key] || 0));
+  return `<div class="bars ${cls}" role="img" aria-label="${esc(lab)} par jour, du ${days[0].day} au ${days[days.length - 1].day}">${days.map(x => `<div style="height:${Math.max(2, (+x[key] || 0) / m * 100)}%" data-t="${esc(x.day)} : ${esc(fmt(x[key]))} ${esc(lab)}"></div>`).join('')}</div>
+  <div class="row muted" style="justify-content:space-between;margin:4px 0 0;font-size:12px"><span>${esc(days[0].day)}</span><span>${esc(days[days.length - 1].day)}</span></div>` }
+// répartition en barres horizontales
+function hbars(o, names = {}, color = 'var(--c)') { const E = Object.entries(o || {}).filter(e => +e[1]).sort((a, b) => b[1] - a[1]), T = E.reduce((s, e) => s + +e[1], 0);
+  if (!E.length) return '<p class="muted">Rien pour l’instant.</p>';
+  return `<div class="hb">${E.map(([k, v]) => `<span>${esc(names[k] || k)}</span><span class="t"><i style="width:${v / E[0][1] * 100}%;background:${color}"></i></span><span class="n">${nb(v)} · ${pct(v, T)}</span>`).join('')}</div>` }
+// tableau triable : cols = [[clé, titre, rendu(ligne), classe, valeur de tri]], tri gardé par tableau
+const SORT = {};
+function table(id, cols, rows, opts = {}) { const s = SORT[id] || (SORT[id] = {k: opts.k || cols[0][0], dir: opts.dir || -1});
+  const col = cols.find(c => c[0] === s.k) || cols[0], val = col[4] || (r => r[col[0]]);
+  const R = [...rows].sort((a, b) => { let x = val(a), y = val(b); if (x == null || x === '') return 1; if (y == null || y === '') return -1; if (typeof x === 'string') return x.localeCompare(y, 'fr') * s.dir; return (x - y) * s.dir });
+  const lim = opts.limit || 2000;
+  return `<table id="${id}"><thead><tr>${cols.map(c => `<th scope="col" class="${c[3] || ''}" ${c[0] === s.k ? `aria-sort="${s.dir > 0 ? 'ascending' : 'descending'}"` : ''}><button data-sort="${id}:${c[0]}">${c[1]}${c[0] === s.k ? (s.dir > 0 ? ' ▲' : ' ▼') : ''}</button></th>`).join('')}</tr></thead>
+    <tbody>${R.slice(0, lim).map(r => `<tr ${opts.link ? `class="click" data-href="${esc(opts.link(r) || '')}"` : ''}>${cols.map(c => `<td class="${c[3] || ''}">${c[2] ? c[2](r) : esc(r[c[0]] ?? '—')}</td>`).join('')}</tr>`).join('') || `<tr><td colspan="${cols.length}" class="muted">Aucune ligne.</td></tr>`}</tbody></table>
+    ${R.length > lim ? `<p class="note">${lim} premières lignes affichées sur ${R.length} (toutes dans l’export).</p>` : ''}` }
+document.addEventListener('click', e => { const b = e.target.closest('button[data-sort]'); if (b) { const [id, k] = b.dataset.sort.split(':'), s = SORT[id] || (SORT[id] = {k, dir: -1}); s.dir = s.k === k ? -s.dir : -1; s.k = k; render(); return }
+  const tr = e.target.closest('tr.click[data-href]'); if (tr && tr.dataset.href && !e.target.closest('a,button,input,select')) location.hash = tr.dataset.href });
+const who = (pseudo, num, id) => id ? `<a href="#/fiche/${esc(id)}">${esc(pseudo || '?')}</a> <span class="muted">${num ?? ''}</span>` : `${esc(pseudo || '?')} <span class="muted">${num ?? ''}</span>`;
+// export CSV (séparateur « ; » et BOM : s'ouvre tel quel dans Excel et Numbers en français)
+function csv(name, head, rows) { const q = v => { const s = String(v ?? ''); return /[;"\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s };
+  const t = '﻿' + [head, ...rows].map(r => r.map(q).join(';')).join('\n'), a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([t], {type: 'text/csv;charset=utf-8'})); a.download = `coswars-${name}-${dayKey(Date.now())}.csv`; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 2000) }
+const oldNote = k => OLD[k] ? `<div class="warn">Une partie de ces chiffres vient des anciennes fonctions : installer la migration <code>20261103150000_back_v2.sql</code> (éditeur SQL de Supabase) pour tout voir (joueurs connectés, puissance, temps de jeu, alertes…).</div>` : '';
+
+/* ---------------- Navigation : #/section/argument (bouton « retour » du navigateur compris) ---------------- */
+const SECTIONS = [
+  ['comptes', 'Comptes', '👥'], ['parties', 'Parties', '🎮'], ['cristaux', 'Cristaux', '💎'], ['ventes', 'Ventes', '💶'], ['audience', 'Audience', '📈'], ['alertes', 'Alertes', '🚨'], ['signalements', 'Signalements', '🚩'],
+  ['parrainages', 'Parrainages', '🤝'], ['armes', 'Armes', '🔫'], ['boutique', 'Boutique', '🛒'], ['direct', 'Multijoueur en direct', '📡'], ['dieu', 'Parties en direct', '👁️'], ['modele', 'Modèle', '🗺️']];
+function start() { $('#login').hidden = true; $('#whoTxt').innerHTML = `${esc(sess.email || '')} · <a href="#" id="out">se déconnecter</a>`; $('#out').onclick = e => { e.preventDefault(); logout() };
+  $('#tabs').innerHTML = SECTIONS.map(([k, n, i]) => `<a href="#/${k}" data-k="${k}"><span aria-hidden="true">${i}</span> ${n}</a>`).join(''); loadRates().finally(render) }
+window.onhashchange = () => { if (sess && $('#login').hidden) render() };
+async function render() { if (!render.live) dirty = false; const [k = '', ...a] = location.hash.replace(/^#\/?/, '').split('/').map(decodeURIComponent), key = k || 'cadran';
+  if (!VIEWS[key]) { location.hash = '#/'; return }
+  if (key !== page) { clearInterval(timer); window.scrollTo(0, 0) } page = key;
+  $('#tabs').hidden = key === 'cadran'; [...$('#tabs').children].forEach(b => b.dataset.k === (key === 'fiche' ? 'comptes' : key) ? b.setAttribute('aria-current', 'page') : b.removeAttribute('aria-current'));
+  if (!$('#view').innerHTML || render.last !== location.hash) $('#view').innerHTML = '<p class="muted">Chargement…</p>'; render.last = location.hash;
+  render.tok = (render.tok || 0) + 1; try { await VIEWS[key].call({tok: render.tok}, ...a) } catch (e) { if (!render.live) $('#view').innerHTML = `<p class="ko">${esc(e.message)}</p>` } }
+/* Mise à jour en continu (10/11) : chaque page se redessine seule toutes les 10 s (fenêtre visible) et dès qu'on revient sur l'onglet,
+   sans « Chargement… », en gardant le défilement, les tris et les filtres. Pas pendant une saisie (champ actif ou modifié et pas encore
+   enregistré). « Multijoueur en direct » et « Parties en direct » ont leur propre rythme (5 s, 3 s, 1 s) ; « Modèle » est un document fixe. */
+const LIVE_MS = 10000, LIVE_SKIP = {modele: 1, direct: 1, dieu: 1};
+let dirty = false, liveBusy = false;
+document.addEventListener('input', e => { const t = e.target; if (t.closest && t.closest('#view') && t.tagName !== 'SELECT' && t.type !== 'checkbox' && t.id !== 'q') dirty = true });
+async function liveTick(now) {
+  if (!sess || !$('#login').hidden || liveBusy || !page || LIVE_SKIP[page] || dirty || (document.hidden && !now)) return;
+  const a = document.activeElement; if (a && a.closest && a.closest('#view') && /^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName)) return;
+  liveBusy = true; const y = window.scrollY, h = location.hash;
+  try { for (const k in C) if (k !== 'prod') delete C[k]; render.live = true; await render() } finally { render.live = false; liveBusy = false; if (location.hash === h) window.scrollTo(0, y) }
+  const t = $('#liveAt'); if (t) t.textContent = 'à jour à ' + new Date().toLocaleTimeString('fr-FR') }
+setInterval(liveTick, LIVE_MS);
+document.addEventListener('visibilitychange', () => { if (!document.hidden) { liveTick(true) } });
+window.addEventListener('focus', () => liveTick(true));
+const go = h => { if (location.hash === h) render(); else location.hash = h };
+const title = (t, extra = '') => `<div class="row" style="justify-content:space-between"><h1 class="page" style="margin:0">${t}</h1><div class="row" style="margin:0">${extra}<span class="muted" id="liveAt" style="font-size:12px">● mis à jour en continu</span></div></div>`;
+
+const VIEWS = {
+  /* ---- Cadran : logo, anneau des chiffres clés, cercle des sections ---- */
+  async cadran() {
+    const [D, P] = await Promise.all([dash(), purchases()]), A = D.online == null ? await accounts().catch(() => []) : [];
+    const today = dayKey(Date.now()), month = today.slice(0, 7);
+    const mToday = money(P, x => dayKey(x.created_at) === today), mMonth = money(P, x => dayKey(x.created_at).slice(0, 7) === month), mAll = money(P);
+    const online = D.online != null ? D.online : A.filter(a => a.online).length;
+    const alerts = alertList(D, P).length, sales = P.filter(x => real(x) && SALE(x.event)).length;
+    const K = [['on', D.online == null && OLD.dash ? '—' : nb(online), 'joueurs connectés', Object.entries(D.activities || {}).map(([k, v]) => `${v} ${k.toLowerCase()}`).join(' · ') || 'en ce moment'],
+      ['', '<span id="kRun">…</span>', 'parties en cours', '<span id="kRun2">serveurs de jeu</span>'],
+      ['mo', fmtMoney(mToday, 1), 'encaissé aujourd’hui', ''], ['mo', fmtMoney(mMonth, 1), 'encaissé ce mois', ''], ['mo', fmtMoney(mAll, 1), 'depuis le début', 'brut et net, remboursements déduits'],
+      ['nw', nb(D.new_today), 'nouveaux comptes aujourd’hui', `${nb(D.accounts)} comptes en tout`]];
+    const meta = {comptes: `${nb(D.accounts)} comptes`, parties: `${nb(D.games)} parties`, cristaux: `${nb(D.crystals_held)} détenus`, ventes: `${nb(sales)} paiements`, audience: `${nb(D.active_7d)} actifs 7 j`,
+      alertes: alerts ? `${alerts} à regarder` : 'rien à signaler', signalements: 'joueurs signalés', parrainages: 'filleuls', armes: 'réglages', boutique: 'packs et cartes', direct: 'serveurs', dieu: 'carte vue de dessus', modele: 'outils et argent'};
+    const n = SECTIONS.length;
+    if (this.tok !== render.tok) return; $('#view').innerHTML = `<h1 class="sr">Cadran de gestion de Coswars</h1>${oldNote('dash')}<div class="dial">
+      <div class="ring r2"></div><div class="ring r1"></div><div class="ring r0"></div>
+      <a class="logo" href="#/" title="Actualiser" onclick="clearCache()"><img src="logo.png" alt="Coswars"><b>COSWARS</b></a>
+      <section class="kgrid" aria-label="Chiffres clés">${K.map(([c, v, l, s], i) => `<div class="it kpi ${c}" style="--a:${-90 + i * 360 / K.length}deg"><div class="v">${v}</div><div class="l">${l}</div>${s ? `<div class="s">${s}</div>` : ''}</div>`).join('')}</section>
+      <nav class="sgrid" aria-label="Sections">${SECTIONS.map(([k, t, i], j) => `<a class="it osec dbtn" style="--a:${-90 + j * 360 / n}deg" href="#/${k}"><span class="i" aria-hidden="true">${i}</span><span class="t">${t}</span><span class="m">${meta[k] || ''}</span>${k === 'alertes' && alerts ? `<span class="badge" aria-label="${alerts} alertes">${alerts}</span>` : ''}</a>`).join('')}</nav>
+      </div><p class="muted" style="text-align:center;margin:-14px 0 18px;font-size:12px">Chiffres actualisés à ${new Date().toLocaleTimeString('fr-FR', {timeStyle: 'short'})}, puis toutes les 10 s, sans recharger la page. Argent : paiements réels seulement (essais exclus), remboursements déduits, jours de Paris.<br>${rateNote()}</p>
+      <div class="grid3">
+        <div class="box"><h2>Derniers paiements</h2>${miniPay(P.slice(0, 7))}<p class="note"><a href="#/ventes">Toutes les ventes →</a></p></div>
+        <div class="box"><h2>Argent par magasin (depuis le début)</h2>${storeSplit(P)}</div>
+        <div class="box"><h2>Parties par jour (30 jours)</h2>${bars(D.days, 'games', 'parties', 'y')}</div></div>`;
+    etat().then(E => { if (page !== 'cadran') return; const k = $('#kRun'), k2 = $('#kRun2'); if (!k) return;
+      k.textContent = E.urls.length ? nb(E.playing) : '—'; k2.textContent = E.urls.length ? `${E.players} joueur${E.players > 1 ? 's' : ''} en salon · ${E.up}/${E.urls.length} serveurs` : 'serveurs injoignables' });
+    },
+
+  /* ---- Comptes : tous les comptes, triables et filtrables ---- */
+  async comptes() {
+    const L = await accounts(), F = VIEWS.comptes.f || (VIEWS.comptes.f = {q: '', sp: '', st: '', pl: '', on: false});
+    const match = a => (!F.q || [a.pseudo, a.email, a.num, a.pid].some(v => String(v ?? '').toLowerCase().includes(F.q.toLowerCase())))
+      && (!F.sp || a.species === F.sp) && (!F.pl || (a.platform || '?') === F.pl) && (!F.on || a.online)
+      && (!F.st || (F.st === 'payeurs' ? a.purchases > 0 : F.st === 'gratuits' ? !a.purchases : a.stores.some(s => STORE(s) === F.st)));
+    const R = L.filter(match), payers = R.filter(a => a.purchases > 0), tot = {b: 0, n: 0}; for (const a of R) { tot.b += a.paidEur || 0; tot.n += a.paidNet || 0 }
+    const opt = (o, v) => Object.entries(o).map(([k, n]) => `<option value="${k}" ${k === v ? 'selected' : ''}>${n}</option>`).join('');
+    const cols = [['online', '<span class="sr">Connecté</span>●', a => `<span class="dot ${a.online ? 'on' : ''}" title="${a.online ? 'connecté' + (a.activity ? ' · ' + esc(a.activity) : '') : 'hors ligne'}"></span>`, '', a => a.online ? 1 : 0],
+      ['pseudo', 'Pseudo', a => `<a href="#/fiche/${a.id}">${esc(a.pseudo)}</a>${a.admin ? ' <span class="tag adm">admin</span>' : ''}`, '', a => String(a.pseudo || '').toLowerCase()],
+      ['num', 'N°', a => a.num ?? '<span class="muted">—</span>', 'n'], ['email', 'E-mail', a => esc(a.email || '—')], ['species', 'Espèce', a => SP[a.species] || '—'],
+      ['platform', 'Plateforme', a => esc(PLAT[a.platform] || a.platform || '—')],
+      ['created_at', 'Créé', a => dd(a.created_at), '', a => a.created_at ? +new Date(a.created_at) : null], ['last_seen', 'Dernière connexion', a => `<span title="${d(a.last_seen)}">${ago(a.last_seen)}</span>`, '', a => a.last_seen ? +new Date(a.last_seen) : null],
+      ['games', 'Parties', a => nb(a.games), 'n', a => +a.games], ['play_time', 'Temps de jeu', a => hours(a.play_time), 'n', a => +a.play_time || 0],
+      ['crystals_bought', 'Cristaux achetés', a => `<span class="cry">${nb(a.crystals_bought)}</span>`, 'n', a => +a.crystals_bought || 0],
+      ['paidEur', 'Argent payé (brut)', a => a.purchases || a.refunds ? `<b>${eur(a.paidEur)}</b>${a.refunds ? ` <span class="tag ref">${a.refunds} remb.</span>` : ''}` : '<span class="muted">—</span>', 'n', a => a.paidEur],
+      ['paidNet', 'Net Merlin', a => a.purchases || a.refunds ? `<span class="ok">${a.paidNet == null ? '—' : eur(a.paidNet)}</span>` : '<span class="muted">—</span>', 'n', a => a.paidNet],
+      ['store', 'Magasin', a => a.store ? stBadge(a.store) : '<span class="muted">—</span>', '', a => a.store ? STN[STORE(a.store)] : ''],
+      ['crystals', 'Cristaux', a => `<span class="cry">${nb(a.crystals)}</span>`, 'n', a => +a.crystals], ['power', 'Puissance', a => a.power == null ? '—' : `<span class="pow">${nb(a.power)}</span>`, 'n', a => a.power == null ? null : +a.power]];
+    if (this.tok !== render.tok) return; $('#view').innerHTML = `${title('Comptes', '<button class="act sec" id="xc">⬇ Export CSV</button>')}${oldNote('acc')}
+      <div class="cards">${card(nb(R.length), 'comptes affichés', '', `${nb(L.length)} en tout`)}${card(nb(R.filter(a => a.online).length), 'connectés maintenant')}${card(nb(payers.length), 'payeurs', '', pct(payers.length, R.length) + ' des comptes')}
+        ${card(fmtMoney(tot, 1), 'payé par ces comptes', 'mo')}${card(payers.length ? fmtMoney({b: tot.b / payers.length, n: tot.n / payers.length}, 1) : '—', 'moyenne par payeur', 'mo')}${card(nb(R.reduce((s, a) => s + (+a.crystals_bought || 0), 0)), 'cristaux achetés', 'cr')}</div>
+      <div class="row"><label class="sr" for="q">Chercher</label><input id="q" placeholder="Pseudo, n° à 5 chiffres, e-mail…" value="${esc(F.q)}" style="min-width:280px">
+        <label class="sr" for="fsp">Espèce</label><select id="fsp"><option value="">Toutes les espèces</option>${opt(SP, F.sp)}</select>
+        <label class="sr" for="fst">Magasin</label><select id="fst"><option value="">Payeurs et gratuits</option>${opt({payeurs: 'Payeurs seulement', gratuits: 'Jamais payé', apple: 'A payé chez Apple', google: 'A payé chez Google Play', stripe: 'A payé par Stripe (web)'}, F.st)}</select>
+        <label class="sr" for="fpl">Plateforme</label><select id="fpl"><option value="">Toutes les plateformes</option>${opt(PLAT, F.pl)}</select>
+        <label><input type="checkbox" id="fon" ${F.on ? 'checked' : ''}> connectés maintenant</label></div>
+      <div class="box" id="lst">${table('tc', cols, R, {k: 'last_seen', link: a => '#/fiche/' + a.id})}<p class="note">${rateNote()}</p></div>`;
+    const upd = () => { F.q = $('#q').value.trim(); F.sp = $('#fsp').value; F.st = $('#fst').value; F.pl = $('#fpl').value; F.on = $('#fon').checked; const p = $('#q').selectionStart; VIEWS.comptes.call({tok: render.tok}).then(() => { const q = $('#q'); if (q && document.activeElement !== q && F.focus) { q.focus(); q.setSelectionRange(p, p) } }) };
+    $('#q').oninput = () => { F.focus = 1; clearTimeout(upd.t); upd.t = setTimeout(upd, 250) }; for (const s of ['#fsp', '#fst', '#fpl', '#fon']) $(s).onchange = () => { F.focus = 0; upd() };
+    $('#xc').onclick = () => csv('comptes', ['N°', 'Pseudo', 'E-mail', 'Espèce', 'Sexe', 'Plateforme', 'Façon de jouer', 'Créé', 'Dernière connexion', 'Parties', 'Victoires', 'Temps de jeu (min)', 'Cristaux achetés', 'Achats', 'Remboursements', 'Argent payé brut (€)', 'Net Merlin (€)', 'Magasin principal', 'Cristaux', 'Cellules', 'Puissance', 'Administrateur'],
+      R.map(a => [a.num, a.pseudo, a.email, SP[a.species] || '', a.sex, PLAT[a.platform] || a.platform || '', PLAYM[a.play_mode] || a.play_mode || '', d(a.created_at), d(a.last_seen), a.games, a.wins ?? '', a.play_time != null ? Math.round(a.play_time / 60) : '', a.crystals_bought,
+        a.purchases, a.refunds, e2(a.paidEur), a.paidNet == null ? '' : e2(a.paidNet), a.store ? STN[STORE(a.store)] : '', a.crystals, a.cells, a.power ?? '', a.admin ? 'oui' : ''])) },
+
+  /* ---- Fiche d'un joueur ---- */
+  async fiche(id) {
+    const [f, P0, A] = await Promise.all([rpc('admin_player', {p_user: id}), rpc('admin_purchases', {p_user: id, p_days: 36500}).catch(e => missing(e) ? null : Promise.reject(e)), accounts().catch(() => [])]);
+    const P = P0 ? P0 : (await purchases()).filter(x => x.user_id === id), N = await pName(); for (const x of P) x.product_name = x.product_name || N[x.product] || x.product;
+    const p = f.profile || {}, g = f.progress || {}, st = g.stats || {}, co = st.coal || {}, a = A.find(x => x.id === id) || {}, G = f.games || [];
+    const lv = o => Object.entries(o || {}).map(([k, v]) => `<span class="tag">${esc(k)} : niveau ${esc(v && v.lvl != null ? v.lvl : v)}</span>`).join(' ') || '<span class="muted">—</span>';
+    const C = Object.entries(g.campaign || {}).sort().map(([k, v]) => `<span class="tag">${esc(k)} : ${'★'.repeat(+v || 0)}${'☆'.repeat(Math.max(0, 3 - (+v || 0)))}</span>`).join(' ') || '<span class="muted">aucune mission</span>';
+    const CH = Object.keys(g.claimed || {}).length, byMode = {}; for (const x of G) byMode[x.mode] = (byMode[x.mode] || 0) + 1;
+    const paid = money(P), refunds = P.filter(x => real(x) && x.event === 'remboursement'), wins = G.filter(x => x.win).length, secs = G.reduce((s, x) => s + (+x.duration || 0), 0);
+    const ledSum = (f.ledger || []).reduce((s, l) => s + l.delta, 0);
+    if (this.tok !== render.tok) return; $('#view').innerHTML = `<div class="row"><a class="act sec" href="#/comptes">← Comptes</a><h1 class="page" style="margin:0">${esc(p.pseudo)} <span class="muted" style="font-size:18px;text-shadow:none">n° ${p.num ?? '—'}</span></h1>
+        <span class="dot ${a.online ? 'on' : ''}"></span><span class="muted">${a.online ? 'connecté' + (a.activity ? ' · ' + esc(a.activity) : '') : 'vu ' + ago(p.last_seen)}</span><span class="muted">${esc(f.auth && f.auth.email || p.email || '')}</span></div>
+      <div class="cards">${[card(nb(f.crystals), 'cristaux', 'cr'), card(nb(g.gold), 'cellules'), card(g.fpc != null ? nb(g.fpc) : '—', 'puissance', 'pw'), card(nb(G.length) + (G.length >= 300 ? '+' : ''), 'parties', '', `${wins} victoires`),
+        card(hours(secs), 'temps de jeu'), card(fmtMoney(paid, 1), 'argent payé (brut, net Merlin)', 'mo', refunds.length ? `${refunds.length} remboursement(s)` : ''), card(nb(P.filter(x => real(x) && x.crystals > 0).reduce((s, x) => s + x.crystals, 0)), 'cristaux achetés', 'cr'), card(nb(Math.max(+st.kills || 0, G.reduce((n, x) => n + (+x.kills || 0), 0))), 'ennemis tués')].join('')}</div>
+      <div class="grid2"><div class="box"><h2>Profil</h2><table>
+        <tr><td>Identifiant</td><td>${p.num ?? '—'} <span class="muted">(${esc(p.pid)})</span></td></tr><tr><td>Espèce · sexe · tenue</td><td>${SP[p.species] || '—'} · ${esc(p.sex || '—')} · tenue ${(+p.look || 0) + 1}</td></tr>
+        <tr><td>Façon de jouer</td><td>${esc(PLAYM[g.playMode] || g.playMode || '—')}</td></tr><tr><td>Langue · région</td><td>${esc(g.lang || '—')} · ${esc(g.region || '—')}</td></tr>
+        <tr><td>Plateforme</td><td>${esc(PLAT[p.platform] || p.platform || '—')}</td></tr><tr><td>Compte créé</td><td>${d(p.created_at)}</td></tr><tr><td>Dernière connexion</td><td>${d(f.auth && f.auth.last_sign_in_at)} · vu ${d(p.last_seen)}</td></tr>
+        <tr><td>Progression</td><td>version ${f.rev ?? 0} · enregistrée ${d(f.progress_at)}</td></tr>
+        <tr><td>Registre des cristaux</td><td>${nb(ledSum)} ${ledSum !== f.crystals && (f.ledger || []).length < 300 ? `<span class="tag ref" title="Le solde ne correspond pas à la somme du registre">≠ solde ${nb(f.crystals)}</span>` : '<span class="ok">= solde</span>'}</td></tr></table></div>
+      <div class="box"><h2>Donner ou retirer des cristaux</h2><div class="row"><label class="sr" for="amt">Nombre de cristaux</label><input id="amt" type="number" placeholder="ex. 100 ou -50" style="width:140px"><label class="sr" for="note">Raison</label><input id="note" placeholder="Raison (geste, correction…)"><button class="act" id="give">Valider</button></div><p id="gmsg" class="muted" role="status"></p>
+        <h2 style="margin-top:14px">Réinitialiser la progression</h2><p class="note">Armes, combinaisons, ressources, missions, entraînements repartent de zéro. Le personnage (espèce, sexe, pseudo, tenue) et les cristaux sont gardés. Le joueur la reçoit à sa prochaine synchronisation.</p><div class="row" style="margin-top:8px"><button class="act sec" id="rst">Réinitialiser…</button></div><p id="rmsg" class="muted" role="status"></p></div></div>
+      <div class="box"><h2>Achats (${P.length})</h2>${P.length ? payTable(P, false) + `<p class="note">${rateNote()}</p>` : '<p class="muted">Aucun achat.</p>'}</div>
+      <div class="grid2"><div class="box"><h2>Équipement</h2><h3>Armes</h3>${lv(g.weapons)}<h3>Boucliers</h3>${lv(g.shields)}<h3>Combinaisons</h3>${lv(g.armors)}
+        ${g.owned && Object.keys(g.owned).length ? `<h3>Objets achetés</h3>${Object.entries(g.owned).map(([k, v]) => `<span class="tag">${esc(k)}${v === true ? '' : ' : ' + esc(v)}</span>`).join(' ')}` : ''}</div>
+      <div class="box"><h2>Parties par mode</h2>${hbars(byMode, Object.fromEntries(Object.keys(byMode).map(k => [k, modeName(k)])), 'var(--y)')}<h3>Zone défensive : missions et étoiles</h3>${C}<h3>Challenges</h3><span class="muted">${CH} récompense(s) reçue(s)</span>
+        <h3>Commando</h3><span class="muted">${nb(co.games)} parties (${nb(co.wins)} menées au bout) · ${nb(co.kills)} ennemis · ${nb(co.bosses)} boss · ${nb(co.gold)} cellules</span></div></div>
+      <div class="box"><h2>Parties (${G.length}${G.length >= 300 ? ', les 300 dernières' : ''})</h2>${gamesTable(G, false)}</div>
+      <div class="box"><h2>Registre des cristaux</h2>${ledgerTable(f.ledger || [], false)}</div>
+      <div class="box"><details><summary>Sauvegarde complète du jeu (JSON)</summary><pre>${esc(JSON.stringify(g, null, 1))}</pre></details></div>`;
+    $('#rst').onclick = async () => { const t = prompt(`Réinitialiser toute la progression de ${p.pseudo} ? Tapez son pseudo pour confirmer.`); if (t === null) return; if (t.trim() !== String(p.pseudo).trim()) { $('#rmsg').textContent = 'Pseudo différent : rien n’a été fait.'; return }
+      try { await rpc('admin_reset_progress', {p_user: id}); $('#rmsg').textContent = 'Progression réinitialisée.'; clearCache(); setTimeout(render, 1200) } catch (e) { $('#rmsg').textContent = missing(e) ? 'Fonction absente du serveur : installer la migration 20261101120000_remise_a_zero.sql.' : e.message } };
+    $('#give').onclick = async () => { const n = Math.round(+$('#amt').value); if (!n) return; if (!confirm(`${n > 0 ? 'Donner' : 'Retirer'} ${Math.abs(n)} cristaux à ${p.pseudo} ?`)) return;
+      try { const r = await rpc('admin_grant', {p_user: id, p_amount: n, p_note: $('#note').value}); $('#gmsg').textContent = `Fait : ${r.crystals} cristaux. Le joueur les reçoit à sa prochaine synchronisation.`; clearCache(); setTimeout(render, 1200) } catch (e) { $('#gmsg').textContent = e.message } } },
+
+  /* ---- Parties ---- */
+  async parties(mode = '') {
+    const G = await cached('games:' + mode, () => rpc('admin_games', {p_mode: mode, p_limit: 2000})), S = {};
+    for (const g of G) { const s = S[g.mode] || (S[g.mode] = {mode: g.mode, n: 0, w: 0, q: 0, t: 0, on: 0, u: new Set()}); s.n++; s.w += g.win ? 1 : 0; s.q += g.quit ? 1 : 0; s.t += +g.duration || 0; s.on += g.online ? 1 : 0; s.u.add(g.user_id) }
+    const opt = o => Object.entries(o).map(([k, n]) => `<option value="${k}" ${k === mode ? 'selected' : ''}>${n}</option>`).join('');
+    if (this.tok !== render.tok) return; $('#view').innerHTML = `${title('Parties', '<button class="act sec" id="xp">⬇ Export CSV</button>')}
+      <div class="row"><label class="sr" for="md">Mode</label><select id="md"><option value="">Tous les modes</option><optgroup label="Modes du jeu">${opt(MODES)}</optgroup><optgroup label="Anciens modes">${opt(OLD_MODES)}</optgroup></select><span class="muted">${G.length >= 2000 ? 'les 2 000 dernières parties' : G.length + ' partie(s)'}</span></div>
+      <div class="box"><h2>Résumé par mode (parties affichées)</h2>${table('tpm', [['mode', 'Mode', s => esc(modeName(s.mode)), '', s => modeName(s.mode)], ['n', 'Parties', s => nb(s.n), 'n'], ['u', 'Joueurs', s => nb(s.u.size), 'n', s => s.u.size],
+        ['t', 'Durée moyenne', s => dur(Math.round(s.t / s.n)), 'n', s => s.t / s.n], ['w', 'Victoires', s => pct(s.w, s.n), 'n', s => s.w / s.n], ['q', 'Quittées', s => pct(s.q, s.n), 'n', s => s.q / s.n], ['on', 'En ligne', s => pct(s.on, s.n), 'n', s => s.on / s.n]], Object.values(S), {k: 'n'})}</div>
+      <div class="box">${gamesTable(G, true)}</div>`;
+    $('#md').onchange = () => go('#/parties/' + $('#md').value);
+    $('#xp').onclick = () => csv('parties', ['Date', 'N°', 'Pseudo', 'Mode', 'En ligne', 'Résultat', 'Durée (s)', 'Ennemis', 'Équipe', 'Boss', 'Bonus', 'Mission', 'Étoiles'],
+      G.map(g => [d(g.created_at), g.num, g.pseudo, modeName(g.mode), g.online ? 'oui' : '', g.quit ? 'quittée' : g.win ? 'victoire' : 'défaite', g.duration, g.kills, g.team_kills, g.bosses, g.bonus, g.mission, g.stars])) },
+
+  /* ---- Cristaux : registre de tous les mouvements ---- */
+  async cristaux(reason = '') {
+    const L = await cached('led:' + reason, () => rpc('admin_ledger', {p_reason: reason, p_limit: 2000})), D = await dash();
+    const inn = L.filter(l => l.delta > 0).reduce((s, l) => s + l.delta, 0), out = -L.filter(l => l.delta < 0).reduce((s, l) => s + l.delta, 0), by = {};
+    for (const l of L) { const k = l.reason + (l.delta < 0 ? '−' : '+'); by[k] = (by[k] || 0) + Math.abs(l.delta) }
+    const nm = Object.fromEntries(Object.keys(by).map(k => [k, (REASONS[k.slice(0, -1)] || k.slice(0, -1)) + (k.endsWith('−') ? ' (sortie)' : ' (entrée)')]));
+    if (this.tok !== render.tok) return; $('#view').innerHTML = `${title('Cristaux', '<button class="act sec" id="xl">⬇ Export CSV</button>')}
+      <div class="cards">${card(nb(D.crystals_held), 'cristaux détenus par les joueurs', 'cr')}${card('+' + nb(inn), 'entrées (mouvements affichés)', 'cr')}${card('−' + nb(out), 'sorties (dépenses, reprises)', 'ko')}${card(nb(L.length), 'mouvements', '', L.length >= 2000 ? 'les 2 000 derniers' : '')}</div>
+      <div class="grid2"><div class="box"><h2>Par raison</h2>${hbars(by, nm, 'var(--cr)')}</div><div class="box"><h2>À savoir</h2><p class="note">Seuls les cristaux sont tenus par le serveur (porte-monnaie et registre). « Achat » = pack payé (essais sandbox compris : l’argent réel est dans Ventes). « Jeu » = gains en jouant (30 par jour au plus) et dépenses dans le jeu.</p></div></div>
+      <div class="row"><label class="sr" for="rs">Raison</label><select id="rs"><option value="">Tous les mouvements</option>${Object.entries(REASONS).map(([k, n]) => `<option value="${k}" ${k === reason ? 'selected' : ''}>${n}</option>`).join('')}</select></div>
+      <div class="box">${ledgerTable(L, true)}</div>`;
+    $('#rs').onchange = () => go('#/cristaux/' + $('#rs').value);
+    $('#xl').onclick = () => csv('cristaux', ['Date', 'N°', 'Pseudo', 'Mouvement', 'Raison', 'Référence'], L.map(l => [d(l.created_at), l.num, l.pseudo, l.delta, REASONS[l.reason] || l.reason, l.ref])) },
+
+  /* ---- Ventes : argent réel, par magasin et par devise ---- */
+  async ventes(days = '0') {
+    days = +days || 0; const P0 = await purchases(), D = await dash(), since = days ? Date.now() - days * 864e5 : 0;
+    const P = P0.filter(x => !since || +new Date(x.created_at) > since), R = P.filter(real), T = P.filter(x => !real(x)), S = R.filter(x => SALE(x.event)), RF = R.filter(x => x.event === 'remboursement');
+    const T0 = money(R), mS = money(S), mR = money(RF);   // tout en euros : T0 = total (brut remboursements déduits, part des magasins, net)
+    const buyers = new Set(S.map(x => x.user_id)), cardsD = await cached('cards', async () => (await rpc('admin_sales', {p_days: 1})).cards_detail || [], 60000);
+    // par magasin
+    const ST = {}; for (const x of R) { const k = STORE(x.store), s = ST[k] || (ST[k] = {k, n: 0, r: 0, s: 0, rb: 0, f: 0, net: 0, u: new Set()}), e = eurRow(x);
+      s.f += e.f; s.net += e.n; if (SALE(x.event)) { s.n++; s.u.add(x.user_id); s.s += e.b } else if (x.event === 'remboursement') { s.r++; s.rb -= e.b } }
+    // par produit
+    const PR = {}; for (const x of P) { const s = PR[x.product] || (PR[x.product] = {id: x.product, name: x.product_name, n: 0, u: new Set(), dbl: 0, cr: 0, r: 0, m: {b: 0, n: 0}, t: 0});
+      if (!real(x)) { s.t++; continue } if (SALE(x.event)) { s.n++; s.u.add(x.user_id); s.dbl += x.doubled ? 1 : 0; s.cr += Math.max(0, +x.crystals || 0) } if (x.event === 'remboursement') s.r++; const e = eurRow(x); s.m.b += e.b; s.m.n += e.n }
+    // par acheteur
+    const BU = {}; for (const x of R) { const s = BU[x.user_id] || (BU[x.user_id] = {id: x.user_id, pseudo: x.pseudo, num: x.num, email: x.email, n: 0, r: 0, cr: 0, m: {b: 0, n: 0}, st: new Set(), pr: {}, last: x.created_at});
+      if (SALE(x.event)) { s.n++; s.pr[x.product_name] = (s.pr[x.product_name] || 0) + 1; s.st.add(x.store) } if (x.event === 'remboursement') s.r++; s.cr += +x.crystals || 0; const e = eurRow(x); s.m.b += e.b; s.m.n += e.n; if (x.created_at > s.last) s.last = x.created_at }
+    // recettes jour par jour (par mois au-delà de 92 jours)
+    const span = days || Math.max(1, Math.ceil((Date.now() - Math.min(Date.now(), ...P.map(x => +new Date(x.created_at)))) / 864e5) + 1), byMonth = span > 92, DY = {};
+    for (let i = (byMonth ? 0 : span - 1); i >= 0 && !byMonth; i--) DY[dayKey(Date.now() - i * 864e5)] = {b: 0, n: 0};
+    for (const x of R) { const k = byMonth ? dayKey(x.created_at).slice(0, 7) : dayKey(x.created_at), e = eurRow(x), o = DY[k] || (DY[k] = {b: 0, n: 0}); o.b += e.b; o.n += e.n }
+    const days2 = Object.keys(DY).sort().map(k => ({day: k, m: DY[k].b, n: DY[k].n}));
+    const per = [[0, 'Depuis le début'], [365, '365 derniers jours'], [30, '30 derniers jours'], [7, '7 derniers jours'], [1, 'Dernières 24 h']];
+    if (this.tok !== render.tok) return; $('#view').innerHTML = `${title('Ventes', `<label class="sr" for="dy">Période</label><select id="dy">${per.map(([n, l]) => `<option value="${n}" ${n === days ? 'selected' : ''}>${l}</option>`).join('')}</select><button class="act sec" id="xv">⬇ Export CSV</button>`)}${oldNote('pur')}
+      <div class="cards">${card(fmtMoney(mS, 1), 'encaissé (brut)', 'mo', `${S.length} paiement(s)`)}${card(eur(mR.r), 'remboursé', RF.length ? 'ko' : '', `${RF.length} remboursement(s) · net perdu ${eur(-mR.n)}`)}${card(eur(T0.f), 'part des magasins (estimée)', '', feeTxt())}
+        ${card(fmtMoney(T0, 1), 'brut et net pour Merlin', 'mo', 'remboursements déduits')}${card(nb(buyers.size), 'acheteurs', '', pct(buyers.size, D.accounts) + ' des comptes')}${card(buyers.size ? fmtMoney({b: mS.s / buyers.size, n: mS.n / buyers.size}, 1) : '—', 'panier moyen par acheteur')}
+        ${card(nb(cardsD.length), 'cartes en cours')}${card(nb(T.length), 'achats d’essai', '', 'sandbox, non comptés')}</div>
+      <div class="grid2"><div class="box"><h2>Par magasin</h2>${storeSplit(R)}
+        <table><thead><tr><th scope="col">Magasin</th><th class="n" scope="col">Ventes</th><th class="n" scope="col">Acheteurs</th><th class="n" scope="col">Brut</th><th class="n" scope="col">Remboursé</th><th class="n" scope="col">Part du magasin</th><th class="n" scope="col">Net Merlin</th></tr></thead>
+        <tbody>${['apple', 'google', 'stripe', 'autre'].filter(k => ST[k]).map(k => { const s = ST[k]; return `<tr><td><span class="st ${k}">${STN[k]}</span></td><td class="n">${s.n}</td><td class="n">${s.u.size}</td><td class="n">${eur(s.s)}</td><td class="n ${s.r ? 'ko' : ''}">${s.r ? eur(s.rb) : '—'}</td><td class="n">${eur(s.f)}</td><td class="n ok"><b>${eur(s.net)}</b></td></tr>` }).join('') || '<tr><td colspan="7" class="muted">Aucune vente.</td></tr>'}</tbody></table>
+        <p class="note">Apple = App Store (app iPhone), Google Play = app Android, Stripe = paiement par le site (liens RevenueCat). Part des magasins estimée : ${feeTxt()} ; quand Apple ou Google rembourse, sa commission est rendue (perte = le net), Stripe garde ses frais.</p></div>
+        <div class="box"><h2>Recettes ${byMonth ? 'par mois' : 'par jour'} : brut</h2>${bars(days2, 'm', '€ brut', 'mo', e2)}<h3>Net pour Merlin</h3>${bars(days2, 'n', '€ net', '', e2)}</div></div>
+      <p class="note" style="margin:-6px 0 14px">${rateNote()}</p>
+      <div class="box"><h2>Packs et cartes</h2>${table('tpr', [['name', 'Produit', s => esc(s.name)], ['n', 'Ventes', s => nb(s.n), 'n'], ['u', 'Acheteurs', s => nb(s.u.size), 'n', s => s.u.size], ['dbl', 'Premiers achats doublés', s => nb(s.dbl), 'n'],
+        ['cr', 'Cristaux versés', s => `<span class="cry">${nb(s.cr)}</span>`, 'n'], ['r', 'Remboursements', s => s.r ? `<span class="ko">${s.r}</span>` : '—', 'n'], ['m', 'Brut (remb. déduits)', s => `<b>${eur(s.m.b)}</b>`, 'n', s => s.m.b], ['mn', 'Net Merlin', s => `<b class="ok">${eur(s.m.n)}</b>`, 'n', s => s.m.n], ['t', 'Essais', s => s.t || '—', 'n muted']], Object.values(PR), {k: 'm'})}</div>
+      <div class="box"><h2>${Object.keys(BU).length} acheteur(s)</h2>${table('tbu', [['pseudo', 'Joueur', s => who(s.pseudo, s.num, s.id), '', s => String(s.pseudo || '').toLowerCase()], ['email', 'E-mail', s => esc(s.email || '—')], ['st', 'Magasin', s => [...s.st].map(stBadge).join(' '), '', s => [...s.st].join()],
+        ['n', 'Achats', s => nb(s.n), 'n'], ['pr', 'Ce qu’il a acheté', s => Object.entries(s.pr).map(([k, n]) => `<span class="tag">${esc(k)} × ${n}</span>`).join(' ')], ['cr', 'Cristaux reçus', s => `<span class="cry">${nb(s.cr)}</span>`, 'n'],
+        ['r', 'Remb.', s => s.r ? `<span class="ko">${s.r}</span>` : '—', 'n'], ['m', 'Total payé', s => `<b>${eur(s.m.b)}</b>`, 'n', s => s.m.b], ['mn', 'Net Merlin', s => `<b class="ok">${eur(s.m.n)}</b>`, 'n', s => s.m.n], ['last', 'Dernier achat', s => d(s.last), '', s => +new Date(s.last)]], Object.values(BU), {k: 'm', link: s => '#/fiche/' + s.id})}</div>
+      ${RF.length ? `<div class="box"><h2>Remboursements (${RF.length})</h2>${payTable(RF, true)}</div>` : ''}
+      <div class="box"><h2>Cartes en cours (${cardsD.length})</h2><table><thead><tr><th scope="col">Joueur</th><th scope="col">Carte</th><th scope="col">Jusqu’au</th></tr></thead><tbody>${cardsD.map(c => `<tr><td>${who(c.pseudo, c.num)}</td><td>${c.kind === 'mois' ? 'mensuelle' : 'hebdomadaire'}</td><td>${d(c.until)}</td></tr>`).join('') || '<tr><td colspan="3" class="muted">Aucune.</td></tr>'}</tbody></table></div>
+      <div class="box"><h2>Tous les paiements réels (${R.length})</h2>${payTable(R, true)}</div>
+      <div class="box"><details><summary>Achats d’essai : sandbox, TestFlight (${T.length}), jamais comptés dans l’argent</summary>${T.length ? payTable(T, true) : '<p class="muted">Aucun.</p>'}</details></div>`;
+    $('#dy').onchange = () => go('#/ventes/' + $('#dy').value);
+    $('#xv').onclick = () => csv('ventes', ['Date', 'N°', 'Pseudo', 'E-mail', 'Produit', 'Événement', 'Magasin', 'Code magasin', 'Montant', 'Devise', 'Montant en euros', 'Part du magasin (€)', 'Net Merlin (€)', 'Taux (devise pour 1 €)', 'Prix en USD', 'Cristaux', 'Doublé', 'Essai (sandbox)', 'Référence'],
+      P.map(x => [d(x.created_at), x.num, x.pseudo, x.email, x.product_name, EV[x.event] || x.event, STN[STORE(x.store)], x.store, x.price != null ? (+x.price).toFixed(2).replace('.', ',') : '', curOf(x), ...(e => real(x) ? [e2(e.b), e2(e.f), e2(e.n)] : [x.price != null ? e2(toEur(amtOf(x), curOf(x))) : '', '', ''])(eurRow(x)), curOf(x) === 'EUR' ? 1 : String(RATES.r[curOf(x)] || RATES0.r[curOf(x)] || '').replace('.', ','), x.price_usd != null ? (+x.price_usd).toFixed(2).replace('.', ',') : '', x.crystals, x.doubled ? 'oui' : '', real(x) ? '' : 'oui', x.ref])) },
+
+  /* ---- Audience : qui joue, à quoi, combien reviennent ---- */
+  async audience() {
+    const D = await dash(), r = D.retention, M = D.modes || [];
+    if (this.tok !== render.tok) return; $('#view').innerHTML = `${title('Audience')}${oldNote('dash')}
+      <div class="cards">${card(nb(D.accounts), 'comptes (personnage créé)')}${card(D.online == null ? '—' : nb(D.online), 'connectés maintenant')}${card(nb(D.active_1d), 'actifs 24 h')}${card(nb(D.active_7d), 'actifs 7 jours')}${D.active_30d != null ? card(nb(D.active_30d), 'actifs 30 jours') : ''}
+        ${card(nb(D.games), 'parties jouées', '', `${nb(D.games_today)} aujourd’hui`)}${card(nb(D.kills), 'ennemis tués')}${card(nb(D.bosses), 'boss tués')}</div>
+      ${r ? `<div class="box"><h2>Rétention : joueurs revenus</h2><div class="cards" style="margin:0">${card(pct(r.d1, r.d1_base), 'revenus après 1 jour', '', `${r.d1} sur ${r.d1_base} comptes`)}${card(pct(r.d7, r.d7_base), 'revenus après 7 jours', '', `${r.d7} sur ${r.d7_base}`)}${card(pct(r.d30, r.d30_base), 'revenus après 30 jours', '', `${r.d30} sur ${r.d30_base}`)}${card(pct(r.played, r.base), 'ont joué au moins une partie', '', `${r.played} sur ${r.base}`)}</div>
+        <p class="note">« Revenu après 7 jours » : dernière connexion ou partie au moins 7 jours après la création du compte (parmi les comptes de plus de 7 jours).</p></div>` : ''}
+      <div class="box"><h2>Modes les plus joués</h2>${table('tmo', [['mode', 'Mode', m => esc(modeName(m.mode)), '', m => modeName(m.mode)], ['parties', 'Parties', m => nb(m.parties), 'n'], ['parties_30j', '30 derniers jours', m => m.parties_30j == null ? '—' : nb(m.parties_30j), 'n'],
+        ['joueurs', 'Joueurs', m => m.joueurs == null ? '—' : nb(m.joueurs), 'n'], ['duree_moy', 'Durée moyenne', m => m.duree_moy == null ? '—' : dur(m.duree_moy), 'n'], ['duree_tot', 'Temps total', m => hours(m.duree_tot), 'n'],
+        ['victoires', 'Victoires', m => m.victoires == null ? '—' : pct(m.victoires, m.parties), 'n', m => m.victoires / m.parties], ['quittees', 'Quittées', m => m.quittees == null ? '—' : pct(m.quittees, m.parties), 'n', m => m.quittees / m.parties],
+        ['en_ligne', 'En ligne', m => m.en_ligne == null ? '—' : pct(m.en_ligne, m.parties), 'n', m => m.en_ligne / m.parties], ['derniere', 'Dernière', m => m.derniere ? ago(m.derniere) : '—', '', m => m.derniere ? +new Date(m.derniere) : null]], M, {k: 'parties'})}</div>
+      <div class="grid3"><div class="box"><h2>Espèces</h2>${hbars(D.species, SP, 'var(--y)')}</div><div class="box"><h2>Façon de jouer</h2>${hbars(D.play_modes, PLAYM, 'var(--c)')}</div>
+        <div class="box"><h2>Plateformes</h2>${D.platforms ? hbars(D.platforms, PLAT, 'var(--pw)') : '<p class="muted">Installer la migration du 03/11.</p>'}</div>${D.langs ? `<div class="box"><h2>Langues</h2>${hbars(D.langs, {fr: 'Français', en: 'Anglais', '?': 'Pas choisie'}, 'var(--cr)')}</div>` : ''}</div>
+      <div class="grid3"><div class="box"><h2>Nouveaux comptes par jour</h2>${bars(D.days, 'accounts', 'comptes', 'cr')}</div><div class="box"><h2>Joueurs différents par jour</h2>${bars(D.days, 'players', 'joueurs')}</div><div class="box"><h2>Parties par jour</h2>${bars(D.days, 'games', 'parties', 'y')}</div></div>` },
+
+  /* ---- Alertes : ce qui mérite un coup d'œil ---- */
+  async alertes() {
+    const D = await dash(), P = await purchases(), L = alertList(D, P, await pName());
+    if (this.tok !== render.tok) return; $('#view').innerHTML = `${title('Alertes')}${oldNote('dash')}
+      ${!L.length ? '<div class="box"><h2>Rien à signaler</h2><p class="note">Aucun remboursement récent, aucun solde anormal.</p></div>' : ''}
+      ${L.map(a => `<div class="box"><h2>${a.t} (${a.rows.length})</h2><p class="note" style="margin:0 0 8px">${a.why}</p><table><tbody>${a.rows.map(a.row).join('')}</tbody></table></div>`).join('')}` },
+
+  /* ---- Signalements (03/11) : joueurs signalés depuis le jeu (Google Play exige de pouvoir signaler et bloquer) ---- */
+  async signalements() { let L; try { L = await rpc('admin_reports', {p_limit: 1000}) } catch (e) { if (this.tok !== render.tok) return;
+      $('#view').innerHTML = `${title('Signalements')}<div class="box"><p>Les signalements ne sont pas encore installés : exécutez la migration <code>20261103160000_signalements.sql</code> dans l’éditeur SQL de Supabase.</p></div>`; return }
+    const open = L.filter(x => x.status !== 'traité'), by = {};
+    for (const x of L) { const k = x.reported_num || x.reported_pseudo; const o = by[k] || (by[k] = {pseudo: x.reported_pseudo, num: x.reported_num, id: x.reported_id, n: 0, open: 0}); o.n++; if (x.status !== 'traité') o.open++ }
+    if (this.tok !== render.tok) return;
+    $('#view').innerHTML = `${title('Signalements')}<div class="cards">${card(nb(open.length), 'à traiter')}${card(nb(L.length), 'signalements en tout')}${card(nb(Object.keys(by).length), 'joueurs signalés')}</div>
+      <div class="grid2"><div class="box"><h2>Joueurs les plus signalés</h2>${table('tsg', [['pseudo', 'Joueur', o => o.id ? who(o.pseudo, o.num, o.id) : esc(o.pseudo || '—'), '', o => String(o.pseudo || '')], ['n', 'Signalements', o => nb(o.n), 'n'], ['open', 'À traiter', o => nb(o.open), 'n']], Object.values(by), {k: 'n'})}</div>
+      <div class="box"><h2>Tous les signalements</h2><table><thead><tr><th scope="col">Date</th><th scope="col">Joueur signalé</th><th scope="col">Raison</th><th scope="col">Mode</th><th scope="col">Par</th><th scope="col">État</th></tr></thead><tbody>
+      ${L.map(x => `<tr><td>${d(x.created_at)}</td><td>${x.reported_id ? who(x.reported_pseudo, x.reported_num, x.reported_id) : esc(x.reported_pseudo || '—')}</td><td>${esc(x.reason || '')}</td><td>${esc(x.mode || '')}</td><td>${who(x.reporter_pseudo, x.reporter_num, x.reporter_id)}</td>
+        <td>${x.status === 'traité' ? `traité${x.note ? ' · ' + esc(x.note) : ''}` : `<button class="act sec" data-rep="${x.id}">Marquer traité</button>`}</td></tr>`).join('') || '<tr><td colspan="6" class="muted">Aucun signalement.</td></tr>'}</tbody></table></div></div>`;
+    for (const b of document.querySelectorAll('[data-rep]')) b.onclick = async () => { const note = prompt('Note (ce qui a été fait) :', '') ; if (note === null) return;
+      try { await rpc('admin_report_done', {p_id: +b.dataset.rep, p_note: note}); render() } catch (e) { alert('Impossible : ' + (e.message || e)) } } },
+
+  /* ---- Parrainages ---- */
+  async parrainages() { const L = await rpc('admin_referrals', {p_limit: 5000}), by = {};
+    for (const x of L) { const s = by[x.sponsor_id] || (by[x.sponsor_id] = {id: x.sponsor_id, pseudo: x.sponsor_pseudo, num: x.sponsor_num, n: 0, last: x.created_at}); s.n++ }
+    if (this.tok !== render.tok) return; $('#view').innerHTML = `${title('Parrainages')}<div class="cards">${card(nb(L.length), 'parrainages')}${card(nb(L.length * 200), 'cristaux donnés', 'cr', '100 au parrain, 100 au filleul')}${card(nb(Object.keys(by).length), 'parrains')}</div>
+      <div class="grid2"><div class="box"><h2>Parrains</h2>${table('tpa', [['pseudo', 'Parrain', s => who(s.pseudo, s.num, s.id), '', s => String(s.pseudo || '')], ['n', 'Filleuls', s => nb(s.n), 'n'], ['last', 'Dernier', s => d(s.last), '', s => +new Date(s.last)]], Object.values(by), {k: 'n'})}</div>
+      <div class="box"><h2>Tous les parrainages</h2><table><thead><tr><th scope="col">Date</th><th scope="col">Parrain</th><th scope="col">Filleul</th></tr></thead><tbody>
+      ${L.map(x => `<tr><td>${d(x.created_at)}</td><td>${who(x.sponsor_pseudo, x.sponsor_num, x.sponsor_id)}</td><td>${who(x.godchild_pseudo, x.godchild_num, x.godchild_id)}</td></tr>`).join('') || '<tr><td colspan="3" class="muted">Aucun.</td></tr>'}</tbody></table></div></div>` },
+
+  /* ---- Armes : réglages par faction (table weapon_defs) ---- */
+  async armes(fac = 'venusien') {
+    const L = await api('/rest/v1/weapon_defs?select=*&order=faction,cat,rank');
+    const CATS = {long: 'Longue portée', mid: 'Moyenne portée', short: 'Courte portée'}, MODESW = {'': 'selon l’arme', auto: 'automatique', semi: 'coup par coup', double: 'double tir', pierce: 'perforant', burst: 'rafale de 3', spin: 'canons rotatifs', burn: 'incendiaire', pump2: 'deux coups puis pause', slug: 'balle unique'};
+    const F = L.filter(w => w.faction === fac), field = (w, k, t = 'number', st = '1') => `<input aria-label="${k}" data-k="${k}" type="${t}" step="${st}" value="${esc(w[k] ?? '')}" style="width:${t === 'text' ? 190 : 78}px">`;
+    const row = w => `<tr data-id="${esc(w.id)}"><td><input aria-label="code" data-k="id" value="${esc(w.id)}" style="width:70px" ${w.id ? 'readonly' : ''}></td><td><select aria-label="portée" data-k="cat">${Object.entries(CATS).map(([k, n]) => `<option value="${k}" ${w.cat === k ? 'selected' : ''}>${n}</option>`).join('')}</select></td>
+      <td>${field(w, 'rank')}</td><td>${field(w, 'name', 'text')}</td><td>${field(w, 'power')}</td><td>${field(w, 'rate', 'number', '0.1')}</td><td>${field(w, 'heat_s', 'number', '0.5')}</td><td>${field(w, 'cool_s', 'number', '0.5')}</td><td>${field(w, 'mag')}</td><td>${field(w, 'price')}</td>
+      <td><select aria-label="mode" data-k="mode">${Object.entries(MODESW).map(([k, n]) => `<option value="${k}" ${(w.mode || '') === k ? 'selected' : ''}>${n}</option>`).join('')}</select></td>
+      <td><input aria-label="active" data-k="active" type="checkbox" ${w.active !== false ? 'checked' : ''}></td><td class="muted">${w.power ? Math.round(w.power / 100 * w.rate) + '/s' : ''}</td>
+      <td><button class="act" data-a="save">Enregistrer</button> ${w.id ? '<button class="act sec" data-a="del">Supprimer</button>' : ''}</td></tr>`;
+    if (this.tok !== render.tok) return; $('#view').innerHTML = `${title('Armes')}<div class="row"><label class="sr" for="fac">Faction</label><select id="fac">${Object.entries(SP).map(([k, n]) => `<option value="${k}" ${k === fac ? 'selected' : ''}>${n}s</option>`).join('')}</select>
+      <span class="muted">Les changements partent tout de suite : les joueurs les reçoivent au prochain lancement (ou dans les 10 minutes), les nouvelles parties en ligne dans la minute. Une faction sans arme ici garde les armes écrites dans le jeu.</span></div>
+      <div class="box" id="lst"><h2>${F.length} arme(s) · dégâts par tir = puissance ÷ 100 · rang 0 = arme de départ · prix en cristaux (0 = disponible immédiatement)</h2>
+      <table><thead><tr><th>Code</th><th>Portée</th><th>Rang</th><th>Nom</th><th>Puissance</th><th>Cadence (Hz)</th><th>Surchauffe (s)</th><th>Refroid. (s)</th><th>Chargeur</th><th>Prix</th><th>Mode</th><th>Active</th><th>Dégâts</th><th></th></tr></thead><tbody>
+      ${F.map(row).join('')}${row({id: '', cat: 'long', rank: F.length ? Math.max(...F.map(w => w.rank)) + 1 : 0, name: '', power: 1000, rate: 3, heat_s: 3, cool_s: 5, mag: 30, price: 1000, active: true})}</tbody></table>
+      <p class="note">Dernière ligne : nouvelle arme (code de 2 à 24 lettres minuscules ou chiffres, unique dans la faction). Son modèle 3D et ses sons suivent son rang (au-delà du rang 4, ceux du rang 4).</p></div>`;
+    $('#fac').onchange = () => go('#/armes/' + $('#fac').value);
+    $('#lst').onclick = async e => { const b = e.target.closest('button[data-a]'); if (!b) return; const tr = b.closest('tr'), g = k => tr.querySelector(`[data-k="${k}"]`);
+      try { if (b.dataset.a === 'del') { if (!confirm(`Supprimer l’arme ${g('name').value} ? Les joueurs qui l’ont la perdent de leur liste.`)) return; await rpc('admin_weapon_delete', {p_faction: fac, p_id: tr.dataset.id}); return render() }
+        const p = {faction: fac, active: g('active').checked}; for (const k of ['id', 'cat', 'rank', 'name', 'power', 'rate', 'heat_s', 'cool_s', 'mag', 'price', 'mode']) p[k] = g(k).value;
+        if (!/^[a-z0-9_-]{2,24}$/.test(p.id)) throw new Error('Code invalide : 2 à 24 lettres minuscules, chiffres, tirets.'); if (!p.name) throw new Error('Il faut un nom.');
+        await rpc('admin_weapon_save', {p}); b.textContent = 'Enregistré ✓'; setTimeout(render, 700) } catch (er) { alert(er.message) } } },
+
+  /* ---- Boutique : produits payants (packs et cartes) ---- */
+  async boutique() { delete C.prod; const P = await products();
+    if (this.tok !== render.tok) return; $('#view').innerHTML = `${title('Boutique')}<div class="box" id="lst"><h2>Packs et cartes</h2><table><thead><tr><th>Produit</th><th>Prix affiché (€)</th><th>Cristaux</th><th>Par jour</th><th>Jours</th><th>Lien de paiement web (Stripe)</th><th>Actif</th><th></th></tr></thead><tbody>
+      ${P.map(p => `<tr data-id="${esc(p.id)}"><td>${esc(p.name)}<br><span class="muted">${esc(p.id)}</span></td><td><input aria-label="prix" data-k="price_eur" type="number" step="0.01" value="${p.price_eur}" style="width:80px"></td>
+        <td><input aria-label="cristaux" data-k="crystals" type="number" value="${p.crystals}" style="width:80px" ${p.kind === 'carte' ? 'disabled' : ''}></td><td><input aria-label="par jour" data-k="daily" type="number" value="${p.daily}" style="width:60px" ${p.kind === 'pack' ? 'disabled' : ''}></td>
+        <td><input aria-label="jours" data-k="days" type="number" value="${p.days}" style="width:50px" ${p.kind === 'pack' ? 'disabled' : ''}></td><td><input aria-label="lien" data-k="web_url" value="${esc(p.web_url || '')}" placeholder="https://pay.rev.cat/…" style="width:240px"></td>
+        <td><input aria-label="actif" data-k="active" type="checkbox" ${p.active ? 'checked' : ''}></td><td><button class="act" data-a="psave">Enregistrer</button></td></tr>`).join('')}</tbody></table>
+      <p class="note">Le prix réellement payé est celui réglé dans l’App Store, Google Play et RevenueCat (Stripe) : le prix affiché ici doit être le même. Le premier achat de chaque pack est doublé. Les achats en cristaux dans le jeu (armes, composants, boutique mystère) sont réglés dans le code du jeu.</p></div>`;
+    $('#lst').onclick = async e => { const b = e.target.closest('button[data-a="psave"]'); if (!b) return; const r2 = b.closest('tr'), g = k => r2.querySelector(`[data-k="${k}"]`);
+      const p = {id: r2.dataset.id, active: g('active').checked}; for (const k of ['price_eur', 'crystals', 'daily', 'days', 'web_url']) p[k] = g(k).value;
+      try { await rpc('admin_product_save', {p}); b.textContent = 'Enregistré ✓'; delete C.prod } catch (er) { alert(er.message) } } },
+
+  // la cartographie des outils et du trajet de l'argent (docs/cartographie.html, copiée par deploy-web.sh en gestion/modele.html)
+  async modele() {
+    if (this.tok !== render.tok) return; $('#view').innerHTML = `${title('Modèle')}<p class="muted">Les outils de Coswars, le trajet d'un achat et la part de chacun sur l'App Store, Google Play et le site. <a href="modele.html" target="_blank">Ouvrir en grand</a></p>
+      <iframe id="mdl" src="modele.html" title="Modèle de Coswars" style="width:100%;height:80vh;border:3px solid var(--ink);border-radius:12px;background:#fff"></iframe>`;
+    const f = $('#mdl'); f.onload = () => { try { const h = () => { f.style.height = f.contentDocument.documentElement.scrollHeight + 'px' }; h(); setTimeout(h, 1500) } catch (e) {} } },
+
+  /* ---- Multijoueur en direct (adresse /etat de chaque serveur de jeu) ---- */
+  async direct() {
+    const draw = async () => { const E = await etat(); if (page !== 'direct') return; const {R, rooms} = E;
+      if (this.tok !== render.tok) return; $('#view').innerHTML = `${title('Multijoueur en direct')}<div class="cards">${card(E.up + ' / ' + E.urls.length, 'serveurs de jeu en marche')}${card(rooms.length, 'salons ouverts')}${card(E.playing, 'parties en cours')}${card(E.players, 'joueurs dans les salons')}</div>
+        <div class="box"><h2>Serveurs</h2><table><thead><tr><th>Adresse</th><th>État</th><th>Salons</th><th>En marche depuis</th><th>Mémoire</th></tr></thead><tbody>${R.map(s => `<tr><td>${esc(s.u)}</td><td class="${s.erreur ? 'ko' : 'ok'}">${s.erreur ? esc(s.erreur) : 'en marche'}</td><td>${s.rooms ? s.rooms.length : '—'}</td><td>${s.uptime != null ? hours(s.uptime) : '—'}</td><td>${s.mem ? s.mem + ' Mo' : '—'}</td></tr>`).join('') || '<tr><td colspan="5" class="muted">Liste des serveurs (net.json) introuvable.</td></tr>'}</tbody></table></div>
+        <div class="box"><h2>Salons (actualisé toutes les 5 s)</h2>${rooms.length ? rooms.map(r => `<div class="room"><b style="color:var(--y)">${esc(r.code)}</b> <span class="tag">serveur ${r.srv}</span> <span class="tag">${!r.started ? 'salon d’attente' : r.match && r.match.done ? 'terminée' : 'en cours'}</span>
+          ${r.match ? `<span class="muted">${dur(r.match.t)} · ${r.match.tk} ennemis éliminés par l’équipe · gradient ${r.match.lv}</span>` : `<span class="muted">ouvert le ${d(r.born)}</span>`}
+          <div style="margin-top:6px">${(r.players || []).map(p => `<span class="tag" style="${p.left ? 'opacity:.5' : ''}">${esc(p.n)} · ${SP[p.sp] || '?'} · ${p.left ? 'parti' : p.al ? 'debout' : 'à terre'} · ${p.k} tués</span>`).join(' ')}</div></div>`).join('') : '<p class="muted">Aucun salon ouvert.</p>'}</div>` };
+    await draw(); clearInterval(timer); timer = setInterval(draw, 5000) },
+
+  /* ---- Parties en direct (« mode dieu », 03/11) : les parties en ligne de chaque serveur de jeu, puis la carte vue de dessus
+     d'une partie, mise à jour chaque seconde. Route GET /dieu des serveurs (server/index.mjs), réservée aux administrateurs. ---- */
+  async dieu(si, code) {
+    clearInterval(timer); const h0 = location.hash, auth = {Authorization: 'Bearer ' + sess.access}, alive = () => page === 'dieu' && location.hash === h0;
+    const ask = async (u, q = '') => { const r = await fetch(httpOf(u) + '/dieu' + q, {headers: auth, cache: 'no-store'}); const j = await r.json().catch(() => null);
+      if (!r.ok) throw new Error(r.status === 401 ? 'accès refusé (pas administrateur)' : (j && j.erreur) || (r.status === 404 ? 'route /dieu absente : serveur pas encore à jour' : 'HTTP ' + r.status)); return j };
+    const urls = await gameUrls();
+    if (code == null) {   // liste des parties
+      const draw = async () => { const R = await Promise.all(urls.map(async (u, i) => { try { return {u, i, ...(await ask(u))} } catch (e) { return {u, i, err: /fetch|network|load/i.test(e.message) ? 'injoignable' : e.message} } }));
+        if (!alive() || this.tok !== render.tok) return;
+        const rooms = R.flatMap(s => (s.rooms || []).map(r => ({...r, si: s.i, srv: s.proc}))), run = rooms.filter(r => r.started && !r.done);
+        $('#view').innerHTML = `${title('Parties en direct')}<div class="cards">${card(nb(run.length), 'parties en cours', '', 'actualisé toutes les 3 s')}${card(nb(rooms.length - run.length), 'salons d’attente ou finies')}
+          ${card(nb(rooms.reduce((n, r) => n + (r.players || []).length, 0)), 'joueurs')}${card(`${R.filter(s => !s.err).length} / ${urls.length}`, 'serveurs qui répondent')}</div>
+          <div class="box"><h2>Parties sur les serveurs de jeu</h2>${table('tdi', [['code', 'Partie', r => `<a href="#/dieu/${r.si}/${esc(r.code)}"><b>${esc(r.code)}</b></a>${r.started && !r.done && !/command(er|eur)|croiseur/i.test(r.mode || '') ? ` <button class="act" style="padding:3px 9px;font-size:12px" onclick="event.stopPropagation();watchLive(${r.si},'${esc(r.code)}')">👁 Entrer</button>` : ''}`], ['srv', 'Serveur', r => r.srv ?? '—', 'n'],
+            ['mode', 'Mode', r => esc(dMode(r.mode))], ['st', 'État', r => r.erreur ? `<span class="ko">${esc(r.erreur)}</span>` : !r.started ? 'salon d’attente' : r.done ? 'finie' : '<span class="ok">en cours</span>', '', r => !r.started ? 1 : r.done ? 0 : 2],
+            ['t', 'Temps', r => r.started ? dur(r.t) : '—', 'n'], ['players', 'Joueurs', r => (r.players || []).map(p => `<span class="tag" style="${p.al ? '' : 'opacity:.55'}">${esc(p.n)} · ${SP[p.sp] || '?'}</span>`).join(' ') || '—', '', r => (r.players || []).length],
+            ['ents', 'Unités', r => nb(r.ents), 'n']], rooms, {k: 'st', link: r => `#/dieu/${r.si}/${r.code}`})}</div>
+          ${R.some(s => s.err) || !urls.length ? `<div class="box"><h2>Serveurs</h2><table><tbody>${R.map(s => `<tr><td>${esc(s.u)}</td><td class="${s.err ? 'ko' : 'ok'}">${s.err ? esc(s.err) : 'répond'}</td></tr>`).join('') || '<tr><td class="muted">Liste des serveurs (net.json) introuvable.</td></tr>'}</tbody></table></div>` : ''}
+          <p class="note">Lecture seule : rien n’est modifié dans les parties. Cliquez une partie pour la voir de dessus.</p>` };
+      await draw(); timer = setInterval(() => { if (!document.hidden) draw() }, 3000); return }
+    // une partie : carte vue de dessus, chaque seconde
+    const u = urls[+si]; if (!u) throw new Error('Serveur inconnu : revenir à la liste.');
+    const G = {obst: null, oT: 0, s: null, err: ''};
+    $('#view').innerHTML = `<div class="row" style="justify-content:space-between"><div class="row" style="margin:0"><a class="act sec" href="#/dieu">← Parties</a><h1 class="page" style="margin:0" id="gT">Partie ${esc(code)}</h1><button class="act" onclick="watchLive(${+si},'${esc(code)}')" title="Ouvre le jeu dans un nouvel onglet : vous êtes invisible dans le ciel, vous vous déplacez librement et entendez le canal vocal des joueurs ; personne ne vous voit ni ne vous entend">👁 Entrer dans la partie, invisible</button></div><span class="muted" id="gS"></span></div>
+      <div class="god"><div><canvas id="gC" role="img" aria-label="Carte de la partie vue de dessus (détail à droite)"></canvas>
+        <div class="lg"><span><i style="background:var(--c)"></i>joueur (trait = regard)</span><span><i style="background:#ff4d4d"></i>ennemi repéré</span><span><i style="background:#7a2a33"></i>ennemi passif</span>
+          <span><i style="background:#ff3df0"></i>boss</span><span><i style="background:var(--y);border-radius:2px"></i>objet</span><span><i style="background:#ff9a3c"></i>bot</span><span>— murs et obstacles · quadrillage 15 m (10 pas) · nord en haut</span></div></div>
+        <div id="gI"><p class="muted">Chargement…</p></div></div>`;
+    const tick = async () => { try { const full = !G.obst || Date.now() - G.oT > 10000, s = await ask(u, `?room=${encodeURIComponent(code)}${full ? '&o=1' : ''}`);
+        if (s.obst) { G.obst = s.obst; G.oT = Date.now() } G.s = s; G.err = '' } catch (e) { G.err = e.message }
+      if (!alive()) { clearInterval(timer); return } godDraw(G, code) };
+    await tick(); timer = setInterval(() => { if (!document.hidden) tick() }, 1000) }
+};
+// Entrer dans une partie en spectateur invisible (11/11) : le jeu s'ouvre dans un nouvel onglet avec l'adresse du serveur, le code et
+// le jeton de l'administrateur (dans le fragment #, jamais envoyé à un site) ; le serveur de jeu vérifie is_admin avec ce jeton
+async function watchLive(si, code) {
+  try { await rpc('is_admin') } catch (e) {}   // jeton rafraîchi s'il a expiré
+  const urls = await gameUrls(), u = urls[+si]; if (!u) return alert('Serveur introuvable : revenir à la liste.');
+  const b = btoa(unescape(encodeURIComponent(JSON.stringify({url: u, code, tok: sess.access, t: Date.now()}))));
+  const g = ESSAI ? (localStorage.getItem('coswars.jeuEssai') || 'http://localhost:8765/index.html') : new URL('../', location.href).href;
+  window.open(g + '#regard=' + encodeURIComponent(b), '_blank') }
+// modes tels que les serveurs les nomment (M.cfg.mode)
+const dMode = m => ({coal: 'Commando', commando: 'Commando', evasion: 'Évasion', arena: 'Arène des titans', tb: 'Bataille par équipe', predA: 'Tireur d’élite', pred: 'Tireur d’élite', commander: 'Commandeur'})[m] || modeName(m || '?');
+const SPC = {terrien: '#4aa3ff', venusien: '#f4f4ff', draco: '#e0a030', mentis: '#7dff3a', arcturien: '#c18bff'}, OBC = {wall: '#a79bdc', door: '#ff9a3c', field: '#35e0ff', hedge: '#3ddc84'};
+function godDraw(G, code) { const s = G.s, cv = $('#gC'); if (!cv) return;
+  $('#gS').innerHTML = G.err ? `<span class="ko">${esc(G.err)}</span>` : `actualisé à ${new Date().toLocaleTimeString('fr-FR')}`;
+  if (!s) return; const P = s.players || [], E = s.ents || [];
+  $('#gT').textContent = `Partie ${code} · ${dMode(s.mode)}${s.started ? ' · ' + dur(s.t) : ' · salon d’attente'}${s.done ? ' · finie' : ''}`;
+  // cadre : la carte (BX, BY = demi-largeur et demi-hauteur en mètres) et tout ce qui dépasse
+  let bx = +s.BX || 10, by = +s.BY || 10; for (const o of [...P, ...E]) { bx = Math.max(bx, Math.abs(o.x)); by = Math.max(by, Math.abs(o.y)) }
+  for (const o of G.obst || []) { bx = Math.max(bx, Math.abs(o[1]), Math.abs(o[3])); by = Math.max(by, Math.abs(o[2]), Math.abs(o[4])) } bx += 6; by += 6;
+  const dpr = devicePixelRatio || 1, W = cv.clientWidth * dpr, H = cv.clientHeight * dpr; if (cv.width !== W || cv.height !== H) { cv.width = W; cv.height = H }
+  const k = Math.min(W / (2 * bx), H / (2 * by)), X = x => W / 2 + x * k, Y = y => H / 2 - y * k, c = cv.getContext('2d'), u = dpr;
+  c.clearRect(0, 0, W, H); c.lineCap = 'round';
+  c.strokeStyle = '#1a1340'; c.lineWidth = 1; for (let g = -Math.floor(bx / 15) * 15; g <= bx; g += 15) { c.beginPath(); c.moveTo(X(g), 0); c.lineTo(X(g), H); c.stroke() }
+  for (let g = -Math.floor(by / 15) * 15; g <= by; g += 15) { c.beginPath(); c.moveTo(0, Y(g)); c.lineTo(W, Y(g)); c.stroke() }
+  if (s.BX) { c.setLineDash([6 * u, 5 * u]); c.strokeStyle = '#5b4fa8'; c.lineWidth = 2 * u; c.strokeRect(X(-s.BX), Y(s.BY), 2 * s.BX * k, 2 * s.BY * k); c.setLineDash([]) }
+  for (const [kd, x1, y1, x2, y2] of G.obst || []) { c.strokeStyle = OBC[kd] || '#8a86a8'; c.lineWidth = (kd === 'wall' || kd === 'door' ? 3 : 2) * u; c.beginPath(); c.moveTo(X(x1), Y(y1)); c.lineTo(X(x2), Y(y2)); c.stroke() }
+  c.font = `${11 * u}px system-ui`; c.textAlign = 'center';
+  if (s.cage) { c.fillStyle = '#3ddc84'; c.fillRect(X(s.cage[0]) - 5 * u, Y(s.cage[1]) - 5 * u, 10 * u, 10 * u); c.fillText('détenu', X(s.cage[0]), Y(s.cage[1]) - 8 * u) }
+  const dot = (x, y, r, fill, line = '#000') => { c.beginPath(); c.arc(X(x), Y(y), r * u, 0, 7); c.fillStyle = fill; c.fill(); c.lineWidth = 1.5 * u; c.strokeStyle = line; c.stroke() };
+  const bar = (x, y, w, f, col) => { c.fillStyle = '#000'; c.fillRect(X(x) - w / 2 * u - u, Y(y), w * u + 2 * u, 5 * u); c.fillStyle = col; c.fillRect(X(x) - w / 2 * u, Y(y) + u, w * u * Math.max(0, Math.min(1, f)), 3 * u) };
+  for (const e of E) { if (e.k === 'loot') { c.fillStyle = '#ffd23f'; c.save(); c.translate(X(e.x), Y(e.y)); c.rotate(Math.PI / 4); c.fillRect(-3 * u, -3 * u, 6 * u, 6 * u); c.restore(); continue }
+    if (e.b) { dot(e.x, e.y, 9, '#ff3df0', '#fff'); bar(e.x, e.y, 30, e.H ? e.h / e.H : 1, '#ff3df0'); c.fillStyle = '#ffd0fb'; c.fillText(e.n || e.t || 'boss', X(e.x), Y(e.y) - 12 * u) }
+    else dot(e.x, e.y, e.k === 'bot' ? 5 : 4, e.k === 'bot' ? '#ff9a3c' : e.k === 'mob' ? (e.d ? '#ff4d4d' : '#7a2a33') : '#8a86a8') }
+  for (const o of s.rk || []) dot(o[0], o[1], 3, '#ff9a3c');
+  for (const p of P) { const col = p.tm === 'B' ? '#ff5c8f' : p.tm === 'A' ? '#35e0ff' : SPC[p.sp] || '#35e0ff';
+    if (!p.al || p.out) { c.strokeStyle = '#999'; c.lineWidth = 3 * u; c.beginPath(); c.moveTo(X(p.x) - 6 * u, Y(p.y) - 6 * u); c.lineTo(X(p.x) + 6 * u, Y(p.y) + 6 * u); c.moveTo(X(p.x) + 6 * u, Y(p.y) - 6 * u); c.lineTo(X(p.x) - 6 * u, Y(p.y) + 6 * u); c.stroke() }
+    else { c.strokeStyle = col; c.lineWidth = 3 * u; c.beginPath(); c.moveTo(X(p.x), Y(p.y)); c.lineTo(X(p.x + Math.sin(p.a) * 6), Y(p.y + Math.cos(p.a) * 6)); c.stroke(); dot(p.x, p.y, 7, col) }
+    const tot = (p.sm || 0) + (p.am || 0); bar(p.x, p.y + 0, 28, tot ? (p.sh + p.ar) / tot : 0, p.sh > 0 ? '#35e0ff' : '#ffd23f');
+    c.fillStyle = '#fff'; c.font = `bold ${12 * u}px system-ui`; c.fillText(p.n, X(p.x), Y(p.y) - 11 * u); c.font = `${11 * u}px system-ui` }
+  // à droite : joueurs, boss, ennemis par type (le même contenu que la carte, lisible au lecteur d'écran)
+  const life = p => { const sf = p.sm ? p.sh / p.sm : 0, af = p.am ? p.ar / p.am : 0; return `<span class="lifebar" title="bouclier ${p.sh}/${p.sm}, combinaison ${p.ar}/${p.am}"><i style="width:${sf * 50}%;background:var(--c)"></i><i style="width:${af * 50}%;background:var(--y)"></i></span>
+    <span class="muted">${p.sh > 0 ? `bouclier ${pct(p.sh, p.sm)}` : `combinaison ${pct(p.ar, p.am)}`}</span>` };
+  const by2 = {}; for (const e of E) if (!e.b && e.k !== 'loot') { const n = e.n || e.t || e.k; const o = by2[n] || (by2[n] = {n: 0, d: 0}); o.n++; o.d += e.d ? 1 : 0 }
+  const B = E.filter(e => e.b), L = E.filter(e => e.k === 'loot');
+  $('#gI').innerHTML = `<div class="box"><h2>Joueurs (${P.length})</h2><table><tbody>${P.map(p => `<tr><td><b style="color:${p.tm === 'B' ? 'var(--p)' : p.tm === 'A' ? 'var(--c)' : SPC[p.sp]}">${esc(p.n)}</b> <span class="muted">${p.num || ''}</span><br>
+      <span class="muted">${SP[p.sp] || '?'}${p.tm ? ' · équipe ' + esc(p.tm) : ''}${p.rl ? ' · ' + esc({sn: 'sniper', as: 'assassin'}[p.rl] || p.rl) : ''}${p.w ? ' · ' + esc(p.w) : ''}</span></td>
+      <td>${p.al && !p.out ? life(p) : '<span class="ko">à terre</span>'}<br><span class="muted">${p.lf != null ? p.lf + ' vie(s) · ' : ''}${p.k} élimination(s)</span></td></tr>`).join('') || '<tr><td class="muted">Aucun joueur.</td></tr>'}</tbody></table></div>
+    ${B.length ? `<div class="box"><h2>Boss (${B.length})</h2><table><tbody>${B.map(e => `<tr><td>${esc(e.n || e.t)}</td><td class="n">${nb(e.h)} / ${nb(e.H)} PV</td></tr>`).join('')}</tbody></table></div>` : ''}
+    <div class="box"><h2>Ennemis (${E.filter(e => !e.b && e.k !== 'loot').length})</h2><table><tbody>${Object.entries(by2).sort((a, b) => b[1].n - a[1].n).map(([n, o]) => `<tr><td>${esc(n)}</td><td class="n">${o.n}</td><td class="n muted">${o.d} repéré(s)</td></tr>`).join('') || '<tr><td class="muted">Aucun.</td></tr>'}</tbody></table>
+      <p class="note">${L.length} objet(s) au sol${s.lv ? ` · gradient ${s.lv}` : ''}${s.tk ? ` · ${s.tk} éliminés par l’équipe` : ''}</p></div>` }
+
+// paiements : date, joueur, produit, événement, magasin, montant dans sa devise, cristaux, essai, remboursement
+function payTable(L, whoCol) { return `<table><thead><tr><th scope="col">Date</th>${whoCol ? '<th scope="col">Joueur</th>' : ''}<th scope="col">Produit</th><th scope="col">Événement</th><th scope="col">Magasin</th><th class="n" scope="col">Montant</th><th class="n" scope="col">Net Merlin</th><th class="n" scope="col">Cristaux</th></tr></thead><tbody>
+  ${L.map(x => `<tr${whoCol ? ` class="click" data-href="#/fiche/${esc(x.user_id)}"` : ''}><td>${d(x.created_at)}</td>${whoCol ? `<td>${who(x.pseudo, x.num, x.user_id)}</td>` : ''}<td>${esc(x.product_name || x.product)}</td>
+    <td class="${x.event === 'remboursement' ? 'ko' : ''}">${esc(EV[x.event] || x.event)}${real(x) ? '' : ' <span class="tag test">essai</span>'}${x.doubled ? ' <span class="tag">doublé</span>' : ''}</td>
+    <td>${stBadge(x.store)}</td><td class="n ${x.event === 'remboursement' ? 'ko' : ''}">${fmtPay(x)}${real(x) ? '' : ' <span class="muted">(non payé)</span>'}</td><td class="n ${eurRow(x).n < 0 ? 'ko' : 'ok'}">${real(x) && x.price != null && (SALE(x.event) || x.event === 'remboursement') ? eur(eurRow(x).n) : '—'}</td>
+    <td class="n ${x.crystals < 0 ? 'ko' : 'cry'}">${x.crystals ? (x.crystals > 0 ? '+' : '') + nb(x.crystals) : '—'}</td></tr>`).join('') || `<tr><td colspan="${whoCol ? 8 : 7}" class="muted">Aucun paiement.</td></tr>`}</tbody></table>` }
+// liste courte des paiements (cadran)
+function miniPay(L) { return L.length ? `<table><tbody>${L.map(x => `<tr class="click" data-href="#/fiche/${esc(x.user_id)}"><td title="${d(x.created_at)}">${ago(x.created_at)}</td><td>${who(x.pseudo, '', x.user_id)}</td><td>${esc(x.product_name || x.product)}${real(x) ? '' : ' <span class="tag test">essai</span>'}</td><td>${stBadge(x.store)}</td>
+  <td class="n ${x.event === 'remboursement' ? 'ko' : 'ok'}">${fmtPay(x)}</td></tr>`).join('')}</tbody></table>` : '<p class="muted">Aucun paiement pour l’instant.</p>' }
+// barre partagée : part de chaque magasin dans l'argent réel (euros)
+function storeSplit(L) { const o = {}, nt = {}; for (const x of L) if (real(x) && SALE(x.event)) { const e = eurRow(x), k = STORE(x.store); o[k] = (o[k] || 0) + e.b; nt[k] = (nt[k] || 0) + e.n } const T = Object.values(o).reduce((s, v) => s + v, 0);
+  if (!T) return '<p class="muted">Pas encore de vente.</p>';
+  return `<div class="split" role="img" aria-label="${Object.entries(o).map(([k, v]) => `${STN[k]} ${pct(v, T)}`).join(', ')}">${Object.entries(o).map(([k, v]) => `<i style="width:${v / T * 100}%;background:${STC[k]}" title="${STN[k]} : ${eur(v)}"></i>`).join('')}</div>
+    <div class="hb">${Object.entries(o).sort((a, b) => b[1] - a[1]).map(([k, v]) => `<span><span class="st ${k}">${STN[k]}</span></span><span class="t"><i style="width:${v / T * 100}%;background:${STC[k]}"></i></span><span class="n">${eur(v)} · ${pct(v, T)} <span class="ok" style="display:block;font-size:11px">net ${eur(nt[k])}</span></span>`).join('')}</div>` }
+function gamesTable(G, whoCol) { return `<table><thead><tr><th scope="col">Date</th>${whoCol ? '<th scope="col">Joueur</th>' : ''}<th scope="col">Mode</th><th scope="col">Résultat</th><th class="n" scope="col">Durée</th><th class="n" scope="col">Ennemis</th><th class="n" scope="col">Équipe</th><th class="n" scope="col">Boss</th><th class="n" scope="col">Bonus</th><th scope="col">Mission</th><th scope="col">Récompenses</th></tr></thead><tbody>
+  ${G.map(g => { const L = g.rewards || {}, rw = [L.gold ? nb(L.gold) + ' cellules' : '', L.medals ? L.medals + ' cristaux' : '', L.fiber ? L.fiber + ' fibres' : '', ...Object.entries(L.comp || {}).filter(e => e[1]).map(([k, v]) => `${v} comp. ${k}`)].filter(Boolean).join(', ');
+    return `<tr ${whoCol ? `class="click" data-href="#/fiche/${esc(g.user_id)}"` : ''}><td>${d(g.created_at)}</td>${whoCol ? `<td>${who(g.pseudo, g.num, g.user_id)}</td>` : ''}<td>${esc(modeName(g.mode))}${g.online ? ` <span class="tag">en ligne${g.room ? ' ' + esc(g.room) : ''}</span>` : ''}</td>
+      <td class="${g.quit ? 'muted' : g.win ? 'ok' : 'ko'}">${g.quit ? 'quittée' : g.win ? 'victoire' : 'défaite'}</td><td class="n">${dur(g.duration)}</td><td class="n">${g.kills}</td><td class="n">${g.team_kills || ''}</td><td class="n">${g.bosses || ''}</td><td class="n">${g.bonus ? nb(g.bonus) : ''}</td><td>${esc(g.mission || '')}${g.stars != null && g.mission ? ' ' + '★'.repeat(g.stars) : ''}</td><td class="muted">${esc(rw)}</td></tr>` }).join('') || '<tr><td colspan="11" class="muted">Aucune partie.</td></tr>'}</tbody></table>` }
+function ledgerTable(L, whoCol) { return `<table><thead><tr><th scope="col">Date</th>${whoCol ? '<th scope="col">Joueur</th>' : ''}<th class="n" scope="col">Mouvement</th><th scope="col">Raison</th><th scope="col">Référence</th></tr></thead><tbody>
+  ${L.map(l => `<tr ${whoCol ? `class="click" data-href="#/fiche/${esc(l.user_id)}"` : ''}><td>${d(l.created_at)}</td>${whoCol ? `<td>${who(l.pseudo, l.num, l.user_id)}</td>` : ''}<td class="n ${l.delta < 0 ? 'ko' : 'cry'}">${l.delta > 0 ? '+' : ''}${nb(l.delta)}</td><td>${esc(REASONS[l.reason] || l.reason)}</td><td class="muted">${esc(l.ref)}</td></tr>`).join('') || '<tr><td colspan="5" class="muted">Aucun mouvement.</td></tr>'}</tbody></table>` }
+// alertes : remboursements, soldes qui ne collent pas au registre, gros soldes, gains en jeu au-delà du plafond, gros parrains, dons d'administrateur
+function alertList(D, P, N = {}) { const A = D && D.alerts, out = [], since = Date.now() - 90 * 864e5;
+  const RF = (A && A.refunds) || P.filter(x => x.event === 'remboursement' && +new Date(x.created_at) > since);
+  const pl = x => `<td>${who(x.pseudo, x.num, x.user_id)}</td>`;
+  if (RF.length) out.push({t: 'Remboursements (90 jours)', why: 'Le magasin a remboursé le joueur ; les cristaux du pack sont repris dans la limite de son solde.', rows: RF,
+    row: x => `<tr><td>${d(x.created_at)}</td>${pl(x)}<td>${esc(x.product_name || N[x.product] || x.product)}</td><td>${stBadge(x.store)}</td><td class="ko">${fmtPay({...x, event: 'remboursement'})}</td><td>${real(x) ? '' : '<span class="tag test">essai</span>'}</td></tr>`});
+  if (!A) return out;
+  if (A.wallet_mismatch.length) out.push({t: 'Solde différent du registre', why: 'Le porte-monnaie ne correspond pas à la somme des mouvements de cristaux (remboursement plafonné au solde, correction à la main dans la base…). À vérifier.', rows: A.wallet_mismatch,
+    row: x => `<tr>${pl(x)}<td class="cry">solde ${nb(x.crystals)}</td><td>registre ${nb(x.ledger)}</td><td class="ko">écart ${x.crystals - x.ledger > 0 ? '+' : ''}${nb(x.crystals - x.ledger)}</td></tr>`});
+  if (A.big_balance.length) out.push({t: 'Gros soldes de cristaux', why: '20 000 cristaux ou plus sur un compte qui n’est pas administrateur.', rows: A.big_balance, row: x => `<tr>${pl(x)}<td class="cry">${nb(x.crystals)} cristaux</td></tr>`});
+  if (A.game_gains.length) out.push({t: 'Gains en jouant au-delà du plafond', why: 'Le serveur donne 30 cristaux par jour au plus en jouant : plus que cela un même jour est anormal.', rows: A.game_gains, row: x => `<tr>${pl(x)}<td>${esc(x.jour)}</td><td class="cry">+${nb(x.gains)}</td></tr>`});
+  if (A.referrals.length) out.push({t: 'Parrains très actifs', why: 'Cinq filleuls ou plus : chaque parrainage donne 100 cristaux au parrain et 100 au filleul, sans limite (faille relevée par l’audit du 03/11).', rows: A.referrals, row: x => `<tr>${pl(x)}<td>${nb(x.filleuls)} filleuls</td><td>dernier ${d(x.dernier)}</td></tr>`});
+  if (A.admin_grants.length) out.push({t: 'Cristaux donnés par un administrateur (30 jours)', why: 'Pour mémoire : chaque don ou retrait fait depuis une fiche joueur.', rows: A.admin_grants, row: x => `<tr><td>${d(x.created_at)}</td>${pl(x)}<td class="${x.delta < 0 ? 'ko' : 'cry'}">${x.delta > 0 ? '+' : ''}${nb(x.delta)}</td><td class="muted">${esc(x.ref)}</td></tr>`});
+  return out }
+
+// Son des paiements (03/11) : toutes les 20 s, les paiements des 2 derniers jours ; à chaque nouvel achat ou renouvellement réel
+// (pas les essais sandbox), le son « Et voilà, on a les droits ! » (son/paiement.mp4) et un bandeau. Le premier passage
+// ne fait que relever le dernier paiement connu (gardé sur cet ordinateur). Un navigateur ne joue un son qu'après un clic :
+// le bouton « Son des paiements » sert aussi à l'autoriser et à l'essayer.
+const PAY_KEY = 'coswars.dernierPaiement' + (ESSAI ? '.essai' : ''), paySnd = new Audio('son/paiement.mp4'); let payT = 0, payOn = localStorage.getItem('coswars.sonPaiement') !== '0';
+const payBeep = () => { try { const c = new AudioContext(), o = c.createOscillator(), g = c.createGain(); o.frequency.value = 880; g.gain.setValueAtTime(.25, c.currentTime); g.gain.exponentialRampToValueAtTime(.001, c.currentTime + .6); o.connect(g).connect(c.destination); o.start(); o.stop(c.currentTime + .6) } catch (e) {} };
+function payPlay() { if (!payOn) return; paySnd.currentTime = 0; paySnd.play().catch(payBeep) }
+function payLabel() { $('#sonPay').textContent = payOn ? '🔔 Son des paiements' : '🔕 Son coupé'; $('#sonPay').setAttribute('aria-pressed', payOn) }
+$('#sonPay').onclick = () => { payOn = !payOn; localStorage.setItem('coswars.sonPaiement', payOn ? '1' : '0'); payLabel(); if (payOn) payPlay() };
+async function payCheck() {
+  try { let L; try { L = await rpc('admin_purchases', {p_days: 2, p_limit: 200}) } catch (e) { if (!missing(e)) throw e; L = (await rpc('admin_sales', {p_days: 2})).list || [] }
+    L = L.filter(x => SALE(x.event) && real(x));
+    const last = localStorage.getItem(PAY_KEY), fresh = last ? L.filter(x => x.created_at > last) : [];
+    if (L[0]) localStorage.setItem(PAY_KEY, L[0].created_at); else if (!last) localStorage.setItem(PAY_KEY, new Date().toISOString());
+    if (!fresh.length) return;
+    payPlay(); const x = fresh[0], t = $('#payToast');
+    t.textContent = `💶 Nouveau paiement${fresh.length > 1 ? ` (${fresh.length})` : ''} : ${x.pseudo || 'joueur'}${x.num ? ' · ' + x.num : ''} · ${x.product_name || x.product.replace('fr.coswars.jeu.', '')} · ${STN[STORE(x.store)]} · ${x.price != null ? fmtCur(x.price, curOf(x)) + (curOf(x) !== 'EUR' ? ` (≈ ${eur(toEur(x.price, curOf(x)))})` : '') + ` · net ${eur(eurRow(x).n)}` : ''}`;
+    t.hidden = false; clearTimeout(payCheck.h); payCheck.h = setTimeout(() => t.hidden = true, 12000);
+    delete C.pur; delete C.acc; delete C.dash; if (page === 'ventes' || page === 'cadran') render() } catch (e) {} }
+// Son des nouveaux comptes (06/11) : toutes les 20 s, la date de création du dernier compte ; à chaque compte créé depuis le
+// dernier passage, le son son/nouveau-compte.mp4 (fichier fourni par l'utilisateur ; à défaut, deux bips) et un bandeau.
+// Le premier passage ne fait que relever le dernier compte connu (gardé sur cet ordinateur).
+const ACC_KEY = 'coswars.dernierCompte' + (ESSAI ? '.essai' : ''), accSnd = new Audio('son/nouveau-compte.mp4'); let accT = 0, accOn = localStorage.getItem('coswars.sonComptes') !== '0';
+const accBeep = () => { payBeep(); setTimeout(payBeep, 220) };
+function accPlay() { if (!accOn) return; accSnd.currentTime = 0; accSnd.play().catch(accBeep) }
+function accLabel() { $('#sonAcc').textContent = accOn ? '🔔 Son des nouveaux comptes' : '🔕 Nouveaux comptes : son coupé'; $('#sonAcc').setAttribute('aria-pressed', accOn) }
+$('#sonAcc').onclick = () => { accOn = !accOn; localStorage.setItem('coswars.sonComptes', accOn ? '1' : '0'); accLabel(); if (accOn) accPlay() };
+async function accCheck() {
+  try { let L; try { L = await rpc('admin_accounts', {p_search: '', p_limit: 10000}) } catch (e) { if (!missing(e)) throw e; L = await rpc('admin_players', {p_search: '', p_limit: 1000}) }
+    L = (L || []).filter(x => x.created_at).sort((a, b) => a.created_at < b.created_at ? 1 : -1);
+    const last = localStorage.getItem(ACC_KEY), fresh = last ? L.filter(x => x.created_at > last) : [];
+    if (L[0]) localStorage.setItem(ACC_KEY, L[0].created_at); else if (!last) localStorage.setItem(ACC_KEY, new Date().toISOString());
+    if (!fresh.length) return;
+    accPlay(); const x = fresh[0], t = $('#payToast');
+    t.textContent = `🎉 Nouveau compte${fresh.length > 1 ? ` (${fresh.length})` : ''} : ${x.pseudo || 'joueur'}${x.num ? ' · ' + x.num : ''}${x.platform ? ' · ' + x.platform : ''}`;
+    t.hidden = false; clearTimeout(payCheck.h); payCheck.h = setTimeout(() => t.hidden = true, 12000);
+    delete C.acc; delete C.dash; if (page === 'comptes' || page === 'cadran') render() } catch (e) {} }
+const start0 = start; start = function () { start0(); $('#sonPay').hidden = false; payLabel(); clearInterval(payT); payCheck(); payT = setInterval(payCheck, 20000);
+  $('#sonAcc').hidden = false; accLabel(); clearInterval(accT); accCheck(); accT = setInterval(accCheck, 20000) };
+if (sess) rpc('is_admin').then(ok => ok ? start() : logout()).catch(logout);
+</script>
+</body>
+</html>

@@ -1,0 +1,287 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.min.js"></script></head><body>
+<title>Cartographie Coswars</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Mise en page : une colonne de lecture, des planches de schémas pleine largeur, des barres d'argent à l'échelle */
+:root{
+  --bg:#f3f5fb; --panel:#ffffff; --ink:#141a33; --muted:#5a6285; --line:#d7dcef;
+  --accent:#3b4bd8; --gold:#c58a00;
+  --apple:#5b6478; --google:#1f8f55; --web:#6a4be0; --stripe:#635bff; --rc:#e5483a; --tva:#9aa3c2; --merlin:#0f9d8a;
+  --f-display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --f-body:"IBM Plex Sans",ui-sans-serif,system-ui,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0d1124; --panel:#151a33; --ink:#e8ebfa; --muted:#a2a9cc; --line:#2a3156;
+  --accent:#8f9bff; --gold:#f2c14e;
+  --apple:#a7b0c6; --google:#4cc98a; --web:#a58cff; --stripe:#9d98ff; --rc:#ff7a6e; --tva:#5d6690; --merlin:#3fd1bd; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0d1124; --panel:#151a33; --ink:#e8ebfa; --muted:#a2a9cc; --line:#2a3156;
+  --accent:#8f9bff; --gold:#f2c14e;
+  --apple:#a7b0c6; --google:#4cc98a; --web:#a58cff; --stripe:#9d98ff; --rc:#ff7a6e; --tva:#5d6690; --merlin:#3fd1bd; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font:16px/1.6 var(--f-body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:32px 64px}
+.wrap{max-width:1080px;margin:0 auto;display:flex;flex-direction:column;gap:48px}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0;line-height:1.15}
+h1{font-size:clamp(34px,6vw,56px);font-weight:800;letter-spacing:-.02em}
+h2{font-size:clamp(24px,3.4vw,32px);font-weight:800}
+h3{font-size:19px;font-weight:600}
+p{margin:0;max-width:68ch}
+.eyebrow{font:500 12px/1 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+.lead{font-size:18px;color:var(--muted)}
+section{display:flex;flex-direction:column;gap:18px}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px}
+.scroll{overflow-x:auto}
+.note{font-size:14px;color:var(--muted)}
+.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+
+/* carte des outils */
+.map{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+@media (max-width:860px){.map{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:480px){.map{grid-template-columns:1fr}}
+.col{display:flex;flex-direction:column;gap:10px;min-width:0}
+.col>h3{font-size:15px;color:var(--muted);font-family:var(--f-mono);text-transform:uppercase;letter-spacing:.08em}
+.node{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--c,var(--accent));border-radius:10px;padding:10px 12px;display:flex;flex-direction:column;gap:2px}
+.node b{font-weight:600}
+.node span{font-size:13px;color:var(--muted)}
+.legend{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:13px;color:var(--muted)}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:3px;background:var(--c);vertical-align:-1px;margin-right:6px}
+
+/* trajet d'un achat */
+.steps{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;counter-reset:s}
+@media (max-width:860px){.steps{grid-template-columns:1fr}}
+.step{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.step::before{counter-increment:s;content:counter(s);font:500 12px var(--f-mono);color:var(--accent)}
+
+/* canaux */
+.chan{display:flex;flex-direction:column;gap:14px}
+.chan-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 16px}
+.chan-head .tag{font:500 12px var(--f-mono);padding:3px 8px;border-radius:999px;background:color-mix(in srgb,var(--c) 18%,transparent);color:var(--ink)}
+.flow{display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:14px}
+.flow .p{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:6px 10px}
+.flow .a{color:var(--muted);font-family:var(--f-mono)}
+.bar{display:flex;height:46px;border-radius:10px;overflow:hidden;border:1px solid var(--line)}
+.bar div{display:flex;align-items:center;justify-content:center;font:500 12px var(--f-mono);color:#fff;white-space:nowrap;overflow:hidden;min-width:0}
+.bar .tva{background:var(--tva)} .bar .store{background:var(--c)} .bar .fee{background:var(--stripe)} .bar .net{background:var(--merlin)}
+.split{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.split div{display:flex;flex-direction:column;gap:2px;padding:10px 12px;border-radius:10px;background:color-mix(in srgb,var(--panel) 70%,var(--bg));border:1px solid var(--line)}
+.split small{color:var(--muted);font-size:12px}
+.split strong{font:600 20px var(--f-mono);font-variant-numeric:tabular-nums}
+table{border-collapse:collapse;width:100%;min-width:680px;font-size:14px}
+th,td{padding:9px 10px;border-bottom:1px solid var(--line);text-align:right;font-variant-numeric:tabular-nums}
+th:first-child,td:first-child{text-align:left}
+th{font:500 12px var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+td.best{color:var(--merlin);font-weight:600}
+.toggle{display:flex;gap:8px;flex-wrap:wrap}
+.toggle button{font:500 14px var(--f-body);padding:8px 14px;border-radius:999px;border:1px solid var(--line);background:var(--panel);color:var(--ink);cursor:pointer}
+.toggle button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+.toggle button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.money{display:grid;grid-template-columns:minmax(120px,1fr) 34px minmax(120px,1fr) 34px minmax(130px,1fr) 34px minmax(170px,1.2fr);gap:10px 0;align-items:stretch;min-width:760px}
+.mh{font:500 12px var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding-bottom:2px}
+.mc{display:flex;flex-direction:column;gap:2px;justify-content:center;padding:10px 12px;border-radius:10px;background:var(--panel);border:2px solid var(--c,var(--line));min-width:0}
+.mc b{font-weight:600}.mc span{font-size:13px;color:var(--muted)}
+.mc.soft{border-style:solid;border-color:var(--line);background:color-mix(in srgb,var(--panel) 60%,var(--bg))}
+.mc.dash{border-style:dashed}
+.ar,.ari{position:relative;align-self:center;height:14px}
+.ar::before,.ari::before{content:"";position:absolute;left:4px;right:10px;top:50%;border-top:3px solid var(--merlin);transform:translateY(-50%)}
+.ar::after,.ari::after{content:"";position:absolute;right:2px;top:50%;transform:translateY(-50%);border-left:9px solid var(--merlin);border-top:7px solid transparent;border-bottom:7px solid transparent}
+.ari::before{border-top:3px dashed var(--rc)}.ari::after{border-left-color:var(--rc)}
+.bank{grid-column:7;grid-row:2 / span 3;display:flex;flex-direction:column;justify-content:center;gap:6px;padding:16px;border-radius:12px;background:color-mix(in srgb,var(--merlin) 16%,var(--panel));border:2px solid var(--merlin)}
+.bank b{font-family:var(--f-display);font-size:20px}.bank span{font-size:13px;color:var(--muted)}
+.info{display:grid;grid-template-columns:minmax(160px,1fr) 34px minmax(160px,1fr) 34px minmax(160px,1fr);margin-top:18px;padding-top:16px;border-top:1px dashed var(--line);min-width:760px}
+.rcgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.rcgrid .panel{display:flex;flex-direction:column;gap:6px}
+.who{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.who .panel{display:flex;flex-direction:column;gap:6px;border-top:4px solid var(--c)}
+</style>
+
+<div class="wrap">
+  <header style="display:flex;flex-direction:column;gap:14px">
+    <span class="eyebrow">Coswars · MERLIN SARL · état au 25 octobre 2026</span>
+    <h1>Cartographie de Coswars</h1>
+    <p class="lead">Tous les outils qui font tourner le jeu, le trajet d'un achat, et ce que deviennent les euros d'un joueur sur l'App Store, sur Google Play et sur le site coswars.com.</p>
+  </header>
+
+  <section>
+    <span class="eyebrow">1 · Les outils</span>
+    <h2>Qui fait quoi</h2>
+    <p>De gauche à droite : là où joue le joueur, là où le jeu est hébergé, les services qui gardent les comptes et l'argent, et l'atelier où le jeu est fabriqué.</p>
+    <div class="map">
+      <div class="col"><h3>Le joueur joue</h3>
+        <div class="node" style="--c:var(--apple)"><b>App iPhone et iPad</b><span>Capacitor, voix d'iOS, TestFlight puis App Store</span></div>
+        <div class="node" style="--c:var(--google)"><b>App Android</b><span>Capacitor, voix d'Android, Google Play (à venir)</span></div>
+        <div class="node" style="--c:var(--web)"><b>Navigateur</b><span>coswars.com/jeu, plein écran, aussi ajouté à l'écran d'accueil</span></div>
+        <div class="node" style="--c:var(--muted)"><b>App Mac et Windows</b><span>Chrome en kiosque, mise à jour automatique</span></div>
+      </div>
+      <div class="col"><h3>Le jeu est hébergé</h3>
+        <div class="node" style="--c:var(--accent)"><b>Serveur OVH</b><span>site coswars.com, jeu web, 4 serveurs de jeu en ligne (Colyseus), Caddy et HTTPS</span></div>
+        <div class="node" style="--c:var(--accent)"><b>Noms de domaine OVH</b><span>coswars.com et coswars.fr, e-mail inclus</span></div>
+        <div class="node" style="--c:var(--accent)"><b>GitHub Pages</b><span>lien des testeurs, back de gestion, fichiers de mise à jour</span></div>
+        <div class="node" style="--c:var(--apple)"><b>App Store Connect</b><span>app, TestFlight, 6 packs et 2 cartes</span></div>
+      </div>
+      <div class="col"><h3>Comptes et argent</h3>
+        <div class="node" style="--c:var(--merlin)"><b>Supabase (UE)</b><span>comptes, progression, cristaux, amis, invitations, ventes, armes réglables</span></div>
+        <div class="node" style="--c:var(--rc)"><b>RevenueCat</b><span>vérifie chaque achat et prévient Supabase</span></div>
+        <div class="node" style="--c:var(--stripe)"><b>Stripe (compte Merlin)</b><span>paiement par carte sur le web</span></div>
+        <div class="node" style="--c:var(--merlin)"><b>Back de gestion</b><span>joueurs, parties, cristaux, ventes et cagnotte, armes, multijoueur en direct</span></div>
+      </div>
+      <div class="col"><h3>L'atelier (ce Mac)</h3>
+        <div class="node" style="--c:var(--gold)"><b>Code du jeu</b><span>TypeScript, esbuild, essais automatiques du moteur</span></div>
+        <div class="node" style="--c:var(--gold)"><b>Xcode et kit Android</b><span>fabriquent les apps iPhone et Android</span></div>
+        <div class="node" style="--c:var(--gold)"><b>GitHub (dépôt privé)</b><span>historique complet du code</span></div>
+        <div class="node" style="--c:var(--gold)"><b>Dropbox</b><span>sons, voix et fiches de règles fournis</span></div>
+      </div>
+    </div>
+    <div class="panel scroll">
+<pre class="mermaid">
+flowchart LR
+  J1["App iPhone"] --> AS["App Store / TestFlight"]
+  J2["App Android"] --> GP["Google Play"]
+  J3["Navigateur coswars.com/jeu"] --> OVH["Serveur OVH : site, jeu web, jeu en ligne"]
+  J4["App Mac / Windows"] --> OVH
+  J1 & J2 & J3 & J4 -- "comptes, progression, cristaux" --> SB["Supabase"]
+  J1 & J2 & J3 & J4 -- "parties à 3" --> OVH
+  AS -. "confirme l'achat" .-> RC["RevenueCat"]
+  GP -. "confirme l'achat" .-> RC
+  ST["Stripe Merlin"] -. "confirme l'achat" .-> RC
+  J3 -- "paie par carte" --> ST
+  AS == "argent" ==> BQ["Compte bancaire Merlin"]
+  GP == "argent" ==> BQ
+  ST == "argent" ==> BQ
+  RC -. "notification signée" .-> SB
+  SB --> BK["Back de gestion"]
+</pre>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">2 · Le trajet d'un achat</span>
+    <h2>Du clic aux cristaux</h2>
+    <p>C'est le même trajet pour les trois façons de payer : seul le magasin du deuxième pas change.</p>
+    <div class="steps">
+      <div class="step"><h3>Le joueur choisit</h3><p class="note">Dans la Boutique du jeu. Le jeu lit le prix et demande une seconde validation (rétractation).</p></div>
+      <div class="step"><h3>Le magasin encaisse</h3><p class="note">Apple dans l'app iPhone, Google sur Android, Stripe sur le site. Le jeu ne voit jamais la carte bancaire.</p></div>
+      <div class="step"><h3>RevenueCat vérifie</h3><p class="note">Il confirme l'achat auprès du magasin, puis prévient le serveur avec un en-tête secret.</p></div>
+      <div class="step"><h3>Supabase crédite</h3><p class="note">Cristaux (doublés au premier achat d'un pack) ou carte, inscription au registre des ventes. Jamais deux fois le même achat.</p></div>
+      <div class="step"><h3>Le jeu annonce</h3><p class="note">À la synchronisation suivante, en quelques secondes : « Achat reçu : 600 cristaux ».</p></div>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">3 · L'argent et l'information</span>
+    <h2>Deux circuits séparés</h2>
+    <p>L'argent (traits pleins) va du joueur au magasin, puis du magasin au compte bancaire de Merlin : trois versements séparés, jamais par RevenueCat. L'information (pointillés) va du magasin à RevenueCat, puis au jeu, pour créditer les cristaux.</p>
+    <div class="panel scroll">
+      <div class="money">
+        <div class="mh">Le joueur paie</div><div></div><div class="mh">Qui encaisse</div><div></div><div class="mh">Versement</div><div></div><div class="mh">Où arrive l'argent</div>
+        <div class="mc" style="--c:var(--apple)"><b>App iPhone</b><span>achat intégré</span></div><div class="ar"></div>
+        <div class="mc" style="--c:var(--apple)"><b>Apple</b><span>garde 15 % et la TVA</span></div><div class="ar"></div>
+        <div class="mc soft"><b>une fois par mois</b><span>environ 33 jours après la fin du mois</span></div><div class="ar"></div>
+        <div class="bank"><b>Compte bancaire de Merlin</b><span>un RIB, saisi à trois endroits : Stripe (fait), App Store Connect, Google Play Console</span></div>
+        <div class="mc" style="--c:var(--google)"><b>App Android</b><span>achat intégré</span></div><div class="ar"></div>
+        <div class="mc" style="--c:var(--google)"><b>Google</b><span>garde 15 % et la TVA</span></div><div class="ar"></div>
+        <div class="mc soft"><b>une fois par mois</b><span>vers le 15 du mois suivant</span></div><div class="ar"></div>
+        <div class="mc" style="--c:var(--web)"><b>Site coswars.com</b><span>carte bancaire</span></div><div class="ar"></div>
+        <div class="mc" style="--c:var(--stripe)"><b>Stripe</b><span>garde ≈ 1,5 % + 0,25 €</span></div><div class="ar"></div>
+        <div class="mc soft"><b>tous les quelques jours</b><span>TVA à reverser ensuite par Merlin</span></div><div class="ar"></div>
+      </div>
+      <div class="info">
+        <div class="mc dash" style="--c:var(--rc)"><b>RevenueCat</b><span>reçoit de chaque magasin la confirmation de l'achat, sans l'argent</span></div><div class="ari"></div>
+        <div class="mc dash" style="--c:var(--merlin)"><b>Supabase</b><span>crédite les cristaux ou la carte, note la vente</span></div><div class="ari"></div>
+        <div class="mc dash" style="--c:var(--merlin)"><b>Le jeu et le back</b><span>« Achat reçu : 600 cristaux », onglet Ventes</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">4 · RevenueCat</span>
+    <h2>Quand il sert, et à quoi</h2>
+    <div class="rcgrid">
+      <div class="panel"><h3>Il intervient à chaque achat</h3><p class="note">Sur les trois canaux. Dans l'app iPhone et l'app Android, son module ouvre la fenêtre d'achat d'Apple ou de Google. Sur le site, il fournit la page de paiement, qui encaisse avec Stripe.</p></div>
+      <div class="panel"><h3>Il vérifie que l'achat est réel</h3><p class="note">Il demande au magasin si le paiement est bien passé. Un joueur ne peut donc pas se créditer des cristaux en trafiquant le jeu.</p></div>
+      <div class="panel"><h3>Il prévient le serveur</h3><p class="note">Pour chaque achat, renouvellement de carte, remboursement ou fin d'abonnement, il envoie une notification signée à Supabase, qui crédite ou reprend les cristaux.</p></div>
+      <div class="panel"><h3>Il gère les cartes</h3><p class="note">Il suit les abonnements (carte hebdomadaire et mensuelle) : renouvellements, résiliations, fin de période, pour les trois magasins à la fois.</p></div>
+      <div class="panel"><h3>Il ne touche jamais l'argent</h3><p class="note">Les euros vont des magasins au compte de Merlin. RevenueCat facture à part : 0 € jusqu'à 2 500 $ de ventes par mois, puis 1 % du chiffre suivi.</p></div>
+      <div class="panel"><h3>Sans lui ?</h3><p class="note">Il faudrait écrire et entretenir trois vérifications différentes (Apple, Google, Stripe) et leurs règles d'abonnement. RevenueCat les remplace par une seule.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">5 · Par où passe l'argent</span>
+    <h2>Ce que devient le prix payé</h2>
+    <p>Exemple avec le produit choisi ci-dessous, payé par un joueur en France (TVA de 20 % comprise dans le prix affiché). Les barres sont à l'échelle du prix.</p>
+    <div class="toggle" id="prods" role="group" aria-label="Produit"></div>
+
+    <div class="chan panel" style="--c:var(--apple)">
+      <div class="chan-head"><h3>App iPhone · App Store</h3><span class="tag">Apple encaisse et reverse</span></div>
+      <div class="flow"><span class="p">Joueur</span><span class="a">→</span><span class="p">Apple (paiement, TVA)</span><span class="a">→ environ 33 jours après la fin du mois →</span><span class="p">compte bancaire saisi dans App Store Connect (celui de Merlin, après la conversion)</span></div>
+      <div class="bar" id="bar-apple"></div>
+      <div class="split" id="split-apple"></div>
+      <p class="note">Apple reverse la TVA à l'État lui-même. Commission de 15 % sur le prix hors taxe avec le programme petites entreprises (à demander, moins d'un million de dollars par an), sinon 30 %. Pour l'instant, le compte Apple est au nom de Guillaume Roure : la conversion au nom de Merlin est demandée (dossier 103008244065).</p>
+    </div>
+
+    <div class="chan panel" style="--c:var(--google)">
+      <div class="chan-head"><h3>App Android · Google Play</h3><span class="tag">Google encaisse et reverse</span></div>
+      <div class="flow"><span class="p">Joueur</span><span class="a">→</span><span class="p">Google (paiement, TVA)</span><span class="a">→ vers le 15 du mois suivant →</span><span class="p">compte bancaire saisi dans Google Play Console (celui de Merlin)</span></div>
+      <div class="bar" id="bar-google"></div>
+      <div class="split" id="split-google"></div>
+      <p class="note">Google reverse aussi la TVA. Commission de 15 % sur le premier million de dollars de l'année, et sur tous les abonnements. Le compte Google Play reste à créer, au nom de Merlin.</p>
+    </div>
+
+    <div class="chan panel" style="--c:var(--web)">
+      <div class="chan-head"><h3>Site coswars.com · carte bancaire</h3><span class="tag">Merlin vend directement</span></div>
+      <div class="flow"><span class="p">Joueur</span><span class="a">→</span><span class="p">page de paiement RevenueCat</span><span class="a">→</span><span class="p">Stripe</span><span class="a">→ sous quelques jours →</span><span class="p">compte bancaire de Merlin</span></div>
+      <div class="bar" id="bar-web"></div>
+      <div class="split" id="split-web"></div>
+      <p class="note">Ici, c'est Merlin qui vend : la TVA encaissée est à déclarer et à reverser par Merlin (guichet unique de l'UE pour les joueurs des autres pays). Frais Stripe pour une carte européenne : environ 1,5 % + 0,25 €.</p>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">6 · Tous les produits</span>
+    <h2>Ce qui reste à Merlin, par produit</h2>
+    <p>Montant estimé qui arrive sur le compte, après TVA, commission du magasin et frais de paiement, avant l'impôt sur les sociétés. RevenueCat est gratuit tant que les ventes restent sous 2 500 $ par mois ; au-delà, il prend 1 % du chiffre suivi (non compté ici).</p>
+    <div class="panel scroll"><table id="tbl"><thead><tr><th>Produit</th><th>Prix payé</th><th>dont TVA</th><th>App Store</th><th>Google Play</th><th>Site (Stripe)</th></tr></thead><tbody></tbody></table></div>
+  </section>
+
+  <section>
+    <span class="eyebrow">7 · Qui prend quoi</span>
+    <h2>La part de chacun</h2>
+    <div class="who">
+      <div class="panel" style="--c:var(--tva)"><h3>L'État (TVA)</h3><p class="note">20 % compris dans le prix d'un joueur français, soit 1/6 du prix payé. Reversée par Apple et Google pour leurs ventes, par Merlin pour les ventes du site.</p></div>
+      <div class="panel" style="--c:var(--apple)"><h3>Apple et Google</h3><p class="note">15 % du prix hors taxe (programme petites entreprises chez Apple), 30 % sans ce programme. Ils gèrent le paiement, les remboursements et les abonnements.</p></div>
+      <div class="panel" style="--c:var(--stripe)"><h3>Stripe</h3><p class="note">Environ 1,5 % + 0,25 € par paiement par carte européenne, plus pour une carte hors Europe. Seulement pour les ventes du site.</p></div>
+      <div class="panel" style="--c:var(--rc)"><h3>RevenueCat</h3><p class="note">0 € jusqu'à 2 500 $ de ventes par mois, puis 1 % du chiffre suivi. Vérifie les achats des trois magasins et prévient le serveur.</p></div>
+      <div class="panel" style="--c:var(--merlin)"><h3>Merlin</h3><p class="note">Le reste : environ 71 % du prix payé sur l'App Store et Google Play, environ 79 % sur le site (pour un pack à 9,99 €).</p></div>
+    </div>
+    <p class="note">Estimations à titre indicatif, pour un joueur en France, hors impôt sur les sociétés, change et remboursements. À valider avec l'expert-comptable de Merlin.</p>
+  </section>
+</div>
+
+<script>
+const PRODUITS=[["60 cristaux",0.99],["300 cristaux",3.99],["680 cristaux",9.99],["1 280 cristaux",22.99],["3 280 cristaux",49.99],["6 480 cristaux",99.99],["Carte hebdomadaire",0.99],["Carte mensuelle",3.99]];
+const eur=n=>n.toFixed(2).replace(".",",")+" €";
+function calc(p){const tva=p-p/1.2,ht=p/1.2,store=ht*.15,stripe=p*.015+.25;
+  return{p,tva,ht,apple:{store,net:ht-store},google:{store,net:ht-store},web:{fee:stripe,net:ht-stripe}}}
+function bar(id,parts,total){const el=document.getElementById(id);el.innerHTML=parts.map(([cls,v,l])=>`<div class="${cls}" style="flex:${Math.max(v,0)/total}" title="${l} : ${eur(v)}">${v/total>.11?l+" "+eur(v):""}</div>`).join("")}
+function split(id,parts){document.getElementById(id).innerHTML=parts.map(([l,v])=>`<div><small>${l}</small><strong>${eur(v)}</strong></div>`).join("")}
+function show(i){const [n,p]=PRODUITS[i],c=calc(p);
+  document.querySelectorAll("#prods button").forEach((b,k)=>b.setAttribute("aria-pressed",k===i));
+  bar("bar-apple",[["tva",c.tva,"TVA"],["store",c.apple.store,"Apple"],["net",c.apple.net,"Merlin"]],p);
+  split("split-apple",[["Payé par le joueur",p],["TVA (reversée par Apple)",c.tva],["Commission Apple 15 %",c.apple.store],["Pour Merlin",c.apple.net]]);
+  bar("bar-google",[["tva",c.tva,"TVA"],["store",c.google.store,"Google"],["net",c.google.net,"Merlin"]],p);
+  split("split-google",[["Payé par le joueur",p],["TVA (reversée par Google)",c.tva],["Commission Google 15 %",c.google.store],["Pour Merlin",c.google.net]]);
+  bar("bar-web",[["tva",c.tva,"TVA"],["fee",c.web.fee,"Stripe"],["net",c.web.net,"Merlin"]],p);
+  split("split-web",[["Payé par le joueur",p],["TVA (à reverser par Merlin)",c.tva],["Frais Stripe",c.web.fee],["Pour Merlin",c.web.net]]);
+  try{localStorage.setItem("carto.prod",i)}catch(e){}}
+document.getElementById("prods").innerHTML=PRODUITS.map(([n,p],i)=>`<button type="button" id="prod-${i}" aria-pressed="false">${n} · ${eur(p)}</button>`).join("");
+document.querySelectorAll("#prods button").forEach((b,i)=>b.addEventListener("click",()=>show(i)));
+document.querySelector("#tbl tbody").innerHTML=PRODUITS.map(([n,p])=>{const c=calc(p),best=Math.max(c.apple.net,c.web.net);
+  const td=v=>`<td class="${Math.abs(v-best)<1e-9?"best":""}">${eur(v)}</td>`;
+  return `<tr><td>${n}</td><td>${eur(p)}</td><td>${eur(c.tva)}</td>${td(c.apple.net)}${td(c.google.net)}${td(c.web.net)}</tr>`}).join("");
+let start=2;try{const v=+localStorage.getItem("carto.prod");if(v>=0&&v<PRODUITS.length&&localStorage.getItem("carto.prod")!==null)start=v}catch(e){}
+show(start);
+</script>
+<script>mermaid.initialize({startOnLoad:true,theme:matchMedia("(prefers-color-scheme: dark)").matches?"dark":"default"})</script></body></html>
