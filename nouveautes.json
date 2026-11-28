@@ -1,0 +1,1931 @@
+{
+  "_lisezmoi": "Nouveautés vues par les joueurs dans la lettre du vendredi (supabase/migrations/20261116130000_lettre_hebdo.sql). À chaque version livrée : 1 à 3 lignes courtes en français, anglais et espagnol, datées (AAAA-MM-JJ), sans jargon ni nom de code ; les 6 plus récentes des 7 derniers jours partent. « toujours » : astuces tirées au sort quand la semaine n'a rien de neuf.",
+  "items": [
+    {
+      "date": "2026-11-28",
+      "fr": "Mercure en ligne : le concentrateur solaire se pilote enfin depuis l’ordinateur de la cellule, avec le laser et le champ de 20 degrés.",
+      "en": "Mercury online: the solar concentrator can finally be controlled from the cell computer, with the laser and the 20 degree field.",
+      "es": "Mercurio en línea: por fin se puede controlar el concentrador solar desde el ordenador de la celda, con el láser y el campo de 20 grados."
+    },
+    {
+      "date": "2026-11-28",
+      "fr": "Nouveau dans la boutique : offrez un passe VIP ou des cristaux à un autre joueur, avec son numéro et son pseudo.",
+      "en": "New in the shop: gift a VIP pass or crystals to another player, using their number and nickname.",
+      "es": "Novedad en la tienda: regala un pase VIP o cristales a otro jugador, con su número y su apodo."
+    },
+    {
+      "date": "2026-11-28",
+      "fr": "Coswars parle maintenant hébreu et indonésien : jeu entier, voix d’Amelia et vidéos d’introduction.",
+      "en": "Coswars now speaks Hebrew and Indonesian: the whole game, Amelia’s voice and the introduction videos.",
+      "es": "Coswars ya habla hebreo e indonesio: todo el juego, la voz de Amelia y los vídeos de introducción."
+    },
+    {
+      "date": "2026-11-28",
+      "fr": "Connexion : un compte créé avec Google propose « Se connecter avec Google » sans demander de mot de passe.",
+      "en": "Sign-in: an account created with Google offers “Sign in with Google” without asking for a password.",
+      "es": "Inicio de sesión: una cuenta creada con Google ofrece «Iniciar sesión con Google» sin pedir contraseña."
+    },
+    {
+      "date": "2026-11-28",
+      "fr": "Drone radar ralentisseur : tout ennemi et tout joueur dans un rayon de 50 pas est ralenti, et la voix donne la position des joueurs pris dans la zone. L’ailier tourelle tire seul sur les ennemis. L’invulnérabilité se déclenche par trois doigts glissés vers le bas, côté gauche.",
+      "en": "Slowing radar drone: every enemy and player within 50 paces is slowed, and the voice gives the position of the players caught in the zone. The turret wingman now fires on its own. Invulnerability is triggered by three fingers swiped down on the left side.",
+      "es": "Dron radar ralentizador: todo enemigo y jugador a menos de 50 pasos se ralentiza, y la voz indica la posición de los jugadores atrapados en la zona. El ala torreta dispara sola. La invulnerabilidad se activa con tres dedos hacia abajo en el lado izquierdo."
+    },
+    {
+      "date": "2026-11-28",
+      "fr": "Arène des titans : le nombre de boss restants et le temps restant sont dits à la voix et se trouvent en haut du menu de la partie.",
+      "en": "Titan Arena: the number of bosses left and the time left are spoken aloud and listed at the top of the in-game menu.",
+      "es": "Arena de los titanes: el número de jefes restantes y el tiempo restante se dicen en voz alta y están al principio del menú de la partida."
+    },
+    {
+      "date": "2026-11-27",
+      "fr": "Les médailles de boss suivent la difficulté : un boss de niveau 2 en rapporte 2, un boss de niveau 3 en rapporte 3, et ainsi de suite (Commando, Évasion, Arène des titans).",
+      "en": "Boss medals follow the difficulty: a level 2 boss gives 2 medals, a level 3 boss gives 3, and so on (Commando, Escape, Titan Arena).",
+      "es": "Las medallas de jefe siguen la dificultad: un jefe de nivel 2 da 2 medallas, uno de nivel 3 da 3, y así sucesivamente (Comando, Evasión, Arena de los titanes)."
+    },
+    {
+      "date": "2026-11-27",
+      "fr": "Passager dans la Jeep, le char ou le sous-marin : vous entendez le moteur comme le pilote.",
+      "en": "Passenger in the Jeep, tank or submarine: you hear the engine like the driver does.",
+      "es": "Pasajero en el Jeep, el tanque o el submarino: oyes el motor como el piloto."
+    },
+    {
+      "date": "2026-11-27",
+      "fr": "Jouez à la manette sur ordinateur (Mac, PC, navigateur) : détection automatique, menus et réglages à la manette ; invitation d'un ami hors ligne plus claire.",
+      "en": "Play with a gamepad on computer (Mac, PC, browser): automatic detection, menus and settings with the gamepad; clearer invitation to an offline friend.",
+      "es": "Juega con mando en el ordenador (Mac, PC, navegador): detección automática, menús y ajustes con el mando; invitación a un amigo desconectado más clara."
+    },
+    {
+      "date": "2026-11-27",
+      "fr": "Événement du mois : la bande-annonce de « La défense du solstice » se regarde dans le jeu, dans votre langue.",
+      "en": "Monthly event: watch the trailer for “The Solstice Defense” in the game, in your language.",
+      "es": "Evento del mes: el tráiler de «La defensa del solsticio» se ve en el juego, en tu idioma."
+    },
+    {
+      "date": "2026-11-27",
+      "fr": "Le jeu est maintenant disponible en hébreu. Arène des titans : les boss ont les mêmes zones de détection que les autres ennemis et ne déclenchent plus d'alerte dans votre dos.",
+      "en": "The game is now available in Hebrew. Titan Arena: bosses now use the same detection zones as other enemies and no longer trigger alerts behind you.",
+      "es": "El juego ya está disponible en hebreo. Arena de los titanes: los jefes tienen las mismas zonas de detección que los demás enemigos y ya no activan alertas a su espalda."
+    },
+    {
+      "date": "2026-11-27",
+      "fr": "Gestes au doigt personnalisables (Profil et Réglages, sur téléphone) ; tir de roquette rapide ; le changement d'arme automatique d'une carte payante vaut pour toutes vos espèces ; indicateur de mise à jour au lancement.",
+      "en": "Customizable touch gestures (Profile and Settings, on phone); quick rocket shot; the automatic weapon switch of a paid card now works for all your species; update indicator at launch.",
+      "es": "Gestos táctiles personalizables (Perfil y Ajustes, en el móvil); disparo rápido de cohete; el cambio de arma automático de una tarjeta de pago vale para todas sus especies; indicador de actualización al iniciar."
+    },
+    {
+      "date": "2026-11-27",
+      "fr": "5 parties offertes dans chaque mode le samedi 28 novembre. Plus d’erreur en Commando quand le changement d’arme automatique se déclenche dans un véhicule.",
+      "en": "5 free matches in every mode on Saturday, November 28. No more error in Commando when automatic weapon switching triggers inside a vehicle.",
+      "es": "5 partidas gratis en cada modo el sábado 28 de noviembre. Se acabó el error en Comando cuando el cambio automático de arma se activa dentro de un vehículo."
+    },
+    {
+      "date": "2026-11-27",
+      "fr": "Nouveaux sons pour les Terriens : grenade d'agression, C4, lance-roquettes et voix de blessure ; nouveau son pour le soin de bouclier et le retour à la vie.",
+      "en": "New sounds for Terrans: aggression grenade, C4, rocket launcher and wound voices; new sound for the shield repair and for coming back to life.",
+      "es": "Nuevos sonidos para los Terrícolas: granada de agresión, C4, lanzacohetes y voces de herida; nuevo sonido para la reparación del escudo y el regreso a la vida."
+    },
+    {
+      "date": "2026-11-27",
+      "fr": "Création du compte plus claire : un écran de bienvenue (Créer un compte / Se connecter), puis une étape à la fois, numérotée, avec un pictogramme différent pour chaque choix.",
+      "en": "Clearer account creation: a welcome screen (Create an account / Sign in), then one numbered step at a time, with a different icon for each choice.",
+      "es": "Creación de cuenta más clara: una pantalla de bienvenida (Crear una cuenta / Iniciar sesión), y luego un paso numerado cada vez, con un icono distinto para cada opción."
+    },
+    {
+      "date": "2026-11-27",
+      "fr": "Événement du mois : ajoutez un ami à votre escouade par son identifiant, ou envoyez-lui le lien d’invitation.",
+      "en": "Monthly event: add a friend to your squad with their ID, or send them the invitation link.",
+      "es": "Evento del mes: añade a un amigo a tu escuadrón con su identificador, o envíale el enlace de invitación."
+    },
+    {
+      "date": "2026-11-27",
+      "fr": "Nouveau bouton « Invitations et salons » dans le menu principal : les salons où vous êtes invité, avec les places libres, mis à jour chaque seconde.",
+      "en": "New \"Invitations and lobbies\" button in the main menu: the lobbies you are invited to, with free places, updated every second.",
+      "es": "Nuevo botón «Invitaciones y salas» en el menú principal: las salas a las que te invitan, con plazas libres, actualizado cada segundo."
+    },
+    {
+      "date": "2026-11-27",
+      "fr": "La musique du menu suit le compte : changez de compte, le bon thème se lance.",
+      "en": "The menu music follows the account: switch accounts and the right theme plays.",
+      "es": "La música del menú sigue a la cuenta: cambia de cuenta y suena el tema correcto."
+    },
+    {
+      "date": "2026-11-27",
+      "fr": "Combat en groupe : les éliminations à la roquette comptent bien pour le score de l'équipe.",
+      "en": "Group Combat: rocket kills now count towards the team score.",
+      "es": "Combate en grupo: las eliminaciones con cohete cuentan para la puntuación del equipo."
+    },
+    {
+      "date": "2026-11-27",
+      "fr": "Événement du mois : une fois inscrit, formez votre escouade de 5 joueurs dans « Mon escouade ».",
+      "en": "Monthly event: once registered, form your squad of 5 players in “My squad”.",
+      "es": "Evento del mes: una vez inscrito, forma tu escuadrón de 5 jugadores en «Mi escuadrón»."
+    },
+    {
+      "date": "2026-11-27",
+      "fr": "Parrainage : 100 cristaux pour le parrain et 100 pour le filleul.",
+      "en": "Referral: 100 crystals for the sponsor and 100 for the new player.",
+      "es": "Patrocinio: 100 cristales para el patrocinador y 100 para el nuevo jugador."
+    },
+    {
+      "date": "2026-11-27",
+      "fr": "Sous-marin : le canon du poste de pilotage est maintenant en vraie perspective.",
+      "en": "Submarine: the cockpit cannon is now drawn in true perspective.",
+      "es": "Submarino: el cañón de la cabina se dibuja ahora en perspectiva real."
+    },
+    {
+      "date": "2026-11-27",
+      "fr": "Création de compte : le jeu vérifie que votre adresse e-mail existe vraiment et signale les fautes de frappe courantes.",
+      "en": "Account creation: the game checks that your e-mail address really exists and flags common typos.",
+      "es": "Creación de cuenta: el juego comprueba que su correo existe de verdad y avisa de los errores de escritura habituales."
+    },
+    {
+      "date": "2026-11-26",
+      "fr": "Évasion : le jeu dit quand le détenu a déjà été libéré. Après « relancer le son », les pas et les tirs reviennent.",
+      "en": "Escape: the game tells you when the prisoner has already been freed. After \"restart sound\", footsteps and gunfire come back.",
+      "es": "Evasión: el juego avisa cuando el preso ya ha sido liberado. Tras «reiniciar el sonido», vuelven los pasos y los disparos."
+    },
+    {
+      "date": "2026-11-26",
+      "fr": "Les identifiants de joueur restent des numéros uniques, qui grandiront avec la communauté.",
+      "en": "Player IDs stay unique numbers, and will grow along with the community.",
+      "es": "Los identificadores de jugador siguen siendo números únicos y crecerán con la comunidad."
+    },
+    {
+      "date": "2026-11-26",
+      "fr": "Le Terrien a sa propre musique de menu. Changer de langue demande maintenant une confirmation.",
+      "en": "The Terran has its own menu music. Changing the language now asks for confirmation.",
+      "es": "El Terrícola tiene su propia música de menú. Cambiar el idioma ahora pide confirmación."
+    },
+    {
+      "date": "2026-11-26",
+      "fr": "Jupiter : les plateformes sont plus proches. Charon : la tourelle fait moitié moins de dégâts, sur une zone deux fois plus petite.",
+      "en": "Jupiter: the platforms are closer together. Charon: the turret deals half the damage over an area half as large.",
+      "es": "Júpiter: las plataformas están más cerca. Caronte: la torreta hace la mitad de daño en un área la mitad de grande."
+    },
+    {
+      "date": "2026-11-26",
+      "fr": "Nouveau menu « Événement du mois » : préparez-vous pour La défense du solstice, le dimanche 27 décembre à 21 h.",
+      "en": "New \"Monthly event\" menu: get ready for The Solstice Defense, Sunday, December 27 at 9 pm (Paris time).",
+      "es": "Nuevo menú «Evento del mes»: prepárense para La defensa del solsticio, el domingo 27 de diciembre a las 21 h (hora de París)."
+    },
+    {
+      "date": "2026-11-26",
+      "fr": "Menu de sortie des didacticiels : chaque bouton est de nouveau annoncé à la voix.",
+      "en": "Tutorial exit menu: every button is read aloud again.",
+      "es": "Menú de salida de los tutoriales: cada botón vuelve a leerse en voz alta."
+    },
+    {
+      "date": "2026-11-26",
+      "fr": "Boutique : vous pouvez maintenant acheter des cellules avec vos cristaux (dossier « Cellules »).",
+      "en": "Shop: you can now buy cells with your crystals (\"Cells\" folder).",
+      "es": "Tienda: ahora puedes comprar celdas con tus cristales (carpeta «Celdas»)."
+    },
+    {
+      "date": "2026-11-26",
+      "fr": "Arène des titans : les joueurs invités depuis des pays différents arrivent maintenant tous dans la même partie.",
+      "en": "Titan Arena: players invited from different countries now all join the same match.",
+      "es": "Arena de los titanes: los jugadores invitados desde países distintos ahora entran todos en la misma partida."
+    },
+    {
+      "date": "2026-11-26",
+      "fr": "Réglages : vous pouvez maintenant choisir la voix du jeu parmi toutes les voix de votre appareil, et retrouver celle d’avant.",
+      "en": "Settings: you can now pick the game voice from all the voices on your device, and get your old one back.",
+      "es": "Ajustes: ahora puedes elegir la voz del juego entre todas las voces de tu dispositivo y recuperar la de antes."
+    },
+    {
+      "date": "2026-11-26",
+      "fr": "Clavier : la touche H soigne de nouveau (elle était prise par l’alerteur des véhicules, qui passe sur W).",
+      "en": "Keyboard: the H key heals again (it was taken by the vehicle alerter, which moves to W).",
+      "es": "Teclado: la tecla H vuelve a curar (la ocupaba el avisador de vehículos, que pasa a W)."
+    },
+    {
+      "date": "2026-11-26",
+      "fr": "Arène des titans : les boss attaquent dès qu’on entre dans leur zone de détection, apparaissent loin de la zone centrale et loin les uns des autres ; chaque boss abattu compte pour tous les joueurs ; les invités d’un salon arrivent ensemble. Changer de personnage : les entraînements de puissance et de visée, et les jours de connexion, sont propres à chaque personnage.",
+      "en": "Titan Arena: bosses attack as soon as you enter their detection zone, spawn far from the central zone and far from each other; every boss defeated counts for all players; guests from a lobby arrive together. Switching character: power and aim training, and login days, are now separate for each character.",
+      "es": "Arena de los titanes: los jefes atacan en cuanto entras en su zona de detección, aparecen lejos de la zona central y lejos unos de otros; cada jefe derrotado cuenta para todos; los invitados de una sala llegan juntos. Cambio de personaje: los entrenamientos de potencia y puntería, y los días de conexión, son propios de cada personaje."
+    },
+    {
+      "date": "2026-11-26",
+      "fr": "Jupiter : vraie chute libre de 60 secondes à 288 km/h avec la seule plateforme à rejoindre, très loin sur le côté (flou, traits de vitesse, nuages qui défilent) ; on peut tirer pendant le jetpack et la chute. Menus : signal sonore quand une amélioration est possible, plus fluides ; connexion : « Votre compte ».",
+      "en": "Jupiter: a real 60-second free fall at 288 km/h, with only the one platform to reach, far off to the side (blur, speed lines, passing clouds); you can shoot during the jetpack and the fall. Menus: a sound cue when an upgrade is available, smoother; login: “Your account”.",
+      "es": "Júpiter: una verdadera caída libre de 60 segundos a 288 km/h, con una sola plataforma que alcanzar, muy lejos a un lado (desenfoque, líneas de velocidad, nubes que pasan); se puede disparar durante el jetpack y la caída. Menús: señal sonora cuando hay una mejora posible, más fluidos; inicio de sesión: «Tu cuenta»."
+    },
+    {
+      "date": "2026-11-25",
+      "fr": "Jupiter : la chute libre entre deux plateformes dure de nouveau 60 secondes, de quoi rejoindre la suivante. En ligne, la difficulté tient enfin compte de la puissance des joueurs.",
+      "en": "Jupiter: the free fall between platforms lasts 60 seconds again, enough time to reach the next one. Online, difficulty now takes players’ power into account.",
+      "es": "Júpiter: la caída libre entre plataformas vuelve a durar 60 segundos, tiempo de sobra para llegar a la siguiente. En línea, la dificultad ya tiene en cuenta la potencia de los jugadores."
+    },
+    {
+      "date": "2026-11-25",
+      "fr": "Comptes d’espèce : chaque achat et chaque échange (boutique, Trading, armes, entraînements) dit sur quel compte il se fait et demande une confirmation avant de valider.",
+      "en": "Species accounts: every purchase and trade (shop, Trading, weapons, training) now says which account it applies to and asks for confirmation before going through.",
+      "es": "Cuentas de especie: cada compra e intercambio (tienda, Trading, armas, entrenamientos) indica en qué cuenta se hace y pide confirmación antes de validar."
+    },
+    {
+      "date": "2026-11-25",
+      "fr": "Bataille de croiseurs : 5 parties par jour, Bataille et Vague d’attaque comptées ensemble. Changer de compte d’espèce : nouvelle animation, la carte du compte grandit en plein écran.",
+      "en": "Cruiser Battle: 5 games per day, Battle and Attack Wave counted together. Switching species account: new animation, the account card grows to full screen.",
+      "es": "Batalla de cruceros: 5 partidas al día, Batalla y Oleada de ataque cuentan juntas. Cambio de cuenta de especie: nueva animación, la carta de la cuenta crece a pantalla completa."
+    },
+    {
+      "date": "2026-11-25",
+      "fr": "Les parties achetées avec un personnage d’une autre espèce sont maintenant bien ajoutées à vos parties du jour.",
+      "en": "Extra games bought with a character of another species are now correctly added to your daily games.",
+      "es": "Las partidas compradas con un personaje de otra especie ahora se añaden correctamente a tus partidas del día."
+    },
+    {
+      "date": "2026-11-25",
+      "fr": "Tireur d’élite : plus de passage en « connexion faible » au début d’une manche, le sniper reçoit toujours tous les envois du jeu.",
+      "en": "Sniper mode: the game no longer drops into “weak connection” at the start of a round; the sniper always gets every update.",
+      "es": "Francotirador: el juego ya no pasa a «conexión débil» al empezar una ronda; el francotirador recibe siempre todas las actualizaciones."
+    },
+    {
+      "date": "2026-11-25",
+      "fr": "Une vidéo regardée jusqu’au bout débloque bien une partie de plus, annoncée par une carte, et vous pouvez la lancer aussitôt. Chaque personnage a désormais ses propres cartes, son VIP et ses ventes au Trading ; les entraînements sont communs à tous vos personnages.",
+      "en": "Watching a video to the end now really unlocks one more game, shown on a card, and you can start it right away. Each character now has its own cards, VIP and Trading sales; training is shared by all your characters.",
+      "es": "Ver un vídeo hasta el final desbloquea de verdad una partida más, anunciada con una tarjeta, y puedes lanzarla enseguida. Cada personaje tiene ahora sus propias tarjetas, su VIP y sus ventas en el Trading; los entrenamientos son comunes a todos tus personajes."
+    },
+    {
+      "date": "2026-11-25",
+      "fr": "Vous pouvez maintenant cumuler deux cartes sur Android et sur le web. L’alerteur des véhicules vous répond à voix haute, et la voix du jeu reste la même sur Android pendant toute la partie.",
+      "en": "You can now stack two cards on Android and on the web. The vehicle horn now confirms out loud, and the game voice stays the same on Android for the whole game.",
+      "es": "Ahora puedes acumular dos tarjetas en Android y en la web. La alarma de los vehículos te responde en voz alta, y la voz del juego se mantiene igual en Android durante toda la partida."
+    },
+    {
+      "date": "2026-11-25",
+      "fr": "Arène des titans : les rochers et cratères sont en 3D et chaque boss lance sa propre attaque (roche, orbe, boulet, acide, lame…) au lieu d’un laser. Changer de compte d’espèce s’accompagne d’une animation et d’une couleur propre à chaque compte.",
+      "en": "Titan Arena: rocks and craters are now 3D and every boss throws its own attack (rock, orb, cannonball, acid, blade…) instead of a laser. Switching species account now comes with an animation and a colour for each account.",
+      "es": "Arena de los titanes: las rocas y los cráteres ahora son 3D y cada jefe lanza su propio ataque (roca, orbe, bala de cañón, ácido, cuchilla…) en lugar de un láser. Cambiar de cuenta de especie ahora va acompañado de una animación y un color propio para cada cuenta."
+    },
+    {
+      "date": "2026-11-25",
+      "fr": "Zone défensive : après une victoire en seconde vague, « Lancer la mission suivante » reste bien en seconde vague. Création de compte : si l’adresse a déjà un compte (par exemple créé avec Google), le jeu le dit clairement.",
+      "en": "Defense zone: after a win in second wave, “Launch next mission” now stays in second wave. Account creation: if the address already has an account (for example created with Google), the game now says so clearly.",
+      "es": "Zona defensiva: tras una victoria en segunda oleada, «Lanzar la misión siguiente» se queda en segunda oleada. Creación de cuenta: si la dirección ya tiene una cuenta (por ejemplo creada con Google), el juego lo dice claramente."
+    },
+    {
+      "date": "2026-11-25",
+      "fr": "Partout où un compte d’espèce compte (boutique, inventaire, équipement, entraînements, challenges, trading), vos cartes de comptes et le bouton pour changer de compte sont affichés.",
+      "en": "Everywhere a species account matters (shop, inventory, equipment, training, challenges, trading), your account cards and the switch-account button are shown.",
+      "es": "En todos los lugares donde cuenta una cuenta de especie (tienda, inventario, equipo, entrenamientos, desafíos, trading), se muestran tus tarjetas de cuenta y el botón para cambiar de cuenta."
+    },
+    {
+      "date": "2026-11-25",
+      "fr": "Vos comptes par espèce sont bien plus clairs : le compte en cours (Terrien, Vénusien…) est écrit en haut à droite, le Profil montre vos cartes de comptes avec leurs cristaux et ressources, un gros bouton change de compte, et la boutique vous demande pour quel compte vous achetez des cristaux.",
+      "en": "Your species accounts are much clearer: the current account (Terran, Venusian…) is shown at the top right, your Profile shows your account cards with their crystals and resources, a big button switches account, and the shop asks which account you are buying crystals for.",
+      "es": "Tus cuentas por especie son mucho más claras: la cuenta actual (Terrícola, Venusiano…) aparece arriba a la derecha, el Perfil muestra tus tarjetas de cuenta con sus cristales y recursos, un botón grande cambia de cuenta y la tienda te pregunta para qué cuenta compras cristales."
+    },
+    {
+      "date": "2026-11-25",
+      "fr": "Cristaux par personnage : quand vous recevez des cristaux (achat, cadeau, parrainage), vous choisissez sur quel personnage les verser. Colonel Abrami en 9 langues, cristaux des challenges du personnage terrien corrigés, et choix du personnage qui reçoit les récompenses des cartes.",
+      "en": "Crystals per character: when you receive crystals (purchase, gift, referral), you choose which character receives them. Colonel Abrami in 9 languages, Terran character challenge crystals fixed, and you choose which character gets your card rewards.",
+      "es": "Cristales por personaje: cuando recibes cristales (compra, regalo, patrocinio), eliges qué personaje los recibe. Coronel Abrami en 9 idiomas, cristales de desafíos del personaje terrícola corregidos, y eliges qué personaje recibe las recompensas de tus cartas."
+    },
+    {
+      "date": "2026-11-25",
+      "fr": "Tireur d’élite en ligne : le sniper redevient jouable (tir, rechargement, sons et commandes du bon rôle). Le bug venait d’une version récente.",
+      "en": "Online Sniper Elite: the sniper is playable again (shooting, reloading, sounds and controls of the right role). The bug came from a recent version.",
+      "es": "Tirador de élite en línea: el francotirador vuelve a ser jugable (disparo, recarga, sonidos y controles del rol correcto). El error venía de una versión reciente."
+    },
+    {
+      "date": "2026-11-25",
+      "fr": "Arène des titans : les médailles des boss abattus arrivent bien dans votre inventaire et vos challenges, et le bilan s’affiche à la fin de la partie.",
+      "en": "Titan Arena: the medals for the bosses you take down now reach your inventory and challenges, and the results screen shows at the end of the game.",
+      "es": "Arena de los titanes: las medallas de los jefes abatidos llegan por fin a su inventario y a sus desafíos, y el resultado se muestra al final de la partida."
+    },
+    {
+      "date": "2026-11-25",
+      "fr": "Ambiances sonores plus fortes dans l’opération 2 des Vénusiens et l’opération 1 des Terriens ; la Jeep est plus discrète et surchauffe après 9 secondes ; les composants portent le nom des armes de votre espèce.",
+      "en": "Louder soundscapes in Venusian operation 2 and Terran operation 1; the Jeep is quieter and overheats after 9 seconds; components carry the names of your species’ weapons.",
+      "es": "Ambientes sonoros más fuertes en la operación 2 de los venusianos y la operación 1 de los terrícolas; el Jeep es más discreto y se sobrecalienta tras 9 segundos; los componentes llevan el nombre de las armas de su especie."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "Campagne terrienne : le colonel Abrami vous briefe désormais à la radio, de sa voix, avant chaque mission de l’opération 1.",
+      "en": "Terran campaign: Colonel Abrami now briefs you over the radio, in his own voice, before each mission of operation 1.",
+      "es": "Campaña terrícola: el coronel Abrami le da ahora el briefing por radio, con su voz, antes de cada misión de la operación 1."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "Zone défensive : seules les opérations jouables sont affichées, et les Terriens ont les ambiances sonores de leurs dix missions.",
+      "en": "Defense Zone: only playable operations are shown, and Terrans now have the soundscapes of their ten missions.",
+      "es": "Zona defensiva: solo se muestran las operaciones jugables, y los terrícolas tienen los ambientes sonoros de sus diez misiones."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "Arène des titans : la carte est plus grande (250 pas sur 250) et les 25 boss, tous parmi les sept grands boss, sont répartis régulièrement tout autour : plus de mêlée.",
+      "en": "Titan Arena: the map is bigger (250 by 250 paces) and the 25 bosses, all among the seven main bosses, are spread evenly all around: no more scrum.",
+      "es": "Arena de los titanes: el mapa es más grande (250 por 250 pasos) y los 25 jefes, todos entre los siete jefes principales, están repartidos de forma regular alrededor: se acabó el barullo."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "L’Arène des titans est ouverte à tous : 25 boss, 30 minutes, 5 parties par jour au maximum.",
+      "en": "The Titan Arena is now open to everyone: 25 bosses, 30 minutes, up to 5 games a day.",
+      "es": "La Arena de los titanes está abierta a todos: 25 jefes, 30 minutos, 5 partidas al día como máximo."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "Campagne terrienne : les rochers et la végétation de chaque carte reprennent maintenant les couleurs du lieu (grès ocre du désert, basalte noir du Stromboli, granit gris-bleu de Puerto Eden, roche glacée du canyon…), et plus de planète dans le ciel.",
+      "en": "Terran campaign: rocks and vegetation on each map now take the colours of the place (ochre sandstone in the desert, black basalt on Stromboli, grey-blue granite at Puerto Eden, icy rock in the canyon…), and no more planet in the sky.",
+      "es": "Campaña terrestre: las rocas y la vegetación de cada mapa toman ahora los colores del lugar (arenisca ocre del desierto, basalto negro del Stromboli, granito gris azulado de Puerto Edén, roca helada del cañón…), y ya no hay planeta en el cielo."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "Tireur d’élite : les bruitages en cours (impact sur un saboteur, explosion de la tour) ne sont plus coupés quand la voix annonce le score d’une manche, et l’impact sur le saboteur touché est de nouveau toujours joué.",
+      "en": "Sniper Elite: ongoing sound effects (hit on a saboteur, tower explosion) are no longer cut off when the voice announces a round’s score, and the hit sound on a touched saboteur always plays again.",
+      "es": "Tirador de élite: los efectos de sonido en curso (impacto en un saboteador, explosión de la torre) ya no se cortan cuando la voz anuncia el marcador de una manga, y el impacto sobre el saboteador alcanzado suena siempre de nuevo."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "Vidéo de récompense sur iPhone : la voix indique désormais que la croix de fermeture est en haut à gauche de l’écran (elle disait à droite).",
+      "en": "Reward video on iPhone: the voice now says the close cross is at the top left of the screen (it used to say right).",
+      "es": "Vídeo de recompensa en iPhone: la voz indica ahora que la cruz de cierre está arriba a la izquierda de la pantalla (decía a la derecha)."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "Arène des titans : seulement les 7 grands boss, jamais d’autre type (25 boss : 3 de chacun, plus 2 exemplaires supplémentaires de deux d’entre eux tirés au hasard).",
+      "en": "Titan Arena: only the 7 main bosses, never any other type (25 bosses: 3 of each, plus 2 extra copies of two of them drawn at random).",
+      "es": "Arena de los titanes: solo los 7 jefes principales, nunca otro tipo (25 jefes: 3 de cada uno, más 2 ejemplares extra de dos de ellos elegidos al azar)."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "Sons fixes des cartes : les boucles sont raccordées sans coupure ni trou (55 sons refaits : Olympus, Combat en groupe, Ganymède, Charon, Mercure, océan, Pitoya, Uranus, Jupiter, ennemis).",
+      "en": "Fixed map sounds: loops now join with no cut or gap (55 sounds redone: Olympus, Group Combat, Ganymede, Charon, Mercury, ocean, Pitoya, Uranus, Jupiter, enemies).",
+      "es": "Sonidos fijos de los mapas: los bucles enlazan sin cortes ni huecos (55 sonidos rehechos: Olimpo, Combate en grupo, Ganímedes, Caronte, Mercurio, océano, Pitoya, Urano, Júpiter, enemigos)."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "L’espèce terrienne est ouverte ! Chaque espèce est un sous-compte séparé (cristaux, achats, challenges, armes, progression) : seuls l’identifiant, le mot de passe et le pseudo sont communs. Terminez l’opération 1 avec votre personnage pour débloquer le second, puis passez de l’un à l’autre depuis le Profil. Nouvelle campagne terrienne : « Chacun chez soi », dix missions, du désert du Targa aux fjords islandais, avec le colonel Abrami.",
+      "en": "The Terran species is now open! Each species is a separate sub-account (crystals, purchases, challenges, weapons, progress): only the ID, password and nickname are shared. Finish operation 1 with your character to unlock the second one, then switch between them from your Profile. New Terran campaign: “Every Man for Himself”, ten missions from the Targa desert to the Icelandic fjords, with Colonel Abrami.",
+      "es": "¡La especie terrestre ya está abierta! Cada especie es una subcuenta separada (cristales, compras, desafíos, armas, progreso): solo se comparten el identificador, la contraseña y el apodo. Termina la operación 1 con tu personaje para desbloquear el segundo y cambia entre ambos desde el Perfil. Nueva campaña terrestre: «Cada uno en su casa», diez misiones, del desierto del Targa a los fiordos islandeses, con el coronel Abrami."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "L’aide, la bible et les didacticiels sont à jour : Tireur d’élite chacun pour soi (points individuels, saboteur immobile), Arène des titans (25 boss, nouveaux noms), grenade et bobine, Black Friday inversé, sous-comptes d’espèces.",
+      "en": "Help, the Bible and the tutorials are up to date: Sniper Elite every player for themselves (individual points, idle saboteur), Titan Arena (25 bosses, new names), grenade and coil, Reverse Black Friday, species sub-accounts.",
+      "es": "La ayuda, la biblia y los tutoriales están al día: Tirador de élite cada uno por su cuenta (puntos individuales, saboteador inmóvil), Arena de los titanes (25 jefes, nombres nuevos), granada y bobina, Black Friday al revés, subcuentas de especies."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "Black Friday inversé : les prix ne baissent pas, mais vous recevez beaucoup plus d’avantages (des cristaux offerts d’une valeur de 70 % du prix de la carte). Une pastille « 1 » sur la Boutique vous l’explique.",
+      "en": "Reverse Black Friday: prices don’t go down, but you get far more benefits (free crystals worth 70% of the card’s price). A “1” badge on the Shop explains it.",
+      "es": "Black Friday al revés: los precios no bajan, pero recibes muchas más ventajas (cristales gratis por un valor del 70 % del precio de la tarjeta). Una insignia «1» en la Tienda te lo explica."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "Arène des titans : les 7 boss sont refaits (Blindé Mentis, Pionnier Arcturien, Enfonceur Draco, Hydre d’artillerie, Titan Maître, Commandeur Etorthan, Commandeur Alpha Draco) avec leurs nouvelles statistiques, 25 boss par partie, et de nouveaux sons très puissants pour chacun (tirs, pas, impacts, mort, explosion, charge, onde de choc, barrage).",
+      "en": "Titan Arena: the 7 bosses are redone (Mentis Armoured, Arcturian Pioneer, Draco Breaker, Artillery Hydra, Master Titan, Etorthan Commander, Alpha Draco Commander) with new stats, 25 bosses per game, and powerful new sounds for each (shots, steps, impacts, death, explosion, charge, shockwave, barrage).",
+      "es": "Arena de los titanes: los 7 jefes se han rehecho (Blindado Mentis, Pionero Arcturiano, Aplastador Draco, Hidra de artillería, Titán Maestro, Comandante Etorthan, Comandante Alfa Draco) con nuevas estadísticas, 25 jefes por partida y nuevos sonidos potentes para cada uno (disparos, pasos, impactos, muerte, explosión, carga, onda de choque, descarga)."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "Un compte ne peut plus être ouvert sur deux appareils en même temps, même pour les comptes de l’équipe : le plus ancien est déconnecté.",
+      "en": "An account can no longer be open on two devices at once, even for team accounts: the older one is signed out.",
+      "es": "Una cuenta ya no puede estar abierta en dos dispositivos a la vez, ni siquiera las del equipo: se cierra la sesión del más antiguo."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "La bobine explosive et la grenade défensive détruisent désormais tout ennemi (hors boss) pris dans leur rayon. Tireur d’élite : chacun pour soi, seul celui qui fait sauter la tour (ou le sniper qui a abattu le plus de saboteurs) marque, et un saboteur immobile plus de 12 secondes voit son explosif sauter après un compte à rebours de 5 secondes.",
+      "en": "The explosive coil and the defensive grenade now destroy every enemy (bosses excepted) caught in their radius. Sniper Elite: every player for themselves, only whoever blows up the tower (or the sniper with the most saboteur kills) scores, and a saboteur who stays still for more than 12 seconds has their explosive go off after a 5-second countdown.",
+      "es": "La bobina explosiva y la granada defensiva destruyen ahora a todo enemigo (salvo jefes) dentro de su radio. Tirador de élite: cada uno por su cuenta, solo puntúa quien hace explotar la torre (o el francotirador con más saboteadores abatidos), y un saboteador inmóvil más de 12 segundos ve explotar su explosivo tras una cuenta atrás de 5 segundos."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "Black Friday lancé : jusqu’à vendredi, des cristaux offerts à l’achat d’une carte, l’équivalent de -70 %.",
+      "en": "Black Friday is on: until Friday, free crystals when you buy a card, worth 70% off.",
+      "es": "Black Friday ya está aquí: hasta el viernes, cristales gratis al comprar una tarjeta, el equivalente a un 70 % de descuento."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "Zone défensive : en ouvrant une opération, le jeu vous dit combien d’étoiles vous avez en mode normal et en seconde vague, et les missions qu’il vous reste.",
+      "en": "Defense zone: when you open an operation, the game now tells you how many stars you have in normal mode and in second wave, and which missions are left.",
+      "es": "Zona defensiva: al abrir una operación, el juego te dice cuántas estrellas tienes en modo normal y en segunda oleada, y qué misiones te faltan."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "Véhicules : l’alerteur retentit dès le premier appui (le son se chargeait trop tard), et le moteur de la Jeep tourne maintenant sans aucun trou.",
+      "en": "Vehicles: the alerter sounds from the very first press (the sound used to load too late), and the Jeep engine now runs with no gaps.",
+      "es": "Vehículos: el avisador suena desde la primera pulsación (el sonido se cargaba demasiado tarde) y el motor del Jeep ya suena sin cortes."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "La grenade défensive et la bobine explosive s’entendent 40 % plus fort dans tous les modes de jeu.",
+      "en": "The defensive grenade and the explosive coil are 40% louder in every game mode.",
+      "es": "La granada defensiva y la bobina explosiva suenan un 40 % más fuerte en todos los modos de juego."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "iPhone : quand la voix met du temps à démarrer, elle est relancée plus vite (au bout d’une seconde au lieu de deux).",
+      "en": "iPhone: when the voice is slow to start, it is restarted sooner (after one second instead of two).",
+      "es": "iPhone: cuando la voz tarda en arrancar, se reinicia antes (al cabo de un segundo en lugar de dos)."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "Tireur d’élite : le bruit d’impact de votre tir de sniper suit maintenant l’assassin touché (gauche ou droite selon son couloir), et la zone annoncée au début d’une manche en ligne est enfin la bonne.",
+      "en": "Sniper Elite: the impact sound of your sniper shot now follows the assassin you hit (left or right depending on their lane), and the zone announced at the start of an online round is now the right one.",
+      "es": "Tirador de élite: el sonido de impacto de tu disparo de francotirador ahora sigue al asesino alcanzado (izquierda o derecha según su carril), y la zona anunciada al inicio de una ronda en línea ya es la correcta."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "Véhicules : celui qui déclenche l’alerteur l’entend étouffé, comme depuis l’intérieur du véhicule. Sur la carte Pitoya, l’ambiance de fond est doublée, la grenade défensive et la bobine explosive sont plus fortes de 40 %.",
+      "en": "Vehicles: whoever triggers the horn hears it muffled, as from inside the vehicle. On the Pitoya map, the background ambience is doubled and the defensive grenade and explosive coil are 40% louder.",
+      "es": "Vehículos: quien activa el avisador lo oye amortiguado, como desde el interior del vehículo. En el mapa Pitoya, el ambiente de fondo se duplica y la granada defensiva y la bobina explosiva suenan un 40 % más fuerte."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "App iPhone : quand la voix du téléphone se bloque, l’app la relance d’elle-même en une seconde (plus de voix muette jusqu’à la fermeture de l’app). Le message « Retours, problèmes, suggestions » contient tout ce qu’il faut à l’équipe pour corriger votre problème.",
+      "en": "iPhone app: when the phone's voice gets stuck, the app restarts it on its own within a second (no more silent voice until the app is closed). The “Feedback, problems, suggestions” message now includes everything the team needs to fix your problem.",
+      "es": "App de iPhone: cuando la voz del teléfono se bloquea, la app la reinicia sola en un segundo (se acabó la voz muda hasta cerrar la app). El mensaje «Comentarios, problemas, sugerencias» incluye todo lo que el equipo necesita para resolver tu problema."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "Zone défensive : chaque fois qu’un drone jumeau est envoyé, l’ennemi suivant arrive une seconde plus tard, car le drone peut se diviser et demande un peu plus de temps pour être détruit.",
+      "en": "Defense zone: every time a twin drone is sent, the next enemy arrives one second later, because the drone can split and needs a little more time to destroy.",
+      "es": "Zona defensiva: cada vez que se envía un dron gemelo, el siguiente enemigo llega un segundo más tarde, porque el dron puede dividirse y necesita un poco más de tiempo para destruirlo."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "Son plus stable sur les iPhone d’avant le 14 : plus de grésillement ni de coupure quand iOS met le son en pause (appel, notification), la voix de l’app ne se hache plus quand le téléphone est chargé, et le jeu allège ses bruitages tout seul si le téléphone sature.",
+      "en": "More stable sound on iPhones older than the 14: no more crackling or cut-outs when iOS pauses the sound (call, notification), the app's voice no longer stutters when the phone is busy, and the game lightens its sound effects on its own if the phone is overloaded.",
+      "es": "Sonido más estable en los iPhone anteriores al 14: se acabaron los chasquidos y cortes cuando iOS pausa el sonido (llamada, notificación), la voz de la app ya no se entrecorta cuando el teléfono está cargado, y el juego aligera sus efectos de sonido por sí solo si el teléfono se satura."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "Véhicules : chaque véhicule a son propre alerteur (toutes les 5 secondes, entendu à 80 pas de diamètre), un son continu avertit le pilote à 10 % de vie, et le menu donne la direction du véhicule en points cardinaux. Le don d’un réparateur de bouclier à un coéquipier marche de nouveau.",
+      "en": "Vehicles: each vehicle has its own horn (every 5 seconds, heard within an 80-step diameter), a continuous sound warns the driver at 10% health, and the menu gives the vehicle’s direction in compass points. Giving a shield repairer to a teammate works again.",
+      "es": "Vehículos: cada vehículo tiene su propio avisador (cada 5 segundos, se oye en un diámetro de 80 pasos), un sonido continuo avisa al piloto con un 10 % de vida y el menú da la dirección del vehículo en puntos cardinales. Regalar un reparador de escudo a un compañero vuelve a funcionar."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "Un compte ne peut plus être ouvert sur deux appareils à la fois : l’ancien appareil est déconnecté.",
+      "en": "An account can no longer be open on two devices at once: the older device is signed out.",
+      "es": "Una cuenta ya no puede estar abierta en dos dispositivos a la vez: el dispositivo más antiguo se desconecta."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "Avec une carte hebdomadaire, mensuelle ou Commandant, vos entraînements ne baissent plus jamais, même le jour où la carte se renouvelle.",
+      "en": "With a weekly, monthly or Commander card, your training levels never drop anymore, even on the day the card renews.",
+      "es": "Con una tarjeta semanal, mensual o de Comandante, tus entrenamientos ya no bajan nunca, ni siquiera el día en que la tarjeta se renueva."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "Pour rejoindre le groupe WhatsApp, la voix vous explique d’abord quoi faire (réactiver votre lecteur d’écran, puis le couper en revenant), et la carte se commande aussi sans voir : un toucher pour rejoindre, deux doigts si c’est déjà fait.",
+      "en": "To join the WhatsApp group, the voice first explains what to do (turn your screen reader back on, then off again when you return), and the card can be used without seeing: one touch to join, two fingers if you already did.",
+      "es": "Para unirte al grupo de WhatsApp, la voz te explica primero qué hacer (volver a activar tu lector de pantalla y desactivarlo al volver), y la tarjeta se maneja también sin ver: un toque para unirte, dos dedos si ya lo hiciste."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "Jupiter : la chute libre est dix fois plus rapide (6 secondes) et les traits de vent défilent maintenant de haut en bas, dans le sens de la chute.",
+      "en": "Jupiter: the free fall is ten times faster (6 seconds) and the wind streaks now run from top to bottom, in the direction of the fall.",
+      "es": "Júpiter: la caída libre es diez veces más rápida (6 segundos) y las líneas de viento ahora van de arriba abajo, en el sentido de la caída."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "Les vidéos d’introduction reviennent pour tout le monde : le réglage « vidéos : non » est remis une fois sur « à chaque lancement ». Vous pouvez toujours le changer dans Réglages.",
+      "en": "Introduction videos are back for everyone: the “videos: off” setting is reset once to “every launch”. You can still change it in Settings.",
+      "es": "Los vídeos de introducción vuelven para todos: el ajuste «vídeos: no» se restablece una vez a «en cada inicio». Puedes cambiarlo en Ajustes."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "Les vidéos d’introduction attendent maintenant d’être chargées sur un réseau mobile lent, au lieu d’être abandonnées au bout de 5 secondes.",
+      "en": "Introduction videos now wait to load on a slow mobile network instead of being dropped after 5 seconds.",
+      "es": "Los vídeos de introducción ahora esperan a cargarse en una red móvil lenta en lugar de abandonarse a los 5 segundos."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "Un nouveau bouton « Trouver plus d’amis » dans Amis et Social vous mène au groupe WhatsApp de votre langue, où plein de joueurs vous attendent.",
+      "en": "A new “Find more friends” button in Friends and Social takes you to the WhatsApp group for your language, where plenty of players are waiting.",
+      "es": "Un nuevo botón «Encontrar más amigos» en Amigos y Social te lleva al grupo de WhatsApp de tu idioma, donde te esperan muchos jugadores."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "La vidéo d’introduction d’un mode repasse maintenant même si vous relancez un mode quelques secondes après le précédent.",
+      "en": "A mode’s introduction video now plays even if you launch a mode just a few seconds after the previous one.",
+      "es": "El vídeo de introducción de un modo ahora se reproduce aunque lances un modo pocos segundos después del anterior."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "Commando : vous pouvez offrir un réparateur de bouclier à un coéquipier depuis le menu de la partie. Dans un véhicule, l’alerteur (deux doigts à droite, ou H) émet un son que vos coéquipiers entendent à 100 pas.",
+      "en": "Commando: you can give a shield repairer to a teammate from the game menu. In a vehicle, the alerter (two fingers on the right, or H) plays a sound your teammates hear within 100 steps.",
+      "es": "Comando: puedes regalar un reparador de escudo a un compañero desde el menú de la partida. En un vehículo, el avisador (dos dedos a la derecha, o H) emite un sonido que tus compañeros oyen a 100 pasos."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "Une partie interrompue par une mise à jour des serveurs n’est plus décomptée, et 5 parties offertes aujourd’hui, à utiliser dans le mode de votre choix.",
+      "en": "A game interrupted by a server update is no longer counted, and 5 free games today, to use in any mode.",
+      "es": "Una partida interrumpida por una actualización de los servidores ya no se descuenta, y 5 partidas gratis hoy, para usar en cualquier modo."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "Le lance-roquettes tire de nouveau pour les administrateurs, et sur la carte de l’océan les nids libèrent des puces d’eau. Pendant le suivi d’un joueur, les pas gardent le bon bruit.",
+      "en": "The rocket launcher fires again for administrators, and on the ocean map nests release water fleas. While following a player, footsteps keep the right sound.",
+      "es": "El lanzacohetes vuelve a disparar para los administradores y, en el mapa del océano, los nidos liberan pulgas de agua. Al seguir a un jugador, los pasos conservan el sonido correcto."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "Votre progression est mieux protégée : vos achats en cristaux et vos objets ne peuvent plus disparaître de votre compte.",
+      "en": "Your progress is better protected: items you bought with crystals can no longer disappear from your account.",
+      "es": "Tu progreso está mejor protegido: los objetos que compraste con cristales ya no pueden desaparecer de tu cuenta."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "Les vidéos d’introduction des modes repassent à chaque lancement d’une partie. Dans Réglages, vous pouvez choisir : à chaque lancement, une fois par mode, ou non.",
+      "en": "The mode introduction videos play again every time you start a game. In Settings you can choose: every time, once per mode, or off.",
+      "es": "Los vídeos de introducción de los modos vuelven a verse cada vez que inicias una partida. En Ajustes puedes elegir: cada vez, una vez por modo o no."
+    },
+    {
+      "date": "2026-11-24",
+      "fr": "La vidéo d’introduction de Jupiter est de nouveau montrée une fois à chaque joueur ; chaque vidéo d’introduction refaite sera revue une fois.",
+      "en": "The Jupiter introduction video is shown once more to every player; any introduction video that is remade will be shown again once.",
+      "es": "El vídeo de introducción de Júpiter se vuelve a mostrar una vez a cada jugador; cada vídeo de introducción renovado se volverá a ver una vez."
+    },
+    {
+      "date": "2026-11-23",
+      "fr": "Opération 2 de la Zone défensive, « Le réveil de la jungle » : 10 nouvelles missions vénusiennes, avec les briefings d’Amelia dans votre langue.",
+      "en": "Defense Zone operation 2, “The Jungle Awakens”: 10 new Venusian missions, with Amelia’s briefings in your language.",
+      "es": "Operación 2 de la Zona defensiva, «El despertar de la selva»: 10 nuevas misiones venusianas, con los briefings de Amelia en tu idioma."
+    },
+    {
+      "date": "2026-11-23",
+      "fr": "Opération 2 : les briefings sont dits par Amelia dans toutes les langues.",
+      "en": "Operation 2: the briefings are now spoken by Amelia in every language.",
+      "es": "Operación 2: los briefings los dice Amelia en todos los idiomas."
+    },
+    {
+      "date": "2026-11-23",
+      "fr": "Gestes plus fiables : deux doigts vers le haut dans le salon, deux doigts vers le bas pour inviter, et trois doigts vers la droite pour refermer le menu de la partie fonctionnent maintenant à chaque fois, même si le geste est lent.",
+      "en": "More reliable gestures: two fingers up in the lobby, two fingers down to invite, and three fingers right to close the in-game menu now work every time, even if the gesture is slow.",
+      "es": "Gestos más fiables: dos dedos hacia arriba en la sala, dos dedos hacia abajo para invitar y tres dedos hacia la derecha para cerrar el menú de la partida funcionan ahora siempre, aunque el gesto sea lento."
+    },
+    {
+      "date": "2026-11-23",
+      "fr": "Jupiter : le jetpack va 30 % plus vite, et le vent de la chute libre et le bruit du jetpack sont 20 % moins forts.",
+      "en": "Jupiter: the jetpack is 30% faster, and the free-fall wind and the jetpack noise are 20% quieter.",
+      "es": "Júpiter: el jetpack es un 30 % más rápido, y el viento de la caída libre y el ruido del jetpack suenan un 20 % más bajos."
+    },
+    {
+      "date": "2026-11-23",
+      "fr": "Le jeu tourne beaucoup mieux sur les téléphones modestes et anciens : jusqu’à trois fois plus d’images par seconde sur certaines cartes, un son bien moins gourmand, et les iPhone restés en iOS 15 peuvent de nouveau jouer.",
+      "en": "The game runs much better on modest and older phones: up to three times more frames per second on some maps, much lighter sound processing, and iPhones still on iOS 15 can play again.",
+      "es": "El juego funciona mucho mejor en teléfonos modestos y antiguos: hasta tres veces más imágenes por segundo en algunos mapas, un sonido mucho menos exigente y los iPhone que siguen en iOS 15 vuelven a poder jugar."
+    },
+    {
+      "date": "2026-11-23",
+      "fr": "Moins de données et une connexion plus sûre : les voix d’Amelia ne se téléchargent plus que dans votre langue, la vidéo d’introduction de chaque mode ne passe plus que la première fois, et le jeu vous prévient quand la connexion au serveur est coupée puis rétablie.",
+      "en": "Less data and a safer connection: Amelia’s voices now download only in your language, each mode’s intro video plays only the first time, and the game tells you when the server connection drops and comes back.",
+      "es": "Menos datos y una conexión más segura: las voces de Amelia solo se descargan en tu idioma, el vídeo de introducción de cada modo solo se reproduce la primera vez y el juego te avisa cuando la conexión con el servidor se corta y vuelve."
+    },
+    {
+      "date": "2026-11-23",
+      "fr": "Sur téléphone, quand vos parties du jour sont jouées, vous pouvez en débloquer une de plus en regardant une courte vidéo, une fois par jour et par mode. La voix vous guide jusqu’au bouton pour la fermer.",
+      "en": "On phones, when you have played all your games for the day, you can unlock one more by watching a short video, once a day per mode. The voice guides you to the button that closes it.",
+      "es": "En el teléfono, cuando hayas jugado todas tus partidas del día, puedes desbloquear una más viendo un vídeo corto, una vez al día por modo. La voz te guía hasta el botón para cerrarlo."
+    },
+    {
+      "date": "2026-11-23",
+      "fr": "Opération 2 : le bombardier vise désormais votre position, une fois sur deux il rate de peu. Esquivez dans la dernière demi-seconde pour être intouchable.",
+      "en": "Operation 2: the bomber now targets your position and misses narrowly half the time. Dodge in the last half second to be untouchable.",
+      "es": "Operación 2: el bombardero apunta ahora a tu posición y falla por poco una de cada dos veces. Esquiva en el último medio segundo para ser intocable."
+    },
+    {
+      "date": "2026-11-23",
+      "fr": "Mises à jour du jeu en ligne : à chaque mise à jour, les joueurs sont prévenus et sortis du serveur tout de suite (« Une mise à jour du jeu est en cours »), puis peuvent relancer quelques instants plus tard.",
+      "en": "Online updates: on every game update, players are told and taken off the server straight away (“A game update is in progress”), then can start again a few moments later.",
+      "es": "Actualizaciones en línea: en cada actualización del juego, se avisa a los jugadores y se les saca del servidor al instante («Hay una actualización del juego en curso»), y pueden volver a entrar unos instantes después."
+    },
+    {
+      "date": "2026-11-23",
+      "fr": "Zone défensive : l’opération 2, « Le réveil de la jungle », compte désormais ses 10 missions : plages, jungles, marais et clairières, drones jumeaux, canons d’artillerie, commandants Dracos par derrière et drone bombardier.",
+      "en": "Defense Zone: operation 2, “The Jungle Awakens”, now has all 10 missions: beaches, jungles, swamps and clearings, twin drones, artillery cannons, Draco commanders coming from behind, and the bomber drone.",
+      "es": "Zona defensiva: la operación 2, «El despertar de la jungla», ya cuenta con sus 10 misiones: playas, junglas, pantanos y claros, drones gemelos, cañones de artillería, comandantes dracos por la espalda y dron bombardero."
+    },
+    {
+      "date": "2026-11-23",
+      "fr": "Charon : la tourelle tire 30 % moins vite et le signal de destruction retentit à chaque ennemi abattu. Jupiter : plateformes deux fois plus espacées en altitude (60 s de chute) et jetpack 50 % plus rapide. Les nids de puces libèrent 5 puces. Commando et Évasion : une esquive empêche tout ennemi de tirer pendant 1 seconde.",
+      "en": "Charon: the turret fires 30% slower and the kill signal sounds for every enemy killed. Jupiter: platforms twice as far apart in altitude (60 s fall) and jetpack 50% faster. Flea nests release 5 fleas. Commando and Escape: a dodge stops every enemy from firing for 1 second.",
+      "es": "Caronte: la torreta dispara un 30 % más lento y la señal de destrucción suena con cada enemigo abatido. Júpiter: plataformas el doble de separadas en altitud (60 s de caída) y jetpack un 50 % más rápido. Los nidos de pulgas liberan 5 pulgas. Comando y Evasión: una esquiva impide que cualquier enemigo dispare durante 1 segundo."
+    },
+    {
+      "date": "2026-11-25",
+      "fr": "Black Friday, du mercredi 25 au vendredi 27 novembre : achetez une Carte (hebdomadaire, mensuelle ou Commandant) et recevez tout de suite des cristaux offerts pour une valeur égale à 70 % de remise ; abonnés : 20 % de plus sur les passes VIP.",
+      "en": "Black Friday, Wednesday 25 to Friday 27 November: buy a Card (weekly, monthly or Commander) and get free crystals worth 70% off right away; subscribers get 20% more on VIP passes.",
+      "es": "Black Friday, del miércoles 25 al viernes 27 de noviembre: compra una Tarjeta (semanal, mensual o Comandante) y recibe al instante cristales gratis por un valor equivalente al 70 % de descuento; los suscriptores tienen un 20 % más en los pases VIP."
+    },
+    {
+      "date": "2026-11-23",
+      "fr": "Le Black Friday arrive très bientôt sur Coswars : des offres spéciales dans la boutique dans quelques jours. Restez connectés !",
+      "en": "Black Friday is coming very soon to Coswars: special offers in the shop in a few days. Stay tuned!",
+      "es": "El Black Friday llega muy pronto a Coswars: ofertas especiales en la tienda en unos días. ¡Mantente atento!"
+    },
+    {
+      "date": "2026-11-23",
+      "fr": "Si le son se coupe, le geste à quatre doigts posés ensemble sur l’écran relance maintenant la voix ET tout le son du jeu.",
+      "en": "If the sound cuts out, placing four fingers together on the screen now restarts the voice AND all the game sound.",
+      "es": "Si el sonido se corta, apoyar cuatro dedos juntos en la pantalla ahora reinicia la voz Y todo el sonido del juego."
+    },
+    {
+      "date": "2026-11-23",
+      "fr": "Tourelle de Charon : cadence divisée par deux, tir possible même sans ennemi dans la zone, et une tourelle déjà utilisée ne se réutilise plus. Le bruit de la descente au filin est plus fort.",
+      "en": "Charon turret: fire rate halved, you can fire even with no enemy in the zone, and a turret that has been used can no longer be reused. The rope descent sound is louder.",
+      "es": "Torreta de Caronte: cadencia a la mitad, se puede disparar aunque no haya enemigos en la zona, y una torreta ya usada no se puede volver a usar. El sonido del descenso por cable es más fuerte."
+    },
+    {
+      "date": "2026-11-23",
+      "fr": "Coswars parle maintenant hindi et coréen : tout le jeu, la voix et la commandante Amelia. Choisissez votre langue dans les Réglages.",
+      "en": "Coswars now speaks Hindi and Korean: the whole game, the voice and Commander Amelia. Choose your language in the Settings.",
+      "es": "Coswars ahora habla hindi y coreano: todo el juego, la voz y la comandante Amelia. Elige tu idioma en los Ajustes.",
+      "de": "Coswars spricht jetzt Hindi und Koreanisch: das ganze Spiel, die Stimme und Kommandantin Amelia. Wählen Sie Ihre Sprache in den Einstellungen."
+    },
+    {
+      "date": "2026-11-23",
+      "fr": "Jupiter, chute libre refaite : vous plongez vraiment vers la plateforme d’arrivée, très loin en dessous, à vitesse réelle (environ 200 km/h), avec votre arme en main.",
+      "en": "Jupiter, free fall redone: you really dive toward the landing platform far below, at a real speed (about 125 mph), your weapon in hand.",
+      "es": "Júpiter, caída libre rehecha: te lanzas de verdad hacia la plataforma de aterrizaje, muy por debajo, a velocidad real (unos 200 km/h), con tu arma en la mano.",
+      "de": "Jupiter, freier Fall neu gemacht: Sie stürzen wirklich auf die weit entfernte Landeplattform zu, mit echter Geschwindigkeit (etwa 200 km/h), die Waffe in der Hand."
+    },
+    {
+      "date": "2026-11-23",
+      "fr": "Les parties du jour sont comptées dès leur lancement, sur tous vos appareils : fermer le jeu ne rend pas la partie, et le compteur est toujours à jour.",
+      "en": "Daily games are counted as soon as they start, on all your devices: closing the game does not give the game back, and the counter is always up to date.",
+      "es": "Las partidas del día se cuentan desde que empiezan, en todos tus dispositivos: cerrar el juego no devuelve la partida, y el contador siempre está al día.",
+      "de": "Die Tagespartien werden ab dem Start gezählt, auf allen Ihren Geräten: Das Spiel zu schließen gibt die Partie nicht zurück, und der Zähler ist immer aktuell."
+    },
+    {
+      "date": "2026-11-23",
+      "fr": "Nouvelles photos de toutes les cartes de l’Évasion et du Commando au choix de la carte, et vidéo d’introduction de Jupiter refaite ; message des combinaisons d’invisibilité plus court, sans à-coup à l’arrivée.",
+      "en": "New photos of every Escape and Commando map when you choose the map, a redone Jupiter introduction video, and a shorter invisibility-suit message with no hitch on arrival.",
+      "es": "Nuevas fotos de todos los mapas de Evasión y Comando al elegir el mapa, vídeo de introducción de Júpiter rehecho y mensaje de los trajes de invisibilidad más corto, sin tirones al llegar.",
+      "de": "Neue Fotos aller Ausbruch- und Kommando-Karten bei der Kartenwahl, ein neu gemachtes Einführungsvideo für Jupiter und eine kürzere Meldung zu den Unsichtbarkeitsanzügen, ohne Ruckeln bei der Ankunft."
+    },
+    {
+      "date": "2026-11-23",
+      "fr": "Fin du week-end double : parties du jour, parrainage (100 cristaux chacun) et récompenses sont revenus à la normale. Merci d’avoir été plus de 1 000 joueurs !",
+      "en": "The double weekend is over: daily games, referrals (100 crystals each) and rewards are back to normal. Thank you for being more than 1,000 players!",
+      "es": "Fin del fin de semana doble: las partidas del día, el apadrinamiento (100 cristales cada uno) y las recompensas vuelven a la normalidad. ¡Gracias por ser más de 1000 jugadores!"
+    },
+    {
+      "date": "2026-11-23",
+      "fr": "Invitations : seul le salon d’un ami est rejoint automatiquement, et une fois votre partie lancée vous ne recevez plus de notification d’acceptation ou de refus. Le parrainage revient à 100 cristaux pour chacun.",
+      "en": "Invitations: only a friend’s lobby is joined automatically, and once your game has started you no longer get accept or decline notifications. Referral is back to 100 crystals each.",
+      "es": "Invitaciones: solo se entra automáticamente en la sala de un amigo, y una vez iniciada su partida ya no recibe avisos de aceptación o rechazo. El apadrinamiento vuelve a 100 cristales para cada uno."
+    },
+    {
+      "date": "2026-11-23",
+      "fr": "Jeep : le bruit du moteur ne se coupe plus et ne redémarre plus tout seul. Un véhicule sous 10 % de vie sonne une alarme rapide. Un boss tué à la grenade compte pour sa médaille. La voix de présentation de la carte attend la fin de la vidéo.",
+      "en": "Jeep: the engine sound no longer cuts out or restarts by itself. A vehicle under 10% health sounds a fast alarm. A boss killed with a grenade now counts for its medal. The map introduction voice waits for the video to end.",
+      "es": "Jeep: el sonido del motor ya no se corta ni se reinicia solo. Un vehículo con menos del 10 % de vida emite una alarma rápida. Un jefe abatido con granada cuenta para su medalla. La voz de presentación del mapa espera a que termine el vídeo."
+    },
+    {
+      "date": "2026-11-23",
+      "fr": "Tourelle de Charon : il faut maintenant au moins 10 tirs pour nettoyer un couloir. Dans un char ou une Jeep, plus de faux son de mauvaise portée ni de pas fantômes du pilote.",
+      "en": "Charon turret: it now takes at least 10 shots to clear a lane. In a tank or a jeep, no more wrong-range sound or phantom footsteps from the driver.",
+      "es": "Torreta de Caronte: ahora hacen falta al menos 10 disparos para despejar un pasillo. En un tanque o un jeep, ya no suena el aviso de mal alcance ni los pasos fantasma del piloto."
+    },
+    {
+      "date": "2026-11-22",
+      "fr": "Tireur d’élite : l’assassin s’appelle désormais saboteur, partout dans le jeu, les explications d’Amelia et les vidéos.",
+      "en": "Sniper Elite: the assassin is now called the saboteur, everywhere in the game, in Amelia’s explanations and in the videos.",
+      "es": "Tirador de élite: el asesino pasa a llamarse saboteador, en todo el juego, en las explicaciones de Amelia y en los vídeos."
+    },
+    {
+      "date": "2026-11-22",
+      "fr": "Tourelle de Charon : chaque tir touche maintenant tous les ennemis du secteur choisi (joueurs, boss et bots), et chaque ennemi abattu vous est annoncé.",
+      "en": "Charon turret: every shot now hits all enemies in the chosen sector (players, bosses and bots), and every enemy killed is announced.",
+      "es": "Torreta de Caronte: cada disparo alcanza ahora a todos los enemigos del sector elegido (jugadores, jefes y bots), y cada enemigo abatido se anuncia."
+    },
+    {
+      "date": "2026-11-22",
+      "fr": "Les vidéos d’introduction des modes et des cartes sont maintenant en russe, dites par Amelia.",
+      "en": "The mode and map introduction videos are now in Russian, voiced by Amelia.",
+      "es": "Los vídeos de introducción de los modos y mapas ya están en ruso, con la voz de Amelia."
+    },
+    {
+      "date": "2026-11-22",
+      "fr": "Coswars parle maintenant russe : tout le jeu, la voix d’Amelia (explications des modes, briefings, vagues d’attaque) et un groupe WhatsApp russe.",
+      "en": "Coswars now speaks Russian: the whole game, Amelia’s voice (mode explanations, briefings, attack waves) and a Russian WhatsApp group.",
+      "es": "Coswars ya habla ruso: todo el juego, la voz de Amelia (explicaciones de los modos, informes, oleadas de ataque) y un grupo de WhatsApp en ruso."
+    },
+    {
+      "date": "2026-11-22",
+      "fr": "Charon : la tourelle se commande autrement : à gauche on choisit une zone (le jeu dit le nombre de bots, de boss et de joueurs), à droite on tire et la visée est automatique (joueurs, puis boss, puis bots). Dans le Tireur d’élite, « assassin » devient « saboteur ».",
+      "en": "Charon: the turret works differently now: on the left you choose a zone (the game tells you the number of bots, bosses and players), on the right you fire and aiming is automatic (players, then bosses, then bots). In Sniper Elite, “assassin” becomes “saboteur”.",
+      "es": "Caronte: la torreta se maneja de otra forma: a la izquierda se elige una zona (el juego dice el número de bots, jefes y jugadores), a la derecha se dispara y la puntería es automática (jugadores, luego jefes, luego bots). En el Tirador de élite, «asesino» pasa a ser «saboteador»."
+    },
+    {
+      "date": "2026-11-22",
+      "fr": "Jupiter : jetpack plus rapide et ennemis immobiles et silencieux pendant le saut ; Ganymède : l’invisible voit tout le monde ; nouveau règlement des récompenses (première partie du jour : un pack de matériaux et un pack de composants d’arme) ; drone anesthésiant : effets sur 3 secondes.",
+      "en": "Jupiter: faster jetpack, and enemies stand still and silent during the jump; Ganymede: the invisible player sees everyone; new rewards rules (first game of the day: a materials pack and a weapon components pack); anesthetic drone: effects last 3 seconds.",
+      "es": "Júpiter: jetpack más rápido y enemigos quietos y en silencio durante el salto; Ganimedes: el jugador invisible lo ve todo; nuevas reglas de recompensas (primera partida del día: un paquete de materiales y uno de componentes de arma); dron anestésico: efectos durante 3 segundos."
+    },
+    {
+      "date": "2026-11-22",
+      "fr": "Les vidéos d’introduction des modes sont maintenant en turc, et en allemand pour les joueurs allemands (elles passaient en anglais).",
+      "en": "The mode introduction videos are now in Turkish, and in German for German players (they used to play in English).",
+      "es": "Los vídeos de introducción de los modos ya están en turco, y en alemán para los jugadores alemanes (antes salían en inglés)."
+    },
+    {
+      "date": "2026-11-22",
+      "fr": "Turc : la commandante Amelia parle maintenant turc (explications des modes, briefings de l’opération 1, annonces des vagues des croiseurs), et le site existe en turc : coswars.com/tr/.",
+      "en": "Turkish: commander Amelia now speaks Turkish (mode explanations, Operation 1 briefings, cruiser wave announcements), and the website exists in Turkish: coswars.com/tr/.",
+      "es": "Turco: la comandante Amelia ahora habla turco (explicaciones de los modos, informes de la Operación 1, anuncios de las oleadas de los cruceros), y el sitio web existe en turco: coswars.com/tr/."
+    },
+    {
+      "date": "2026-11-22",
+      "fr": "Le jeu est maintenant entièrement disponible en turc (Réglages, Langue du jeu), avec le clavier turc et un groupe WhatsApp COSWARS TÜRKÇE.",
+      "en": "The game is now fully available in Turkish (Settings, Game language), with the Turkish keyboard and a WhatsApp group, COSWARS TÜRKÇE.",
+      "es": "El juego ya está disponible por completo en turco (Ajustes, Idioma del juego), con el teclado turco y un grupo de WhatsApp, COSWARS TÜRKÇE."
+    },
+    {
+      "date": "2026-11-22",
+      "fr": "Nouveaux sons : l’invisibilisateur de Ganymède (activation et bruit de fond) et la Jeep (moteur, mitrailleuse, montée, sortie, impacts).",
+      "en": "New sounds: the Ganymede invisibility device (activation and background hum) and the Jeep (engine, machine gun, getting in, getting out, impacts).",
+      "es": "Nuevos sonidos: el invisibilizador de Ganimedes (activación y ruido de fondo) y el Jeep (motor, ametralladora, subida, salida, impactos)."
+    },
+    {
+      "date": "2026-11-22",
+      "fr": "Charon : les tourelles tirent deux fois plus vite, et au doigt on glisse sur la moitié droite jusqu’à trouver un ennemi puis on relâche pour tirer dessus. Le repère de touche rouge apparaît à chaque ennemi éliminé.",
+      "en": "Charon: the turrets fire twice as fast, and on touch screens you slide on the right half until you find an enemy, then release to shoot it. The red hit marker appears for every enemy you eliminate.",
+      "es": "Caronte: las torretas disparan el doble de rápido, y al tacto se desliza el dedo por la mitad derecha hasta encontrar un enemigo y se suelta para disparar. El marcador de impacto rojo aparece con cada enemigo eliminado."
+    },
+    {
+      "date": "2026-11-22",
+      "fr": "Parties illimitées ce week-end : le message « a atteint son nombre de parties » en multijoueur est corrigé. La grenade et la bobine explosive sonnent de nouveau partout (bobine +15 %).",
+      "en": "Unlimited games this weekend: the “has reached their number of games” message in multiplayer is fixed. The grenade and the explosive coil sound again everywhere (coil +15%).",
+      "es": "Partidas ilimitadas este fin de semana: se corrige el mensaje «ha alcanzado su número de partidas» en multijugador. La granada y la bobina explosiva vuelven a sonar en todas partes (bobina +15 %)."
+    },
+    {
+      "date": "2026-11-22",
+      "fr": "Traverser un son de la carte déforme désormais seulement ce son (déphasage, assourdissement au cœur), sans bruitage ajouté ; pendant l’attente après la vidéo d’un mode, un petit signal doux remplace la musique du menu.",
+      "en": "Walking through a map sound now only deforms that sound (phasing, muffling at its core), with no added sound effect; while waiting after a mode video, a soft repeated signal replaces the menu music.",
+      "es": "Atravesar un sonido del mapa deforma ahora solo ese sonido (desfase, apagado en su centro), sin efectos añadidos; durante la espera tras el vídeo de un modo, una pequeña señal suave sustituye a la música del menú."
+    },
+    {
+      "date": "2026-11-22",
+      "fr": "Inviter un joueur : les amis connectés d’abord, puis les joueurs de votre langue, puis les autres. En partie, une invitation sans réponse après 60 secondes est refusée toute seule, et en Commando ou en Évasion on n’en reçoit pas avant la cinquième minute.",
+      "en": "Inviting a player: connected friends first, then players who speak your language, then everyone else. In a game, an unanswered invitation is declined automatically after 60 seconds, and in Commando or Escape you receive none before the fifth minute.",
+      "es": "Invitar a un jugador: primero los amigos conectados, luego los jugadores de su idioma y después los demás. En partida, una invitación sin respuesta tras 60 segundos se rechaza sola, y en Comando o Fuga no se reciben antes del quinto minuto."
+    },
+    {
+      "date": "2026-11-22",
+      "fr": "Tireur d’élite : la distance jusqu’à la prochaine zone à couvert est dite en pas.",
+      "en": "Sniper Elite: the distance to the next cover zone is now given in steps.",
+      "es": "Tirador de élite: la distancia hasta la próxima zona de cobertura se dice ahora en pasos."
+    },
+    {
+      "date": "2026-11-22",
+      "fr": "Ganymède : l’invisibilisateur rend aussi invisible aux ennemis tant que vous ne tirez pas, un petit signal magnétique doux indique que vous êtes invisible, et le signal sonore des portes de cellule est retiré (la voix indique toujours la sortie).",
+      "en": "Ganymede: the invisibility device also hides you from enemies as long as you do not fire, a soft magnetic hum tells you that you are invisible, and the cell door beacon sound is removed (the voice still tells you the exit).",
+      "es": "Ganimedes: el invisibilizador también le oculta de los enemigos mientras no dispare, un suave zumbido magnético indica que es invisible, y se retira la señal sonora de las puertas de las celdas (la voz sigue indicando la salida)."
+    },
+    {
+      "date": "2026-11-22",
+      "fr": "Moins de bruits parasites de glissade en courant sur la glace, et sur Android la voix de synthèse ne change plus au hasard (avec la prochaine version de l’app).",
+      "en": "Fewer stray sliding sounds when running on ice, and on Android the speech voice no longer changes at random (with the next app version).",
+      "es": "Menos ruidos parásitos de deslizamiento al correr sobre hielo, y en Android la voz de síntesis ya no cambia al azar (con la próxima versión de la app)."
+    },
+    {
+      "date": "2026-11-22",
+      "fr": "Le canon d’artillerie fait 10 % de dégâts en moins, et le menu principal dit bien « Combat en groupe ».",
+      "en": "The artillery cannon deals 10% less damage, and the main menu now correctly says “Group Combat”.",
+      "es": "El cañón de artillería hace un 10 % menos de daño, y el menú principal dice correctamente «Combate en grupo»."
+    },
+    {
+      "date": "2026-11-22",
+      "fr": "Évasion sur Ganymède : un invisibilisateur est caché au fond de la deuxième cellule ouverte. Il rend invisible et inaudible aux autres joueurs, jusqu’à votre prochain tir.",
+      "en": "Escape on Ganymede: an invisibility device is hidden at the back of the second cell to open. It makes you invisible and silent to other players until your next shot.",
+      "es": "Fuga en Ganimedes: hay un invisibilizador al fondo de la segunda celda que se abre. Le hace invisible e inaudible para los demás jugadores hasta su próximo disparo."
+    },
+    {
+      "date": "2026-11-22",
+      "fr": "Combat en groupe : un joueur invité peut lancer la partie 1 minute après l’ouverture du salon. Salon vocal : les voix sont réparties de gauche à droite et le micro démarre à 50 %.",
+      "en": "Group Combat: an invited player can start the game 1 minute after the room opened. Voice room: voices are spread from left to right and the microphone starts at 50%.",
+      "es": "Combate en grupo: un jugador invitado puede iniciar la partida 1 minuto después de abrirse la sala. Sala de voz: las voces se reparten de izquierda a derecha y el micrófono empieza al 50 %."
+    },
+    {
+      "date": "2026-11-22",
+      "fr": "Au menu d’un mode multijoueur, deux doigts glissés vers le haut à droite ouvrent la liste des joueurs à inviter ; au salon vocal de fin, le même geste demande de confirmer la fermeture.",
+      "en": "In a multiplayer mode menu, two fingers swiped up on the right open the list of players to invite; in the end-of-game voice room, the same gesture asks you to confirm closing it.",
+      "es": "En el menú de un modo multijugador, dos dedos deslizados hacia arriba a la derecha abren la lista de jugadores a invitar; en la sala de voz final, el mismo gesto pide confirmar el cierre."
+    },
+    {
+      "date": "2026-11-22",
+      "fr": "Uranus : on ne peut plus se déplacer pendant un coup de vent ni une inclinaison ; les puces des nids sont un peu moins nombreuses à arriver vite.",
+      "en": "Uranus: you can no longer move during a gust or a tilt; nest fleas arrive a little less fast.",
+      "es": "Urano: ya no se puede avanzar durante una ráfaga ni una inclinación; las pulgas de los nidos llegan algo menos rápido."
+    },
+    {
+      "date": "2026-11-22",
+      "fr": "Page de connexion : le nombre de cellules et de cristaux n’est plus affiché.",
+      "en": "Login page: the number of cells and crystals is no longer shown.",
+      "es": "Página de inicio de sesión: ya no se muestra el número de celdas ni de cristales."
+    },
+    {
+      "date": "2026-11-22",
+      "fr": "Parrainage : l’écran dit combien de places il vous reste aujourd’hui (3 par jour), le filleul comprend quand c’est la limite du parrain, et une erreur de code se corrige dans les 24 heures.",
+      "en": "Referrals: the screen now shows how many places you have left today (3 per day), the new player understands when the referrer has hit the limit, and a wrong code can be fixed within 24 hours.",
+      "es": "Apadrinamiento: la pantalla indica cuántas plazas le quedan hoy (3 al día), el nuevo jugador entiende cuándo es el límite del padrino, y un código equivocado se corrige en 24 horas."
+    },
+    {
+      "date": "2026-11-22",
+      "fr": "Téléphone : nouveau réglage « Économie d’énergie » (30 images par seconde, image plus simple) pour un téléphone qui chauffe.",
+      "en": "Phone: new “Power saving” setting (30 frames per second, simpler picture) for a phone that gets hot.",
+      "es": "Teléfono: nuevo ajuste «Ahorro de energía» (30 imágenes por segundo, imagen más simple) para un teléfono que se calienta."
+    },
+    {
+      "date": "2026-11-22",
+      "fr": "Voix : le choix de la voix et la liste des voix suivent maintenant la langue de la voix du jeu (anglais, espagnol…), et plus seulement le français ; avec un lecteur d’écran, le bouton choisi n’est plus lu deux fois.",
+      "en": "Voice: the voice choice and the voice list now follow the game’s voice language (English, Spanish…), no longer French only; with a screen reader, the selected button is no longer read twice.",
+      "es": "Voz: la elección de voz y la lista de voces siguen ahora el idioma de la voz del juego (inglés, español…), y no solo el francés; con un lector de pantalla, el botón elegido ya no se lee dos veces."
+    },
+    {
+      "date": "2026-11-22",
+      "fr": "Jupiter : 40 ennemis à abattre par plateforme seul, 50 à deux, 60 à trois ; le jetpack est 50 % plus rapide et plus discret.",
+      "en": "Jupiter: 40 enemies to defeat per platform alone, 50 with two players, 60 with three; the jetpack is 50% faster and quieter.",
+      "es": "Júpiter: 40 enemigos que abatir por plataforma en solitario, 50 con dos jugadores y 60 con tres; el jetpack es un 50 % más rápido y más discreto."
+    },
+    {
+      "date": "2026-11-22",
+      "fr": "Jeep : mitrailleuse deux fois moins forte qui surchauffe après 5 secondes de tir, 20 % plus lente, et plus d’esquive à bord d’un véhicule.",
+      "en": "Jeep: machine gun half as strong that overheats after 5 seconds of fire, 20% slower, and no more dodging inside a vehicle.",
+      "es": "Jeep: ametralladora a la mitad de potencia que se sobrecalienta tras 5 segundos de fuego, un 20 % más lenta, y sin esquivas a bordo de un vehículo."
+    },
+    {
+      "date": "2026-11-22",
+      "fr": "Tireur d’élite : le bruit des impacts sur les boucliers des drones est de nouveau entendu sur téléphone.",
+      "en": "Sniper Elite: the sound of shots hitting the drones’ shields is heard again on phones.",
+      "es": "Tirador de élite: el sonido de los impactos en los escudos de los drones vuelve a oírse en el teléfono."
+    },
+    {
+      "date": "2026-11-22",
+      "fr": "Salon : les objets fabriqués pendant qu’un salon est ouvert ne disparaissent plus au départ de la partie.",
+      "en": "Lobby: items crafted while a lobby is open no longer disappear when the game starts.",
+      "es": "Sala: los objetos fabricados mientras hay una sala abierta ya no desaparecen al empezar la partida."
+    },
+    {
+      "date": "2026-11-21",
+      "fr": "Sur téléphone, le jeu demande moins d’efforts à l’appareil pendant les parties : il chauffe moins et la batterie tient plus longtemps.",
+      "en": "On phones, the game is lighter on the device during games: it runs cooler and the battery lasts longer.",
+      "es": "En el teléfono, el juego exige menos al dispositivo durante las partidas: se calienta menos y la batería dura más."
+    },
+    {
+      "date": "2026-11-21",
+      "fr": "Lien de parrainage : partagez-le depuis Trading, Parrainage ; votre ami crée son compte depuis ce lien et vous recevez chacun 200 cristaux, sans code à taper.",
+      "en": "Referral link: share it from Trading, Referrals; your friend creates their account from it and you each get 200 crystals, no code to type.",
+      "es": "Enlace de apadrinamiento: compártelo desde Trading, Apadrinamiento; tu amigo crea su cuenta desde ese enlace y cada uno recibe 200 cristales, sin código que escribir."
+    },
+    {
+      "date": "2026-11-21",
+      "fr": "Parrainage doublé : chaque ami parrainé rapporte maintenant 200 cristaux à vous et 200 cristaux à lui (au lieu de 100). C’est le moment de parrainer vos amis !",
+      "en": "Referrals doubled: every friend you refer now gives 200 crystals to you and 200 crystals to them (instead of 100). Now is the time to refer your friends!",
+      "es": "Apadrinamiento doble: cada amigo que apadrinas ahora da 200 cristales para ti y 200 para él (en lugar de 100). ¡Es el momento de apadrinar a tus amigos!"
+    },
+    {
+      "date": "2026-11-21",
+      "fr": "Jeu en ligne sur connexion faible : un rechargement ou une action perdus quand le réseau saute un instant sont renvoyés tout de suite (au bout d’une seconde environ), au lieu de ne jamais partir.",
+      "en": "Online play on a weak connection: a reload or action lost when the network drops for a moment is now resent right away (after about a second) instead of never going through.",
+      "es": "Juego en línea con conexión débil: una recarga o acción perdida cuando la red se corta un instante se reenvía enseguida (en cerca de un segundo), en lugar de no llegar nunca."
+    },
+    {
+      "date": "2026-11-21",
+      "fr": "Bataille de croiseurs : l’image ne saute plus pendant l’impact d’un tir sur un bouclier (téléphones).",
+      "en": "Cruiser Battle: the picture no longer stutters when a shot hits a shield (phones).",
+      "es": "Batalla de cruceros: la imagen ya no da saltos cuando un disparo impacta en un escudo (teléfonos)."
+    },
+    {
+      "date": "2026-11-21",
+      "fr": "Entraînements : en ligne, vos temps de rechargement et de changement d’arme suivent enfin votre niveau ; le délai du réseau ne s’y ajoute plus.",
+      "en": "Training: online, your reload and weapon swap times now really follow your level; network delay is no longer added on top.",
+      "es": "Entrenamientos: en línea, sus tiempos de recarga y de cambio de arma por fin siguen su nivel; el retraso de la red ya no se suma."
+    },
+    {
+      "date": "2026-11-21",
+      "fr": "Nouveau didacticiel : la tourelle de Charon (Aide, puis Didacticiel de chaque mode) : prendre l’ascenseur, choisir son couloir, tirer au canon.",
+      "en": "New tutorial: the Charon turret (Help, then Tutorial for each mode): take the lift, choose your lane, fire the cannon.",
+      "es": "Nuevo tutorial: la torreta de Caronte (Ayuda, luego Tutorial de cada modo): tomar el ascensor, elegir su pasillo, disparar el cañón."
+    },
+    {
+      "date": "2026-11-21",
+      "fr": "Dans un salon, validez le pseudo d’un joueur pour le demander en ami : il accepte ou non dans son menu Amis.",
+      "en": "In a lobby, select a player’s name to send them a friend request: they accept or decline in their Friends menu.",
+      "es": "En una sala, valide el nombre de un jugador para pedirle amistad: acepta o no en su menú Amigos."
+    },
+    {
+      "date": "2026-11-21",
+      "fr": "Jeu en ligne sur connexion moyenne ou faible : les échanges avec le serveur sont dix fois plus légers et s’adaptent à votre connexion ; l’état de la partie n’arrive plus avec plusieurs secondes de retard.",
+      "en": "Online play on an average or weak connection: exchanges with the server are ten times lighter and adapt to your connection; the game state no longer arrives several seconds late.",
+      "es": "Juego en línea con conexión media o débil: los intercambios con el servidor son diez veces más ligeros y se adaptan a su conexión; el estado de la partida ya no llega con varios segundos de retraso."
+    },
+    {
+      "date": "2026-11-21",
+      "fr": "Nouveau serveur de jeu en Amérique : le jeu choisit tout seul le serveur le plus proche de vous, pour des parties en ligne plus réactives.",
+      "en": "New game server in the Americas: the game picks the server closest to you on its own, for more responsive online games.",
+      "es": "Nuevo servidor de juego en América: el juego elige solo el servidor más cercano a ustedes, para partidas en línea más fluidas."
+    },
+    {
+      "date": "2026-11-21",
+      "fr": "Un groupe WhatsApp Coswars dans votre langue : rejoignez-le depuis l’Aide ou votre Profil.",
+      "en": "A Coswars WhatsApp group in your language: join it from Help or your Profile.",
+      "es": "Un grupo de WhatsApp de Coswars en su idioma: únanse desde la Ayuda o su Perfil."
+    },
+    {
+      "date": "2026-11-21",
+      "fr": "Entraînements : quand votre niveau raccourcit le changement d’arme et le rechargement, le bruitage raccourcit lui aussi : vous entendez enfin la différence.",
+      "en": "Training: when your level shortens weapon swapping and reloading, the sound now shortens too: you can finally hear the difference.",
+      "es": "Entrenamientos: cuando su nivel acorta el cambio de arma y la recarga, el sonido también se acorta: por fin se oye la diferencia."
+    },
+    {
+      "date": "2026-11-21",
+      "fr": "Bataille de croiseurs à la voix : un signal sonore régulier vous indique où est le croiseur ennemi (à gauche, à droite, plus sourd s’il est derrière, plus rapide s’il est proche), et la voix annonce son heure et sa distance.",
+      "en": "Cruiser Battle by voice: a regular sound signal tells you where the enemy cruiser is (left, right, muffled if behind, faster when close), and the voice announces its clock position and distance.",
+      "es": "Batalla de cruceros con voz: una señal sonora regular le indica dónde está el crucero enemigo (izquierda, derecha, más apagada si está detrás, más rápida si está cerca), y la voz anuncia su hora y su distancia."
+    },
+    {
+      "date": "2026-11-21",
+      "fr": "Charon : les dégâts infligés depuis la tourelle sont de nouveau comptés dans le bilan de fin de partie.",
+      "en": "Charon: damage dealt from the turret is counted again in the end-of-game summary.",
+      "es": "Caronte: el daño infligido desde la torreta vuelve a contarse en el resumen de fin de partida."
+    },
+    {
+      "date": "2026-11-21",
+      "fr": "Premier week-end : parties illimitées dans tous les modes jusqu’à dimanche minuit, et la Bataille de croiseurs est ouverte à tous.",
+      "en": "First weekend: unlimited games in every mode until Sunday midnight, and the Cruiser Battle is open to everyone.",
+      "es": "Primer fin de semana: partidas ilimitadas en todos los modos hasta el domingo a medianoche, y la Batalla de cruceros está abierta a todos."
+    },
+    {
+      "date": "2026-11-21",
+      "fr": "Coswars parle maintenant allemand : tout le jeu, la voix et la commandante Amelia. Choisissez « Deutsch » dans les Réglages.",
+      "en": "Coswars now speaks German: the whole game, the voice and Commander Amelia. Choose “Deutsch” in the Settings.",
+      "es": "Coswars ahora habla alemán: todo el juego, la voz y la comandante Amelia. Elige «Deutsch» en los Ajustes.",
+      "de": "Coswars spricht jetzt Deutsch: das ganze Spiel, die Stimme und Kommandantin Amelia. Wählen Sie „Deutsch“ in den Einstellungen."
+    },
+    {
+      "date": "2026-11-21",
+      "fr": "Nouveaux groupes WhatsApp pour les joueurs italiens et allemands, proposés à la fin de l’inscription.",
+      "en": "New WhatsApp groups for Italian and German players, offered at the end of sign-up.",
+      "es": "Nuevos grupos de WhatsApp para los jugadores italianos y alemanes, propuestos al final del registro.",
+      "de": "Neue WhatsApp-Gruppen für italienische und deutsche Spieler, angeboten am Ende der Anmeldung."
+    },
+    {
+      "date": "2026-11-21",
+      "fr": "Commando sur Jupiter : en chute libre, la voix redonne la direction de la plateforme en point cardinal et sa distance toutes les 5 secondes ; vent de chute moins fort.",
+      "en": "Commando on Jupiter: in free fall, the voice gives the platform’s direction as a compass point and its distance every 5 seconds; the falling wind is quieter.",
+      "es": "Comando en Júpiter: en caída libre, la voz indica la dirección de la plataforma en punto cardinal y su distancia cada 5 segundos; el viento de caída es más suave.",
+      "de": "Kommando auf Jupiter: Im freien Fall nennt die Stimme alle 5 Sekunden die Himmelsrichtung und die Entfernung der Plattform; der Fallwind ist leiser."
+    },
+    {
+      "date": "2026-11-21",
+      "fr": "Nouveaux didacticiels des véhicules (Jeep, char, sous-marin) dans l’Aide et au Quartier général : monter, conduire, tirer, lancer torpille ou missile, sortir.",
+      "en": "New vehicle tutorials (Jeep, tank, submarine) in Help and at Headquarters: get in, drive, shoot, launch a torpedo or missile, get out.",
+      "es": "Nuevos tutoriales de los vehículos (Jeep, tanque, submarino) en la Ayuda y en el Cuartel general: subir, conducir, disparar, lanzar torpedo o misil, bajar.",
+      "de": "Neue Fahrzeug-Tutorials (Jeep, Panzer, U-Boot) in der Hilfe und im Hauptquartier: einsteigen, fahren, schießen, Torpedo oder Rakete abfeuern, aussteigen."
+    },
+    {
+      "date": "2026-11-21",
+      "fr": "Commando et Évasion : on entend deux fois mieux le moteur du char et du sous-marin quand on est dehors ; Jupiter : sons des lance-missiles rééquilibrés.",
+      "en": "Commando and Escape: the tank and submarine engines are twice as audible from outside; Jupiter: missile launcher sounds rebalanced.",
+      "es": "Comando y Evasión: el motor del tanque y del submarino se oye el doble de bien desde fuera; Júpiter: sonidos de los lanzamisiles reequilibrados.",
+      "de": "Kommando und Ausbruch: Der Motor von Panzer und U-Boot ist von außen doppelt so gut zu hören; Jupiter: Klänge der Raketenwerfer neu abgestimmt."
+    },
+    {
+      "date": "2026-11-21",
+      "fr": "Sur téléphone, le jeu prend beaucoup moins de mémoire : il ne devrait plus se fermer et revenir au premier écran en pleine partie.",
+      "en": "On phones, the game uses far less memory: it should no longer close and return to the first screen in the middle of a game.",
+      "es": "En el teléfono, el juego usa mucha menos memoria: ya no debería cerrarse y volver a la primera pantalla en plena partida."
+    },
+    {
+      "date": "2026-11-21",
+      "fr": "Au toucher, un rond avec une flamme apparaît sous votre doigt quand vous tirez.",
+      "en": "On touch screens, a circle with a flame appears under your finger when you fire.",
+      "es": "Al tocar, aparece un círculo con una llama bajo su dedo cuando dispara."
+    },
+    {
+      "date": "2026-11-21",
+      "fr": "Tireur d’élite : la lampe de l’assassin aveugle bien le sniper à chaque fois qu’elle s’allume, et les joueurs ne se parlent plus pendant la partie.",
+      "en": "Sniper Elite: the assassin’s lamp now really blinds the sniper every time it lights up, and players no longer talk to each other during the game.",
+      "es": "Tirador de élite: la linterna del asesino ciega de verdad al francotirador cada vez que se enciende, y los jugadores ya no hablan entre ellos durante la partida."
+    },
+    {
+      "date": "2026-11-20",
+      "fr": "Commando sur Jupiter : le jetpack vous fait décoller au-dessus de la plateforme, la voix vous guide vers la suivante (« à 2 heures, encore 40 mètres ») et vous êtes protégé 4 secondes à l’atterrissage.",
+      "en": "Commando on Jupiter: the jetpack lifts you above the platform, the voice guides you to the next one (“at 2 o’clock, 40 metres to go”) and you are protected for 4 seconds on landing.",
+      "es": "Comando en Júpiter: el jetpack le eleva sobre la plataforma, la voz le guía hacia la siguiente («a las 2, faltan 40 metros») y queda protegido 4 segundos al aterrizar."
+    },
+    {
+      "date": "2026-11-20",
+      "fr": "Commando en ligne : une fois à terre, vous voyez vraiment par les yeux de votre coéquipier, avec son arme, ses tirs et sa vie.",
+      "en": "Commando online: once you are down, you really see through your teammate’s eyes, with their weapon, their shots and their health.",
+      "es": "Comando en línea: una vez abatido, ve de verdad por los ojos de su compañero, con su arma, sus disparos y su vida."
+    },
+    {
+      "date": "2026-11-20",
+      "fr": "Bataille de croiseurs : au poste des boucliers, chaque bouton a son pictogramme et sa couleur, et les drones de réparation et de ravitaillement se lancent séparément.",
+      "en": "Cruiser Battle: at the shields post, every button has its own icon and colour, and repair drones and supply drones are launched separately.",
+      "es": "Batalla de cruceros: en el puesto de escudos, cada botón tiene su pictograma y su color, y los drones de reparación y de suministro se lanzan por separado."
+    },
+    {
+      "date": "2026-11-20",
+      "fr": "Connexion avec Google : le bouton « Se connecter avec Google » est aussi sur l’écran de création du compte, et Google vous laisse toujours choisir votre compte.",
+      "en": "Sign in with Google: the “Sign in with Google” button is also on the account creation screen, and Google always lets you choose your account.",
+      "es": "Iniciar sesión con Google: el botón «Iniciar sesión con Google» también está en la pantalla de creación de cuenta, y Google siempre le deja elegir su cuenta."
+    },
+    {
+      "date": "2026-11-20",
+      "fr": "Parties du jour : une partie lancée compte, même si le jeu est fermé en cours de route ; la première interruption de la journée (plantage, batterie, appel) reste pardonnée.",
+      "en": "Daily games: a started game counts even if the game is closed midway; the first interruption of the day (crash, battery, phone call) is still forgiven.",
+      "es": "Partidas del día: una partida iniciada cuenta aunque se cierre el juego a mitad; la primera interrupción del día (fallo, batería, llamada) se perdona."
+    },
+    {
+      "date": "2026-11-20",
+      "fr": "Évasion sur Charon en ligne : l’ascenseur de la tourelle se déverrouille bien quand vous abattez le mech de surveillance.",
+      "en": "Escape on Charon online: the turret elevator now unlocks properly when you take down the surveillance mech.",
+      "es": "Evasión en Caronte en línea: el ascensor de la torreta se desbloquea al abatir al mech de vigilancia."
+    },
+    {
+      "date": "2026-11-20",
+      "fr": "Évasion : vous rejoignez désormais une partie ouverte depuis moins de 3 minutes sur la même carte, jusqu’à deux niveaux de difficulté d’écart.",
+      "en": "Escape: you now join a game opened less than 3 minutes ago on the same map, up to two difficulty levels apart.",
+      "es": "Evasión: ahora te unes a una partida abierta hace menos de 3 minutos en el mismo mapa, con hasta dos niveles de dificultad de diferencia."
+    },
+    {
+      "date": "2026-11-20",
+      "fr": "Véhicules à deux : un coéquipier peut monter dans la Jeep (protégé par le blindage) ou sur la tourelle du char (à découvert) et tirer avec ses propres armes pendant que vous pilotez.",
+      "en": "Two-player vehicles: a teammate can board the Jeep (protected by its armour) or sit on the tank turret (exposed) and fire their own weapons while you drive.",
+      "es": "Vehículos para dos: un compañero puede subir al Jeep (protegido por el blindaje) o a la torreta del tanque (al descubierto) y disparar con sus armas mientras conduces."
+    },
+    {
+      "date": "2026-11-20",
+      "fr": "L’arrivée de la Jeep et du char est annoncée avec leur zone, et leur moteur au ralenti s’entend deux fois plus fort et de plus loin.",
+      "en": "The arrival of the Jeep and the tank is announced with their zone, and their idling engine is twice as loud and heard from farther away.",
+      "es": "La llegada del Jeep y del tanque se anuncia con su zona, y su motor al ralentí suena el doble de fuerte y desde más lejos."
+    },
+    {
+      "date": "2026-11-20",
+      "fr": "Visite des cartes (Aide) : jetpack à volonté sur Jupiter pour s’entraîner, et les dangers de Titan, Pitoya et Venus Ville y sont actifs sans jamais vous tuer.",
+      "en": "Map tours (Help): unlimited jetpack on Jupiter to practise, and the hazards of Titan, Pitoya and Venus Ville are active without ever killing you.",
+      "es": "Visita de mapas (Ayuda): jetpack libre en Júpiter para entrenar, y los peligros de Titán, Pitoya y Venus Ville están activos sin matarte nunca."
+    },
+    {
+      "date": "2026-11-20",
+      "fr": "Chaque nouvelle carte a sa vidéo d’introduction dite par Amelia : Charon, Mercure, l’océan de Vénus, Titan, Pitoya, Uranus, Jupiter, et l’opération 2.",
+      "en": "Every new map now has its own intro video narrated by Amelia: Charon, Mercury, the Venus ocean, Titan, Pitoya, Uranus, Jupiter, and Operation 2.",
+      "es": "Cada nuevo mapa tiene ahora su vídeo de introducción narrado por Amelia: Caronte, Mercurio, el océano de Venus, Titán, Pitoya, Urano, Júpiter y la operación 2."
+    },
+    {
+      "date": "2026-11-20",
+      "fr": "Fluidité : les gels en marchant, en tirant et en rechargeant sont fortement réduits sur toutes les cartes.",
+      "en": "Smoothness: freezes while walking, shooting and reloading are greatly reduced on all maps.",
+      "es": "Fluidez: los tirones al caminar, disparar y recargar se han reducido mucho en todos los mapas."
+    },
+    {
+      "date": "2026-11-20",
+      "fr": "Sous-marin : poste de pilotage en 3D avec volant et manette des gaz, et il percute désormais les ennemis comme la Jeep et le char.",
+      "en": "Submarine: 3D cockpit with wheel and throttle, and it now rams enemies like the Jeep and the tank.",
+      "es": "Submarino: cabina en 3D con timón y palanca de gases, y ahora embiste a los enemigos como el Jeep y el tanque."
+    },
+    {
+      "date": "2026-11-20",
+      "fr": "Fluidité : les ralentissements apparus dans la lunette du sniper sont corrigés.",
+      "en": "Smoothness: the slowdowns that appeared in the sniper scope are fixed.",
+      "es": "Fluidez: se han corregido las ralentizaciones aparecidas en la mira del francotirador."
+    },
+    {
+      "date": "2026-11-20",
+      "fr": "Une seule touche pour agir : la touche qui ramasse les objets (F) fait aussi monter dans la Jeep ou le char, prendre l’ascenseur, libérer le détenu ; le jeu l’annonce et l’affiche à l’approche.",
+      "en": "One key to interact: the pick-up key (F) also gets you into the Jeep or tank, takes the elevator, frees the prisoner; the game says and shows it as you approach.",
+      "es": "Una sola tecla para actuar: la tecla de recoger (F) también sirve para subir al Jeep o al tanque, usar el ascensor o liberar al prisionero; el juego lo dice y lo muestra al acercarte."
+    },
+    {
+      "date": "2026-11-20",
+      "fr": "La Jeep de Venus Ville devient un véhicule flottant futuriste blanc, avec poste de pilotage, mitrailleuse au milieu, et elle renverse les ennemis qu’elle percute.",
+      "en": "The Venus Ville Jeep becomes a futuristic white hover vehicle, with a cockpit, a central machine gun, and it knocks back the enemies it rams.",
+      "es": "El Jeep de Venus Ville se convierte en un vehículo flotante futurista blanco, con cabina, ametralladora central, y derriba a los enemigos que embiste."
+    },
+    {
+      "date": "2026-11-20",
+      "fr": "Arbres plus nets de près : ils ne deviennent plus flous ni pixelisés quand on s’en approche.",
+      "en": "Sharper trees up close: they no longer turn blurry or pixelated as you approach.",
+      "es": "Árboles más nítidos de cerca: ya no se ven borrosos ni pixelados al acercarte."
+    },
+    {
+      "date": "2026-11-20",
+      "fr": "Bataille de croiseurs au doigt : le poste des boucliers a une liste de commandes à parcourir à la voix (glisser à droite, toucher pour lancer), sans bouton à chercher.",
+      "en": "Cruiser battle by touch: the shields station has a voice-guided list of commands (swipe on the right, tap to launch), no buttons to find.",
+      "es": "Batalla de cruceros con el dedo: el puesto de escudos tiene una lista de órdenes guiada por voz (desliza a la derecha, toca para lanzar), sin botones que buscar."
+    },
+    {
+      "date": "2026-11-20",
+      "fr": "Didacticiel du pilote : une leçon sur les heures (où est l’ennemi) et deux exercices de manœuvre pour mettre l’ennemi devant ou sur le flanc.",
+      "en": "Pilot tutorial: a lesson on clock positions (where the enemy is) and two steering exercises to put the enemy ahead or on your flank.",
+      "es": "Tutorial del piloto: una lección sobre las horas del reloj (dónde está el enemigo) y dos ejercicios para poner al enemigo delante o en el flanco."
+    },
+    {
+      "date": "2026-11-20",
+      "fr": "Conversation entre joueurs encore plus légère : la voix passe en Opus quand les appareils le permettent, pour moins de coupures sur les connexions faibles.",
+      "en": "Even lighter player voice chat: voice now uses Opus when devices allow it, for fewer dropouts on weak connections.",
+      "es": "Chat de voz aún más ligero: la voz pasa a Opus cuando los dispositivos lo permiten, para menos cortes con conexiones débiles."
+    },
+    {
+      "date": "2026-11-20",
+      "fr": "Commando sur Venus Ville : une Jeep jouable arrive sous la Space Academy après 3 minutes, avec sa mitrailleuse et son lance-grenades.",
+      "en": "Commando on Venus Ville: a playable Jeep arrives under the Space Academy after 3 minutes, with its machine gun and grenade launcher.",
+      "es": "Comando en Venus Ville: un Jeep jugable llega bajo la Space Academy a los 3 minutos, con su ametralladora y su lanzagranadas."
+    },
+    {
+      "date": "2026-11-20",
+      "fr": "Salons : le mode et la carte que vous avez choisis ne changent plus quand vous invitez ; deux doigts vers le haut à droite ouvrent la liste des joueurs à inviter.",
+      "en": "Lobbies: the mode and map you chose no longer change when you invite; two fingers up on the right open the list of players to invite.",
+      "es": "Salas: el modo y el mapa elegidos ya no cambian al invitar; dos dedos hacia arriba a la derecha abren la lista de jugadores para invitar."
+    },
+    {
+      "date": "2026-11-20",
+      "fr": "Marcher droit est plus facile au doigt pour qui joue à la voix, et la voix des joueurs en ligne consomme quatre fois moins de données.",
+      "en": "Walking straight is easier by touch for voice players, and online player voice chat uses four times less data.",
+      "es": "Caminar recto es más fácil con el dedo para quien juega con voz, y el chat de voz en línea consume cuatro veces menos datos."
+    },
+    {
+      "date": "2026-11-20",
+      "fr": "Les joueurs espagnols et anglais ont leur groupe WhatsApp : rejoignez-le depuis l’Aide ou le Profil.",
+      "en": "English-speaking players now have their own WhatsApp group: join it from Help or Profile.",
+      "es": "Los jugadores hispanohablantes tienen su grupo de WhatsApp: únete desde Ayuda o Perfil."
+    },
+    {
+      "date": "2026-11-20",
+      "fr": "Plus juste pour tous : après une esquive, les ennemis attendent un instant avant de tirer, et les drones et soldats qui entrent en longue portée aussi. Le char et le sous-marin ne craignent plus les radiations.",
+      "en": "Fairer for everyone: after a dodge, enemies wait a moment before firing, and so do drones and soldiers entering long range. The tank and the submarine are no longer harmed by radiation.",
+      "es": "Más justo para todos: tras una esquiva, los enemigos esperan un instante antes de disparar, y también los drones y soldados que entran en largo alcance. El tanque y el submarino ya no sufren la radiación."
+    },
+    {
+      "date": "2026-11-20",
+      "fr": "Tour de Charon : glissez le doigt à droite pour entendre l’ennemi sous le doigt, touchez pour tirer précisément dessus. Sons de Jupiter, d’Uranus et de Mercure plus forts et mieux placés, et l’effet quand on traverse un son est bien plus net.",
+      "en": "Charon tower: slide your finger on the right to hear the enemy under it, tap to fire precisely at it. Jupiter, Uranus and Mercury sounds are louder and better placed, and passing through a sound is much more noticeable.",
+      "es": "Torre de Caronte: desliza el dedo a la derecha para oír al enemigo bajo el dedo y toca para disparar con precisión. Los sonidos de Júpiter, Urano y Mercurio son más fuertes y están mejor situados, y atravesar un sonido se nota mucho más."
+    },
+    {
+      "date": "2026-11-20",
+      "fr": "Réglages : « Relancer la voix » si la voix du jeu se tait, et menu de la partie aussi.",
+      "en": "Settings: “Restart the voice” if the game voice goes silent, also in the in-game menu.",
+      "es": "Ajustes: «Reiniciar la voz» si la voz del juego se calla, también en el menú de la partida."
+    },
+    {
+      "date": "2026-11-20",
+      "fr": "Les lance-missiles de Jupiter se lancent enfin en ligne depuis le salon du Commando. Le lance-missiles de la première plateforme ne s’entend plus qu’au centre et la pluie de radiations de Pitoya se place à gauche ou à droite selon l’endroit où elle tombe.",
+      "en": "Jupiter Missile Launchers can finally be started online from the Commando lobby. The first platform's launcher is now heard only at its center, and Pitoya's radiation rain is placed left or right depending on where it falls.",
+      "es": "Los lanzamisiles de Júpiter por fin se pueden iniciar en línea desde la sala del Comando. El lanzamisiles de la primera plataforma solo se oye en el centro, y la lluvia de radiación de Pitoya se sitúa a la izquierda o a la derecha según dónde caiga."
+    },
+    {
+      "date": "2026-11-20",
+      "fr": "Parrainage : 3 joueurs parrainés par jour au plus.",
+      "en": "Sponsorship: up to 3 sponsored players per day.",
+      "es": "Apadrinamiento: 3 jugadores apadrinados al día como máximo."
+    },
+    {
+      "date": "2026-11-20",
+      "fr": "À l’arrivée sur chaque carte du Commando et de l’Évasion, une voix annonce ses particularités et où aller.",
+      "en": "When you land on each Commando and Escape map, a voice now tells you what is special about it and where to go.",
+      "es": "Al llegar a cada mapa de Commando y de Evasión, una voz anuncia sus particularidades y adónde ir."
+    },
+    {
+      "date": "2026-11-20",
+      "fr": "Sur Charon, l’ascenseur des tourelles est visible au milieu de chaque salle : un clic sur son pupitre suffit.",
+      "en": "On Charon, the turret lift now stands in the middle of each room: just click its console.",
+      "es": "En Caronte, el ascensor de las torretas se ve en el centro de cada sala: basta un clic en su consola."
+    },
+    {
+      "date": "2026-11-20",
+      "fr": "Le jeu est plus fluide sur toutes les cartes, et le contour noir du style est partout.",
+      "en": "The game runs smoother on every map, and the black ink outline is now everywhere.",
+      "es": "El juego va más fluido en todos los mapas y el contorno negro del estilo está en todas partes."
+    },
+    {
+      "date": "2026-11-20",
+      "fr": "La commandante Amelia parle maintenant dans les huit langues du jeu : explications des modes, briefings des missions et annonces des vagues.",
+      "en": "Commander Amelia now speaks in all eight languages of the game: mode explanations, mission briefings and wave announcements.",
+      "es": "La comandante Amelia habla ahora en los ocho idiomas del juego: explicaciones de los modos, briefings de las misiones y anuncios de las oleadas."
+    },
+    {
+      "date": "2026-11-19",
+      "fr": "Chantier spatial de Pitoya : après trois minutes de jeu, un char jouable sort de l’usine d’incarnation, au nord. Il se pilote comme le sous-marin de l’océan de Vénus : 2 000 points de vie, canon, 10 missiles, trois doigts vers le haut à droite pour y monter ou en sortir.",
+      "en": "Pitoya Space Shipyard: after three minutes of play, a drivable tank rolls out of the incarnation factory, to the north. It handles like the Venus ocean submarine: 2,000 health, a cannon, 10 missiles, three fingers up on the right to get in or out.",
+      "es": "Astillero espacial de Pitoya: tras tres minutos de juego, un tanque jugable sale de la fábrica de encarnación, al norte. Se maneja como el submarino del océano de Venus: 2000 puntos de vida, cañón, 10 misiles, tres dedos hacia arriba a la derecha para subir o bajar."
+    },
+    {
+      "date": "2026-11-19",
+      "fr": "Les lance-missiles de Jupiter se jouent maintenant en ligne, jusqu’à trois : plateforme commune, chacun saute au jetpack pour son compte, on dit de quel bord sauter, et toute l’escouade passe ensemble sur la plateforme suivante.",
+      "en": "Jupiter Missile Launchers can now be played online, up to three players: a shared platform, everyone jumps with their own jetpack, you are told which edge to jump from, and the whole squad moves on to the next platform together.",
+      "es": "Los lanzamisiles de Júpiter ya se juegan en línea, hasta tres jugadores: plataforma común, cada uno salta con su jetpack, se indica desde qué borde saltar y todo el escuadrón pasa junto a la siguiente plataforma."
+    },
+    {
+      "date": "2026-11-19",
+      "fr": "Nouveaux sons d’ambiance pour Titan, Pitoya et la cuvette de l’Arène des titans ; pas plus forts sur Charon et Jupiter.",
+      "en": "New ambient sounds for Titan, Pitoya and the Arena of Titans basin; louder footsteps on Charon and Jupiter.",
+      "es": "Nuevos sonidos de ambiente para Titán, Pitoya y la cuenca de la Arena de los titanes; pasos más fuertes en Caronte y Júpiter."
+    },
+    {
+      "date": "2026-11-19",
+      "fr": "Zone défensive : nouvelle opération 2 vénusienne, « Le réveil de la jungle », en 4 missions : les drones tirent, un bombardier passe régulièrement et le drone jumeau se divise sur deux positions.",
+      "en": "Defensive Zone: new Venusian Operation 2, “The Jungle Awakens”, in 4 missions: drones shoot back, a bomber flies over regularly and the twin drone splits across two positions.",
+      "es": "Zona defensiva: nueva operación 2 venusiana, «El despertar de la jungla», en 4 misiones: los drones disparan, un bombardero pasa con regularidad y el dron gemelo se divide en dos posiciones."
+    },
+    {
+      "date": "2026-11-19",
+      "fr": "Sous-marin : vie du sous-marin dans le menu de la partie, ni grenade ni rayon paralysant dedans, sons retouchés. Évasion : la cage s’ouvre avec trois doigts vers le haut, à droite. Lance-missiles de Jupiter : plus rien à travers le sol, ennemis de nouveau visables, parties plus fluides.",
+      "en": "Submarine: submarine health in the match menu, no grenades or paralysing ray inside, sounds adjusted. Escape: the cage opens with three fingers up on the right. Jupiter Missile Launchers: nothing shows through the floor any more, enemies can be targeted again, smoother matches.",
+      "es": "Submarino: vida del submarino en el menú de la partida, sin granadas ni rayo paralizante dentro, sonidos ajustados. Evasión: la jaula se abre con tres dedos hacia arriba a la derecha. Lanzamisiles de Júpiter: ya no se ve nada a través del suelo, los enemigos vuelven a poder apuntarse, partidas más fluidas."
+    },
+    {
+      "date": "2026-11-19",
+      "fr": "Coswars parle italien : tout le jeu, la voix, les explications d’Amelia, les annonces des vagues et les vidéos d’introduction des modes. À choisir dans Réglages, Langue du jeu, ou sur la page de connexion.",
+      "en": "Coswars now speaks Italian: the whole game, the voice, Amelia’s explanations, the wave announcements and the mode intro videos. Choose it in Settings, Game language, or on the sign-in page.",
+      "es": "Coswars habla italiano: todo el juego, la voz, las explicaciones de Amelia, los anuncios de oleadas y los vídeos de introducción de los modos. Elígelo en Ajustes, Idioma del juego, o en la página de inicio de sesión.",
+      "it": "Coswars parla italiano: tutto il gioco, la voce, le spiegazioni di Amelia, gli annunci delle ondate e i video introduttivi delle modalità. Lo scelga in Impostazioni, Lingua del gioco, oppure nella pagina di accesso."
+    },
+    {
+      "date": "2026-11-19",
+      "fr": "Boutique : chaque offre de cristaux, chaque carte et chaque passe VIP a maintenant son image.",
+      "en": "Shop: every crystal offer, card and VIP pass now has its own picture.",
+      "es": "Tienda: cada oferta de cristales, cada tarjeta y cada pase VIP tiene ahora su propia imagen."
+    },
+    {
+      "date": "2026-11-19",
+      "fr": "Océan de Vénus : on entre et on sort du sous-marin seulement avec trois doigts vers le haut, à droite (touche Entrée) ; pas de demi-tour dedans ; nouveaux sons du sous-marin ; les requins le fuient et ne reviennent que 30 secondes après leur mort.",
+      "en": "Venus Ocean: you get in and out of the submarine only with three fingers up on the right (Enter key); no U-turn inside; new submarine sounds; sharks flee it and only come back 30 seconds after dying.",
+      "es": "Océano de Venus: se entra y se sale del submarino solo con tres dedos hacia arriba a la derecha (tecla Intro); sin media vuelta dentro; nuevos sonidos del submarino; los tiburones huyen de él y solo vuelven 30 segundos después de morir."
+    },
+    {
+      "date": "2026-11-19",
+      "fr": "Charon : l’ascenseur se prend aussi avec trois doigts vers le haut, à droite (touche Entrée) ; Ramasser ne fait plus que ramasser. Jupiter : le lance-missiles de la première plateforme est beaucoup moins fort.",
+      "en": "Charon: the elevator is now taken with three fingers up on the right (Enter key); Pick up only picks things up. Jupiter: the first platform's missile launcher is much quieter.",
+      "es": "Caronte: el ascensor se toma con tres dedos hacia arriba a la derecha (tecla Intro); Recoger solo recoge. Júpiter: el lanzamisiles de la primera plataforma suena mucho más bajo."
+    },
+    {
+      "date": "2026-11-19",
+      "fr": "En portugais, chinois, japonais et arabe, les textes qui parlent de cristaux et de puissance sont maintenant entièrement traduits.",
+      "en": "In Portuguese, Chinese, Japanese and Arabic, texts about crystals and power are now fully translated.",
+      "es": "En portugués, chino, japonés y árabe, los textos sobre cristales y potencia ya están totalmente traducidos."
+    },
+    {
+      "date": "2026-11-19",
+      "fr": "Lance-missiles de Jupiter : les ennemis sont remplacés comme au Commando, le bombardier arrive après 50 ennemis abattus ; en chute libre, les points cardinaux sont dits et la voix annonce quand vous allez atterrir ; un vent souffle près des bords.",
+      "en": "Jupiter Missile Launchers: enemies are replaced like in Commando, and the bomber comes after 50 kills; during the free fall, compass points are announced and the voice tells you when you are about to land; wind blows near the edges.",
+      "es": "Lanzamisiles de Júpiter: los enemigos se reponen como en Comando y el bombardero llega tras 50 bajas; en caída libre se anuncian los puntos cardinales y la voz avisa cuando vas a aterrizar; sopla el viento cerca de los bordes."
+    },
+    {
+      "date": "2026-11-19",
+      "fr": "Son : les bruits qui sortent de portée s’effacent en douceur, l’impact lointain après certains tirs a disparu, et dans le Commando, l’Évasion et le Combat en groupe, l’ambiance tourne avec vous.",
+      "en": "Sound: sounds leaving your hearing range now fade out smoothly, the distant impact after some shots is gone, and in Commando, Escape and Group Combat the ambience turns with you.",
+      "es": "Sonido: los sonidos que salen de tu alcance se desvanecen suavemente, desapareció el impacto lejano tras algunos disparos, y en Comando, Evasión y Combate en grupo el ambiente gira contigo."
+    },
+    {
+      "date": "2026-11-19",
+      "fr": "La vitesse de la voix monte maintenant jusqu’à 350 % (Réglages), à la demande des joueurs qui jouent à la voix.",
+      "en": "The voice speed now goes up to 350% (Settings), as requested by players who play by voice.",
+      "es": "La velocidad de la voz ahora llega hasta el 350 % (Ajustes), a petición de los jugadores que juegan con la voz."
+    },
+    {
+      "date": "2026-11-19",
+      "fr": "Absent depuis une semaine ? 50 cristaux vous attendent à votre retour dans le jeu.",
+      "en": "Away for a week? 50 crystals are waiting for you when you come back to the game.",
+      "es": "¿Una semana sin jugar? 50 cristales te esperan cuando vuelvas al juego."
+    },
+    {
+      "date": "2026-11-19",
+      "fr": "Lance-missiles de Jupiter : la carte a maintenant ses vrais sons (plateformes, lance-missiles, jetpack, vent de chute libre, bombardier, destruction, pas sur la grille).",
+      "en": "Jupiter Missile Launchers: the map now has its real sounds (platforms, missile launchers, jetpack, free-fall wind, bomber, destruction, footsteps on the grating).",
+      "es": "Lanzamisiles de Júpiter: el mapa ya tiene sus sonidos reales (plataformas, lanzamisiles, jetpack, viento de caída libre, bombardero, destrucción, pasos sobre la rejilla)."
+    },
+    {
+      "date": "2026-11-19",
+      "fr": "Commando : nouvelle carte « Les lance-missiles de Jupiter », en solo : trois plateformes volantes dans les nuages de Jupiter. Nettoyez-les, puis sautez au jetpack avant le bombardier et guidez votre chute libre jusqu’à la suivante.",
+      "en": "Commando: new solo map “The Jupiter Missile Launchers”: three flying platforms in Jupiter’s clouds. Clear each one, then jump with your jetpack before the bomber arrives and steer your free fall to the next.",
+      "es": "Comando: nuevo mapa en solitario «Los lanzamisiles de Júpiter»: tres plataformas voladoras entre las nubes de Júpiter. Límpialas y salta con el jetpack antes de que llegue el bombardero, guiando tu caída libre hasta la siguiente."
+    },
+    {
+      "date": "2026-11-19",
+      "fr": "Mercure : les entrées des couloirs sont bien plus larges, on entre et sort des cellules sans se coincer ; le couloir protège aussi de la vague de feu.",
+      "en": "Mercury: corridor entrances are much wider, so you no longer get stuck going in or out of cells; corridors now also protect you from the fire wave.",
+      "es": "Mercurio: las entradas de los pasillos son mucho más anchas y ya no te atascas al entrar o salir de las celdas; el pasillo también protege de la ola de fuego."
+    },
+    {
+      "date": "2026-11-19",
+      "fr": "Votre langue est maintenant affichée à côté de votre pseudo quand un joueur cherche quelqu’un à inviter.",
+      "en": "Your language is now shown next to your nickname when someone looks for players to invite.",
+      "es": "Tu idioma ahora aparece junto a tu apodo cuando alguien busca jugadores para invitar."
+    },
+    {
+      "date": "2026-11-19",
+      "fr": "Commando : nouvelle carte « La station minière d’Uranus », une plateforme de métal au bord de la tempête rouge. Des coups de vent gazeux vous font glisser, et la station penche trois fois par partie.",
+      "en": "Commando: new map “The Uranus Mining Station”, a metal platform at the edge of the red storm. Gas gusts make you slide, and the station tilts three times per match.",
+      "es": "Comando: nuevo mapa «La estación minera de Urano», una plataforma de metal al borde de la tormenta roja. Las ráfagas de gas te hacen deslizar y la estación se inclina tres veces por partida."
+    },
+    {
+      "date": "2026-11-19",
+      "fr": "Océan de Vénus : nouveaux sons des requins, qui n’attaquent plus le sous-marin ; le moteur du sous-marin monte en régime quand on avance.",
+      "en": "Venus ocean: new shark sounds, and sharks no longer attack the submarine; the submarine engine revs up as you move forward.",
+      "es": "Océano de Venus: nuevos sonidos de tiburones, que ya no atacan al submarino; el motor del submarino acelera al avanzar."
+    },
+    {
+      "date": "2026-11-19",
+      "fr": "Au doigt : trois doigts vers la droite referment aussi le menu de la partie, deux doigts vers le bas envoient les invitations, et un anneau montre le rechargement. Les médailles gagnées s’affichent au bilan.",
+      "en": "Touch: three fingers right also close the match menu, two fingers down send invitations, and a ring shows reloading. Medals won now appear in the match summary.",
+      "es": "Táctil: tres dedos a la derecha también cierran el menú de la partida, dos dedos hacia abajo envían las invitaciones y un anillo muestra la recarga. Las medallas ganadas aparecen en el resumen."
+    },
+    {
+      "date": "2026-11-19",
+      "fr": "Commando : nouvelle carte « Le chantier spatial de Pitoya », un marécage où les Arcturiens font pousser leurs vaisseaux. Attention aux pluies de radiations : abritez-vous sous les structures.",
+      "en": "Commando: new map “The Pitoya space shipyard”, a swamp where the Arcturians grow their ships. Watch out for radiation showers: take shelter under the structures.",
+      "es": "Comando: nuevo mapa «El astillero espacial de Pitoya», un pantano donde los arcturianos cultivan sus naves. Cuidado con las lluvias de radiación: refúgiate bajo las estructuras."
+    },
+    {
+      "date": "2026-11-19",
+      "fr": "Le drone suicide est 30 % plus rapide dans tous les modes (sauf la Zone défensive).",
+      "en": "The suicide drone is 30% faster in every mode (except Defense Zone).",
+      "es": "El dron suicida es un 30 % más rápido en todos los modos (salvo la Zona defensiva)."
+    },
+    {
+      "date": "2026-11-19",
+      "fr": "Android : le son ne se coupe plus dans les parties en ligne. Nouveaux boutons « Vérifier le son » et « Relancer le son » dans les Réglages et le menu de chaque partie.",
+      "en": "Android: sound no longer cuts out in online games. New “Check the sound” and “Restart the sound” buttons in Settings and in every game menu.",
+      "es": "Android: el sonido ya no se corta en las partidas en línea. Nuevos botones «Comprobar el sonido» y «Reiniciar el sonido» en Ajustes y en el menú de cada partida."
+    },
+    {
+      "date": "2026-11-19",
+      "fr": "Achats : chaque achat est maintenant confirmé par un e-mail et par une carte « Achat reçu » dans le jeu, qui montre ce qui a été crédité sur votre compte.",
+      "en": "Purchases: every purchase is now confirmed by an e-mail and by a “Purchase received” card in the game, showing what was credited to your account.",
+      "es": "Compras: cada compra se confirma ahora con un correo y con una tarjeta «Compra recibida» en el juego, que muestra lo que se ha añadido a su cuenta."
+    },
+    {
+      "date": "2026-11-19",
+      "fr": "Retours et problèmes : le bouton « Retours, problèmes, suggestions » ajoute tout seul votre identifiant de joueur au message, pour que l’équipe retrouve votre compte et vous réponde plus vite.",
+      "en": "Feedback and problems: the “Feedback, problems, suggestions” button now adds your player ID to the message, so the team can find your account and answer faster.",
+      "es": "Comentarios y problemas: el botón «Comentarios, problemas, sugerencias» añade solo su ID de jugador al mensaje, para que el equipo encuentre su cuenta y le responda más rápido."
+    },
+    {
+      "date": "2026-11-19",
+      "fr": "Achats sur Android : les achats payés qui n’étaient pas arrivés sont maintenant retransmis automatiquement à l’ouverture du jeu.",
+      "en": "Android purchases: paid purchases that had not arrived are now resent automatically when the game opens.",
+      "es": "Compras en Android: las compras pagadas que no habían llegado se reenvían ahora automáticamente al abrir el juego."
+    },
+    {
+      "date": "2026-11-19",
+      "fr": "Océan de Vénus : trois requins rôdent sur la carte. Ils foncent, mordent votre combinaison et repartent prendre de l’élan.",
+      "en": "Venus ocean: three sharks roam the map. They charge, bite your suit and swim off to build up speed again.",
+      "es": "Océano de Venus: tres tiburones merodean por el mapa. Se lanzan, muerden tu traje y se alejan para tomar impulso."
+    },
+    {
+      "date": "2026-11-19",
+      "fr": "Sur iPhone, le jeu reprend la voix que vous avez choisie dans les réglages de votre téléphone.",
+      "en": "On iPhone, the game uses the voice you chose in your phone settings again.",
+      "es": "En iPhone, el juego vuelve a usar la voz que elegiste en los ajustes de tu teléfono."
+    },
+    {
+      "date": "2026-11-19",
+      "fr": "L’Aide, la Bible et les didacticiels sont à jour de toutes les nouveautés, dans les sept langues.",
+      "en": "Help, the Bible and the tutorials now cover every new feature, in all seven languages.",
+      "es": "La Ayuda, la Biblia y los tutoriales están al día con todas las novedades, en los siete idiomas."
+    },
+    {
+      "date": "2026-11-19",
+      "fr": "Titan : blocs de glace deux fois moins fréquents et grotte agrandie au tiers sud de la carte. Plus aucun son de partie après la fin d’une partie.",
+      "en": "Titan: ice blocks fall half as often and the cave now covers the southern third of the map. No game sound is left playing once a match ends.",
+      "es": "Titán: los bloques de hielo caen la mitad de veces y la cueva cubre el tercio sur del mapa. Ya no queda ningún sonido de la partida al terminar."
+    },
+    {
+      "date": "2026-11-19",
+      "fr": "Pour nous faire pardonner la panne du 18 novembre : 100 cristaux pour chaque joueur et 5 parties de plus dans tous les modes le 19 novembre.",
+      "en": "To make up for the outage on November 18: 100 crystals for every player and 5 extra games in every mode on November 19.",
+      "es": "Para compensar la caída del 18 de noviembre: 100 cristales para cada jugador y 5 partidas más en todos los modos el 19 de noviembre."
+    },
+    {
+      "date": "2026-11-19",
+      "fr": "Salons et listes de joueurs : le pseudo en gros et en couleur, et la langue dans laquelle joue chacun, pour savoir quelle langue il parle.",
+      "en": "Lobbies and player lists: nicknames are bigger and in colour, and you can see which language each player plays in.",
+      "es": "Salas y listas de jugadores: el apodo más grande y en color, y el idioma en el que juega cada uno."
+    },
+    {
+      "date": "2026-11-19",
+      "fr": "Les invitations et les demandes d’ami arrivent maintenant en temps réel, et le jeu reste fluide même avec beaucoup de joueurs connectés.",
+      "en": "Invitations and friend requests now arrive in real time, and the game stays smooth even with many players online.",
+      "es": "Las invitaciones y las solicitudes de amistad ahora llegan en tiempo real, y el juego sigue fluido incluso con muchos jugadores conectados."
+    },
+    {
+      "date": "2026-11-19",
+      "fr": "Nouveaux commandeurs : arcturien sur Titan (champ magnétique qui le protège 3 secondes), vénusien dans l’océan (grenade lancée à sa mort), Mentis sur Charon (boomerang explosif).",
+      "en": "New commanders: Arcturian on Titan (a magnetic field protects him for 3 seconds), Venusian in the ocean (throws a grenade as he dies), Mentis on Charon (explosive boomerang).",
+      "es": "Nuevos comandantes: arcturiano en Titán (un campo magnético lo protege 3 segundos), venusiano en el océano (lanza una granada al morir), Mentis en Caronte (bumerán explosivo)."
+    },
+    {
+      "date": "2026-11-19",
+      "fr": "Le commandant Dracos attaque de loin et tire au lance-roquettes toutes les quinze secondes.",
+      "en": "The Draco commander attacks from long range and fires his rocket launcher every fifteen seconds.",
+      "es": "El comandante Draco ataca de lejos y dispara su lanzacohetes cada quince segundos."
+    },
+    {
+      "date": "2026-11-18",
+      "fr": "Titan : la chute des blocs de glace de méthane a enfin son vrai son, et les pas et les sons des quatre bords sont un peu plus doux.",
+      "en": "Titan: the falling methane ice blocks finally have their real sound, and footsteps and the four edge sounds are a little softer.",
+      "es": "Titán: la caída de los bloques de hielo de metano por fin tiene su sonido real, y los pasos y los sonidos de los cuatro bordes son un poco más suaves."
+    },
+    {
+      "date": "2026-11-18",
+      "fr": "Océan de Vénus : le sous-marin s’entend de loin (son moteur au ralenti), sa cellule est annoncée à l’ouverture, et on y entre avec trois doigts vers le haut à droite.",
+      "en": "Venus ocean: you can hear the submarine from afar (its engine idling), its cell is announced when it opens, and you get in with three fingers up on the right.",
+      "es": "Océano de Venus: el submarino se oye de lejos (su motor al ralentí), su celda se anuncia al abrirse y se entra con tres dedos hacia arriba a la derecha."
+    },
+    {
+      "date": "2026-11-18",
+      "fr": "La langue choisie sur votre appareil reste la bonne après la connexion à votre compte.",
+      "en": "The language you choose on your device now stays after you log in to your account.",
+      "es": "El idioma elegido en tu dispositivo se mantiene al iniciar sesión en tu cuenta."
+    },
+    {
+      "date": "2026-11-18",
+      "fr": "Commando : nouvelle carte, le lac de méthane de Titan. On marche dans du méthane noir jusqu’aux genoux, et des blocs de glace géants tombent du ciel toutes les vingt secondes.",
+      "en": "Commando: a new map, the methane lake of Titan. You wade knee-deep in black methane, and giant ice blocks fall from the sky every twenty seconds.",
+      "es": "Comando: un nuevo mapa, el lago de metano de Titán. Caminas en metano negro hasta las rodillas y caen bloques de hielo gigantes del cielo cada veinte segundos."
+    },
+    {
+      "date": "2026-11-18",
+      "fr": "Choisissez votre carte du Commando dans son menu ou dans le salon : Venus Ville ou Titan.",
+      "en": "Choose your Commando map in its menu or in the lobby: Venus Ville or Titan.",
+      "es": "Elige tu mapa del Comando en su menú o en la sala: Venus Ville o Titán."
+    },
+    {
+      "date": "2026-11-18",
+      "fr": "Évasion, océan de Vénus : un sous-marin attend au fond d’une cellule. Montez dedans, pilotez-le, tirez au canon et lancez jusqu’à 10 torpilles.",
+      "en": "Escape, Venus ocean: a submarine waits at the back of a cell. Climb in, pilot it, fire its cannon and launch up to 10 torpedoes.",
+      "es": "Evasión, océano de Venus: un submarino espera al fondo de una celda. Súbete, pilótalo, dispara su cañón y lanza hasta 10 torpedos."
+    },
+    {
+      "date": "2026-11-18",
+      "fr": "Commando et Évasion : après une élimination, vous revenez au hasard sur la carte, loin de l’endroit où vous êtes tombé.",
+      "en": "Commando and Escape: after being taken down, you come back at a random spot on the map, far from where you fell.",
+      "es": "Comando y Evasión: tras caer, vuelves en un lugar al azar del mapa, lejos de donde caíste."
+    },
+    {
+      "date": "2026-11-18",
+      "fr": "Si vous jouez sur le haut-parleur, votre micro de salon vocal part à 25 % pour que les autres n’entendent pas votre partie (vous pouvez le remonter).",
+      "en": "If you play on the speaker, your voice lobby mic starts at 25% so others don't hear your game (you can turn it back up).",
+      "es": "Si juegas con el altavoz, tu micrófono de sala de voz empieza al 25 % para que los demás no oigan tu partida (puedes subirlo)."
+    },
+    {
+      "date": "2026-11-18",
+      "fr": "Un seul geste pour toutes les combinaisons d’objets : deux doigts glissés vers le haut, côté gauche de l’écran.",
+      "en": "One gesture for every item combination: two fingers swiped up, left side of the screen.",
+      "es": "Un solo gesto para todas las combinaciones de objetos: dos dedos deslizados hacia arriba, lado izquierdo de la pantalla."
+    },
+    {
+      "date": "2026-11-18",
+      "fr": "Commandeur, ingénieur : nouveaux gestes pour envoyer les troupes (un, deux ou trois doigts vers le haut), un toucher pour le feu maximal, deux doigts pour le rayon paralysant.",
+      "en": "Commander, engineer: new gestures to send troops (one, two or three fingers up), a tap for maximum fire, two fingers for the stun beam.",
+      "es": "Comandante, ingeniero: nuevos gestos para enviar tropas (uno, dos o tres dedos hacia arriba), un toque para el fuego máximo, dos dedos para el rayo paralizante."
+    },
+    {
+      "date": "2026-11-18",
+      "fr": "Gâchette : +1 tir par seconde à chaque palier ; armes de jet contre les autres joueurs recalculées en Commando et en Évasion.",
+      "en": "Trigger: +1 shot per second at each step; throwing weapons against other players recalculated in Commando and Escape.",
+      "es": "Gatillo: +1 disparo por segundo en cada nivel; armas arrojadizas contra otros jugadores recalculadas en Comando y Evasión."
+    },
+    {
+      "date": "2026-11-18",
+      "fr": "En anglais, en espagnol et en portugais, le clavier du jeu est en QWERTY et les chiffres et les signes sont dits dans la langue du joueur, dès le premier lancement.",
+      "en": "In English, Spanish and Portuguese, the game keyboard is QWERTY and numbers and symbols are spoken in your language, right from the first launch.",
+      "es": "En inglés, español y portugués, el teclado del juego es QWERTY y los números y signos se dicen en tu idioma, desde el primer inicio."
+    },
+    {
+      "date": "2026-11-18",
+      "fr": "Les menus sont plus légers : le téléphone chauffe moins dès l'ouverture du jeu.",
+      "en": "Menus are lighter: your phone heats up less as soon as the game opens.",
+      "es": "Los menús son más ligeros: el teléfono se calienta menos al abrir el juego."
+    },
+    {
+      "date": "2026-11-18",
+      "fr": "Coswars parle maintenant portugais : tout le jeu est traduit et la voix lit en portugais (Réglages, Langue du jeu).",
+      "en": "Coswars now speaks Portuguese: the whole game is translated and the voice reads in Portuguese (Settings, Game language).",
+      "es": "Coswars ahora habla portugués: todo el juego está traducido y la voz lee en portugués (Ajustes, Idioma del juego)."
+    },
+    {
+      "date": "2026-11-18",
+      "fr": "Le pseudo peut maintenant se dicter ou se coller, comme l’adresse e-mail et le mot de passe.",
+      "en": "Your nickname can now be dictated or pasted, like your email address and password.",
+      "es": "El apodo ahora se puede dictar o pegar, como el correo electrónico y la contraseña."
+    },
+    {
+      "date": "2026-11-18",
+      "fr": "Son : des aigus un peu plus clairs dans tout le jeu, et la prison de l’océan de Vénus résonne enfin comme sous l’eau, grâce à une réverbération faite de vrais enregistrements d’eau.",
+      "en": "Sound: slightly brighter highs across the whole game, and the Venus ocean prison now truly sounds underwater, thanks to a reverb made from real water recordings.",
+      "es": "Sonido: agudos un poco más claros en todo el juego, y la prisión del océano de Venus ahora suena de verdad bajo el agua, gracias a una reverberación hecha con grabaciones reales de agua."
+    },
+    {
+      "date": "2026-11-18",
+      "fr": "Évasion, Charon : portes des tourelles plus larges, ramassage des objets avant l’ascenseur, et le canon annonce enfin les joueurs présents dans chaque couloir.",
+      "en": "Escape, Charon: wider turret doors, items picked up before the elevator, and the cannon now announces players in each lane.",
+      "es": "Evasión, Caronte: puertas de las torretas más anchas, objetos recogidos antes del ascensor, y el cañón ya anuncia a los jugadores de cada pasillo."
+    },
+    {
+      "date": "2026-11-18",
+      "fr": "Océan de Vénus : nouveau son sous l’eau, plus clair et plus vivant, et 20 % de drones sous-marins. Nouveau son de la lampe de l’assassin.",
+      "en": "Venus ocean: a new, clearer and livelier underwater sound, and 20% underwater drones. New sound for the assassin’s lamp.",
+      "es": "Océano de Venus: nuevo sonido bajo el agua, más claro y vivo, y un 20 % de drones submarinos. Nuevo sonido de la linterna del asesino."
+    },
+    {
+      "date": "2026-11-18",
+      "fr": "Bataille de croiseurs : quatre places de canonnier (mitrailleuse et canon, bâbord et tribord), en vert la vôtre, en orange celle d’un autre joueur, en gris celle de l’ordinateur.",
+      "en": "Cruiser battle: four gunner seats (machine gun and cannon, port and starboard), yours in green, another player’s in orange, the computer’s in grey.",
+      "es": "Batalla de cruceros: cuatro puestos de artillero (ametralladora y cañón, babor y estribor), el tuyo en verde, el de otro jugador en naranja, el del ordenador en gris."
+    },
+    {
+      "date": "2026-11-18",
+      "fr": "Tireur d’élite : les cases des manches s’affichent aussi dans la seconde moitié, et le repère de touche n’apparaît que si l’assassin est vraiment blessé. Plus fluide avec beaucoup d’ennemis.",
+      "en": "Sharpshooter: round boxes also show in the second half, and the hit marker only appears when the assassin is really wounded. Smoother with many enemies.",
+      "es": "Francotirador: las casillas de las rondas también aparecen en la segunda mitad, y el marcador de impacto solo aparece si el asesino está herido de verdad. Más fluido con muchos enemigos."
+    },
+    {
+      "date": "2026-11-18",
+      "fr": "Évasion, les oubliés de Charon : nouveaux sons pour l’ascenseur des tourelles et pour le tir du canon.",
+      "en": "Escape, the Forgotten of Charon: new sounds for the turret elevator and the cannon shot.",
+      "es": "Evasión, los olvidados de Caronte: nuevos sonidos para el ascensor de las torretas y el disparo del cañón."
+    },
+    {
+      "date": "2026-11-18",
+      "fr": "Tireur d’élite : la lampe de l’assassin joue enfin son vrai son. Océan de Vénus : nouveau son sous-marin plus clair qui ondule, appliqué à tous les sons, et drones sous-marins.",
+      "en": "Sharpshooter: the assassin’s lamp finally plays its real sound. Venus ocean: a clearer, wavering underwater sound applied to every sound, and underwater drones.",
+      "es": "Francotirador: la linterna del asesino por fin suena con su sonido real. Océano de Venus: un sonido submarino más claro y ondulante, aplicado a todos los sonidos, y drones submarinos."
+    },
+    {
+      "date": "2026-11-18",
+      "fr": "Pseudos uniques : deux joueurs ne peuvent plus porter le même pseudo ; s’il est déjà pris, le jeu le dit tout de suite.",
+      "en": "Unique usernames: two players can no longer use the same username; if it is taken, the game tells you right away.",
+      "es": "Seudónimos únicos: dos jugadores ya no pueden usar el mismo seudónimo; si ya está en uso, el juego te lo dice al momento."
+    },
+    {
+      "date": "2026-11-18",
+      "fr": "Évasion, prison de l’océan de Vénus : toute la carte est sous l’eau, avec un vrai rendu sonore sous-marin. Un joueur enfermé dans une cellule est la cible de lance-fléchettes qu’il peut esquiver.",
+      "en": "Escape, Venus ocean prison: the whole map is underwater, with a real underwater sound. A player locked in a cell is targeted by dart launchers they can dodge.",
+      "es": "Evasión, prisión del océano de Venus: todo el mapa está bajo el agua, con un verdadero sonido submarino. Un jugador encerrado en una celda es blanco de lanzadardos que puede esquivar."
+    },
+    {
+      "date": "2026-11-18",
+      "fr": "Nouveaux sons : drone sous-marin, explosions sous-marines, pas sous l’eau, grotte de l’ouest, et la lampe de l’assassin du Tireur d’élite.",
+      "en": "New sounds: underwater drone, underwater explosions, underwater footsteps, the western cave, and the Sharpshooter assassin’s lamp.",
+      "es": "Nuevos sonidos: dron submarino, explosiones submarinas, pasos bajo el agua, la cueva del oeste y la linterna del asesino del Francotirador."
+    },
+    {
+      "date": "2026-11-18",
+      "fr": "Coswars parle maintenant aussi chinois, japonais et arabe : tout le jeu est traduit et la voix lit dans la langue choisie (Réglages, Langue du jeu).",
+      "en": "Coswars now also speaks Chinese, Japanese and Arabic: the whole game is translated and the voice reads in the chosen language (Settings, Game language).",
+      "es": "Coswars ahora también habla chino, japonés y árabe: todo el juego está traducido y la voz lee en el idioma elegido (Ajustes, Idioma del juego)."
+    },
+    {
+      "date": "2026-11-18",
+      "fr": "Océan de Vénus : tout le monde porte une combinaison de plongée avec bouteilles d'oxygène, soldats vénusiens compris ; les tirs filent plus lentement et font des bulles, comme chaque déplacement ; on y avance 10 % moins vite ; un léger filtre donne au son l'impression d'être sous l'eau.",
+      "en": "Venus ocean: everyone wears a diving suit with oxygen tanks, Venusian soldiers included; shots travel more slowly and make bubbles, as does every movement; you move 10% slower; a light filter makes the sound feel underwater.",
+      "es": "Océano de Venus: todos llevan traje de buceo con botellas de oxígeno, incluidos los soldados venusinos; los disparos van más lentos y hacen burbujas, como cada desplazamiento; se avanza un 10 % más despacio; un ligero filtro da al sonido la sensación de estar bajo el agua."
+    },
+    {
+      "date": "2026-11-18",
+      "fr": "Charon : dans la salle d'une tourelle, un bouton « Utiliser l'ascenseur » (touche F au clavier) ; la montée et la descente sont animées ; au sommet, le canon se voit, il verrouille l'ennemi le plus proche du couloir, l'obus part des tubes et explose sur la cible.",
+      "en": "Charon: in a tower room, a \"Use the elevator\" button (F key on keyboard); going up and down is animated; at the top, the cannon is visible, it locks onto the nearest enemy in the lane, and the shell flies from the barrels and explodes on the target.",
+      "es": "Caronte: en la sala de una torre, un botón «Usar el ascensor» (tecla F en el teclado); la subida y la bajada están animadas; arriba, el cañón se ve, fija al enemigo más cercano del carril, y el proyectil sale de los tubos y explota en el objetivo."
+    },
+    {
+      "date": "2026-11-18",
+      "fr": "Évasion : sur Mercure et l'océan de Vénus, la porte des cellules est à l'entrée du couloir, comme à Olympus ; couloirs plus larges et angles adoucis. Tours de guet à projecteurs sur Charon, Mercure et l'océan. Mercure : « Attention, le soleil se lève » 30 secondes avant la vague de feu.",
+      "en": "Escape: on Mercury and the Venus ocean, the cell doors are at the corridor entrance, as on Olympus; wider corridors and softened corners. Watchtowers with searchlights on Charon, Mercury and the ocean. Mercury: \"Warning, the sun is rising\" 30 seconds before the fire wave.",
+      "es": "Evasión: en Mercurio y el océano de Venus, la puerta de las celdas está a la entrada del pasillo, como en Olympus; pasillos más anchos y esquinas suavizadas. Torres de vigilancia con reflectores en Caronte, Mercurio y el océano. Mercurio: «Atención, sale el sol» 30 segundos antes de la ola de fuego."
+    },
+    {
+      "date": "2026-11-18",
+      "fr": "La « Bataille par équipe » s'appelle désormais « Assaut de groupe ». Si la voix du jeu se coupe : quatre doigts posés ensemble sur l'écran, ou Contrôle + Maj + V, la relancent. Dans les menus, trois doigts glissés vers la droite ouvrent les invitations reçues.",
+      "en": "\"Team Battle\" is now called \"Group Assault\". If the game voice stops: place four fingers on the screen together, or press Control + Shift + V, to restart it. In menus, a three-finger swipe right opens received invitations.",
+      "es": "La «Batalla por equipos» se llama ahora «Asalto de grupo». Si la voz del juego se corta: cuatro dedos juntos sobre la pantalla, o Control + Mayús + V, la reinician. En los menús, deslizar tres dedos a la derecha abre las invitaciones recibidas."
+    },
+    {
+      "date": "2026-11-17",
+      "fr": "Évasion : « Choisissez votre carte » avec la photo et la description de chaque carte, pour savoir où l'on va jouer.",
+      "en": "Escape: \"Choose your map\" now shows a picture and a description of each map, so you know where you are going to play.",
+      "es": "Evasión: «Elige tu mapa» muestra ahora la foto y la descripción de cada mapa, para saber dónde vas a jugar."
+    },
+    {
+      "date": "2026-11-17",
+      "fr": "Océan souterrain de Vénus : de grandes algues qui montent très haut, des bancs de poissons, des raies manta et des tortues qui passent au-dessus de la tête, et des reflets de lumière sur le sable. Charon et Mercure ont aussi un sol plus travaillé.",
+      "en": "Venus underground ocean: giant kelp rising very high, schools of fish, manta rays and turtles passing overhead, and light shimmering on the sand. Charon and Mercury also have more detailed ground.",
+      "es": "Océano subterráneo de Venus: grandes algas que suben muy alto, bancos de peces, mantarrayas y tortugas que pasan por encima de la cabeza y reflejos de luz en la arena. Caronte y Mercurio también tienen un suelo más trabajado."
+    },
+    {
+      "date": "2026-11-17",
+      "fr": "Charon : au sommet de la tourelle, le canon a 100 munitions avec un décompte toutes les 10 utilisées, le glissé à gauche change bien de couloir (dit à la voix) et seul le canon se fait entendre, plus les bruits d'armes.",
+      "en": "Charon: at the top of the tower, the cannon has 100 rounds with a countdown every 10 used, swiping left changes lane (announced by voice) and only the cannon is heard, no more weapon sounds.",
+      "es": "Caronte: en lo alto de la torre, el cañón tiene 100 municiones con cuenta atrás cada 10 usadas, deslizar a la izquierda cambia de carril (se dice en voz alta) y solo se oye el cañón, sin sonidos de armas."
+    },
+    {
+      "date": "2026-11-17",
+      "fr": "Charon : les portes des tourelles sont plus larges, l'ascenseur a son bruitage, et au sommet le canon se commande comme en zone défensive : glisser à gauche pour changer de couloir, toucher à droite pour tirer. Les ennemis, boss et joueurs abattus ou touchés sont annoncés.",
+      "en": "Charon: the tower doors are wider, the elevator has its own sound, and at the top the cannon is controlled like in the defense zone: swipe on the left to change lane, tap on the right to fire. Enemies, bosses and players killed or hit are announced.",
+      "es": "Caronte: las puertas de las torres son más anchas, el ascensor tiene su sonido, y arriba el cañón se maneja como en la zona defensiva: desliza a la izquierda para cambiar de carril, toca a la derecha para disparar. Se anuncian los enemigos, jefes y jugadores abatidos o alcanzados."
+    },
+    {
+      "date": "2026-11-17",
+      "fr": "Évasion : les couloirs menant aux cellules de Mercure et de l'océan souterrain de Vénus sont beaucoup plus larges, comme ceux d'Olympus.",
+      "en": "Escape: the corridors leading to the cells on Mercury and the underground ocean of Venus are much wider, like Olympus.",
+      "es": "Evasión: los pasillos que llevan a las celdas de Mercurio y del océano subterráneo de Venus son mucho más anchos, como los de Olimpo."
+    },
+    {
+      "date": "2026-11-17",
+      "fr": "La carte « Les oubliés de Charon » de l'Évasion est plus grande : chaque côté du triangle passe de 140 à 210 pas, avec plus de décors.",
+      "en": "The Escape map \"The Forgotten of Charon\" is bigger: each side of the triangle goes from 140 to 210 steps, with more scenery.",
+      "es": "El mapa «Los olvidados de Caronte» de la Evasión es más grande: cada lado del triángulo pasa de 140 a 210 pasos, con más decorados."
+    },
+    {
+      "date": "2026-11-17",
+      "fr": "Nouvelle carte de l'Évasion : la prison de l'océan souterrain de Vénus, avec son océan intérieur retenu par un champ de force, ses baleines et ses sous-marins dans le ciel, sa grotte et sa centrale d'oxygène. Celui qui tient la télécommande d'une cellule peut y noyer un adversaire. Les soldats vénusiens ont maintenant leurs propres sons.",
+      "en": "New Escape map: the underground ocean prison of Venus, with its inner ocean held back by a force field, whales and submarines in the sky, a cave and an oxygen plant. Whoever holds a cell remote can drown an opponent inside. Venusian soldiers now have their own sounds.",
+      "es": "Nuevo mapa de la Evasión: la prisión del océano subterráneo de Venus, con su océano interior retenido por un campo de fuerza, ballenas y submarinos en el cielo, una cueva y una central de oxígeno. Quien tiene el mando de una celda puede ahogar a un adversario dentro. Los soldados venusianos tienen ahora sus propios sonidos."
+    },
+    {
+      "date": "2026-11-17",
+      "fr": "Nouvelles notifications : quand votre meilleur ennemi ou le joueur avec qui vous jouez le plus se connecte, le jeu vous le dit et vous propose de le défier ou de jouer avec lui (3 au plus par jour). Dans Amis et Social, vous voyez aussi vos amis hors ligne et pouvez les inviter à jouer.",
+      "en": "New notifications: when your best enemy or the player you play with most comes online, the game tells you and offers to challenge them or play with them (3 per day at most). In Friends and Social you now also see offline friends and can invite them to play.",
+      "es": "Nuevas notificaciones: cuando tu mejor enemigo o el jugador con quien más juegas se conecta, el juego te lo dice y te propone desafiarlo o jugar con él (3 al día como máximo). En Amigos y Social también ves a tus amigos desconectados y puedes invitarlos a jugar."
+    },
+    {
+      "date": "2026-11-17",
+      "fr": "Quand un drone vous anesthésie, l'image se trouble, un bandeau s'affiche et la voix vous le dit. Les cartes de Charon et de Mercure sont habillées : vaisseaux et étoiles filantes dans le ciel, étincelles et cendres qui dérivent, aiguilles de basalte, cristaux de glace, scories et fumerolles. L'explosion du lance-roquettes s'entend mieux.",
+      "en": "When a drone anesthetizes you, the picture blurs, a banner appears and the voice tells you. The Charon and Mercury maps are dressed up: ships and shooting stars in the sky, drifting sparks and ash, basalt spires, ice crystals, slag and fumaroles. The rocket launcher explosion is easier to hear.",
+      "es": "Cuando un dron te anestesia, la imagen se vuelve borrosa, aparece un cartel y la voz te lo dice. Los mapas de Caronte y Mercurio están decorados: naves y estrellas fugaces en el cielo, chispas y ceniza a la deriva, agujas de basalto, cristales de hielo, escoria y fumarolas. La explosión del lanzacohetes se oye mejor."
+    },
+    {
+      "date": "2026-11-17",
+      "fr": "Les cartes de l'Évasion « Les oubliés de Charon » et « La geôle du désert de feu de Mercure » se jouent maintenant en ligne, avec vos amis ou contre d'autres joueurs.",
+      "en": "The Escape maps \"The Forgotten of Charon\" and \"The Fire Desert Jail of Mercury\" can now be played online, with friends or against other players.",
+      "es": "Los mapas de la Evasión «Los olvidados de Caronte» y «La cárcel del desierto de fuego de Mercurio» ya se pueden jugar en línea, con amigos o contra otros jugadores."
+    },
+    {
+      "date": "2026-11-17",
+      "fr": "Nouvelle carte de l'Évasion, seul pour l'instant : la geôle du désert de feu de Mercure, avec son soleil qui se lève et sa vague de feu. Lance-roquettes : roquette deux fois plus rapide et plus facile à placer. Une notification vous prévient avant de perdre vos points d'entraînement.",
+      "en": "New Escape map, solo for now: the fire desert jail of Mercury, with its rising sun and its wave of fire. Rocket launcher: the rocket is twice as fast and easier to land. A notification now warns you before you lose training points.",
+      "es": "Nuevo mapa de la Evasión, en solitario por ahora: la cárcel del desierto de fuego de Mercurio, con su sol naciente y su ola de fuego. Lanzacohetes: el cohete es el doble de rápido y más fácil de acertar. Una notificación te avisa antes de perder puntos de entrenamiento."
+    },
+    {
+      "date": "2026-11-17",
+      "fr": "Ganymède : les boss ordinaires apparaissent bien tous les 30 ennemis éliminés. Les pas ont un écart gauche-droite plus subtil, et la voix de l'app iPhone se relance toute seule si elle s'interrompt.",
+      "en": "Ganymede: regular bosses now properly appear every 30 enemies defeated. Footsteps have a subtler left-right shift, and the iPhone app's voice restarts by itself if it cuts out.",
+      "es": "Ganimedes: los jefes normales aparecen cada 30 enemigos eliminados. Los pasos tienen un desfase izquierda-derecha más sutil, y la voz de la app de iPhone se reinicia sola si se corta."
+    },
+    {
+      "date": "2026-11-17",
+      "fr": "Nouvelle carte de l'Évasion, seul pour l'instant : Les oubliés de Charon, un désert volcanique noir où trois tourelles de basalte, accessibles par ascenseur, arrosent la cour de leur canon.",
+      "en": "New Escape map, solo for now: The Forgotten of Charon, a black volcanic desert where three basalt towers, reached by elevator, rain cannon fire on the courtyard.",
+      "es": "Nuevo mapa de la Evasión, en solitario por ahora: Los olvidados de Caronte, un desierto volcánico negro donde tres torres de basalto, a las que se sube en ascensor, bombardean el patio con su cañón."
+    },
+    {
+      "date": "2026-11-17",
+      "fr": "Le clavier du jeu suit la langue : QWERTY en anglais et en espagnol, AZERTY en français.",
+      "en": "The game keyboard now follows the language: QWERTY in English and Spanish, AZERTY in French.",
+      "es": "El teclado del juego sigue el idioma: QWERTY en inglés y español, AZERTY en francés."
+    },
+    {
+      "date": "2026-11-17",
+      "fr": "Le premier bouton de chaque mode multijoueur est maintenant « Inviter un joueur ». Les pas ont un très léger décalage gauche-droite, et le détenu libéré a ses propres pas.",
+      "en": "The first button of every multiplayer mode is now “Invite a player”. Footsteps have a very slight left-right shift, and the freed prisoner now has his own footsteps.",
+      "es": "El primer botón de cada modo multijugador es ahora «Invitar a un jugador». Los pasos tienen un ligerísimo desfase izquierda-derecha, y el preso liberado tiene sus propios pasos."
+    },
+    {
+      "date": "2026-11-17",
+      "fr": "Créez votre compte ou connectez-vous avec Google, sans adresse ni mot de passe à écrire (et avec Apple sur iPhone).",
+      "en": "Create your account or sign in with Google, with no address or password to type (and with Apple on iPhone).",
+      "es": "Crea tu cuenta o inicia sesión con Google, sin dirección ni contraseña que escribir (y con Apple en iPhone)."
+    },
+    {
+      "date": "2026-11-17",
+      "fr": "Tireur d’élite : l’impact d’un tir sur une bulle est plus fort et s’entend du côté de son couloir.",
+      "en": "Sharpshooter: a shot hitting a bubble is louder and is heard on the side of its lane.",
+      "es": "Francotirador: el impacto de un disparo en una burbuja suena más fuerte y se oye en el lado de su pasillo."
+    },
+    {
+      "date": "2026-11-17",
+      "fr": "Invitations plus fiables sur réseau mobile : les salons s’ouvrent sur un serveur joignable partout, et la connexion est retentée toute seule.",
+      "en": "More reliable invitations on mobile networks: lobbies open on a server reachable everywhere, and the connection is retried automatically.",
+      "es": "Invitaciones más fiables en redes móviles: las salas se abren en un servidor accesible desde cualquier red y la conexión se reintenta sola."
+    },
+    {
+      "date": "2026-11-17",
+      "fr": "Android : le jeu n’utilise jamais le micro d’un casque ou d’écouteurs, toujours celui du téléphone : le son reste en stéréo.",
+      "en": "Android: the game never uses the microphone of a headset or earbuds, always the phone's: sound stays in stereo.",
+      "es": "Android: el juego nunca usa el micrófono de unos auriculares, siempre el del teléfono: el sonido se queda en estéreo."
+    },
+    {
+      "date": "2026-11-17",
+      "fr": "Sur iPhone, la voix du jeu prend la meilleure qualité installée sur votre appareil, et sa vitesse ne la déforme plus.",
+      "en": "On iPhone, the game voice now uses the best quality installed on your device, and its speed no longer distorts it.",
+      "es": "En iPhone, la voz del juego usa la mejor calidad instalada en tu dispositivo, y su velocidad ya no la distorsiona."
+    },
+    {
+      "date": "2026-11-17",
+      "fr": "Le jeu démarre dans la langue de votre téléphone (français, anglais, espagnol) ; langue et région se choisissent dès le premier écran de la création du compte.",
+      "en": "The game now starts in your phone's language (English, French or Spanish); language and region can be chosen on the very first account creation screen.",
+      "es": "El juego arranca en el idioma de tu teléfono (francés, inglés o español); idioma y región se eligen en la primera pantalla de creación de la cuenta."
+    },
+    {
+      "date": "2026-11-17",
+      "fr": "Bataille de croiseurs : canons de bordée dans un grand hangar sur chaque flanc, pour le combat rapproché. Une salve pulvérise le bouclier, sinon détruit la partie du croiseur touchée ; le poste des boucliers recharge les canons.",
+      "en": "Cruiser Battle: broadside cannons in a big hangar on each flank, for close combat. A salvo shatters the shield, otherwise destroys the part of the cruiser it hits; the shields post reloads the cannons.",
+      "es": "Batalla de cruceros: cañones de andanada en un gran hangar en cada costado, para el combate cercano. Una salva pulveriza el escudo o, si no, destruye la parte del crucero que alcanza; el puesto de escudos recarga los cañones."
+    },
+    {
+      "date": "2026-11-17",
+      "fr": "Bataille de croiseurs : chaque canonnier choisit sa place, tourelles ou canons de bordée, à bâbord ou à tribord.",
+      "en": "Cruiser Battle: each gunner chooses their place, turrets or broadside cannons, port or starboard.",
+      "es": "Batalla de cruceros: cada artillero elige su puesto, torretas o cañones de andanada, a babor o a estribor."
+    },
+    {
+      "date": "2026-11-17",
+      "fr": "Nouveau réglage « Je joue avec un casque » : le son ne sort jamais sur le haut-parleur. Sur Ganymède, une porte cachée par un mur ne s’entend plus.",
+      "en": "New setting “I play with headphones”: sound never plays on the speaker. On Ganymede, a door hidden behind a wall can no longer be heard.",
+      "es": "Nuevo ajuste «Juego con auriculares»: el sonido nunca sale por el altavoz. En Ganímedes, una puerta oculta tras un muro ya no se oye."
+    },
+    {
+      "date": "2026-11-16",
+      "fr": "Clavier du jeu au doigt : nouvelle façon de taper, on glisse jusqu’à la lettre puis on touche deux fois pour l’écrire, comme avec VoiceOver (au choix, à la création du compte et dans les Réglages). Une touche du clavier permet de changer à tout moment.",
+      "en": "Game keyboard by touch: a new way to type, slide to the letter then double-tap to write it, like with VoiceOver (your choice, when creating your account and in Settings). A keyboard key lets you switch at any time.",
+      "es": "Teclado del juego táctil: nueva forma de escribir, deslizas hasta la letra y tocas dos veces para escribirla, como con VoiceOver (a elegir, al crear la cuenta y en los Ajustes). Una tecla del teclado permite cambiar en cualquier momento."
+    },
+    {
+      "date": "2026-11-16",
+      "fr": "Adresse e-mail et mot de passe : un bouton « Coller » colle le dernier élément copié, et tout est dit à la voix.",
+      "en": "Email address and password: a “Paste” button pastes the last copied item, and everything is spoken aloud.",
+      "es": "Dirección de correo y contraseña: un botón «Pegar» pega el último elemento copiado, y todo se dice en voz alta."
+    },
+    {
+      "date": "2026-11-16",
+      "fr": "Bataille par équipe : trois didacticiels dans l’Aide (en équipes, chacun pour soi, vol de code de sécurité), et dès le lancement de la partie vous ne parlez plus qu’à votre équipe.",
+      "en": "Team Battle: three tutorials in Help (in teams, free for all, Security Code Heist), and from the moment the match is launched you only talk to your team.",
+      "es": "Batalla por equipos: tres tutoriales en la Ayuda (en equipos, todos contra todos, robo de código de seguridad), y desde el lanzamiento de la partida solo hablas con tu equipo."
+    },
+    {
+      "date": "2026-11-16",
+      "fr": "Bataille par équipe : joueurs plus rapides, lance-roquettes et armes de jet plus puissants et plus forts à l’oreille.",
+      "en": "Team Battle: faster players, stronger and louder rocket launcher and throwing weapons.",
+      "es": "Batalla por equipos: jugadores más rápidos, lanzacohetes y armas arrojadizas más potentes y que se oyen más."
+    },
+    {
+      "date": "2026-11-16",
+      "fr": "Contre un mur, vos pas se taisent dès que vous n’avancez plus.",
+      "en": "Against a wall, your footsteps go silent as soon as you stop moving forward.",
+      "es": "Contra un muro, tus pasos se callan en cuanto dejas de avanzar."
+    },
+    {
+      "date": "2026-11-16",
+      "fr": "Fin de partie en ligne : un salon vocal de fin réunit tous les joueurs, les deux équipes, pour débriefer.",
+      "en": "End of an online match: an end-of-game voice room brings all players together, both teams, to debrief.",
+      "es": "Fin de una partida en línea: un salón de voz final reúne a todos los jugadores, de los dos equipos, para comentar."
+    },
+    {
+      "date": "2026-11-16",
+      "fr": "Quand un joueur en abat un autre, leurs deux micros s’ouvrent 2 secondes : chacun entend l’autre.",
+      "en": "When a player takes down another, both microphones open for 2 seconds: each hears the other.",
+      "es": "Cuando un jugador elimina a otro, los dos micrófonos se abren 2 segundos: cada uno oye al otro."
+    },
+    {
+      "date": "2026-11-16",
+      "fr": "Bataille de croiseurs : la vague d’attaque devient un mode survie, sans limite de temps et de plus en plus dur. Amelia annonce chaque vague et la félicite quand elle est repoussée.",
+      "en": "Cruiser Battle: the attack wave becomes a survival mode, with no time limit and harder and harder. Amelia announces every wave and cheers when it is pushed back.",
+      "es": "Batalla de cruceros: la oleada de ataque se convierte en un modo supervivencia, sin límite de tiempo y cada vez más difícil. Amelia anuncia cada oleada y felicita cuando se repele."
+    },
+    {
+      "date": "2026-11-16",
+      "fr": "PC : un raccourci Coswars avec l’icône du jeu apparaît sur le Bureau, comme un vrai jeu.",
+      "en": "PC: a Coswars shortcut with the game icon appears on the Desktop, like a real game.",
+      "es": "PC: aparece en el Escritorio un acceso directo de Coswars con el icono del juego, como un juego de verdad."
+    },
+    {
+      "date": "2026-11-16",
+      "fr": "Mac et PC : le jeu se met à jour tout seul à chaque lancement, et même pendant qu’il est ouvert (il redémarre dans les menus).",
+      "en": "Mac and PC: the game updates itself at every launch, and even while it is open (it restarts in the menus).",
+      "es": "Mac y PC: el juego se actualiza solo en cada inicio, e incluso mientras está abierto (se reinicia en los menús)."
+    },
+    {
+      "date": "2026-11-16",
+      "fr": "Bataille de croiseurs, vague d’attaque : la commandante Amelia annonce chaque vague de sa voix, en français, anglais et espagnol.",
+      "en": "Cruiser Battle, attack wave: Commander Amelia announces every wave in her own voice, in French, English and Spanish.",
+      "es": "Batalla de cruceros, oleada de ataque: la comandante Amelia anuncia cada oleada con su voz, en francés, inglés y español."
+    },
+    {
+      "date": "2026-11-16",
+      "fr": "Avec un lecteur d’écran allumé, la voix du jeu se rallume toute seule, même si elle avait été coupée par erreur.",
+      "en": "With a screen reader on, the game voice turns itself back on, even if it was switched off by mistake.",
+      "es": "Con un lector de pantalla activado, la voz del juego se vuelve a activar sola, aunque se haya desactivado por error."
+    },
+    {
+      "date": "2026-11-16",
+      "fr": "Tireur d’élite sur téléphone : un bouton Lampe pour l’assassin et un bouton Paralysie pour le sniper, à droite de l’écran.",
+      "en": "Sharpshooter on phone: a Flashlight button for the assassin and a Paralysis button for the sniper, on the right of the screen.",
+      "es": "Francotirador de élite en el móvil: un botón Linterna para el asesino y un botón Parálisis para el francotirador, a la derecha."
+    },
+    {
+      "date": "2026-11-16",
+      "fr": "Bataille de croiseurs : chaque vague d’attaque est annoncée à voix haute, et les astéroïdes métalliques foncent bien plus vite.",
+      "en": "Cruiser Battle: every attack wave is announced out loud, and the metal asteroids now charge much faster.",
+      "es": "Batalla de cruceros: cada oleada se anuncia en voz alta y los asteroides metálicos atacan mucho más rápido."
+    },
+    {
+      "date": "2026-11-16",
+      "fr": "Bataille par équipe : nouveau mode « Vol de code de sécurité », volez les codes de l’ordinateur adverse et ramenez-les à votre base.",
+      "en": "Team Battle: new “Security Code Heist” mode, steal the codes from the enemy computer and bring them back to your base.",
+      "es": "Batalla por equipos: nuevo modo «Robo de código de seguridad», roba los códigos del ordenador enemigo y llévalos a tu base."
+    },
+    {
+      "date": "2026-11-16",
+      "fr": "Un code parrainage à la création du compte : 100 cristaux pour vous et pour votre parrain.",
+      "en": "A referral code when you create your account: 100 crystals for you and for your sponsor.",
+      "es": "Un código de padrino al crear tu cuenta: 100 cristales para ti y para tu padrino."
+    },
+    {
+      "date": "2026-11-16",
+      "fr": "Le lance-roquettes tire désormais des roquettes à fabriquer au quartier général.",
+      "en": "The rocket launcher now fires rockets you craft at headquarters.",
+      "es": "El lanzacohetes ahora dispara cohetes que se fabrican en el cuartel general."
+    },
+    {
+      "date": "2026-11-15",
+      "fr": "Coswars est sorti dans le monde entier, sur l’App Store, Google Play et ordinateur, en français, anglais et espagnol.",
+      "en": "Coswars is out worldwide on the App Store, Google Play and computer, in English, French and Spanish.",
+      "es": "Coswars ya está disponible en todo el mundo en App Store, Google Play y ordenador, en español, inglés y francés."
+    },
+    {
+      "date": "2026-11-15",
+      "fr": "La Bataille par équipe est ouverte à tous, sans limite de parties.",
+      "en": "Team Battle is open to everyone, with unlimited games.",
+      "es": "La Batalla por equipos está abierta a todos, sin límite de partidas."
+    },
+    {
+      "date": "2026-11-28",
+      "fr": "Android : le côté droit de l’écran ne se bloque plus (doigts fantômes effacés), et la carte de promotion se ferme avec « Plus tard ».",
+      "en": "Android: the right side of the screen no longer gets stuck (ghost touches are cleared), and the promotion card can be closed with “Later”.",
+      "es": "Android: el lado derecho de la pantalla ya no se bloquea (se borran los toques fantasma) y la tarjeta de promoción se cierra con «Más tarde»."
+    },
+    {
+      "date": "2026-11-28",
+      "fr": "Changer d’arme montre toujours l’arme qui descend puis la nouvelle qui remonte, dans tous les modes.",
+      "en": "Switching weapons now always shows the old weapon lowering and the new one rising, in every mode.",
+      "es": "Cambiar de arma muestra siempre el arma que baja y la nueva que sube, en todos los modos."
+    },
+    {
+      "date": "2026-11-28",
+      "fr": "Titan : le bruit d’un bloc de glace qui vous touche n’est plus étouffé par la commotion, comme la bombe du bombardier.",
+      "en": "Titan: the sound of an ice block hitting you is no longer muffled by the shockwave, just like the bomber's bomb.",
+      "es": "Titán: el sonido de un bloque de hielo que te golpea ya no se apaga con la conmoción, igual que la bomba del bombardero."
+    },
+    {
+      "date": "2026-11-28",
+      "fr": "Encelade : tourelles de zone vues de dos et au-dessus (canons en 3D, tireur qui sort du dessus), verrouillage automatique des ennemis, traînées et impacts des tirs visibles ; escaliers pleins, plus de feuilles transparentes.",
+      "en": "Enceladus: zone turrets now seen from behind and above (3D cannons, gunner emerging from the top), automatic enemy lock-on, visible tracers and impacts; solid stairs, no more see-through sheets.",
+      "es": "Encélado: las torretas de zona se ven desde atrás y desde arriba (cañones en 3D, artillero que sale por arriba), fijación automática de enemigos, trazadoras e impactos visibles; escaleras sólidas, sin láminas transparentes."
+    },
+    {
+      "date": "2026-11-28",
+      "fr": "Encelade : le rideau de traits verticaux est corrigé, le portail des ennemis n’apparaît plus à travers les terrasses, les tours n’ont plus de damier.",
+      "en": "Enceladus: the curtain of vertical lines is fixed, the enemy portal no longer shows through terraces, and towers no longer have a checkerboard.",
+      "es": "Encélado: se corrige la cortina de líneas verticales, el portal de los enemigos ya no se ve a través de las terrazas y las torres ya no tienen damero."
+    },
+    {
+      "date": "2026-11-28",
+      "fr": "Mercure (Évasion) : le soleil se lève et la vague de feu passe à 3 min 30 ; une fois la vague passée, l’ordinateur au fond de chaque cellule (le joueur qui a abattu son mech de surveillance) prend le contrôle du concentrateur solaire du centre : pivot à 45° par seconde, laser sur 20°, 60 secondes.",
+      "en": "Mercury (Escape): the sun rises and the fire wave passes at 3 min 30; once the wave has passed, the computer at the back of each cell (for the player who took down its surveillance mech) takes control of the solar concentrator at the centre: pivot at 45° per second, laser over 20°, 60 seconds.",
+      "es": "Mercurio (Evasión): el sol sale y la ola de fuego pasa a los 3 min 30; una vez pasada la ola, el ordenador del fondo de cada celda (para quien abatió a su mech de vigilancia) toma el control del concentrador solar del centro: pivote a 45° por segundo, láser sobre 20°, 60 segundos."
+    }
+  ],
+  "toujours": [
+    {
+      "fr": "Chaque jour, de nouveaux challenges vous rapportent des cristaux : jouez 5 parties dans la journée pour encaisser celui du jour.",
+      "en": "Every day, new challenges earn you crystals: play 5 games in a day to collect the daily one.",
+      "es": "Cada día, nuevos desafíos te dan cristales: juega 5 partidas en el día para cobrar el del día."
+    },
+    {
+      "fr": "Invitez vos amis dans un salon : vous vous parlez en direct pendant toute la partie.",
+      "en": "Invite your friends to a lobby: you talk live during the whole game.",
+      "es": "Invita a tus amigos a una sala: habláis en directo durante toda la partida."
+    },
+    {
+      "fr": "Les classements du jour et de la semaine récompensent les meilleurs joueurs en matériaux, cellules et cristaux.",
+      "en": "Daily and weekly leaderboards reward the best players with materials, cells and crystals.",
+      "es": "Las clasificaciones del día y de la semana premian a los mejores con materiales, células y cristales."
+    },
+    {
+      "fr": "En Évasion, libérez le détenu avant les autres joueurs : toute votre récolte de la partie augmente de 20 %.",
+      "en": "In Escape, free the prisoner before the other players: everything you collected that game grows by 20%.",
+      "es": "En Evasión, libera al prisionero antes que los demás: todo lo que recogiste en la partida aumenta un 20 %."
+    },
+    {
+      "fr": "Améliorez vos armes pièce par pièce (canon, gâchette, chargeur…) au quartier général pour gagner en puissance.",
+      "en": "Upgrade your weapons piece by piece (barrel, trigger, magazine…) at headquarters to gain power.",
+      "es": "Mejora tus armas pieza a pieza (cañón, gatillo, cargador…) en el cuartel general para ganar potencia."
+    },
+    {
+      "fr": "Chaque mode a son didacticiel parlé dans l’Aide : idéal pour découvrir le Tireur d’élite ou le Commandeur.",
+      "en": "Each mode has its own spoken tutorial in Help: perfect to discover Sniper Elite or Commander.",
+      "es": "Cada modo tiene su tutorial hablado en la Ayuda: ideal para descubrir el Tirador de élite o el Comandante."
+    }
+  ]
+}

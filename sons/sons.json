@@ -1,0 +1,4939 @@
+{
+ "reload_venusien_mid": {
+  "f": [
+   "reload_venusien_mid_n_0.mp4"
+  ],
+  "vol": 0.525
+ },
+ "step_venusien": {
+  "f": [
+   "step_venusien_0.mp4",
+   "step_venusien_1.mp4",
+   "step_venusien_2.mp4",
+   "step_venusien_3.mp4",
+   "step_venusien_4.mp4",
+   "step_venusien_5.mp4",
+   "step_venusien_6.mp4",
+   "step_venusien_7.mp4",
+   "step_venusien_8.mp4",
+   "step_venusien_9.mp4",
+   "step_venusien_10.mp4",
+   "step_venusien_11.mp4"
+  ],
+  "vol": 1
+ },
+ "amb_t1_m1": {
+  "f": [
+   "amb_t1_m1_0.mp4"
+  ],
+  "vol": 0.608,
+  "stream": true
+ },
+ "amb_t1_m2": {
+  "f": [
+   "amb_t1_m2_0.mp4"
+  ],
+  "vol": 0.608,
+  "stream": true
+ },
+ "amb_t1_m3": {
+  "f": [
+   "amb_t1_m3_0.mp4"
+  ],
+  "vol": 0.608,
+  "stream": true
+ },
+ "amb_t1_m4": {
+  "f": [
+   "amb_t1_m4_0.mp4"
+  ],
+  "vol": 0.608,
+  "stream": true
+ },
+ "amb_t1_m5": {
+  "f": [
+   "amb_t1_m5_0.mp4"
+  ],
+  "vol": 0.608,
+  "stream": true
+ },
+ "amb_t1_m6": {
+  "f": [
+   "amb_t1_m6_0.mp4"
+  ],
+  "vol": 0.608,
+  "stream": true
+ },
+ "amb_t1_m7": {
+  "f": [
+   "amb_t1_m7_0.mp4"
+  ],
+  "vol": 0.608,
+  "stream": true
+ },
+ "amb_t1_m8": {
+  "f": [
+   "amb_t1_m8_0.mp4"
+  ],
+  "vol": 0.608,
+  "stream": true
+ },
+ "amb_t1_m9": {
+  "f": [
+   "amb_t1_m9_0.mp4"
+  ],
+  "vol": 0.608,
+  "stream": true
+ },
+ "amb_t1_m10": {
+  "f": [
+   "amb_t1_m10_0.mp4"
+  ],
+  "vol": 0.608,
+  "stream": true
+ },
+ "amb_o2_m1": {
+  "f": [
+   "amb_op1_m10_0.mp4"
+  ],
+  "vol": 2.128,
+  "stream": true
+ },
+ "amb_o2_m2": {
+  "f": [
+   "amb_op1_m8_0.mp4"
+  ],
+  "vol": 0.916,
+  "stream": true
+ },
+ "amb_o2_m3": {
+  "f": [
+   "amb_op1_m9_0.mp4"
+  ],
+  "vol": 4.276,
+  "stream": true
+ },
+ "amb_o2_m4": {
+  "f": [
+   "amb_op1_m5_0.mp4"
+  ],
+  "vol": 0.642,
+  "stream": true
+ },
+ "amb_o2_m5": {
+  "f": [
+   "amb_op1_m6_0.mp4"
+  ],
+  "vol": 2.65,
+  "stream": true
+ },
+ "amb_o2_m6": {
+  "f": [
+   "amb_op1_m7_0.mp4"
+  ],
+  "vol": 1.344,
+  "stream": true
+ },
+ "amb_o2_m7": {
+  "f": [
+   "amb_op1_m9_0.mp4"
+  ],
+  "vol": 4.276,
+  "stream": true
+ },
+ "amb_o2_m8": {
+  "f": [
+   "amb_op1_m8_0.mp4"
+  ],
+  "vol": 0.916,
+  "stream": true
+ },
+ "amb_o2_m9": {
+  "f": [
+   "amb_op1_m3_0.mp4"
+  ],
+  "vol": 0.436,
+  "stream": true
+ },
+ "amb_o2_m10": {
+  "f": [
+   "amb_op1_m10_0.mp4"
+  ],
+  "vol": 2.128,
+  "stream": true
+ },
+ "amb_op1_m1": {
+  "f": [
+   "amb_op1_m1_0.mp4"
+  ],
+  "vol": 0.304,
+  "stream": true
+ },
+ "amb_op1_m2": {
+  "f": [
+   "amb_op1_m2_0.mp4"
+  ],
+  "vol": 0.225,
+  "stream": true
+ },
+ "amb_op1_m3": {
+  "f": [
+   "amb_op1_m3_0.mp4"
+  ],
+  "vol": 0.218,
+  "stream": true
+ },
+ "amb_op1_m4": {
+  "f": [
+   "amb_op1_m4_0.mp4"
+  ],
+  "vol": 0.336,
+  "stream": true
+ },
+ "amb_op1_m5": {
+  "f": [
+   "amb_op1_m5_0.mp4"
+  ],
+  "vol": 0.321,
+  "stream": true
+ },
+ "reload_terrien_long": [
+  "reload_terrien_long_0.mp4",
+  "reload_terrien_long_1.mp4"
+ ],
+ "reload_terrien_mid": "reload_terrien_mid_0.mp4",
+ "reload_terrien_short": [
+  "reload_terrien_short_0.mp4",
+  "reload_terrien_short_1.mp4",
+  "reload_terrien_short_2.mp4"
+ ],
+ "cool": [
+  "cool_0.mp4",
+  "cool_1.mp4",
+  "cool_2.mp4"
+ ],
+ "reload_draco": [
+  "reload_draco_0.mp4",
+  "reload_draco_1.mp4"
+ ],
+ "whistle_draco": [
+  "whistle_draco_0.mp4",
+  "whistle_draco_1.mp4",
+  "whistle_draco_2.mp4",
+  "whistle_draco_3.mp4"
+ ],
+ "reload_mentis": "reload_mentis_0.mp4",
+ "reload_arcturien": [
+  "reload_arcturien_0.mp4",
+  "reload_arcturien_1.mp4"
+ ],
+ "whistle_arcturien": [
+  "whistle_arcturien_0.mp4",
+  "whistle_arcturien_1.mp4",
+  "whistle_arcturien_2.mp4",
+  "whistle_arcturien_3.mp4"
+ ],
+ "reload": [
+  "reload_0.mp4",
+  "reload_venusien_mid_0.mp4"
+ ],
+ "alarm_long": {
+  "f": [
+   "alarm_long_0.mp4"
+  ],
+  "vol": 0.6279
+ },
+ "alarm_mid": {
+  "f": [
+   "alarm_mid_0.mp4"
+  ],
+  "vol": 0.715
+ },
+ "alarm_short": {
+  "f": [
+   "alarm_short_0.mp4"
+  ],
+  "vol": 1.6
+ },
+ "boss": {
+  "f": [
+   "boss_0.mp4"
+  ],
+  "vol": 0.5
+ },
+ "soon": "soon_0.mp4",
+ "ui_hq": {
+  "f": [
+   "ui_hq_0.mp4"
+  ],
+  "vol": 0.8
+ },
+ "spawn": {
+  "f": [
+   "spawn_0.mp4"
+  ],
+  "vol": 0.5
+ },
+ "eshotCmd_1": {
+  "f": [
+   "eshotCmd_n0.mp4",
+   "eshotCmd_n1.mp4",
+   "eshotCmd_n2.mp4",
+   "eshotCmd_n3.mp4",
+   "eshotCmd_n4.mp4"
+  ],
+  "vol": 0.804
+ },
+ "eshotCmd_2": {
+  "f": [
+   "eshotCmd_n0.mp4",
+   "eshotCmd_n1.mp4",
+   "eshotCmd_n2.mp4",
+   "eshotCmd_n3.mp4",
+   "eshotCmd_n4.mp4"
+  ],
+  "vol": 0.804
+ },
+ "eshotCmd_3": {
+  "f": [
+   "eshotCmd_n0.mp4",
+   "eshotCmd_n1.mp4",
+   "eshotCmd_n2.mp4",
+   "eshotCmd_n3.mp4",
+   "eshotCmd_n4.mp4"
+  ],
+  "vol": 0.804
+ },
+ "loop_dair": {
+  "f": [
+   "loop_dair_0.mp4"
+  ],
+  "vol": 1.3
+ },
+ "loop_tank": "loop_tank_0.mp4",
+ "steps_dterre": {
+  "f": [
+   "steps_dterre_0.mp4",
+   "steps_dterre_1.mp4",
+   "steps_dterre_2.mp4",
+   "steps_dterre_3.mp4",
+   "steps_dterre_4.mp4",
+   "steps_dterre_5.mp4",
+   "steps_dterre_6.mp4",
+   "steps_dterre_7.mp4",
+   "steps_dterre_8.mp4",
+   "steps_dterre_9.mp4"
+  ],
+  "vol": 1.56
+ },
+ "steps_dcmd": {
+  "f": [
+   "steps_dcmd_0.mp4",
+   "steps_dcmd_1.mp4",
+   "steps_dcmd_2.mp4",
+   "steps_dcmd_3.mp4",
+   "steps_dcmd_4.mp4",
+   "steps_dcmd_5.mp4",
+   "steps_dcmd_6.mp4",
+   "steps_dcmd_7.mp4",
+   "steps_dcmd_8.mp4",
+   "steps_dcmd_9.mp4"
+  ],
+  "vol": 1.6
+ },
+ "killOf_dterre": {
+  "f": [
+   "killOf_dterre_0.mp4"
+  ],
+  "vol": 0.53
+ },
+ "killOf_dair": {
+  "f": [
+   "killOf_dair_0.mp4"
+  ],
+  "vol": 0.937
+ },
+ "killOf_tank": "killOf_tank_0.mp4",
+ "boom": [
+  "boom_0.mp4",
+  "boom_1.mp4"
+ ],
+ "kill": {
+  "f": [
+   "kill_0.mp4"
+  ],
+  "vol": 0.65
+ },
+ "wrong": {
+  "f": [
+   "wrong_n0.mp4",
+   "wrong_n1.mp4",
+   "wrong_n2.mp4",
+   "wrong_n3.mp4",
+   "wrong_n4.mp4"
+  ],
+  "vol": 1.216
+ },
+ "swap": {
+  "f": [
+   "swap_v0.mp4"
+  ],
+  "vol": 1.704
+ },
+ "step_draco": {
+  "f": [
+   "step_draco_0.mp4",
+   "step_draco_1.mp4",
+   "step_draco_2.mp4",
+   "step_draco_3.mp4",
+   "step_draco_4.mp4",
+   "step_draco_5.mp4",
+   "step_draco_6.mp4",
+   "step_draco_7.mp4",
+   "step_draco_8.mp4",
+   "step_draco_9.mp4"
+  ],
+  "vol": 3.5
+ },
+ "swoosh_venusien": {
+  "f": [
+   "swoosh_venusien_0.mp4",
+   "swoosh_venusien_1.mp4",
+   "swoosh_venusien_2.mp4",
+   "swoosh_venusien_3.mp4"
+  ],
+  "vol": 1.3
+ },
+ "swoosh": {
+  "f": [
+   "swoosh_venusien_0.mp4",
+   "swoosh_venusien_1.mp4",
+   "swoosh_venusien_2.mp4",
+   "swoosh_venusien_3.mp4"
+  ],
+  "vol": 1.3
+ },
+ "death": {
+  "f": [
+   "death_n0.mp4"
+  ],
+  "vol": 2.612
+ },
+ "breach": "breach_0.mp4",
+ "music_menu": {
+  "f": [
+   "music_menu_0.mp4"
+  ],
+  "vol": 0.35
+ },
+ "rivalNear": {
+  "f": [
+   "rivalNear_n0.mp4"
+  ],
+  "vol": 3
+ },
+ "weaponGain": "weaponGain_n0.mp4",
+ "weaponLoss": "weaponLoss_n0.mp4",
+ "killOf_metal": [
+  "killOf_metal_0.mp4",
+  "killOf_metal_1.mp4",
+  "killOf_metal_2.mp4"
+ ],
+ "shieldPulse": {
+  "f": [
+   "shieldPulse_0.mp4"
+  ],
+  "vol": 1.2
+ },
+ "armorPulse": {
+  "f": [
+   "armorPulse_0.mp4"
+  ],
+  "vol": 1.3
+ },
+ "pickupOf_grenade": "pickupOf_grenade_0.mp4",
+ "pickupOf_rocket": "pickupOf_rocket_0.mp4",
+ "pickupOf_weapon": "pickupOf_weapon_0.mp4",
+ "pickupOf_ressource": {
+  "f": [
+   "pickupOf_ressource_n0.mp4"
+  ],
+  "vol": 1.118
+ },
+ "voice_loot": {
+  "f": [
+   "voice_loot_n0.mp4"
+  ],
+  "vol": 2.383
+ },
+ "whiz": {
+  "f": [
+   "whiz_0.mp4",
+   "whiz_1.mp4",
+   "whiz_2.mp4"
+  ],
+  "vol": 0.7
+ },
+ "hitOn_organic": {
+  "f": [
+   "hitOn_organic_0.mp4",
+   "hitOn_organic_1.mp4",
+   "hitOn_organic_2.mp4",
+   "hitOn_organic_3.mp4",
+   "hitOn_organic_4.mp4",
+   "hitOn_organic_5.mp4",
+   "hitOn_organic_6.mp4",
+   "hitOn_organic_7.mp4",
+   "hitOn_organic_8.mp4"
+  ],
+  "vol": 1.3
+ },
+ "hitOn_shield": {
+  "f": [
+   "hitOn_organic_0.mp4",
+   "hitOn_organic_1.mp4",
+   "hitOn_organic_2.mp4",
+   "hitOn_organic_3.mp4",
+   "hitOn_organic_4.mp4",
+   "hitOn_organic_5.mp4",
+   "hitOn_organic_6.mp4",
+   "hitOn_organic_7.mp4",
+   "hitOn_organic_8.mp4"
+  ],
+  "vol": 1.3
+ },
+ "hitOn_metal": {
+  "f": [
+   "hitOn_metal_0.mp4",
+   "hitOn_metal_1.mp4",
+   "hitOn_metal_2.mp4",
+   "hitOn_metal_3.mp4",
+   "hitOn_metal_4.mp4",
+   "hitOn_metal_5.mp4",
+   "hitOn_metal_6.mp4",
+   "hitOn_metal_7.mp4",
+   "hitOn_metal_8.mp4",
+   "hitOn_metal_9.mp4",
+   "hitOn_metal_10.mp4"
+  ],
+  "vol": 1.3
+ },
+ "hurtOn_shield": {
+  "f": [
+   "hurtOn_shield_n0.mp4",
+   "hurtOn_shield_n1.mp4",
+   "hurtOn_shield_n2.mp4",
+   "hurtOn_shield_n3.mp4",
+   "hurtOn_shield_n4.mp4"
+  ],
+  "vol": 1.467
+ },
+ "hurtOn_armor": {
+  "f": [
+   "hurtOn_armor_n0.mp4"
+  ],
+  "vol": 1.995
+ },
+ "ui_move": "ui_move_0.mp4",
+ "ui_sel": "ui_sel_0.mp4",
+ "ui_back": "ui_back_0.mp4",
+ "ui_deny": "ui_deny_0.mp4",
+ "ui_locked": "ui_locked_0.mp4",
+ "defeat": {
+  "f": [
+   "defeat_0.mp4"
+  ],
+  "vol": 1.341
+ },
+ "victory": [
+  "victory_0.mp4",
+  "victory_1.mp4",
+  "victory_2.mp4",
+  "victory_3.mp4",
+  "victory_4.mp4",
+  "victory_5.mp4",
+  "victory_6.mp4",
+  "victory_7.mp4",
+  "victory_8.mp4"
+ ],
+ "upgrade": [
+  "victory_0.mp4",
+  "victory_1.mp4",
+  "victory_2.mp4",
+  "victory_3.mp4",
+  "victory_4.mp4",
+  "victory_5.mp4",
+  "victory_6.mp4",
+  "victory_7.mp4",
+  "victory_8.mp4"
+ ],
+ "amb_venus": {
+  "f": [
+   "amb_venus_0.mp4"
+  ],
+  "vol": 0.64,
+  "stream": true
+ },
+ "amb_venus_academy": {
+  "f": [
+   "amb_venus_academy_n0.mp4"
+  ],
+  "vol": 2.34
+ },
+ "amb_venus_cascade": {
+  "f": [
+   "amb_venus_cascade_n0.mp4"
+  ],
+  "vol": 1
+ },
+ "amb_venus_plage": {
+  "f": [
+   "amb_venus_plage_n0.mp4"
+  ],
+  "vol": 1
+ },
+ "amb_venus_pyramide": {
+  "f": [
+   "amb_venus_pyramide_n0.mp4"
+  ],
+  "vol": 3.38
+ },
+ "amb_venus_solarium": {
+  "f": [
+   "amb_venus_solarium_n0.mp4"
+  ],
+  "vol": 1
+ },
+ "ground_academy": {
+  "f": [
+   "ground_academy_0.mp4",
+   "ground_academy_1.mp4",
+   "ground_academy_2.mp4",
+   "ground_academy_3.mp4",
+   "ground_academy_4.mp4",
+   "ground_academy_5.mp4",
+   "ground_academy_6.mp4",
+   "ground_academy_7.mp4",
+   "ground_academy_8.mp4",
+   "ground_academy_9.mp4",
+   "ground_academy_10.mp4",
+   "ground_academy_11.mp4"
+  ],
+  "vol": 1
+ },
+ "ground_cascade": {
+  "f": [
+   "ground_cascade_0.mp4",
+   "ground_cascade_1.mp4",
+   "ground_cascade_2.mp4",
+   "ground_cascade_3.mp4",
+   "ground_cascade_4.mp4",
+   "ground_cascade_5.mp4",
+   "ground_cascade_6.mp4",
+   "ground_cascade_7.mp4",
+   "ground_cascade_8.mp4",
+   "ground_cascade_9.mp4"
+  ],
+  "vol": 1
+ },
+ "ground_plage": {
+  "f": [
+   "ground_plage_0.mp4",
+   "ground_plage_1.mp4",
+   "ground_plage_2.mp4",
+   "ground_plage_3.mp4",
+   "ground_plage_4.mp4",
+   "ground_plage_5.mp4",
+   "ground_plage_6.mp4",
+   "ground_plage_7.mp4",
+   "ground_plage_8.mp4",
+   "ground_plage_9.mp4",
+   "ground_plage_10.mp4"
+  ],
+  "vol": 0.7
+ },
+ "ground_pyramide": {
+  "f": [
+   "ground_pyramide_0.mp4",
+   "ground_pyramide_1.mp4",
+   "ground_pyramide_2.mp4",
+   "ground_pyramide_3.mp4",
+   "ground_pyramide_4.mp4",
+   "ground_pyramide_5.mp4",
+   "ground_pyramide_6.mp4",
+   "ground_pyramide_7.mp4",
+   "ground_pyramide_8.mp4",
+   "ground_pyramide_9.mp4",
+   "ground_pyramide_10.mp4",
+   "ground_pyramide_11.mp4"
+  ],
+  "vol": 0.7
+ },
+ "empty": {
+  "f": [
+   "empty_0.mp4"
+  ],
+  "vol": 0.5
+ },
+ "overheat": {
+  "f": [
+   "overheat_0.mp4"
+  ],
+  "vol": 0.5
+ },
+ "wall": {
+  "f": [
+   "wall_0.mp4"
+  ],
+  "vol": 0.5
+ },
+ "intro_voice": {
+  "f": [
+   "intro_voice_0.mp4"
+  ],
+  "vol": 1
+ },
+ "eshotOf_dair": {
+  "f": [
+   "eshotOf_dair_n0.mp4",
+   "eshotOf_dair_n1.mp4",
+   "eshotOf_dair_n2.mp4",
+   "eshotOf_dair_n3.mp4",
+   "eshotOf_dair_n4.mp4"
+  ],
+  "vol": 0.553
+ },
+ "eshotOf_dterre": {
+  "f": [
+   "eshotOf_dterre_n0.mp4",
+   "eshotOf_dterre_n1.mp4",
+   "eshotOf_dterre_n2.mp4",
+   "eshotOf_dterre_n3.mp4",
+   "eshotOf_dterre_n4.mp4"
+  ],
+  "vol": 0.592
+ },
+ "land": {
+  "f": [
+   "land_n0.mp4"
+  ],
+  "vol": 1.503
+ },
+ "reload_venusien_long": {
+  "f": [
+   "reload_venusien_long_n_0.mp4"
+  ],
+  "vol": 1.109
+ },
+ "reload_venusien_short": {
+  "f": [
+   "reload_venusien_short_n_0.mp4"
+  ],
+  "vol": 1.549
+ },
+ "turn": {
+  "f": [
+   "turn_0.mp4",
+   "turn_1.mp4",
+   "turn_2.mp4",
+   "turn_3.mp4"
+  ],
+  "vol": 2.5
+ },
+ "spawnCmd": {
+  "f": [
+   "spawnCmd_0.mp4",
+   "spawnCmd_1.mp4",
+   "spawnCmd_2.mp4",
+   "spawnCmd_3.mp4",
+   "spawnCmd_4.mp4",
+   "spawnCmd_5.mp4",
+   "spawnCmd_6.mp4"
+  ],
+  "vol": 0.5
+ },
+ "menuIn": {
+  "f": [
+   "menuIn_0.mp4"
+  ],
+  "vol": 0.8
+ },
+ "loop_mate": {
+  "f": [
+   "loop_mate_0.mp4"
+  ],
+  "vol": 0.6,
+  "pitch": 8
+ },
+ "invite": {
+  "f": [
+   "invite_0.mp4"
+  ],
+  "vol": 0.8
+ },
+ "ground_metal": {
+  "f": [
+   "ground_metal_0.mp4",
+   "ground_metal_1.mp4",
+   "ground_metal_2.mp4",
+   "ground_metal_3.mp4",
+   "ground_metal_4.mp4",
+   "ground_metal_5.mp4",
+   "ground_metal_6.mp4",
+   "ground_metal_7.mp4"
+  ],
+  "vol": 1
+ },
+ "steps_mech": {
+  "f": [
+   "steps_mech_0.mp4",
+   "steps_mech_1.mp4",
+   "steps_mech_2.mp4",
+   "steps_mech_3.mp4",
+   "steps_mech_4.mp4",
+   "steps_mech_5.mp4",
+   "steps_mech_6.mp4",
+   "steps_mech_7.mp4"
+  ],
+  "vol": 1
+ },
+ "eshotOf_mech": {
+  "f": [
+   "eshotOf_mech_n0.mp4",
+   "eshotOf_mech_n1.mp4",
+   "eshotOf_mech_n2.mp4",
+   "eshotOf_mech_n3.mp4",
+   "eshotOf_mech_n4.mp4"
+  ],
+  "vol": 1
+ },
+ "hitOn_mech": {
+  "f": [
+   "hitOn_mech_0.mp4"
+  ],
+  "vol": 0.42,
+  "semi": 2
+ },
+ "killOf_mech": {
+  "f": [
+   "killOf_mech_0.mp4",
+   "killOf_mech_1.mp4",
+   "killOf_mech_2.mp4",
+   "killOf_mech_3.mp4"
+  ],
+  "vol": 1
+ },
+ "spawnMech": {
+  "f": [
+   "spawnMech_0.mp4",
+   "spawnMech_1.mp4"
+  ],
+  "vol": 1
+ },
+ "mechGrenade": {
+  "f": [
+   "mechGrenade_0.mp4",
+   "mechGrenade_1.mp4",
+   "mechGrenade_2.mp4",
+   "mechGrenade_3.mp4",
+   "mechGrenade_4.mp4",
+   "mechGrenade_5.mp4",
+   "mechGrenade_6.mp4"
+  ],
+  "vol": 1.5
+ },
+ "cellOpen": {
+  "f": [
+   "cellOpen_0.mp4",
+   "cellOpen_1.mp4",
+   "cellOpen_2.mp4",
+   "cellOpen_3.mp4"
+  ],
+  "vol": 1
+ },
+ "cell_closed": {
+  "f": [
+   "cell_closed_0.mp4"
+  ],
+  "vol": 1
+ },
+ "cell_open": {
+  "f": [
+   "cell_open_0.mp4"
+  ],
+  "vol": 1
+ },
+ "amb_olymp_vent": {
+  "f": [
+   "amb_olymp_vent_n0.mp4"
+  ],
+  "vol": 2
+ },
+ "amb_olymp_ateliers": {
+  "f": [
+   "amb_olymp_ateliers_n0.mp4"
+  ],
+  "vol": 1,
+  "stream": true
+ },
+ "amb_olymp_generateur": {
+  "f": [
+   "amb_olymp_generateur_n0.mp4"
+  ],
+  "vol": 1.5
+ },
+ "cellAlert": {
+  "f": [
+   "cellAlert_0.mp4"
+  ],
+  "vol": 1
+ },
+ "cageOpen": {
+  "f": [
+   "cageOpen_n0.mp4"
+  ],
+  "vol": 1
+ },
+ "cage": {
+  "f": [
+   "cage_n0.mp4"
+  ],
+  "vol": 1
+ },
+ "knife": {
+  "f": [
+   "knife_0.mp4",
+   "knife_1.mp4",
+   "knife_2.mp4",
+   "knife_3.mp4"
+  ],
+  "vol": 0.9
+ },
+ "amb_olymp_cellule": {
+  "f": [
+   "amb_olymp_cellule_0.mp4"
+  ],
+  "vol": 0.8
+ },
+ "tinnitus": {
+  "f": [
+   "tinnitus_0.mp4"
+  ],
+  "vol": 0.3
+ },
+ "lampe": {
+  "f": [
+   "lampe_0.mp4"
+  ],
+  "vol": 0.9
+ },
+ "flash": {
+  "f": [
+   "flash_0.mp4"
+  ],
+  "vol": 0.9
+ },
+ "drop": {
+  "f": [
+   "drop_0.mp4"
+  ],
+  "vol": 0.768
+ },
+ "amb_olymp_plateforme": {
+  "f": [
+   "amb_olymp_plateforme_n0.mp4"
+  ],
+  "vol": 1
+ },
+ "amb_olymp_egouts": {
+  "f": [
+   "amb_olymp_egouts_n0.mp4"
+  ],
+  "vol": 1
+ },
+ "amb_olymp": {
+  "f": [
+   "amb_olymp_n0.mp4"
+  ],
+  "vol": 1
+ },
+ "beacon": {
+  "f": [
+   "beacon_0.mp4"
+  ],
+  "vol": 0.9
+ },
+ "heal": {
+  "f": [
+   "heal_0.mp4"
+  ],
+  "vol": 0.8
+ },
+ "ground_or": {
+  "f": [
+   "ground_or_0.mp4",
+   "ground_or_1.mp4",
+   "ground_or_2.mp4",
+   "ground_or_3.mp4",
+   "ground_or_4.mp4",
+   "ground_or_5.mp4",
+   "ground_or_6.mp4"
+  ],
+  "vol": 4.064,
+  "pitch": 8
+ },
+ "killOf_mech2": {
+  "f": [
+   "killOf_mech2_0.mp4"
+  ],
+  "vol": 1
+ },
+ "shot_assassin": {
+  "f": [
+   "shot_assassin_0.mp4",
+   "shot_assassin_1.mp4",
+   "shot_assassin_2.mp4",
+   "shot_assassin_3.mp4",
+   "shot_assassin_4.mp4"
+  ],
+  "vol": 1
+ },
+ "towerBoom": {
+  "f": [
+   "towerBoom_0.mp4",
+   "towerBoom_1.mp4",
+   "towerBoom_2.mp4",
+   "towerBoom_3.mp4"
+  ],
+  "vol": 1
+ },
+ "grenadeBeep": {
+  "f": [
+   "grenadeBeep_0.mp4"
+  ],
+  "vol": 1.35
+ },
+ "micOn": {
+  "f": [
+   "micOn_0.mp4"
+  ],
+  "vol": 0.9
+ },
+ "overcharge": {
+  "f": [
+   "overcharge_0.mp4"
+  ],
+  "vol": 0.7
+ },
+ "crane": {
+  "f": [
+   "crane_0.mp4"
+  ],
+  "vol": 0.8
+ },
+ "amb_tb": {
+  "f": [
+   "amb_tb_n0.mp4"
+  ],
+  "vol": 0.536,
+  "loop": 1
+ },
+ "amb_tb_cm": {
+  "f": [
+   "amb_tb_cm_n0.mp4"
+  ],
+  "vol": 1.893,
+  "loop": 1
+ },
+ "amb_tb_co": {
+  "f": [
+   "amb_tb_co_n0.mp4"
+  ],
+  "vol": 0.979,
+  "loop": 1
+ },
+ "amb_tb_ce": {
+  "f": [
+   "amb_tb_ce_n0.mp4"
+  ],
+  "vol": 2.984,
+  "loop": 1
+ },
+ "amb_tb_nm": {
+  "f": [
+   "amb_tb_nm_n0.mp4"
+  ],
+  "vol": 0.946,
+  "loop": 1
+ },
+ "amb_tb_ne": {
+  "f": [
+   "amb_tb_ne_n0.mp4"
+  ],
+  "vol": 2.519,
+  "loop": 1
+ },
+ "amb_tb_no": {
+  "f": [
+   "amb_tb_no_n0.mp4"
+  ],
+  "vol": 14.198,
+  "loop": 1
+ },
+ "amb_tb_se": {
+  "f": [
+   "amb_tb_se_n0.mp4"
+  ],
+  "vol": 0.69,
+  "loop": 1
+ },
+ "amb_tb_sm": {
+  "f": [
+   "amb_tb_sm_n0.mp4"
+  ],
+  "vol": 6.995,
+  "loop": 1
+ },
+ "amb_tb_so": {
+  "f": [
+   "amb_tb_so_n0.mp4"
+  ],
+  "vol": 2.185,
+  "loop": 1
+ },
+ "turnL": {
+  "f": [
+   "turnL_n0.mp4"
+  ],
+  "vol": 2.196
+ },
+ "turnR": {
+  "f": [
+   "turnR_n0.mp4"
+  ],
+  "vol": 2.529
+ },
+ "uturn": {
+  "f": [
+   "uturn_n0.mp4",
+   "uturn_n1.mp4",
+   "uturn_n2.mp4",
+   "uturn_n3.mp4",
+   "uturn_n4.mp4"
+  ],
+  "vol": 0.513
+ },
+ "dodgeL": {
+  "f": [
+   "dodgeL_n0.mp4",
+   "dodgeL_n1.mp4",
+   "dodgeL_n2.mp4"
+  ],
+  "vol": 0.444
+ },
+ "dodgeR": {
+  "f": [
+   "dodgeR_n0.mp4",
+   "dodgeR_n1.mp4",
+   "dodgeR_n2.mp4"
+  ],
+  "vol": 0.938
+ },
+ "rope": {
+  "f": [
+   "rope_n0.mp4"
+  ],
+  "vol": 1.8346
+ },
+ "respawn": {
+  "f": [
+   "respawn_n1.mp4"
+  ],
+  "vol": 1.531
+ },
+ "detEnemy": {
+  "f": [
+   "detEnemy_n0.mp4"
+  ],
+  "vol": 1.764
+ },
+ "longEnemy": {
+  "f": [
+   "longEnemy_n0.mp4"
+  ],
+  "vol": 1.956
+ },
+ "longRival": {
+  "f": [
+   "longRival_n0.mp4"
+  ],
+  "vol": 0.919
+ },
+ "hurtVoice_venusien_h": {
+  "f": [
+   "hurtVoice_venusien_h_n0.mp4",
+   "hurtVoice_venusien_h_n1.mp4",
+   "hurtVoice_venusien_h_n2.mp4",
+   "hurtVoice_venusien_h_n3.mp4",
+   "hurtVoice_venusien_h_n4.mp4"
+  ],
+  "vol": 1.458
+ },
+ "hurtFatal_venusien_h": {
+  "f": [
+   "hurtFatal_venusien_h_n0.mp4"
+  ],
+  "vol": 3
+ },
+ "hurtVoice_venusien_f": {
+  "f": [
+   "hurtVoice_venusien_f_n0.mp4"
+  ],
+  "vol": 1.211
+ },
+ "boostShot": {
+  "f": [
+   "boostShot_n0.mp4"
+  ],
+  "vol": 0.255
+ },
+ "medkit": {
+  "f": [
+   "medkit_n0.mp4"
+  ],
+  "vol": 2.487
+ },
+ "cooldown": {
+  "f": [
+   "cooldown_n0.mp4"
+  ],
+  "vol": 1.189
+ },
+ "shot_venusien_long_t0_n1": {
+  "f": [
+   "shot_venusien_long_t0_n1_n0.mp4",
+   "shot_venusien_long_t0_n1_n1.mp4",
+   "shot_venusien_long_t0_n1_n2.mp4",
+   "shot_venusien_long_t0_n1_n3.mp4",
+   "shot_venusien_long_t0_n1_n4.mp4"
+  ],
+  "vol": 0.8
+ },
+ "shot_venusien_long_t0_n2": {
+  "f": [
+   "shot_venusien_long_t0_n2_n0.mp4",
+   "shot_venusien_long_t0_n2_n1.mp4",
+   "shot_venusien_long_t0_n2_n2.mp4",
+   "shot_venusien_long_t0_n2_n3.mp4",
+   "shot_venusien_long_t0_n2_n4.mp4"
+  ],
+  "vol": 0.8
+ },
+ "shot_venusien_long_t0_n3": {
+  "f": [
+   "shot_venusien_long_t0_n3_n0.mp4",
+   "shot_venusien_long_t0_n3_n1.mp4",
+   "shot_venusien_long_t0_n3_n2.mp4",
+   "shot_venusien_long_t0_n3_n3.mp4",
+   "shot_venusien_long_t0_n3_n4.mp4"
+  ],
+  "vol": 0.8
+ },
+ "shot_venusien_long_t1_n1": {
+  "f": [
+   "shot_venusien_long_t1_n1_n0.mp4",
+   "shot_venusien_long_t1_n1_n1.mp4",
+   "shot_venusien_long_t1_n1_n2.mp4",
+   "shot_venusien_long_t1_n1_n3.mp4",
+   "shot_venusien_long_t1_n1_n4.mp4"
+  ],
+  "vol": 0.827
+ },
+ "shot_venusien_long_t1_n2": {
+  "f": [
+   "shot_venusien_long_t1_n2_n0.mp4",
+   "shot_venusien_long_t1_n2_n1.mp4",
+   "shot_venusien_long_t1_n2_n2.mp4",
+   "shot_venusien_long_t1_n2_n3.mp4",
+   "shot_venusien_long_t1_n2_n4.mp4"
+  ],
+  "vol": 0.696
+ },
+ "shot_venusien_long_t1_n3": {
+  "f": [
+   "shot_venusien_long_t1_n3_n0.mp4",
+   "shot_venusien_long_t1_n3_n1.mp4",
+   "shot_venusien_long_t1_n3_n2.mp4",
+   "shot_venusien_long_t1_n3_n3.mp4",
+   "shot_venusien_long_t1_n3_n4.mp4"
+  ],
+  "vol": 0.78
+ },
+ "shot_venusien_long_t2_n1": {
+  "f": [
+   "shot_venusien_long_t2_n1_n0.mp4",
+   "shot_venusien_long_t2_n1_n1.mp4",
+   "shot_venusien_long_t2_n1_n2.mp4",
+   "shot_venusien_long_t2_n1_n3.mp4",
+   "shot_venusien_long_t2_n1_n4.mp4"
+  ],
+  "vol": 0.681
+ },
+ "shot_venusien_long_t2_n2": {
+  "f": [
+   "shot_venusien_long_t2_n2_n0.mp4",
+   "shot_venusien_long_t2_n2_n1.mp4",
+   "shot_venusien_long_t2_n2_n2.mp4",
+   "shot_venusien_long_t2_n2_n3.mp4",
+   "shot_venusien_long_t2_n2_n4.mp4"
+  ],
+  "vol": 0.679
+ },
+ "shot_venusien_long_t2_n3": {
+  "f": [
+   "shot_venusien_long_t2_n3_n0.mp4",
+   "shot_venusien_long_t2_n3_n1.mp4",
+   "shot_venusien_long_t2_n3_n2.mp4",
+   "shot_venusien_long_t2_n3_n3.mp4",
+   "shot_venusien_long_t2_n3_n4.mp4"
+  ],
+  "vol": 0.662
+ },
+ "shot_venusien_mid_t0_n1": [
+  "shot_venusien_mid_t0_n1_n0.mp4",
+  "shot_venusien_mid_t0_n1_n1.mp4",
+  "shot_venusien_mid_t0_n1_n2.mp4",
+  "shot_venusien_mid_t0_n1_n3.mp4",
+  "shot_venusien_mid_t0_n1_n4.mp4"
+ ],
+ "shot_venusien_mid_t0_n2": [
+  "shot_venusien_mid_t0_n2_n0.mp4",
+  "shot_venusien_mid_t0_n2_n1.mp4",
+  "shot_venusien_mid_t0_n2_n2.mp4",
+  "shot_venusien_mid_t0_n2_n3.mp4",
+  "shot_venusien_mid_t0_n2_n4.mp4"
+ ],
+ "shot_venusien_mid_t0_n3": [
+  "shot_venusien_mid_t0_n3_n0.mp4",
+  "shot_venusien_mid_t0_n3_n1.mp4",
+  "shot_venusien_mid_t0_n3_n2.mp4",
+  "shot_venusien_mid_t0_n3_n3.mp4",
+  "shot_venusien_mid_t0_n3_n4.mp4"
+ ],
+ "shot_venusien_mid_t1_n1": {
+  "f": [
+   "shot_venusien_mid_t1_n1_n0.mp4",
+   "shot_venusien_mid_t1_n1_n1.mp4",
+   "shot_venusien_mid_t1_n1_n2.mp4",
+   "shot_venusien_mid_t1_n1_n3.mp4",
+   "shot_venusien_mid_t1_n1_n4.mp4"
+  ],
+  "vol": 0.724
+ },
+ "shot_venusien_mid_t1_n2": {
+  "f": [
+   "shot_venusien_mid_t1_n2_n0.mp4",
+   "shot_venusien_mid_t1_n2_n1.mp4",
+   "shot_venusien_mid_t1_n2_n2.mp4",
+   "shot_venusien_mid_t1_n2_n3.mp4",
+   "shot_venusien_mid_t1_n2_n4.mp4"
+  ],
+  "vol": 0.81
+ },
+ "shot_venusien_mid_t1_n3": {
+  "f": [
+   "shot_venusien_mid_t1_n3_n0.mp4",
+   "shot_venusien_mid_t1_n3_n1.mp4",
+   "shot_venusien_mid_t1_n3_n2.mp4",
+   "shot_venusien_mid_t1_n3_n3.mp4",
+   "shot_venusien_mid_t1_n3_n4.mp4"
+  ],
+  "vol": 0.663
+ },
+ "shot_venusien_mid_t2_n1": {
+  "f": [
+   "shot_venusien_mid_t2_n1_n0.mp4",
+   "shot_venusien_mid_t2_n1_n1.mp4",
+   "shot_venusien_mid_t2_n1_n2.mp4",
+   "shot_venusien_mid_t2_n1_n3.mp4",
+   "shot_venusien_mid_t2_n1_n4.mp4"
+  ],
+  "vol": 0.895
+ },
+ "shot_venusien_mid_t2_n2": {
+  "f": [
+   "shot_venusien_mid_t2_n2_n0.mp4",
+   "shot_venusien_mid_t2_n2_n1.mp4",
+   "shot_venusien_mid_t2_n2_n2.mp4",
+   "shot_venusien_mid_t2_n2_n3.mp4",
+   "shot_venusien_mid_t2_n2_n4.mp4"
+  ],
+  "vol": 0.55
+ },
+ "shot_venusien_mid_t2_n3": {
+  "f": [
+   "shot_venusien_mid_t2_n3_n0.mp4",
+   "shot_venusien_mid_t2_n3_n1.mp4",
+   "shot_venusien_mid_t2_n3_n2.mp4",
+   "shot_venusien_mid_t2_n3_n3.mp4",
+   "shot_venusien_mid_t2_n3_n4.mp4"
+  ],
+  "vol": 0.497
+ },
+ "shot_venusien_short_t0_n1": [
+  "shot_venusien_short_t0_n1_n0.mp4",
+  "shot_venusien_short_t0_n1_n1.mp4",
+  "shot_venusien_short_t0_n1_n2.mp4",
+  "shot_venusien_short_t0_n1_n3.mp4",
+  "shot_venusien_short_t0_n1_n4.mp4"
+ ],
+ "shot_venusien_short_t0_n2": [
+  "shot_venusien_short_t0_n2_n0.mp4",
+  "shot_venusien_short_t0_n2_n1.mp4",
+  "shot_venusien_short_t0_n2_n2.mp4",
+  "shot_venusien_short_t0_n2_n3.mp4",
+  "shot_venusien_short_t0_n2_n4.mp4"
+ ],
+ "shot_venusien_short_t0_n3": [
+  "shot_venusien_short_t0_n3_n0.mp4",
+  "shot_venusien_short_t0_n3_n1.mp4",
+  "shot_venusien_short_t0_n3_n2.mp4",
+  "shot_venusien_short_t0_n3_n3.mp4",
+  "shot_venusien_short_t0_n3_n4.mp4"
+ ],
+ "shot_venusien_short_t1_n1": {
+  "f": [
+   "shot_venusien_short_t1_n1_n0.mp4",
+   "shot_venusien_short_t1_n1_n1.mp4",
+   "shot_venusien_short_t1_n1_n2.mp4",
+   "shot_venusien_short_t1_n1_n3.mp4",
+   "shot_venusien_short_t1_n1_n4.mp4"
+  ],
+  "vol": 0.662
+ },
+ "shot_venusien_short_t1_n2": {
+  "f": [
+   "shot_venusien_short_t1_n2_n0.mp4",
+   "shot_venusien_short_t1_n2_n1.mp4",
+   "shot_venusien_short_t1_n2_n2.mp4",
+   "shot_venusien_short_t1_n2_n3.mp4",
+   "shot_venusien_short_t1_n2_n4.mp4"
+  ],
+  "vol": 0.758
+ },
+ "shot_venusien_short_t1_n3": {
+  "f": [
+   "shot_venusien_short_t1_n3_n0.mp4",
+   "shot_venusien_short_t1_n3_n1.mp4",
+   "shot_venusien_short_t1_n3_n2.mp4",
+   "shot_venusien_short_t1_n3_n3.mp4",
+   "shot_venusien_short_t1_n3_n4.mp4"
+  ],
+  "vol": 0.375
+ },
+ "shot_venusien_short_t2_n1": {
+  "f": [
+   "shot_venusien_short_t2_n1_n0.mp4",
+   "shot_venusien_short_t2_n1_n1.mp4",
+   "shot_venusien_short_t2_n1_n2.mp4",
+   "shot_venusien_short_t2_n1_n3.mp4"
+  ],
+  "vol": 1.019
+ },
+ "shot_venusien_short_t2_n2": {
+  "f": [
+   "shot_venusien_short_t2_n2_n0.mp4",
+   "shot_venusien_short_t2_n2_n1.mp4",
+   "shot_venusien_short_t2_n2_n2.mp4",
+   "shot_venusien_short_t2_n2_n3.mp4",
+   "shot_venusien_short_t2_n2_n4.mp4"
+  ],
+  "vol": 0.687
+ },
+ "shot_venusien_short_t2_n3": {
+  "f": [
+   "shot_venusien_short_t2_n3_n0.mp4",
+   "shot_venusien_short_t2_n3_n1.mp4",
+   "shot_venusien_short_t2_n3_n2.mp4",
+   "shot_venusien_short_t2_n3_n3.mp4",
+   "shot_venusien_short_t2_n3_n4.mp4"
+  ],
+  "vol": 0.768
+ },
+ "shot_mentis_long": [
+  "shot_mentis_long_0.mp4",
+  "shot_mentis_long_1.mp4",
+  "shot_mentis_long_2.mp4",
+  "shot_mentis_long_3.mp4"
+ ],
+ "shot_mentis_mid": [
+  "shot_mentis_mid_0.mp4",
+  "shot_mentis_mid_1.mp4",
+  "shot_mentis_mid_2.mp4",
+  "shot_mentis_mid_3.mp4"
+ ],
+ "shot_mentis_short": [
+  "shot_mentis_short_0.mp4",
+  "shot_mentis_short_1.mp4",
+  "shot_mentis_short_2.mp4"
+ ],
+ "reload_long_n1": {
+  "f": [
+   "reload_long_n1_v0.mp4",
+   "reload_long_n1_v1.mp4"
+  ],
+  "vol": 0.54
+ },
+ "reload_long_n2": {
+  "f": [
+   "reload_long_n2_v0.mp4",
+   "reload_long_n2_v1.mp4",
+   "reload_long_n2_v2.mp4"
+  ],
+  "vol": 0.484
+ },
+ "reload_long_n3": {
+  "f": [
+   "reload_long_n3_v0.mp4",
+   "reload_long_n3_v1.mp4",
+   "reload_long_n3_v2.mp4",
+   "reload_long_n3_v3.mp4",
+   "reload_long_n3_v4.mp4",
+   "reload_long_n3_v5.mp4",
+   "reload_long_n3_v6.mp4",
+   "reload_long_n3_v7.mp4"
+  ],
+  "vol": 0.528
+ },
+ "reload_mid_n1": {
+  "f": [
+   "reload_mid_n1_v0.mp4",
+   "reload_mid_n1_v1.mp4",
+   "reload_mid_n1_v2.mp4",
+   "reload_mid_n1_v3.mp4",
+   "reload_mid_n1_v4.mp4",
+   "reload_mid_n1_v5.mp4",
+   "reload_mid_n1_v6.mp4",
+   "reload_mid_n1_v7.mp4"
+  ],
+  "vol": 0.885
+ },
+ "reload_mid_n2": {
+  "f": [
+   "reload_mid_n2_v0.mp4",
+   "reload_mid_n2_v1.mp4",
+   "reload_mid_n2_v2.mp4",
+   "reload_mid_n2_v3.mp4",
+   "reload_mid_n2_v4.mp4",
+   "reload_mid_n2_v5.mp4"
+  ],
+  "vol": 0.627
+ },
+ "reload_mid_n3": {
+  "f": [
+   "reload_mid_n3_v0.mp4",
+   "reload_mid_n3_v1.mp4",
+   "reload_mid_n3_v2.mp4",
+   "reload_mid_n3_v3.mp4",
+   "reload_mid_n3_v4.mp4",
+   "reload_mid_n3_v5.mp4"
+  ],
+  "vol": 0.504
+ },
+ "reload_short_n1": {
+  "f": [
+   "reload_short_n1_v0.mp4",
+   "reload_short_n1_v1.mp4"
+  ],
+  "vol": 1.725
+ },
+ "reload_short_n2": {
+  "f": [
+   "reload_short_n2_v0.mp4",
+   "reload_short_n2_v1.mp4",
+   "reload_short_n2_v2.mp4"
+  ],
+  "vol": 0.537
+ },
+ "reload_short_n3": {
+  "f": [
+   "reload_short_n3_v0.mp4",
+   "reload_short_n3_v1.mp4",
+   "reload_short_n3_v2.mp4"
+  ],
+  "vol": 0.517
+ },
+ "amb_ar_fn": {
+  "f": [
+   "amb_ar_fn_n0.mp4"
+  ],
+  "vol": 4.396,
+  "loop": 1
+ },
+ "amb_ar_fe": {
+  "f": [
+   "amb_ar_fe_n0.mp4"
+  ],
+  "vol": 2.322,
+  "loop": 1
+ },
+ "amb_ar_fs": {
+  "f": [
+   "amb_ar_fs_n0.mp4"
+  ],
+  "vol": 2.958,
+  "loop": 1
+ },
+ "amb_ar_fo": {
+  "f": [
+   "amb_ar_fo_n0.mp4"
+  ],
+  "vol": 3.242,
+  "loop": 1
+ },
+ "amb_ar_ne": {
+  "f": [
+   "amb_ar_ne_n0.mp4"
+  ],
+  "vol": 0.516,
+  "loop": 1
+ },
+ "amb_ar_se": {
+  "f": [
+   "amb_ar_se_n0.mp4"
+  ],
+  "vol": 0.782,
+  "loop": 1
+ },
+ "amb_ar_so": {
+  "f": [
+   "amb_ar_so_n0.mp4"
+  ],
+  "vol": 1.382,
+  "loop": 1
+ },
+ "amb_ar_c": {
+  "f": [
+   "amb_ar_c_n0.mp4"
+  ],
+  "vol": 0.802,
+  "loop": 1
+ },
+ "eshotOf_maniac": {
+  "f": [
+   "eshotOf_maniac_b0.mp4",
+   "eshotOf_maniac_b1.mp4",
+   "eshotOf_maniac_b2.mp4"
+  ],
+  "vol": 1.8
+ },
+ "steps_maniac": {
+  "f": [
+   "steps_maniac_b0.mp4"
+  ],
+  "vol": 2.6
+ },
+ "hitOn_maniac": {
+  "f": [
+   "hitOn_maniac_b0.mp4",
+   "hitOn_maniac_b1.mp4",
+   "hitOn_maniac_b2.mp4",
+   "hitOn_maniac_b3.mp4"
+  ],
+  "vol": 3.25
+ },
+ "killOf_maniac": {
+  "f": [
+   "killOf_maniac_b0.mp4",
+   "killOf_maniac_b1.mp4",
+   "killOf_maniac_b2.mp4",
+   "killOf_maniac_b3.mp4",
+   "killOf_maniac_b4.mp4",
+   "killOf_maniac_b5.mp4"
+  ],
+  "vol": 2.2
+ },
+ "killOf_maniac2": {
+  "f": [
+   "killOf_maniac2_b0.mp4"
+  ],
+  "vol": 2.6
+ },
+ "wakeOf_maniac": {
+  "f": [
+   "wakeOf_maniac_b0.mp4",
+   "wakeOf_maniac_b1.mp4",
+   "wakeOf_maniac_b2.mp4",
+   "wakeOf_maniac_b3.mp4"
+  ],
+  "vol": 2.0
+ },
+ "maniacGrenade": {
+  "f": [
+   "maniacGrenade_b0.mp4",
+   "maniacGrenade_b1.mp4",
+   "maniacGrenade_b2.mp4",
+   "maniacGrenade_b3.mp4"
+  ],
+  "vol": 2.4
+ },
+ "pump": {
+  "f": [
+   "pump_n0.mp4",
+   "pump_n1.mp4",
+   "pump_n2.mp4"
+  ],
+  "vol": 0.55
+ },
+ "pant": {
+  "f": [
+   "pant_0.mp4"
+  ],
+  "vol": 0.9
+ },
+ "killOf_infil": {
+  "f": [
+   "killOf_infil_0.mp4"
+  ],
+  "vol": 0.696
+ },
+ "eshotOf_infil": {
+  "f": [
+   "eshotOf_infil_0.mp4"
+  ],
+  "vol": 0.414
+ },
+ "steps_infil": {
+  "f": [
+   "steps_infil_0.mp4"
+  ],
+  "vol": 2.369
+ },
+ "killOf_dart": {
+  "f": [
+   "killOf_dart_0.mp4"
+  ],
+  "vol": 0.865,
+  "semi": 1.2
+ },
+ "eshotOf_dart": {
+  "f": [
+   "eshotOf_dart_0.mp4",
+   "eshotOf_dart_1.mp4",
+   "eshotOf_dart_2.mp4",
+   "eshotOf_dart_3.mp4",
+   "eshotOf_dart_4.mp4"
+  ],
+  "vol": 0.945
+ },
+ "hitOn_dart": {
+  "f": [
+   "hitOn_dart_0.mp4"
+  ],
+  "vol": 0.383,
+  "semi": 1.2
+ },
+ "loop_dart": {
+  "f": [
+   "loop_dart_0.mp4"
+  ],
+  "vol": 0.437
+ },
+ "amb_op1_m6": {
+  "f": [
+   "amb_op1_m6_0.mp4"
+  ],
+  "vol": 1.325,
+  "stream": true
+ },
+ "amb_op1_m7": {
+  "f": [
+   "amb_op1_m7_0.mp4"
+  ],
+  "vol": 0.672,
+  "stream": true
+ },
+ "amb_op1_m8": {
+  "f": [
+   "amb_op1_m8_0.mp4"
+  ],
+  "vol": 0.458,
+  "stream": true
+ },
+ "amb_op1_m9": {
+  "f": [
+   "amb_op1_m9_0.mp4"
+  ],
+  "vol": 2.138,
+  "stream": true
+ },
+ "amb_op1_m10": {
+  "f": [
+   "amb_op1_m10_0.mp4"
+  ],
+  "vol": 1.064,
+  "stream": true
+ },
+ "hitOn_dartc": {
+  "f": [
+   "hitOn_dart_0.mp4"
+  ],
+  "vol": 0.274,
+  "semi": 1.2
+ },
+ "killOf_dcmd": {
+  "f": [
+   "killOf_dcmd_0.mp4"
+  ],
+  "vol": 0.8
+ },
+ "amb_tir": {
+  "f": [
+   "amb_tir_0.mp4"
+  ],
+  "vol": 0.36,
+  "stream": true
+ },
+ "amb_ar": {
+  "f": [
+   "amb_ar_n0.mp4"
+  ],
+  "vol": 5.997
+ },
+ "shot_terrien_mid_t0_n1": {
+  "f": [
+   "shot_terrien_mid_t0_n1_n0.mp4",
+   "shot_terrien_mid_t0_n1_n1.mp4",
+   "shot_terrien_mid_t0_n1_n2.mp4",
+   "shot_terrien_mid_t0_n1_n3.mp4",
+   "shot_terrien_mid_t0_n1_n4.mp4"
+  ],
+  "vol": 0.873
+ },
+ "shot_terrien_mid_t0_n2": {
+  "f": [
+   "shot_terrien_mid_t0_n2_n0.mp4",
+   "shot_terrien_mid_t0_n2_n1.mp4",
+   "shot_terrien_mid_t0_n2_n2.mp4",
+   "shot_terrien_mid_t0_n2_n3.mp4",
+   "shot_terrien_mid_t0_n2_n4.mp4"
+  ],
+  "vol": 0.86
+ },
+ "shot_terrien_mid_t0_n3": {
+  "f": [
+   "shot_terrien_mid_t0_n3_n0.mp4",
+   "shot_terrien_mid_t0_n3_n1.mp4",
+   "shot_terrien_mid_t0_n3_n2.mp4",
+   "shot_terrien_mid_t0_n3_n3.mp4",
+   "shot_terrien_mid_t0_n3_n4.mp4"
+  ],
+  "vol": 1.088
+ },
+ "shot_terrien_mid_t1_n1": {
+  "f": [
+   "shot_terrien_mid_t1_n1_n0.mp4",
+   "shot_terrien_mid_t1_n1_n1.mp4",
+   "shot_terrien_mid_t1_n1_n2.mp4",
+   "shot_terrien_mid_t1_n1_n3.mp4",
+   "shot_terrien_mid_t1_n1_n4.mp4"
+  ],
+  "vol": 0.661
+ },
+ "shot_terrien_mid_t1_n2": {
+  "f": [
+   "shot_terrien_mid_t1_n2_n0.mp4",
+   "shot_terrien_mid_t1_n2_n1.mp4",
+   "shot_terrien_mid_t1_n2_n2.mp4",
+   "shot_terrien_mid_t1_n2_n3.mp4",
+   "shot_terrien_mid_t1_n2_n4.mp4"
+  ],
+  "vol": 0.831
+ },
+ "shot_terrien_mid_t1_n3": {
+  "f": [
+   "shot_terrien_mid_t1_n3_n0.mp4",
+   "shot_terrien_mid_t1_n3_n1.mp4",
+   "shot_terrien_mid_t1_n3_n2.mp4",
+   "shot_terrien_mid_t1_n3_n3.mp4",
+   "shot_terrien_mid_t1_n3_n4.mp4"
+  ],
+  "vol": 0.666
+ },
+ "shot_terrien_mid_t2_n1": {
+  "f": [
+   "shot_terrien_mid_t2_n1_n0.mp4",
+   "shot_terrien_mid_t2_n1_n1.mp4",
+   "shot_terrien_mid_t2_n1_n2.mp4",
+   "shot_terrien_mid_t2_n1_n3.mp4",
+   "shot_terrien_mid_t2_n1_n4.mp4"
+  ],
+  "vol": 0.617
+ },
+ "shot_terrien_mid_t2_n2": {
+  "f": [
+   "shot_terrien_mid_t2_n2_n0.mp4",
+   "shot_terrien_mid_t2_n2_n1.mp4",
+   "shot_terrien_mid_t2_n2_n2.mp4",
+   "shot_terrien_mid_t2_n2_n3.mp4",
+   "shot_terrien_mid_t2_n2_n4.mp4"
+  ],
+  "vol": 0.363
+ },
+ "shot_terrien_mid_t2_n3": {
+  "f": [
+   "shot_terrien_mid_t2_n3_n0.mp4",
+   "shot_terrien_mid_t2_n3_n1.mp4",
+   "shot_terrien_mid_t2_n3_n2.mp4",
+   "shot_terrien_mid_t2_n3_n3.mp4",
+   "shot_terrien_mid_t2_n3_n4.mp4"
+  ],
+  "vol": 0.541
+ },
+ "shot_terrien_short_t1_n1": {
+  "f": [
+   "shot_terrien_short_t1_n1_n0.mp4",
+   "shot_terrien_short_t1_n1_n1.mp4",
+   "shot_terrien_short_t1_n1_n2.mp4",
+   "shot_terrien_short_t1_n1_n3.mp4",
+   "shot_terrien_short_t1_n1_n4.mp4"
+  ],
+  "vol": 0.496
+ },
+ "shot_terrien_short_t1_n2": {
+  "f": [
+   "shot_terrien_short_t1_n2_n0.mp4",
+   "shot_terrien_short_t1_n2_n1.mp4",
+   "shot_terrien_short_t1_n2_n2.mp4",
+   "shot_terrien_short_t1_n2_n3.mp4",
+   "shot_terrien_short_t1_n2_n4.mp4"
+  ],
+  "vol": 0.554
+ },
+ "shot_terrien_short_t1_n3": {
+  "f": [
+   "shot_terrien_short_t1_n3_n0.mp4",
+   "shot_terrien_short_t1_n3_n1.mp4",
+   "shot_terrien_short_t1_n3_n2.mp4",
+   "shot_terrien_short_t1_n3_n3.mp4",
+   "shot_terrien_short_t1_n3_n4.mp4"
+  ],
+  "vol": 0.484
+ },
+ "shot_terrien_short_t2_n1": {
+  "f": [
+   "shot_terrien_short_t2_n1_n0.mp4",
+   "shot_terrien_short_t2_n1_n1.mp4",
+   "shot_terrien_short_t2_n1_n2.mp4",
+   "shot_terrien_short_t2_n1_n3.mp4",
+   "shot_terrien_short_t2_n1_n4.mp4"
+  ],
+  "vol": 0.687
+ },
+ "shot_terrien_short_t2_n2": {
+  "f": [
+   "shot_terrien_short_t2_n2_n0.mp4",
+   "shot_terrien_short_t2_n2_n1.mp4",
+   "shot_terrien_short_t2_n2_n2.mp4",
+   "shot_terrien_short_t2_n2_n3.mp4",
+   "shot_terrien_short_t2_n2_n4.mp4"
+  ],
+  "vol": 0.652
+ },
+ "shot_terrien_short_t2_n3": {
+  "f": [
+   "shot_terrien_short_t2_n3_n0.mp4",
+   "shot_terrien_short_t2_n3_n1.mp4",
+   "shot_terrien_short_t2_n3_n2.mp4",
+   "shot_terrien_short_t2_n3_n3.mp4",
+   "shot_terrien_short_t2_n3_n4.mp4"
+  ],
+  "vol": 0.563
+ },
+ "shot_terrien_short_t0_n2": {
+  "f": [
+   "shot_terrien_short_t0_n2_n0.mp4",
+   "shot_terrien_short_t0_n2_n1.mp4",
+   "shot_terrien_short_t0_n2_n2.mp4",
+   "shot_terrien_short_t0_n2_n3.mp4",
+   "shot_terrien_short_t0_n2_n4.mp4"
+  ],
+  "vol": 1.209
+ },
+ "shot_terrien_short_t0_n1": {
+  "f": [
+   "shot_terrien_short_t0_n1_n0.mp4",
+   "shot_terrien_short_t0_n1_n1.mp4",
+   "shot_terrien_short_t0_n1_n2.mp4",
+   "shot_terrien_short_t0_n1_n3.mp4",
+   "shot_terrien_short_t0_n1_n4.mp4"
+  ],
+  "vol": 0.651
+ },
+ "shot_terrien_short_t0_n3": {
+  "f": [
+   "shot_terrien_short_t0_n3_n0.mp4",
+   "shot_terrien_short_t0_n3_n1.mp4",
+   "shot_terrien_short_t0_n3_n2.mp4",
+   "shot_terrien_short_t0_n3_n3.mp4",
+   "shot_terrien_short_t0_n3_n4.mp4"
+  ],
+  "vol": 0.731
+ },
+ "shot_terrien_long_t2_n1": {
+  "f": [
+   "shot_terrien_long_t2_n1_n0.mp4",
+   "shot_terrien_long_t2_n1_n1.mp4",
+   "shot_terrien_long_t2_n1_n2.mp4",
+   "shot_terrien_long_t2_n1_n3.mp4",
+   "shot_terrien_long_t2_n1_n4.mp4"
+  ],
+  "vol": 0.714
+ },
+ "shot_terrien_long_t2_n2": {
+  "f": [
+   "shot_terrien_long_t2_n2_n0.mp4",
+   "shot_terrien_long_t2_n2_n1.mp4",
+   "shot_terrien_long_t2_n2_n2.mp4",
+   "shot_terrien_long_t2_n2_n3.mp4",
+   "shot_terrien_long_t2_n2_n4.mp4"
+  ],
+  "vol": 0.916
+ },
+ "shot_terrien_long_t2_n3": {
+  "f": [
+   "shot_terrien_long_t2_n3_n0.mp4",
+   "shot_terrien_long_t2_n3_n1.mp4",
+   "shot_terrien_long_t2_n3_n2.mp4",
+   "shot_terrien_long_t2_n3_n3.mp4",
+   "shot_terrien_long_t2_n3_n4.mp4"
+  ],
+  "vol": 0.83
+ },
+ "shot_terrien_long_t1_n1": {
+  "f": [
+   "shot_terrien_long_t1_n1_n0.mp4",
+   "shot_terrien_long_t1_n1_n1.mp4",
+   "shot_terrien_long_t1_n1_n2.mp4",
+   "shot_terrien_long_t1_n1_n3.mp4",
+   "shot_terrien_long_t1_n1_n4.mp4"
+  ],
+  "vol": 0.984
+ },
+ "shot_terrien_long_t1_n2": {
+  "f": [
+   "shot_terrien_long_t1_n2_n0.mp4",
+   "shot_terrien_long_t1_n2_n1.mp4",
+   "shot_terrien_long_t1_n2_n2.mp4",
+   "shot_terrien_long_t1_n2_n3.mp4",
+   "shot_terrien_long_t1_n2_n4.mp4"
+  ],
+  "vol": 1.472
+ },
+ "shot_terrien_long_t1_n3": {
+  "f": [
+   "shot_terrien_long_t1_n3_n0.mp4",
+   "shot_terrien_long_t1_n3_n1.mp4",
+   "shot_terrien_long_t1_n3_n2.mp4",
+   "shot_terrien_long_t1_n3_n3.mp4",
+   "shot_terrien_long_t1_n3_n4.mp4"
+  ],
+  "vol": 1.298
+ },
+ "shot_terrien_long_t0_n1": {
+  "f": [
+   "shot_terrien_long_t0_n1_n0.mp4",
+   "shot_terrien_long_t0_n1_n1.mp4",
+   "shot_terrien_long_t0_n1_n2.mp4",
+   "shot_terrien_long_t0_n1_n3.mp4",
+   "shot_terrien_long_t0_n1_n4.mp4"
+  ],
+  "vol": 0.494
+ },
+ "shot_terrien_long_t0_n2": {
+  "f": [
+   "shot_terrien_long_t0_n2_n0.mp4",
+   "shot_terrien_long_t0_n2_n1.mp4",
+   "shot_terrien_long_t0_n2_n2.mp4",
+   "shot_terrien_long_t0_n2_n3.mp4",
+   "shot_terrien_long_t0_n2_n4.mp4"
+  ],
+  "vol": 0.404
+ },
+ "shot_terrien_long_t0_n3": {
+  "f": [
+   "shot_terrien_long_t0_n3_n0.mp4",
+   "shot_terrien_long_t0_n3_n1.mp4",
+   "shot_terrien_long_t0_n3_n2.mp4",
+   "shot_terrien_long_t0_n3_n3.mp4",
+   "shot_terrien_long_t0_n3_n4.mp4"
+  ],
+  "vol": 0.991
+ },
+ "bomberPass": {
+  "f": [
+   "bomberPass_0.mp4",
+   "bomberPass_1.mp4",
+   "bomberPass_2.mp4",
+   "bomberPass_3.mp4"
+  ],
+  "vol": 0.72,
+  "pk": [
+   2.6,
+   2.2,
+   3,
+   3.3
+  ]
+ },
+ "bomberBoom": {
+  "f": [
+   "bomberBoom_0.mp4"
+  ],
+  "vol": 7.866
+ },
+ "commotion": {
+  "f": [
+   "commotion_0.mp4"
+  ],
+  "vol": 0.412
+ },
+ "loop_atank": {
+  "f": [
+   "loop_atank_0.mp4"
+  ],
+  "vol": 0.873
+ },
+ "killOf_atank": {
+  "f": [
+   "killOf_atank_0.mp4"
+  ],
+  "vol": 0.553
+ },
+ "eshotOf_atank": {
+  "f": [
+   "eshotOf_atank_0.mp4",
+   "eshotOf_atank_1.mp4",
+   "eshotOf_atank_2.mp4",
+   "eshotOf_atank_3.mp4",
+   "eshotOf_atank_4.mp4"
+  ],
+  "vol": 0.494
+ },
+ "hitOn_atank": {
+  "f": [
+   "hitOn_atank_0.mp4",
+   "hitOn_atank_1.mp4",
+   "hitOn_atank_2.mp4",
+   "hitOn_atank_3.mp4"
+  ],
+  "vol": 0.385
+ },
+ "killOf_dpara": {
+  "f": [
+   "killOf_dpara_0.mp4"
+  ],
+  "vol": 0.696
+ },
+ "steps_dpara": {
+  "f": [
+   "steps_dpara_0.mp4",
+   "steps_dpara_1.mp4",
+   "steps_dpara_2.mp4",
+   "steps_dpara_3.mp4"
+  ],
+  "vol": 2.155
+ },
+ "eshotOf_dpara": {
+  "f": [
+   "eshotOf_dpara_n0.mp4",
+   "eshotOf_dpara_n1.mp4",
+   "eshotOf_dpara_n2.mp4",
+   "eshotOf_dpara_n3.mp4"
+  ],
+  "vol": 0.32
+ },
+ "hitOn_dpara": {
+  "f": [
+   "hitOn_dpara_0.mp4",
+   "hitOn_dpara_1.mp4",
+   "hitOn_dpara_2.mp4",
+   "hitOn_dpara_3.mp4",
+   "hitOn_dpara_4.mp4",
+   "hitOn_dpara_5.mp4",
+   "hitOn_dpara_6.mp4",
+   "hitOn_dpara_7.mp4",
+   "hitOn_dpara_8.mp4"
+  ],
+  "vol": 0.575
+ },
+ "loop_dsuic": {
+  "f": [
+   "loop_dsuic_0.mp4"
+  ],
+  "vol": 0.701
+ },
+ "killOf_dsuic": {
+  "f": [
+   "killOf_dsuic_0.mp4"
+  ],
+  "vol": 0.47
+ },
+ "hitOn_dsuic": {
+  "f": [
+   "hitOn_dsuic_0.mp4",
+   "hitOn_dsuic_1.mp4",
+   "hitOn_dsuic_2.mp4",
+   "hitOn_dsuic_3.mp4",
+   "hitOn_dsuic_4.mp4",
+   "hitOn_dsuic_5.mp4",
+   "hitOn_dsuic_6.mp4",
+   "hitOn_dsuic_7.mp4",
+   "hitOn_dsuic_8.mp4"
+  ],
+  "vol": 0.575
+ },
+ "amb_cmdr": {
+  "f": [
+   "amb_cmdr_0.mp4"
+  ],
+  "vol": 1.671
+ },
+ "shot_arcturien_long_t0_n3": {
+  "f": [
+   "shot_arcturien_long_t0_n3_n0.mp4",
+   "shot_arcturien_long_t0_n3_n1.mp4",
+   "shot_arcturien_long_t0_n3_n2.mp4",
+   "shot_arcturien_long_t0_n3_n3.mp4",
+   "shot_arcturien_long_t0_n3_n4.mp4"
+  ],
+  "vol": 0.642
+ },
+ "shot_arcturien_long_t0_n1": {
+  "f": [
+   "shot_arcturien_long_t0_n1_n0.mp4",
+   "shot_arcturien_long_t0_n1_n1.mp4",
+   "shot_arcturien_long_t0_n1_n2.mp4",
+   "shot_arcturien_long_t0_n1_n3.mp4",
+   "shot_arcturien_long_t0_n1_n4.mp4"
+  ],
+  "vol": 0.426
+ },
+ "shot_arcturien_long_t0_n2": {
+  "f": [
+   "shot_arcturien_long_t0_n2_n0.mp4",
+   "shot_arcturien_long_t0_n2_n1.mp4",
+   "shot_arcturien_long_t0_n2_n2.mp4",
+   "shot_arcturien_long_t0_n2_n3.mp4",
+   "shot_arcturien_long_t0_n2_n4.mp4"
+  ],
+  "vol": 0.499
+ },
+ "shot_arcturien_long_t2_n1": {
+  "f": [
+   "shot_arcturien_long_t2_n1_n0.mp4",
+   "shot_arcturien_long_t2_n1_n1.mp4",
+   "shot_arcturien_long_t2_n1_n2.mp4",
+   "shot_arcturien_long_t2_n1_n3.mp4",
+   "shot_arcturien_long_t2_n1_n4.mp4"
+  ],
+  "vol": 0.643
+ },
+ "shot_arcturien_long_t2_n2": {
+  "f": [
+   "shot_arcturien_long_t2_n2_n0.mp4",
+   "shot_arcturien_long_t2_n2_n1.mp4",
+   "shot_arcturien_long_t2_n2_n2.mp4",
+   "shot_arcturien_long_t2_n2_n3.mp4",
+   "shot_arcturien_long_t2_n2_n4.mp4"
+  ],
+  "vol": 0.786
+ },
+ "shot_arcturien_long_t2_n3": {
+  "f": [
+   "shot_arcturien_long_t2_n3_n0.mp4",
+   "shot_arcturien_long_t2_n3_n1.mp4",
+   "shot_arcturien_long_t2_n3_n2.mp4",
+   "shot_arcturien_long_t2_n3_n3.mp4",
+   "shot_arcturien_long_t2_n3_n4.mp4"
+  ],
+  "vol": 0.936
+ },
+ "shot_arcturien_long_t1_n1": {
+  "f": [
+   "shot_arcturien_long_t1_n1_n0.mp4",
+   "shot_arcturien_long_t1_n1_n1.mp4",
+   "shot_arcturien_long_t1_n1_n2.mp4",
+   "shot_arcturien_long_t1_n1_n3.mp4",
+   "shot_arcturien_long_t1_n1_n4.mp4"
+  ],
+  "vol": 0.833
+ },
+ "shot_arcturien_long_t1_n2": {
+  "f": [
+   "shot_arcturien_long_t1_n2_n0.mp4",
+   "shot_arcturien_long_t1_n2_n1.mp4",
+   "shot_arcturien_long_t1_n2_n2.mp4",
+   "shot_arcturien_long_t1_n2_n3.mp4",
+   "shot_arcturien_long_t1_n2_n4.mp4"
+  ],
+  "vol": 1.148
+ },
+ "shot_arcturien_long_t1_n3": {
+  "f": [
+   "shot_arcturien_long_t1_n3_n0.mp4",
+   "shot_arcturien_long_t1_n3_n1.mp4",
+   "shot_arcturien_long_t1_n3_n2.mp4",
+   "shot_arcturien_long_t1_n3_n3.mp4",
+   "shot_arcturien_long_t1_n3_n4.mp4"
+  ],
+  "vol": 0.818
+ },
+ "shot_arcturien_mid_t0_n1": {
+  "f": [
+   "shot_arcturien_mid_t0_n1_n0.mp4",
+   "shot_arcturien_mid_t0_n1_n1.mp4",
+   "shot_arcturien_mid_t0_n1_n2.mp4",
+   "shot_arcturien_mid_t0_n1_n3.mp4",
+   "shot_arcturien_mid_t0_n1_n4.mp4"
+  ],
+  "vol": 0.94
+ },
+ "shot_arcturien_mid_t0_n2": {
+  "f": [
+   "shot_arcturien_mid_t0_n2_n0.mp4",
+   "shot_arcturien_mid_t0_n2_n1.mp4",
+   "shot_arcturien_mid_t0_n2_n2.mp4",
+   "shot_arcturien_mid_t0_n2_n3.mp4",
+   "shot_arcturien_mid_t0_n2_n4.mp4"
+  ],
+  "vol": 1.126
+ },
+ "shot_arcturien_mid_t0_n3": {
+  "f": [
+   "shot_arcturien_mid_t0_n3_n0.mp4",
+   "shot_arcturien_mid_t0_n3_n1.mp4",
+   "shot_arcturien_mid_t0_n3_n2.mp4",
+   "shot_arcturien_mid_t0_n3_n3.mp4",
+   "shot_arcturien_mid_t0_n3_n4.mp4"
+  ],
+  "vol": 1.189
+ },
+ "shot_arcturien_mid_t2_n1": {
+  "f": [
+   "shot_arcturien_mid_t2_n1_n0.mp4",
+   "shot_arcturien_mid_t2_n1_n1.mp4",
+   "shot_arcturien_mid_t2_n1_n2.mp4",
+   "shot_arcturien_mid_t2_n1_n3.mp4",
+   "shot_arcturien_mid_t2_n1_n4.mp4"
+  ],
+  "vol": 0.497
+ },
+ "shot_arcturien_mid_t2_n2": {
+  "f": [
+   "shot_arcturien_mid_t2_n2_n0.mp4",
+   "shot_arcturien_mid_t2_n2_n1.mp4",
+   "shot_arcturien_mid_t2_n2_n2.mp4",
+   "shot_arcturien_mid_t2_n2_n3.mp4",
+   "shot_arcturien_mid_t2_n2_n4.mp4"
+  ],
+  "vol": 0.418
+ },
+ "shot_arcturien_mid_t2_n3": {
+  "f": [
+   "shot_arcturien_mid_t2_n3_n0.mp4",
+   "shot_arcturien_mid_t2_n3_n1.mp4",
+   "shot_arcturien_mid_t2_n3_n2.mp4",
+   "shot_arcturien_mid_t2_n3_n3.mp4",
+   "shot_arcturien_mid_t2_n3_n4.mp4"
+  ],
+  "vol": 0.789
+ },
+ "shot_arcturien_mid_t1_n1": {
+  "f": [
+   "shot_arcturien_mid_t1_n1_n0.mp4",
+   "shot_arcturien_mid_t1_n1_n1.mp4",
+   "shot_arcturien_mid_t1_n1_n2.mp4",
+   "shot_arcturien_mid_t1_n1_n3.mp4",
+   "shot_arcturien_mid_t1_n1_n4.mp4"
+  ],
+  "vol": 0.531
+ },
+ "shot_arcturien_mid_t1_n2": {
+  "f": [
+   "shot_arcturien_mid_t1_n2_n0.mp4",
+   "shot_arcturien_mid_t1_n2_n1.mp4",
+   "shot_arcturien_mid_t1_n2_n2.mp4",
+   "shot_arcturien_mid_t1_n2_n3.mp4",
+   "shot_arcturien_mid_t1_n2_n4.mp4"
+  ],
+  "vol": 0.856
+ },
+ "shot_arcturien_mid_t1_n3": {
+  "f": [
+   "shot_arcturien_mid_t1_n3_n0.mp4",
+   "shot_arcturien_mid_t1_n3_n1.mp4",
+   "shot_arcturien_mid_t1_n3_n2.mp4",
+   "shot_arcturien_mid_t1_n3_n3.mp4",
+   "shot_arcturien_mid_t1_n3_n4.mp4"
+  ],
+  "vol": 0.651
+ },
+ "shot_arcturien_short_t0_n1": {
+  "f": [
+   "shot_arcturien_short_t0_n1_n0.mp4",
+   "shot_arcturien_short_t0_n1_n1.mp4",
+   "shot_arcturien_short_t0_n1_n2.mp4",
+   "shot_arcturien_short_t0_n1_n3.mp4",
+   "shot_arcturien_short_t0_n1_n4.mp4"
+  ],
+  "vol": 0.687
+ },
+ "shot_arcturien_short_t0_n3": {
+  "f": [
+   "shot_arcturien_short_t0_n3_n0.mp4",
+   "shot_arcturien_short_t0_n3_n1.mp4",
+   "shot_arcturien_short_t0_n3_n2.mp4",
+   "shot_arcturien_short_t0_n3_n3.mp4",
+   "shot_arcturien_short_t0_n3_n4.mp4"
+  ],
+  "vol": 1.157
+ },
+ "shot_arcturien_short_t0_n2": {
+  "f": [
+   "shot_arcturien_short_t0_n2_n0.mp4",
+   "shot_arcturien_short_t0_n2_n1.mp4",
+   "shot_arcturien_short_t0_n2_n2.mp4",
+   "shot_arcturien_short_t0_n2_n3.mp4",
+   "shot_arcturien_short_t0_n2_n4.mp4"
+  ],
+  "vol": 1.131
+ },
+ "shot_arcturien_short_t2_n1": {
+  "f": [
+   "shot_arcturien_short_t2_n1_n0.mp4",
+   "shot_arcturien_short_t2_n1_n1.mp4",
+   "shot_arcturien_short_t2_n1_n2.mp4",
+   "shot_arcturien_short_t2_n1_n3.mp4",
+   "shot_arcturien_short_t2_n1_n4.mp4"
+  ],
+  "vol": 0.775
+ },
+ "shot_arcturien_short_t2_n2": {
+  "f": [
+   "shot_arcturien_short_t2_n2_n0.mp4",
+   "shot_arcturien_short_t2_n2_n1.mp4",
+   "shot_arcturien_short_t2_n2_n2.mp4",
+   "shot_arcturien_short_t2_n2_n3.mp4",
+   "shot_arcturien_short_t2_n2_n4.mp4"
+  ],
+  "vol": 0.811
+ },
+ "shot_arcturien_short_t2_n3": {
+  "f": [
+   "shot_arcturien_short_t2_n3_n0.mp4",
+   "shot_arcturien_short_t2_n3_n1.mp4",
+   "shot_arcturien_short_t2_n3_n2.mp4",
+   "shot_arcturien_short_t2_n3_n3.mp4",
+   "shot_arcturien_short_t2_n3_n4.mp4"
+  ],
+  "vol": 0.859
+ },
+ "shot_arcturien_short_t1_n1": {
+  "f": [
+   "shot_arcturien_short_t1_n1_n0.mp4",
+   "shot_arcturien_short_t1_n1_n1.mp4",
+   "shot_arcturien_short_t1_n1_n2.mp4",
+   "shot_arcturien_short_t1_n1_n3.mp4",
+   "shot_arcturien_short_t1_n1_n4.mp4"
+  ],
+  "vol": 0.67
+ },
+ "shot_arcturien_short_t1_n2": {
+  "f": [
+   "shot_arcturien_short_t1_n2_n0.mp4",
+   "shot_arcturien_short_t1_n2_n1.mp4",
+   "shot_arcturien_short_t1_n2_n2.mp4",
+   "shot_arcturien_short_t1_n2_n3.mp4",
+   "shot_arcturien_short_t1_n2_n4.mp4"
+  ],
+  "vol": 0.687
+ },
+ "shot_arcturien_short_t1_n3": {
+  "f": [
+   "shot_arcturien_short_t1_n3_n0.mp4",
+   "shot_arcturien_short_t1_n3_n1.mp4",
+   "shot_arcturien_short_t1_n3_n2.mp4",
+   "shot_arcturien_short_t1_n3_n3.mp4",
+   "shot_arcturien_short_t1_n3_n4.mp4"
+  ],
+  "vol": 0.55
+ },
+ "rocketGo": {
+  "f": [
+   "rocketGo_0.mp4",
+   "rocketGo_1.mp4",
+   "rocketGo_2.mp4",
+   "rocketGo_3.mp4"
+  ],
+  "vol": 2
+ },
+ "rocketBoom": {
+  "f": [
+   "rocketBoom_0.mp4",
+   "rocketBoom_1.mp4",
+   "rocketBoom_2.mp4"
+  ],
+  "vol": 2
+ },
+ "cru_lock": {
+  "f": [
+   "cru_lock_0.mp4"
+  ],
+  "vol": 0.5
+ },
+ "cru_klaxon": {
+  "f": [
+   "cru_klaxon_0.mp4"
+  ],
+  "vol": 0.55
+ },
+ "cru_incoming": {
+  "f": [
+   "cru_incoming_0.mp4"
+  ],
+  "vol": 0.45
+ },
+ "cru_torp": {
+  "f": [
+   "cru_torp_0.mp4"
+  ],
+  "vol": 0.5
+ },
+ "cru_prox": {
+  "f": [
+   "cru_prox_0.mp4"
+  ],
+  "vol": 0.6
+ },
+ "cru_radio": {
+  "f": [
+   "cru_radio_0.mp4",
+   "cru_radio_1.mp4",
+   "cru_radio_2.mp4"
+  ],
+  "vol": 0.5
+ },
+ "cru_drone": {
+  "f": [
+   "cru_drone_0.mp4"
+  ],
+  "vol": 0.55
+ },
+ "cru_fixed": {
+  "f": [
+   "cru_fixed_0.mp4"
+  ],
+  "vol": 0.5
+ },
+ "cru_engine": {
+  "f": [
+   "cru_engine_0.mp4"
+  ],
+  "vol": 0.6
+ },
+ "cru_hull": {
+  "f": [
+   "cru_hull_0.mp4",
+   "cru_hull_1.mp4",
+   "cru_hull_2.mp4"
+  ],
+  "vol": 0.9
+ },
+ "rocketBoom_venusien": {
+  "f": [
+   "rocketBoom_venusien_0.mp4"
+  ],
+  "vol": 1.15
+ },
+ "thr_grenade_venusien": {
+  "f": [
+   "thr_grenade_venusien_0.mp4",
+   "thr_grenade_venusien_1.mp4",
+   "thr_grenade_venusien_2.mp4",
+   "thr_grenade_venusien_3.mp4",
+   "thr_grenade_venusien_4.mp4"
+  ],
+  "vol": 3.713
+ },
+ "thr_sonic_venusien": {
+  "f": [
+   "thr_sonic_venusien_0.mp4",
+   "thr_sonic_venusien_1.mp4",
+   "thr_sonic_venusien_2.mp4",
+   "thr_sonic_venusien_3.mp4",
+   "thr_sonic_venusien_4.mp4"
+  ],
+  "vol": 3.105
+ },
+ "cru_mus1": {
+  "f": [
+   "cru_mus1_0.mp4"
+  ],
+  "vol": 1
+ },
+ "cru_mus2": {
+  "f": [
+   "cru_mus2_0.mp4"
+  ],
+  "vol": 1
+ },
+ "cru_mus3": {
+  "f": [
+   "cru_mus3_0.mp4"
+  ],
+  "vol": 1
+ },
+ "cru_mus4": {
+  "f": [
+   "cru_mus4_0.mp4"
+  ],
+  "vol": 1
+ },
+ "eshotOf_golem": {
+  "f": [
+   "eshotOf_golem_b0.mp4",
+   "eshotOf_golem_b1.mp4"
+  ],
+  "vol": 1.7
+ },
+ "steps_golem": {
+  "f": [
+   "steps_golem_b0.mp4",
+   "steps_golem_b1.mp4",
+   "steps_golem_b2.mp4",
+   "steps_golem_b3.mp4",
+   "steps_golem_b4.mp4",
+   "steps_golem_b5.mp4"
+  ],
+  "vol": 2.6
+ },
+ "hitOn_golem": {
+  "f": [
+   "hitOn_golem_b0.mp4"
+  ],
+  "vol": 3.25
+ },
+ "killOf_golem": {
+  "f": [
+   "killOf_golem_b0.mp4",
+   "killOf_golem_b1.mp4",
+   "killOf_golem_b2.mp4",
+   "killOf_golem_b3.mp4"
+  ],
+  "vol": 2.2
+ },
+ "eshotOf_spectre": {
+  "f": [
+   "eshotOf_spectre_b0.mp4",
+   "eshotOf_spectre_b1.mp4",
+   "eshotOf_spectre_b2.mp4",
+   "eshotOf_spectre_b3.mp4"
+  ],
+  "vol": 1.7
+ },
+ "steps_spectre": {
+  "f": [
+   "steps_spectre_b0.mp4",
+   "steps_spectre_b1.mp4",
+   "steps_spectre_b2.mp4",
+   "steps_spectre_b3.mp4"
+  ],
+  "vol": 2.4
+ },
+ "hitOn_spectre": {
+  "f": [
+   "hitOn_spectre_b0.mp4"
+  ],
+  "vol": 3.25
+ },
+ "killOf_spectre": {
+  "f": [
+   "killOf_spectre_b0.mp4",
+   "killOf_spectre_b1.mp4",
+   "killOf_spectre_b2.mp4",
+   "killOf_spectre_b3.mp4",
+   "killOf_spectre_b4.mp4"
+  ],
+  "vol": 2.2
+ },
+ "eshotOf_demo": {
+  "f": [
+   "eshotOf_demo_b0.mp4"
+  ],
+  "vol": 1.7
+ },
+ "steps_demo": {
+  "f": [
+   "steps_demo_b0.mp4",
+   "steps_demo_b1.mp4"
+  ],
+  "vol": 2.2
+ },
+ "hitOn_demo": {
+  "f": [
+   "hitOn_demo_b0.mp4",
+   "hitOn_demo_b1.mp4",
+   "hitOn_demo_b2.mp4",
+   "hitOn_demo_b3.mp4"
+  ],
+  "vol": 3.25
+ },
+ "killOf_demo": {
+  "f": [
+   "killOf_demo_b0.mp4"
+  ],
+  "vol": 2.2
+ },
+ "eshotOf_hydre": {
+  "f": [
+   "eshotOf_hydre_b0.mp4",
+   "eshotOf_hydre_b1.mp4",
+   "eshotOf_hydre_b2.mp4"
+  ],
+  "vol": 1.7
+ },
+ "steps_hydre": {
+  "f": [
+   "steps_hydre_b0.mp4",
+   "steps_hydre_b1.mp4",
+   "steps_hydre_b2.mp4",
+   "steps_hydre_b3.mp4",
+   "steps_hydre_b4.mp4",
+   "steps_hydre_b5.mp4"
+  ],
+  "vol": 2.4
+ },
+ "hitOn_hydre": {
+  "f": [
+   "hitOn_hydre_b0.mp4"
+  ],
+  "vol": 3.25
+ },
+ "killOf_hydre": {
+  "f": [
+   "killOf_hydre_b0.mp4"
+  ],
+  "vol": 2.2
+ },
+ "eshotOf_titan": {
+  "f": [
+   "eshotOf_titan_b0.mp4",
+   "eshotOf_titan_b1.mp4",
+   "eshotOf_titan_b2.mp4",
+   "eshotOf_titan_b3.mp4"
+  ],
+  "vol": 1.7
+ },
+ "steps_titan": {
+  "f": [
+   "steps_titan_b0.mp4",
+   "steps_titan_b1.mp4",
+   "steps_titan_b2.mp4",
+   "steps_titan_b3.mp4"
+  ],
+  "vol": 2.6
+ },
+ "hitOn_titan": {
+  "f": [
+   "hitOn_maniac_n0.mp4",
+   "hitOn_maniac_n1.mp4"
+  ],
+  "vol": 2.25,
+  "pitch": -3
+ },
+ "killOf_titan": {
+  "f": [
+   "killOf_titan_b0.mp4"
+  ],
+  "vol": 2.2
+ },
+ "eshotOf_fantome": {
+  "f": [
+   "eshotOf_fantome_b0.mp4",
+   "eshotOf_fantome_b1.mp4",
+   "eshotOf_fantome_b2.mp4"
+  ],
+  "vol": 1.7
+ },
+ "steps_fantome": {
+  "f": [
+   "steps_fantome_b0.mp4",
+   "steps_fantome_b1.mp4",
+   "steps_fantome_b2.mp4",
+   "steps_fantome_b3.mp4",
+   "steps_fantome_b4.mp4",
+   "steps_fantome_b5.mp4",
+   "steps_fantome_b6.mp4",
+   "steps_fantome_b7.mp4"
+  ],
+  "vol": 2.6
+ },
+ "hitOn_fantome": {
+  "f": [
+   "hitOn_fantome_b0.mp4",
+   "hitOn_fantome_b1.mp4",
+   "hitOn_fantome_b2.mp4",
+   "hitOn_fantome_b3.mp4",
+   "hitOn_fantome_b4.mp4",
+   "hitOn_fantome_b5.mp4"
+  ],
+  "vol": 3.25
+ },
+ "killOf_fantome": {
+  "f": [
+   "killOf_fantome_b0.mp4"
+  ],
+  "vol": 2.2
+ },
+ "hitOn_clone": {
+  "f": [
+   "hitOn_clone_b0.mp4"
+  ],
+  "vol": 3.25
+ },
+ "cru_rockal": {
+  "f": [
+   "cru_rockal_0.mp4"
+  ],
+  "vol": 0.7
+ },
+ "cru_cannon": {
+  "f": [
+   "cru_cannon_0.mp4",
+   "cru_cannon_1.mp4",
+   "cru_cannon_2.mp4",
+   "cru_cannon_3.mp4",
+   "cru_cannon_4.mp4"
+  ],
+  "vol": 0.95
+ },
+ "cru_mg": {
+  "f": [
+   "cru_mg_0.mp4",
+   "cru_mg_1.mp4",
+   "cru_mg_2.mp4",
+   "cru_mg_3.mp4",
+   "cru_mg_4.mp4",
+   "cru_mg_5.mp4"
+  ],
+  "vol": 1.5
+ },
+ "cru_mgspin": {
+  "f": [
+   "cru_mgspin_0.mp4"
+  ],
+  "vol": 0.5
+ },
+ "cru_rockhit": {
+  "f": [
+   "cru_rockhit_0.mp4"
+  ],
+  "vol": 0.7
+ },
+ "cru_rockboom": {
+  "f": [
+   "cru_rockboom_0.mp4",
+   "cru_rockboom_1.mp4",
+   "cru_rockboom_2.mp4",
+   "cru_rockboom_3.mp4"
+  ],
+  "vol": 1
+ },
+ "cru_torpgo": {
+  "f": [
+   "cru_torpgo_0.mp4",
+   "cru_torpgo_1.mp4",
+   "cru_torpgo_2.mp4",
+   "cru_torpgo_3.mp4"
+  ],
+  "vol": 1
+ },
+ "cru_torpfly": {
+  "f": [
+   "cru_torpfly_0.mp4"
+  ],
+  "vol": 0.55
+ },
+ "cru_torpboom": {
+  "f": [
+   "cru_torpboom_0.mp4"
+  ],
+  "vol": 1.1
+ },
+ "shot_draco_short_t0_n1": {
+  "f": [
+   "shot_draco_short_t0_n1_n0.mp4",
+   "shot_draco_short_t0_n1_n1.mp4",
+   "shot_draco_short_t0_n1_n2.mp4",
+   "shot_draco_short_t0_n1_n3.mp4",
+   "shot_draco_short_t0_n1_n4.mp4"
+  ],
+  "vol": 0.587
+ },
+ "shot_draco_short_t0_n2": {
+  "f": [
+   "shot_draco_short_t0_n2_n0.mp4",
+   "shot_draco_short_t0_n2_n1.mp4",
+   "shot_draco_short_t0_n2_n2.mp4",
+   "shot_draco_short_t0_n2_n3.mp4",
+   "shot_draco_short_t0_n2_n4.mp4"
+  ],
+  "vol": 0.757
+ },
+ "shot_draco_short_t0_n3": {
+  "f": [
+   "shot_draco_short_t0_n3_n0.mp4",
+   "shot_draco_short_t0_n3_n1.mp4",
+   "shot_draco_short_t0_n3_n2.mp4",
+   "shot_draco_short_t0_n3_n3.mp4",
+   "shot_draco_short_t0_n3_n4.mp4"
+  ],
+  "vol": 0.962
+ },
+ "shot_draco_short_t2_n1": {
+  "f": [
+   "shot_draco_short_t2_n1_n0.mp4",
+   "shot_draco_short_t2_n1_n1.mp4",
+   "shot_draco_short_t2_n1_n2.mp4",
+   "shot_draco_short_t2_n1_n3.mp4",
+   "shot_draco_short_t2_n1_n4.mp4"
+  ],
+  "vol": 0.697
+ },
+ "shot_draco_short_t2_n2": {
+  "f": [
+   "shot_draco_short_t2_n2_n0.mp4",
+   "shot_draco_short_t2_n2_n1.mp4",
+   "shot_draco_short_t2_n2_n2.mp4",
+   "shot_draco_short_t2_n2_n3.mp4",
+   "shot_draco_short_t2_n2_n4.mp4"
+  ],
+  "vol": 0.633
+ },
+ "shot_draco_short_t2_n3": {
+  "f": [
+   "shot_draco_short_t2_n3_n0.mp4",
+   "shot_draco_short_t2_n3_n1.mp4",
+   "shot_draco_short_t2_n3_n2.mp4",
+   "shot_draco_short_t2_n3_n3.mp4",
+   "shot_draco_short_t2_n3_n4.mp4"
+  ],
+  "vol": 0.815
+ },
+ "shot_draco_short_t1_n1": {
+  "f": [
+   "shot_draco_short_t1_n1_n0.mp4",
+   "shot_draco_short_t1_n1_n1.mp4",
+   "shot_draco_short_t1_n1_n2.mp4",
+   "shot_draco_short_t1_n1_n3.mp4",
+   "shot_draco_short_t1_n1_n4.mp4"
+  ],
+  "vol": 0.597
+ },
+ "shot_draco_short_t1_n2": {
+  "f": [
+   "shot_draco_short_t1_n2_n0.mp4",
+   "shot_draco_short_t1_n2_n1.mp4",
+   "shot_draco_short_t1_n2_n2.mp4",
+   "shot_draco_short_t1_n2_n3.mp4",
+   "shot_draco_short_t1_n2_n4.mp4"
+  ],
+  "vol": 0.709
+ },
+ "shot_draco_short_t1_n3": {
+  "f": [
+   "shot_draco_short_t1_n3_n0.mp4",
+   "shot_draco_short_t1_n3_n1.mp4",
+   "shot_draco_short_t1_n3_n2.mp4",
+   "shot_draco_short_t1_n3_n3.mp4",
+   "shot_draco_short_t1_n3_n4.mp4"
+  ],
+  "vol": 0.616
+ },
+ "shot_draco_long_t0_n1": {
+  "f": [
+   "shot_draco_long_t0_n1_n0.mp4",
+   "shot_draco_long_t0_n1_n1.mp4",
+   "shot_draco_long_t0_n1_n2.mp4",
+   "shot_draco_long_t0_n1_n3.mp4",
+   "shot_draco_long_t0_n1_n4.mp4"
+  ],
+  "vol": 0.586
+ },
+ "shot_draco_long_t0_n2": {
+  "f": [
+   "shot_draco_long_t0_n2_n0.mp4",
+   "shot_draco_long_t0_n2_n1.mp4",
+   "shot_draco_long_t0_n2_n2.mp4",
+   "shot_draco_long_t0_n2_n3.mp4",
+   "shot_draco_long_t0_n2_n4.mp4"
+  ],
+  "vol": 0.463
+ },
+ "shot_draco_long_t0_n3": {
+  "f": [
+   "shot_draco_long_t0_n3_n0.mp4",
+   "shot_draco_long_t0_n3_n1.mp4",
+   "shot_draco_long_t0_n3_n2.mp4",
+   "shot_draco_long_t0_n3_n3.mp4",
+   "shot_draco_long_t0_n3_n4.mp4"
+  ],
+  "vol": 0.651
+ },
+ "shot_draco_long_t2_n1": {
+  "f": [
+   "shot_draco_long_t2_n1_n0.mp4",
+   "shot_draco_long_t2_n1_n1.mp4",
+   "shot_draco_long_t2_n1_n2.mp4",
+   "shot_draco_long_t2_n1_n3.mp4",
+   "shot_draco_long_t2_n1_n4.mp4"
+  ],
+  "vol": 0.526
+ },
+ "shot_draco_long_t2_n2": {
+  "f": [
+   "shot_draco_long_t2_n2_n0.mp4",
+   "shot_draco_long_t2_n2_n1.mp4",
+   "shot_draco_long_t2_n2_n2.mp4",
+   "shot_draco_long_t2_n2_n3.mp4",
+   "shot_draco_long_t2_n2_n4.mp4"
+  ],
+  "vol": 0.69
+ },
+ "shot_draco_long_t2_n3": {
+  "f": [
+   "shot_draco_long_t2_n3_n0.mp4",
+   "shot_draco_long_t2_n3_n1.mp4",
+   "shot_draco_long_t2_n3_n2.mp4",
+   "shot_draco_long_t2_n3_n3.mp4",
+   "shot_draco_long_t2_n3_n4.mp4"
+  ],
+  "vol": 0.842
+ },
+ "shot_draco_long_t1_n1": {
+  "f": [
+   "shot_draco_long_t1_n1_n0.mp4",
+   "shot_draco_long_t1_n1_n1.mp4",
+   "shot_draco_long_t1_n1_n2.mp4",
+   "shot_draco_long_t1_n1_n3.mp4",
+   "shot_draco_long_t1_n1_n4.mp4"
+  ],
+  "vol": 0.522
+ },
+ "shot_draco_long_t1_n2": {
+  "f": [
+   "shot_draco_long_t1_n2_n0.mp4",
+   "shot_draco_long_t1_n2_n1.mp4",
+   "shot_draco_long_t1_n2_n2.mp4",
+   "shot_draco_long_t1_n2_n3.mp4",
+   "shot_draco_long_t1_n2_n4.mp4"
+  ],
+  "vol": 0.666
+ },
+ "shot_draco_long_t1_n3": {
+  "f": [
+   "shot_draco_long_t1_n3_n0.mp4",
+   "shot_draco_long_t1_n3_n1.mp4",
+   "shot_draco_long_t1_n3_n2.mp4",
+   "shot_draco_long_t1_n3_n3.mp4",
+   "shot_draco_long_t1_n3_n4.mp4"
+  ],
+  "vol": 0.762
+ },
+ "shot_draco_mid_t0_n1": {
+  "f": [
+   "shot_draco_mid_t0_n1_n0.mp4",
+   "shot_draco_mid_t0_n1_n1.mp4",
+   "shot_draco_mid_t0_n1_n2.mp4",
+   "shot_draco_mid_t0_n1_n3.mp4",
+   "shot_draco_mid_t0_n1_n4.mp4"
+  ],
+  "vol": 0.526
+ },
+ "shot_draco_mid_t0_n2": {
+  "f": [
+   "shot_draco_mid_t0_n2_n0.mp4",
+   "shot_draco_mid_t0_n2_n1.mp4",
+   "shot_draco_mid_t0_n2_n2.mp4",
+   "shot_draco_mid_t0_n2_n3.mp4",
+   "shot_draco_mid_t0_n2_n4.mp4"
+  ],
+  "vol": 0.734
+ },
+ "shot_draco_mid_t0_n3": {
+  "f": [
+   "shot_draco_mid_t0_n3_n0.mp4",
+   "shot_draco_mid_t0_n3_n1.mp4",
+   "shot_draco_mid_t0_n3_n2.mp4",
+   "shot_draco_mid_t0_n3_n3.mp4",
+   "shot_draco_mid_t0_n3_n4.mp4"
+  ],
+  "vol": 1.516
+ },
+ "shot_draco_mid_t2_n1": {
+  "f": [
+   "shot_draco_mid_t2_n1_n0.mp4",
+   "shot_draco_mid_t2_n1_n1.mp4",
+   "shot_draco_mid_t2_n1_n2.mp4",
+   "shot_draco_mid_t2_n1_n3.mp4",
+   "shot_draco_mid_t2_n1_n4.mp4"
+  ],
+  "vol": 0.606
+ },
+ "shot_draco_mid_t2_n2": {
+  "f": [
+   "shot_draco_mid_t2_n2_n0.mp4",
+   "shot_draco_mid_t2_n2_n1.mp4",
+   "shot_draco_mid_t2_n2_n2.mp4",
+   "shot_draco_mid_t2_n2_n3.mp4",
+   "shot_draco_mid_t2_n2_n4.mp4"
+  ],
+  "vol": 0.503
+ },
+ "shot_draco_mid_t2_n3": {
+  "f": [
+   "shot_draco_mid_t2_n3_n0.mp4",
+   "shot_draco_mid_t2_n3_n1.mp4",
+   "shot_draco_mid_t2_n3_n2.mp4",
+   "shot_draco_mid_t2_n3_n3.mp4",
+   "shot_draco_mid_t2_n3_n4.mp4"
+  ],
+  "vol": 0.459
+ },
+ "shot_draco_mid_t1_n1": {
+  "f": [
+   "shot_draco_mid_t1_n1_n0.mp4",
+   "shot_draco_mid_t1_n1_n1.mp4",
+   "shot_draco_mid_t1_n1_n2.mp4",
+   "shot_draco_mid_t1_n1_n3.mp4",
+   "shot_draco_mid_t1_n1_n4.mp4"
+  ],
+  "vol": 0.582
+ },
+ "shot_draco_mid_t1_n2": {
+  "f": [
+   "shot_draco_mid_t1_n2_n0.mp4",
+   "shot_draco_mid_t1_n2_n1.mp4",
+   "shot_draco_mid_t1_n2_n2.mp4",
+   "shot_draco_mid_t1_n2_n3.mp4",
+   "shot_draco_mid_t1_n2_n4.mp4"
+  ],
+  "vol": 0.908
+ },
+ "shot_draco_mid_t1_n3": {
+  "f": [
+   "shot_draco_mid_t1_n3_n0.mp4",
+   "shot_draco_mid_t1_n3_n1.mp4",
+   "shot_draco_mid_t1_n3_n2.mp4",
+   "shot_draco_mid_t1_n3_n3.mp4",
+   "shot_draco_mid_t1_n3_n4.mp4"
+  ],
+  "vol": 0.703
+ },
+ "c4Trigger": {
+  "f": [
+   "c4Trigger_0.mp4"
+  ],
+  "vol": 1.172
+ },
+ "eshotOf_djum": {
+  "f": [
+   "eshotOf_djum_0.mp4"
+  ],
+  "vol": 0.87
+ },
+ "eshotOf_danes": {
+  "f": [
+   "eshotOf_danes_0.mp4"
+  ],
+  "vol": 0.687
+ },
+ "detOf_djum": {
+  "f": [
+   "detOf_djum_0.mp4",
+   "detOf_djum_1.mp4",
+   "detOf_djum_2.mp4",
+   "detOf_djum_3.mp4",
+   "detOf_djum_4.mp4",
+   "detOf_djum_5.mp4",
+   "detOf_djum_6.mp4",
+   "detOf_djum_7.mp4",
+   "detOf_djum_8.mp4",
+   "detOf_djum_9.mp4"
+  ],
+  "vol": 5.046
+ },
+ "detOf_danes": {
+  "f": [
+   "detOf_danes_0.mp4",
+   "detOf_danes_1.mp4",
+   "detOf_danes_2.mp4",
+   "detOf_danes_3.mp4"
+  ],
+  "vol": 0.623
+ },
+ "detOf_dlourd": {
+  "f": [
+   "detOf_dlourd_0.mp4",
+   "detOf_dlourd_1.mp4",
+   "detOf_dlourd_2.mp4",
+   "detOf_dlourd_3.mp4",
+   "detOf_dlourd_4.mp4",
+   "detOf_dlourd_5.mp4",
+   "detOf_dlourd_6.mp4",
+   "detOf_dlourd_7.mp4",
+   "detOf_dlourd_8.mp4",
+   "detOf_dlourd_9.mp4"
+  ],
+  "vol": 1.184
+ },
+ "killOf_djum": {
+  "f": [
+   "killOf_djum_0.mp4"
+  ],
+  "vol": 2.991
+ },
+ "killOf_danes": {
+  "f": [
+   "killOf_danes_0.mp4",
+   "killOf_danes_1.mp4",
+   "killOf_danes_2.mp4",
+   "killOf_danes_3.mp4"
+  ],
+  "vol": 1.136
+ },
+ "killOf_dlourd": {
+  "f": [
+   "killOf_dlourd_0.mp4"
+  ],
+  "vol": 1.486
+ },
+ "killOf_nid": {
+  "f": [
+   "killOf_nid_0.mp4",
+   "killOf_nid_1.mp4",
+   "killOf_nid_2.mp4",
+   "killOf_nid_3.mp4"
+  ],
+  "vol": 1.26
+ },
+ "killOf_puce": {
+  "f": [
+   "killOf_puce_0.mp4"
+  ],
+  "vol": 0.466
+ },
+ "nestOpen": {
+  "f": [
+   "nestOpen_0.mp4"
+  ],
+  "vol": 1.202
+ },
+ "steps_djum": {
+  "f": [
+   "steps_djum_0.mp4",
+   "steps_djum_1.mp4",
+   "steps_djum_2.mp4",
+   "steps_djum_3.mp4",
+   "steps_djum_4.mp4",
+   "steps_djum_5.mp4",
+   "steps_djum_6.mp4",
+   "steps_djum_7.mp4",
+   "steps_djum_8.mp4",
+   "steps_djum_9.mp4",
+   "steps_djum_10.mp4",
+   "steps_djum_11.mp4"
+  ],
+  "vol": 1.445
+ },
+ "steps_danes": {
+  "f": [
+   "steps_danes_0.mp4",
+   "steps_danes_1.mp4",
+   "steps_danes_2.mp4",
+   "steps_danes_3.mp4",
+   "steps_danes_4.mp4",
+   "steps_danes_5.mp4",
+   "steps_danes_6.mp4",
+   "steps_danes_7.mp4",
+   "steps_danes_8.mp4",
+   "steps_danes_9.mp4"
+  ],
+  "vol": 2.23
+ },
+ "steps_dlourd": {
+  "f": [
+   "steps_dlourd_0.mp4",
+   "steps_dlourd_1.mp4",
+   "steps_dlourd_2.mp4",
+   "steps_dlourd_3.mp4",
+   "steps_dlourd_4.mp4",
+   "steps_dlourd_5.mp4",
+   "steps_dlourd_6.mp4",
+   "steps_dlourd_7.mp4",
+   "steps_dlourd_8.mp4",
+   "steps_dlourd_9.mp4"
+  ],
+  "vol": 2.554
+ },
+ "loop_puce": {
+  "f": [
+   "loop_puce_0.mp4"
+  ],
+  "vol": 0.511
+ },
+ "loop_nid": {
+  "f": [
+   "loop_nid_0.mp4"
+  ],
+  "vol": 0.982
+ },
+ "laser_dlourd": {
+  "f": [
+   "laser_dlourd_0.mp4"
+  ],
+  "vol": 1.844
+ },
+ "djumSplit": {
+  "f": [
+   "splitOf_djum_0.mp4",
+   "splitOf_djum_1.mp4",
+   "splitOf_djum_2.mp4",
+   "splitOf_djum_3.mp4"
+  ],
+  "vol": 4.17
+ },
+ "amb_gany": {
+  "f": [
+   "amb_gany_0.mp4"
+  ],
+  "vol": 0.464
+ },
+ "amb_gany_sud": {
+  "f": [
+   "amb_gany_sud_0.mp4"
+  ],
+  "vol": 2.259
+ },
+ "amb_gany_est": {
+  "f": [
+   "amb_gany_est_0.mp4"
+  ],
+  "vol": 3.5
+ },
+ "amb_gany_ouest": {
+  "f": [
+   "amb_gany_ouest_0.mp4"
+  ],
+  "vol": 0.753
+ },
+ "amb_gany_nord": {
+  "f": [
+   "amb_gany_nord_0.mp4"
+  ],
+  "vol": 3.5
+ },
+ "amb_gany_centre": {
+  "f": [
+   "amb_gany_centre_0.mp4"
+  ],
+  "vol": 1.259
+ },
+ "stunRay": {
+  "f": [
+   "stunRay_0.mp4",
+   "stunRay_1.mp4",
+   "stunRay_2.mp4",
+   "stunRay_3.mp4"
+  ],
+  "vol": 0.64
+ },
+ "allyOn": {
+  "f": [
+   "allyOn_0.mp4"
+  ],
+  "vol": 0.5
+ },
+ "allyOff": {
+  "f": [
+   "allyOff_0.mp4"
+  ],
+  "vol": 0.5
+ },
+ "ffUp": {
+  "f": [
+   "ffUp_0.mp4"
+  ],
+  "vol": 0.41
+ },
+ "ground_glace": {
+  "f": [
+   "ground_glace_0.mp4",
+   "ground_glace_1.mp4",
+   "ground_glace_2.mp4",
+   "ground_glace_3.mp4",
+   "ground_glace_4.mp4",
+   "ground_glace_5.mp4"
+  ],
+  "vol": 0.758
+ },
+ "ice_slide": {
+  "f": [
+   "ice_slide_0.mp4",
+   "ice_slide_1.mp4",
+   "ice_slide_2.mp4",
+   "ice_slide_3.mp4"
+  ],
+  "vol": 0.506
+ },
+ "hitOn_djum": {
+  "f": [
+   "hitOn_djum_0.mp4"
+  ],
+  "vol": 0.576,
+  "semi": 1.2
+ },
+ "hitOn_dlourd": {
+  "f": [
+   "hitOn_dlourd_0.mp4"
+  ],
+  "vol": 0.513,
+  "semi": 1.2
+ },
+ "hitOn_danes": {
+  "f": [
+   "hitOn_danes_0.mp4"
+  ],
+  "vol": 0.342,
+  "semi": 1.2
+ },
+ "hitOn_nid": {
+  "f": [
+   "hitOn_nid_0.mp4"
+  ],
+  "vol": 0.433,
+  "semi": 1.2
+ },
+ "steps_sdraco": {
+  "f": [
+   "steps_sdraco_0.mp4",
+   "steps_sdraco_1.mp4",
+   "steps_sdraco_2.mp4",
+   "steps_sdraco_3.mp4",
+   "steps_sdraco_4.mp4",
+   "steps_sdraco_5.mp4",
+   "steps_sdraco_6.mp4",
+   "steps_sdraco_7.mp4",
+   "steps_sdraco_8.mp4",
+   "steps_sdraco_9.mp4"
+  ],
+  "vol": 4.458
+ },
+ "killOf_sdraco": {
+  "f": [
+   "killOf_sdraco_0.mp4",
+   "killOf_sdraco_1.mp4",
+   "killOf_sdraco_2.mp4",
+   "killOf_sdraco_3.mp4",
+   "killOf_sdraco_4.mp4",
+   "killOf_sdraco_5.mp4",
+   "killOf_sdraco_6.mp4"
+  ],
+  "vol": 0.804
+ },
+ "hitOn_sdraco": {
+  "f": [
+   "hitOn_sdraco_0.mp4",
+   "hitOn_sdraco_1.mp4",
+   "hitOn_sdraco_2.mp4"
+  ],
+  "vol": 0.841
+ },
+ "detOf_sdraco": {
+  "f": [
+   "detOf_sdraco_0.mp4",
+   "detOf_sdraco_1.mp4",
+   "detOf_sdraco_2.mp4",
+   "detOf_sdraco_3.mp4"
+  ],
+  "vol": 0.589
+ },
+ "eshotOf_sdraco": {
+  "f": [
+   "eshotOf_sdraco_0.mp4",
+   "eshotOf_sdraco_1.mp4",
+   "eshotOf_sdraco_2.mp4",
+   "eshotOf_sdraco_3.mp4"
+  ],
+  "vol": 1.286
+ },
+ "cru_shield": {
+  "f": [
+   "cru_shield_0.mp4",
+   "cru_shield_1.mp4",
+   "cru_shield_2.mp4",
+   "cru_shield_3.mp4"
+  ],
+  "v": 1.1
+ },
+ "hitOn_ff": {
+  "f": [
+   "hitOn_ff_0.mp4",
+   "hitOn_ff_1.mp4"
+  ],
+  "vol": 1
+ },
+ "trapOpen": {
+  "f": [
+   "trapOpen_0.mp4"
+  ],
+  "vol": 0.9
+ },
+ "hitOn_dcmd": {
+  "f": [
+   "hitOn_organic_0.mp4",
+   "hitOn_organic_1.mp4",
+   "hitOn_organic_2.mp4",
+   "hitOn_organic_3.mp4",
+   "hitOn_organic_4.mp4",
+   "hitOn_organic_5.mp4",
+   "hitOn_organic_6.mp4",
+   "hitOn_organic_7.mp4",
+   "hitOn_organic_8.mp4"
+  ],
+  "vol": 2.194
+ },
+ "hitOn_dcmds": {
+  "f": [
+   "hitOn_organic_0.mp4",
+   "hitOn_organic_1.mp4",
+   "hitOn_organic_2.mp4",
+   "hitOn_organic_3.mp4",
+   "hitOn_organic_4.mp4",
+   "hitOn_organic_5.mp4",
+   "hitOn_organic_6.mp4",
+   "hitOn_organic_7.mp4",
+   "hitOn_organic_8.mp4"
+  ],
+  "vol": 2.194
+ },
+ "pkill": {
+  "f": [
+   "pkill_0.mp4"
+  ],
+  "vol": 2
+ },
+ "ctf_term": {
+  "f": [
+   "ctf_term_0.mp4"
+  ],
+  "vol": 0.946,
+  "loop": 1
+ },
+ "rocketGo_venusien": {
+  "f": [
+   "rocketGo_venusien_0.mp4",
+   "rocketGo_venusien_1.mp4",
+   "rocketGo_venusien_2.mp4",
+   "rocketGo_venusien_3.mp4"
+  ],
+  "vol": 2
+ },
+ "rkReload_venusien": {
+  "f": [
+   "rkReload_venusien_0.mp4",
+   "rkReload_venusien_1.mp4",
+   "rkReload_venusien_2.mp4"
+  ],
+  "vol": 4.05
+ },
+ "cru_broad": {
+  "f": [
+   "cru_broad_0.mp4",
+   "cru_broad_1.mp4",
+   "cru_broad_2.mp4",
+   "cru_broad_3.mp4"
+  ],
+  "vol": 1.6
+ },
+ "cru_bdhit": {
+  "f": [
+   "cru_bdhit_0.mp4",
+   "cru_bdhit_1.mp4"
+  ],
+  "vol": 1.1
+ },
+ "cru_lift": {
+  "f": [
+   "cru_lift_0.mp4",
+   "cru_lift_1.mp4"
+  ],
+  "vol": 0.7
+ },
+ "amb_mercure": {
+  "f": [
+   "amb_mercure_0.mp4"
+  ],
+  "vol": 1.5
+ },
+ "amb_charon": {
+  "f": [
+   "amb_charon_0.mp4"
+  ],
+  "vol": 1.5
+ },
+ "amb_mercure_nord": {
+  "f": [
+   "amb_mercure_nord_0.mp4"
+  ],
+  "vol": 1.8
+ },
+ "amb_mercure_est": {
+  "f": [
+   "amb_mercure_est_0.mp4"
+  ],
+  "vol": 1.8
+ },
+ "amb_mercure_sud": {
+  "f": [
+   "amb_mercure_sud_0.mp4"
+  ],
+  "vol": 1.8
+ },
+ "amb_mercure_ouest": {
+  "f": [
+   "amb_mercure_ouest_0.mp4"
+  ],
+  "vol": 1.8
+ },
+ "amb_mercure_centre": {
+  "f": [
+   "amb_mercure_centre_0.mp4"
+  ],
+  "vol": 1.5
+ },
+ "amb_charon_sud": {
+  "f": [
+   "amb_charon_sud_0.mp4"
+  ],
+  "vol": 1.5
+ },
+ "amb_charon_est": {
+  "f": [
+   "amb_charon_est_0.mp4"
+  ],
+  "vol": 1.5
+ },
+ "amb_charon_ouest": {
+  "f": [
+   "amb_charon_ouest_0.mp4"
+  ],
+  "vol": 1.5
+ },
+ "amb_charon_centre": {
+  "f": [
+   "amb_charon_centre_0.mp4"
+  ],
+  "vol": 1.5
+ },
+ "ground_mercure": {
+  "f": [
+   "ground_mercure_0.mp4",
+   "ground_mercure_1.mp4",
+   "ground_mercure_2.mp4",
+   "ground_mercure_3.mp4",
+   "ground_mercure_4.mp4",
+   "ground_mercure_5.mp4"
+  ],
+  "vol": 4.4
+ },
+ "ground_charon": {
+  "f": [
+   "ground_charon_0.mp4",
+   "ground_charon_1.mp4",
+   "ground_charon_2.mp4",
+   "ground_charon_3.mp4",
+   "ground_charon_4.mp4",
+   "ground_charon_5.mp4"
+  ],
+  "vol": 1.8
+ },
+ "fireTouch": {
+  "f": [
+   "fireTouch_0.mp4"
+  ],
+  "vol": 2.5
+ },
+ "fireWave": {
+  "f": [
+   "fireWave_0.mp4"
+  ],
+  "vol": 2.5
+ },
+ "fireWarn": {
+  "f": [
+   "fireWarn_0.mp4"
+  ],
+  "vol": 2.5
+ },
+ "steps_smentis": {
+  "f": [
+   "steps_smentis_0.mp4",
+   "steps_smentis_1.mp4",
+   "steps_smentis_2.mp4",
+   "steps_smentis_3.mp4",
+   "steps_smentis_4.mp4",
+   "steps_smentis_5.mp4",
+   "steps_smentis_6.mp4",
+   "steps_smentis_7.mp4",
+   "steps_smentis_8.mp4",
+   "steps_smentis_9.mp4",
+   "steps_smentis_10.mp4",
+   "steps_smentis_11.mp4",
+   "steps_smentis_12.mp4",
+   "steps_smentis_13.mp4"
+  ],
+  "vol": 1
+ },
+ "eshotOf_smentis": {
+  "f": [
+   "eshotOf_smentis_0.mp4",
+   "eshotOf_smentis_1.mp4",
+   "eshotOf_smentis_2.mp4"
+  ],
+  "vol": 1
+ },
+ "killOf_smentis": {
+  "f": [
+   "killOf_smentis_0.mp4"
+  ],
+  "vol": 1
+ },
+ "detOf_smentis": {
+  "f": [
+   "detOf_smentis_0.mp4",
+   "detOf_smentis_1.mp4",
+   "detOf_smentis_2.mp4",
+   "detOf_smentis_3.mp4"
+  ],
+  "vol": 1
+ },
+ "amb_venusoc": {
+  "f": [
+   "amb_venusoc_0.mp4"
+  ],
+  "vol": 1.5
+ },
+ "amb_venusoc_est": {
+  "f": [
+   "amb_venusoc_est_0.mp4"
+  ],
+  "vol": 1.5
+ },
+ "amb_venusoc_nord": {
+  "f": [
+   "amb_venusoc_nord_0.mp4"
+  ],
+  "vol": 1.5
+ },
+ "amb_venusoc_centre": {
+  "f": [
+   "amb_venusoc_centre_0.mp4"
+  ],
+  "vol": 1.5
+ },
+ "cell_water": {
+  "f": [
+   "cell_water_0.mp4"
+  ],
+  "vol": 1
+ },
+ "cell_drown": {
+  "f": [
+   "cell_drown_0.mp4"
+  ],
+  "vol": 1
+ },
+ "eshotOf_svenus": {
+  "f": [
+   "eshotOf_svenus_0.mp4",
+   "eshotOf_svenus_1.mp4",
+   "eshotOf_svenus_2.mp4",
+   "eshotOf_svenus_3.mp4",
+   "eshotOf_svenus_4.mp4",
+   "eshotOf_svenus_5.mp4"
+  ],
+  "vol": 1
+ },
+ "killOf_svenus": {
+  "f": [
+   "killOf_svenus_0.mp4"
+  ],
+  "vol": 1
+ },
+ "detOf_svenus": {
+  "f": [
+   "detOf_svenus_0.mp4"
+  ],
+  "vol": 1
+ },
+ "steps_svenus": {
+  "f": [
+   "steps_svenus_0.mp4",
+   "steps_svenus_1.mp4",
+   "steps_svenus_2.mp4",
+   "steps_svenus_3.mp4",
+   "steps_svenus_4.mp4",
+   "steps_svenus_5.mp4",
+   "steps_svenus_6.mp4",
+   "steps_svenus_7.mp4",
+   "steps_svenus_8.mp4"
+  ],
+  "vol": 1
+ },
+ "hitOn_svenus": {
+  "f": [
+   "hitOn_svenus_0.mp4",
+   "hitOn_svenus_1.mp4",
+   "hitOn_svenus_2.mp4"
+  ],
+  "vol": 0.841
+ },
+ "lift_up": {
+  "f": [
+   "lift_up_0.mp4"
+  ],
+  "vol": 1.2
+ },
+ "lift_down": {
+  "f": [
+   "lift_down_0.mp4"
+  ],
+  "vol": 1.2
+ },
+ "ground_venusoc": {
+  "f": [
+   "ground_venusoc_0.mp4",
+   "ground_venusoc_1.mp4",
+   "ground_venusoc_2.mp4",
+   "ground_venusoc_3.mp4"
+  ],
+  "vol": 0.637,
+  "semi": 1.5
+ },
+ "amb_venusoc_ouest": {
+  "f": [
+   "amb_venusoc_ouest_0.mp4"
+  ],
+  "vol": 1.5
+ },
+ "dartTrap": {
+  "f": [
+   "dartTrap_0.mp4"
+  ],
+  "vol": 1
+ },
+ "dartShot": {
+  "f": [
+   "dartShot_0.mp4",
+   "dartShot_1.mp4",
+   "dartShot_2.mp4",
+   "dartShot_3.mp4"
+  ],
+  "vol": 1
+ },
+ "eshotOf_dsub": {
+  "f": [
+   "eshotOf_dsub_0.mp4",
+   "eshotOf_dsub_1.mp4",
+   "eshotOf_dsub_2.mp4",
+   "eshotOf_dsub_3.mp4"
+  ],
+  "vol": 1
+ },
+ "loop_dsub": {
+  "f": [
+   "loop_dsub_0.mp4"
+  ],
+  "vol": 1
+ },
+ "killOf_dsub": {
+  "f": [
+   "killOf_dsub_0.mp4",
+   "killOf_dsub_1.mp4",
+   "killOf_dsub_2.mp4",
+   "killOf_dsub_3.mp4",
+   "killOf_dsub_4.mp4",
+   "killOf_dsub_5.mp4"
+  ],
+  "vol": 1
+ },
+ "boomUw": {
+  "f": [
+   "boomUw_0.mp4",
+   "boomUw_1.mp4",
+   "boomUw_2.mp4",
+   "boomUw_3.mp4",
+   "boomUw_4.mp4",
+   "boomUw_5.mp4",
+   "boomUw_6.mp4",
+   "boomUw_7.mp4",
+   "boomUw_8.mp4",
+   "boomUw_9.mp4",
+   "boomUw_10.mp4",
+   "boomUw_11.mp4",
+   "boomUw_12.mp4",
+   "boomUw_13.mp4",
+   "boomUw_14.mp4",
+   "boomUw_15.mp4",
+   "boomUw_16.mp4",
+   "boomUw_17.mp4"
+  ],
+  "vol": 1
+ },
+ "chCannon": {
+  "f": [
+   "chCannon_0.mp4",
+   "chCannon_1.mp4",
+   "chCannon_2.mp4",
+   "chCannon_3.mp4",
+   "chCannon_4.mp4"
+  ],
+  "vol": 2.1
+ },
+ "lift_charon": {
+  "f": [
+   "lift_charon_0.mp4"
+  ],
+  "vol": 1.2
+ },
+ "ir_eau": {
+  "f": [
+   "ir_eau_0.mp4"
+  ],
+  "vol": 1
+ },
+ "subTorp": {
+  "f": [
+   "subTorp_0.mp4",
+   "subTorp_1.mp4",
+   "subTorp_2.mp4",
+   "subTorp_4.mp4"
+  ],
+  "vol": 2
+ },
+ "subOut": {
+  "f": [
+   "subOut_0.mp4",
+   "subOut_1.mp4",
+   "subOut_2.mp4",
+   "subOut_3.mp4"
+  ],
+  "vol": 1
+ },
+ "subIn": {
+  "f": [
+   "subIn_0.mp4",
+   "subIn_1.mp4",
+   "subIn_2.mp4",
+   "subIn_3.mp4"
+  ],
+  "vol": 1
+ },
+ "subLoop": {
+  "f": [
+   "subLoop_0.mp4"
+  ],
+  "vol": 0.92
+ },
+ "shot_sub": {
+  "f": [
+   "subShot_0.mp4",
+   "subShot_1.mp4",
+   "subShot_2.mp4",
+   "subShot_3.mp4"
+  ],
+  "vol": 1.5
+ },
+ "hurtOn_sub": {
+  "f": [
+   "subHit_0.mp4",
+   "subHit_1.mp4"
+  ],
+  "vol": 1
+ },
+ "amb_titan": {
+  "f": [
+   "amb_titan_0.mp4"
+  ],
+  "vol": 2.1
+ },
+ "amb_titan_nord": {
+  "f": [
+   "amb_titan_nord_0.mp4"
+  ],
+  "vol": 1.275
+ },
+ "amb_titan_sud": {
+  "f": [
+   "amb_titan_sud_0.mp4"
+  ],
+  "vol": 1.275
+ },
+ "amb_titan_est": {
+  "f": [
+   "amb_titan_est_0.mp4"
+  ],
+  "vol": 1.275
+ },
+ "amb_titan_ouest": {
+  "f": [
+   "amb_titan_ouest_0.mp4"
+  ],
+  "vol": 1.275
+ },
+ "amb_titan_centre": {
+  "f": [
+   "amb_titan_centre_0.mp4"
+  ],
+  "vol": 1.5
+ },
+ "iceFall": {
+  "f": [
+   "iceFall_0.mp4",
+   "iceFall_1.mp4",
+   "iceFall_2.mp4",
+   "iceFall_3.mp4",
+   "iceFall_4.mp4",
+   "iceFall_5.mp4",
+   "iceFall_6.mp4",
+   "iceFall_7.mp4",
+   "iceFall_8.mp4",
+   "iceFall_9.mp4",
+   "iceFall_10.mp4",
+   "iceFall_11.mp4",
+   "iceFall_12.mp4",
+   "iceFall_13.mp4",
+   "iceFall_14.mp4",
+   "iceFall_15.mp4"
+  ],
+  "vol": 7.866
+ },
+ "loop_pucew": {
+  "f": [
+   "loop_pucew_0.mp4"
+  ],
+  "vol": 0.511
+ },
+ "killOf_pucew": {
+  "f": [
+   "killOf_pucew_0.mp4"
+  ],
+  "vol": 0.466
+ },
+ "eshotOf_sarctu": {
+  "f": [
+   "eshotOf_sarctu_0.mp4",
+   "eshotOf_sarctu_1.mp4",
+   "eshotOf_sarctu_2.mp4",
+   "eshotOf_sarctu_3.mp4",
+   "eshotOf_sarctu_4.mp4"
+  ],
+  "vol": 1.286
+ },
+ "hitOn_sarctu": {
+  "f": [
+   "hitOn_sarctu_0.mp4"
+  ],
+  "vol": 0.841
+ },
+ "killOf_sarctu": {
+  "f": [
+   "killOf_sarctu_0.mp4"
+  ],
+  "vol": 1
+ },
+ "detOf_sarctu": {
+  "f": [
+   "detOf_sarctu_0.mp4",
+   "detOf_sarctu_1.mp4"
+  ],
+  "vol": 0.589
+ },
+ "steps_sarctu": {
+  "f": [
+   "steps_sarctu_0.mp4",
+   "steps_sarctu_1.mp4",
+   "steps_sarctu_2.mp4",
+   "steps_sarctu_3.mp4",
+   "steps_sarctu_4.mp4",
+   "steps_sarctu_5.mp4",
+   "steps_sarctu_6.mp4",
+   "steps_sarctu_7.mp4"
+  ],
+  "vol": 1
+ },
+ "ground_titan": {
+  "f": [
+   "ground_titan_0.mp4",
+   "ground_titan_1.mp4",
+   "ground_titan_2.mp4",
+   "ground_titan_3.mp4",
+   "ground_titan_4.mp4",
+   "ground_titan_5.mp4",
+   "ground_titan_6.mp4",
+   "ground_titan_7.mp4"
+  ],
+  "vol": 0.675
+ },
+ "eshotOf_carctu": {
+  "f": [
+   "eshotOf_carctu_0.mp4",
+   "eshotOf_carctu_1.mp4",
+   "eshotOf_carctu_2.mp4",
+   "eshotOf_carctu_3.mp4"
+  ],
+  "vol": 1.286
+ },
+ "hitOn_carctu": {
+  "f": [
+   "hitOn_carctu_0.mp4"
+  ],
+  "vol": 2.194
+ },
+ "killOf_carctu": {
+  "f": [
+   "killOf_carctu_0.mp4"
+  ],
+  "vol": 0.8
+ },
+ "detOf_carctu": {
+  "f": [
+   "detOf_carctu_0.mp4"
+  ],
+  "vol": 0.5
+ },
+ "eshotOf_cvenus": {
+  "f": [
+   "eshotOf_cvenus_0.mp4",
+   "eshotOf_cvenus_1.mp4",
+   "eshotOf_cvenus_2.mp4",
+   "eshotOf_cvenus_3.mp4",
+   "eshotOf_cvenus_4.mp4"
+  ],
+  "vol": 1.286
+ },
+ "hitOn_cvenus": {
+  "f": [
+   "hitOn_cvenus_0.mp4",
+   "hitOn_cvenus_1.mp4",
+   "hitOn_cvenus_2.mp4"
+  ],
+  "vol": 2.194
+ },
+ "killOf_cvenus": {
+  "f": [
+   "killOf_cvenus_0.mp4"
+  ],
+  "vol": 0.8
+ },
+ "detOf_cvenus": {
+  "f": [
+   "detOf_cvenus_0.mp4"
+  ],
+  "vol": 0.5
+ },
+ "steps_cvenus": {
+  "f": [
+   "steps_cvenus_0.mp4",
+   "steps_cvenus_1.mp4",
+   "steps_cvenus_2.mp4",
+   "steps_cvenus_3.mp4",
+   "steps_cvenus_4.mp4",
+   "steps_cvenus_5.mp4",
+   "steps_cvenus_6.mp4",
+   "steps_cvenus_7.mp4",
+   "steps_cvenus_8.mp4"
+  ],
+  "vol": 1.6
+ },
+ "eshotOf_cmentis": {
+  "f": [
+   "eshotOf_cmentis_0.mp4"
+  ],
+  "vol": 1.286
+ },
+ "killOf_cmentis": {
+  "f": [
+   "killOf_cmentis_0.mp4",
+   "killOf_cmentis_1.mp4",
+   "killOf_cmentis_2.mp4",
+   "killOf_cmentis_3.mp4"
+  ],
+  "vol": 0.8
+ },
+ "detOf_cmentis": {
+  "f": [
+   "detOf_cmentis_0.mp4",
+   "detOf_cmentis_1.mp4",
+   "detOf_cmentis_2.mp4",
+   "detOf_cmentis_3.mp4",
+   "detOf_cmentis_4.mp4",
+   "detOf_cmentis_5.mp4",
+   "detOf_cmentis_6.mp4",
+   "detOf_cmentis_7.mp4",
+   "detOf_cmentis_8.mp4",
+   "detOf_cmentis_9.mp4",
+   "detOf_cmentis_10.mp4"
+  ],
+  "vol": 0.5
+ },
+ "steps_cmentis": {
+  "f": [
+   "steps_cmentis_0.mp4",
+   "steps_cmentis_1.mp4",
+   "steps_cmentis_2.mp4",
+   "steps_cmentis_3.mp4",
+   "steps_cmentis_4.mp4",
+   "steps_cmentis_5.mp4",
+   "steps_cmentis_6.mp4",
+   "steps_cmentis_7.mp4",
+   "steps_cmentis_8.mp4",
+   "steps_cmentis_9.mp4"
+  ],
+  "vol": 1.6
+ },
+ "boomerang": {
+  "f": [
+   "boomerang_0.mp4",
+   "boomerang_1.mp4",
+   "boomerang_2.mp4"
+  ],
+  "vol": 2
+ },
+ "rocketCmd": {
+  "f": [
+   "rocketCmd_0.mp4",
+   "rocketCmd_1.mp4",
+   "rocketCmd_2.mp4",
+   "rocketCmd_3.mp4",
+   "rocketCmd_4.mp4",
+   "rocketCmd_5.mp4",
+   "rocketCmd_6.mp4",
+   "rocketCmd_7.mp4",
+   "rocketCmd_8.mp4",
+   "rocketCmd_9.mp4",
+   "rocketCmd_10.mp4"
+  ],
+  "vol": 2
+ },
+ "steps_carctu": {
+  "f": [
+   "steps_sarctu_0.mp4",
+   "steps_sarctu_1.mp4",
+   "steps_sarctu_2.mp4",
+   "steps_sarctu_3.mp4",
+   "steps_sarctu_4.mp4",
+   "steps_sarctu_5.mp4",
+   "steps_sarctu_6.mp4",
+   "steps_sarctu_7.mp4"
+  ],
+  "vol": 1
+ },
+ "hitOn_cmentis": {
+  "f": [
+   "hitOn_organic_0.mp4",
+   "hitOn_organic_1.mp4",
+   "hitOn_organic_2.mp4",
+   "hitOn_organic_3.mp4",
+   "hitOn_organic_4.mp4",
+   "hitOn_organic_5.mp4",
+   "hitOn_organic_6.mp4",
+   "hitOn_organic_7.mp4",
+   "hitOn_organic_8.mp4"
+  ],
+  "vol": 2.194
+ },
+ "loop_shark": {
+  "f": [
+   "loop_shark_0.mp4"
+  ],
+  "vol": 1.4
+ },
+ "sharkBite": {
+  "f": [
+   "sharkBite_0.mp4",
+   "sharkBite_1.mp4"
+  ],
+  "vol": 1.3
+ },
+ "killOf_shark": {
+  "f": [
+   "killOf_shark_0.mp4"
+  ],
+  "vol": 0.5
+ },
+ "amb_pitoya": {
+  "f": [
+   "amb_pitoya_0.mp4"
+  ],
+  "vol": 9.0
+ },
+ "amb_pitoya_sud": {
+  "f": [
+   "amb_pitoya_sud_0.mp4"
+  ],
+  "vol": 1.275
+ },
+ "amb_pitoya_nord": {
+  "f": [
+   "amb_pitoya_nord_0.mp4"
+  ],
+  "vol": 1.275
+ },
+ "amb_pitoya_est": {
+  "f": [
+   "amb_pitoya_est_0.mp4"
+  ],
+  "vol": 1.275
+ },
+ "amb_pitoya_ouest": {
+  "f": [
+   "amb_pitoya_ouest_0.mp4"
+  ],
+  "vol": 1.275
+ },
+ "amb_pitoya_centre": {
+  "f": [
+   "amb_pitoya_centre_0.mp4"
+  ],
+  "vol": 1.5
+ },
+ "pitRain": {
+  "f": [
+   "pitRain_0.mp4"
+  ],
+  "vol": 2.0
+ },
+ "ground_pitoya": {
+  "f": [
+   "ground_pitoya_0.mp4",
+   "ground_pitoya_1.mp4",
+   "ground_pitoya_2.mp4",
+   "ground_pitoya_3.mp4",
+   "ground_pitoya_4.mp4",
+   "ground_pitoya_5.mp4",
+   "ground_pitoya_6.mp4",
+   "ground_pitoya_7.mp4",
+   "ground_pitoya_8.mp4",
+   "ground_pitoya_9.mp4"
+  ],
+  "vol": 1.215
+ },
+ "hitOn_shark": {
+  "f": [
+   "hitOn_shark_0.mp4",
+   "hitOn_shark_1.mp4",
+   "hitOn_shark_2.mp4",
+   "hitOn_shark_3.mp4"
+  ],
+  "vol": 1.0
+ },
+ "steps_shark": {
+  "f": [
+   "steps_shark_0.mp4",
+   "steps_shark_1.mp4",
+   "steps_shark_2.mp4",
+   "steps_shark_3.mp4",
+   "steps_shark_4.mp4",
+   "steps_shark_5.mp4",
+   "steps_shark_6.mp4",
+   "steps_shark_7.mp4",
+   "steps_shark_8.mp4",
+   "steps_shark_9.mp4"
+  ],
+  "vol": 1.0
+ },
+ "amb_uranus": {
+  "f": [
+   "amb_uranus_0.mp4"
+  ],
+  "vol": 9.0
+ },
+ "amb_uranus_nord": {
+  "f": [
+   "amb_uranus_nord_0.mp4"
+  ],
+  "vol": 3.825
+ },
+ "amb_uranus_est": {
+  "f": [
+   "amb_uranus_est_0.mp4"
+  ],
+  "vol": 1.912
+ },
+ "amb_uranus_sud": {
+  "f": [
+   "amb_uranus_sud_0.mp4"
+  ],
+  "vol": 3.825
+ },
+ "amb_uranus_ouest": {
+  "f": [
+   "amb_uranus_ouest_0.mp4"
+  ],
+  "vol": 3.825
+ },
+ "ground_uranus": {
+  "f": [
+   "ground_uranus_0.mp4",
+   "ground_uranus_1.mp4",
+   "ground_uranus_2.mp4",
+   "ground_uranus_3.mp4",
+   "ground_uranus_4.mp4",
+   "ground_uranus_5.mp4",
+   "ground_uranus_6.mp4"
+  ],
+  "vol": 1.35
+ },
+ "gasGust": {
+  "f": [
+   "gasGust_0.mp4",
+   "gasGust_1.mp4",
+   "gasGust_2.mp4",
+   "gasGust_3.mp4",
+   "gasGust_4.mp4",
+   "gasGust_5.mp4",
+   "gasGust_6.mp4",
+   "gasGust_7.mp4"
+  ],
+  "vol": 3.0
+ },
+ "stationTwist": {
+  "f": [
+   "stationTwist_0.mp4"
+  ],
+  "vol": 1.0
+ },
+ "jp_plat1": {
+  "f": [
+   "jp_plat1_0.mp4"
+  ],
+  "vol": 1.5
+ },
+ "jp_plat2": {
+  "f": [
+   "jp_plat2_0.mp4"
+  ],
+  "vol": 1.5
+ },
+ "jp_plat3": {
+  "f": [
+   "jp_plat3_0.mp4"
+  ],
+  "vol": 1.5
+ },
+ "jp_jet": {
+  "f": [
+   "jp_jet_0.mp4"
+  ],
+  "vol": 0.448
+ },
+ "jp_wind": {
+  "f": [
+   "jp_wind_0.mp4"
+  ],
+  "vol": 3.528
+ },
+ "jp_launch1": {
+  "f": [
+   "jp_launch1_0.mp4"
+  ],
+  "vol": 3.06
+ },
+ "jp_launch2": {
+  "f": [
+   "jp_launch2_0.mp4"
+  ],
+  "vol": 2.55
+ },
+ "jp_launch3": {
+  "f": [
+   "jp_launch3_0.mp4"
+  ],
+  "vol": 2.55
+ },
+ "jp_groan": {
+  "f": [
+   "jp_groan_0.mp4",
+   "jp_groan_1.mp4",
+   "jp_groan_2.mp4",
+   "jp_groan_3.mp4"
+  ],
+  "vol": 1.0
+ },
+ "jp_bomber": {
+  "f": [
+   "jp_bomber_0.mp4",
+   "jp_bomber_1.mp4",
+   "jp_bomber_2.mp4",
+   "jp_bomber_3.mp4"
+  ],
+  "vol": 2.0
+ },
+ "jp_destroy": {
+  "f": [
+   "jp_destroy_0.mp4"
+  ],
+  "vol": 3.0
+ },
+ "ground_jupiter": {
+  "f": [
+   "ground_jupiter_0.mp4",
+   "ground_jupiter_1.mp4",
+   "ground_jupiter_2.mp4",
+   "ground_jupiter_3.mp4",
+   "ground_jupiter_4.mp4",
+   "ground_jupiter_5.mp4",
+   "ground_jupiter_6.mp4",
+   "ground_jupiter_7.mp4",
+   "ground_jupiter_8.mp4",
+   "ground_jupiter_9.mp4"
+  ],
+  "vol": 2.43
+ },
+ "jp_edge": {
+  "f": [
+   "jp_edge_0.mp4"
+  ],
+  "vol": 1.2
+ },
+ "subPulse": {
+  "f": [
+   "subPulse_0.mp4"
+  ],
+  "vol": 1.3
+ },
+ "vehAlert": {
+  "f": [
+   "vehAlert_0.mp4"
+  ],
+  "vol": 1
+ },
+ "vehAlert_tank": {
+  "f": [
+   "vehAlert_tank_0.mp4"
+  ],
+  "vol": 1
+ },
+ "vehAlert_jeep": {
+  "f": [
+   "vehAlert_jeep_0.mp4"
+  ],
+  "vol": 1.5
+ },
+ "vehAlert_sub": {
+  "f": [
+   "vehAlert_sub_0.mp4"
+  ],
+  "vol": 1.2
+ },
+ "vehLow": {
+  "f": [
+   "vehLow_0.mp4"
+  ],
+  "vol": 0.6
+ },
+ "tankLoop": {
+  "f": [
+   "tankLoop_0.mp4"
+  ],
+  "vol": 0.92
+ },
+ "shot_tank": {
+  "f": [
+   "tankShot_0.mp4"
+  ],
+  "vol": 1.2
+ },
+ "hurtOn_tank": {
+  "f": [
+   "tankHit_0.mp4",
+   "tankHit_1.mp4"
+  ],
+  "vol": 1
+ },
+ "tankIn": {
+  "f": [
+   "tankIn_0.mp4"
+  ],
+  "vol": 2.0
+ },
+ "tankOut": {
+  "f": [
+   "tankOut_0.mp4"
+  ],
+  "vol": 2.0
+ },
+ "tankMis": {
+  "f": [
+   "tankMis_0.mp4",
+   "tankMis_1.mp4",
+   "tankMis_2.mp4",
+   "tankMis_3.mp4",
+   "tankMis_4.mp4",
+   "tankMis_5.mp4",
+   "tankMis_6.mp4",
+   "tankMis_7.mp4"
+  ],
+  "vol": 2
+ },
+ "tankPulse": {
+  "f": [
+   "tankPulse_0.mp4"
+  ],
+  "vol": 1.3
+ },
+ "jeepLoop": {
+  "f": [
+   "jeepLoop_0.mp4"
+  ],
+  "vol": 0.6
+ },
+ "shot_jeep": {
+  "f": [
+   "shot_jeep_0.mp4"
+  ],
+  "vol": 0.6
+ },
+ "ivPick": {
+  "f": [
+   "ivPick_0.mp4"
+  ],
+  "vol": 1.0
+ },
+ "ivHum": {
+  "f": [
+   "ivHum_0.mp4"
+  ],
+  "vol": 1.0
+ },
+ "jeepIn": {
+  "f": [
+   "jeepIn_0.mp4",
+   "jeepIn_1.mp4",
+   "jeepIn_2.mp4",
+   "jeepIn_3.mp4",
+   "jeepIn_4.mp4",
+   "jeepIn_5.mp4"
+  ],
+  "vol": 0.6
+ },
+ "jeepOut": {
+  "f": [
+   "jeepOut_0.mp4",
+   "jeepOut_1.mp4",
+   "jeepOut_2.mp4",
+   "jeepOut_3.mp4",
+   "jeepOut_4.mp4",
+   "jeepOut_5.mp4"
+  ],
+  "vol": 0.6
+ },
+ "hurtOn_jeep": {
+  "f": [
+   "hurtOn_jeep0_0.mp4",
+   "hurtOn_jeep1_0.mp4",
+   "hurtOn_jeep2_0.mp4"
+  ],
+  "vol": 0.6
+ },
+ "wakeOf_golem": {
+  "f": [
+   "wakeOf_golem_b0.mp4"
+  ],
+  "vol": 2.0
+ },
+ "killOf_golem2": {
+  "f": [
+   "killOf_golem2_b0.mp4"
+  ],
+  "vol": 2.6
+ },
+ "bossCharge_golem": {
+  "f": [
+   "bossCharge_golem_b0.mp4",
+   "bossCharge_golem_b1.mp4",
+   "bossCharge_golem_b2.mp4",
+   "bossCharge_golem_b3.mp4"
+  ],
+  "vol": 2.2
+ },
+ "bossOnde_golem": {
+  "f": [
+   "bossOnde_golem_b0.mp4",
+   "bossOnde_golem_b1.mp4",
+   "bossOnde_golem_b2.mp4",
+   "bossOnde_golem_b3.mp4"
+  ],
+  "vol": 2.6
+ },
+ "wakeOf_spectre": {
+  "f": [
+   "wakeOf_spectre_b0.mp4"
+  ],
+  "vol": 2.0
+ },
+ "killOf_spectre2": {
+  "f": [
+   "killOf_spectre2_b0.mp4"
+  ],
+  "vol": 2.6
+ },
+ "bossCharge_spectre": {
+  "f": [
+   "bossCharge_spectre_b0.mp4",
+   "bossCharge_spectre_b1.mp4",
+   "bossCharge_spectre_b2.mp4",
+   "bossCharge_spectre_b3.mp4"
+  ],
+  "vol": 2.2
+ },
+ "bossBarrage_spectre": {
+  "f": [
+   "bossBarrage_spectre_b0.mp4",
+   "bossBarrage_spectre_b1.mp4",
+   "bossBarrage_spectre_b2.mp4",
+   "bossBarrage_spectre_b3.mp4"
+  ],
+  "vol": 1.9
+ },
+ "wakeOf_demo": {
+  "f": [
+   "wakeOf_demo_b0.mp4"
+  ],
+  "vol": 2.0
+ },
+ "killOf_demo2": {
+  "f": [
+   "killOf_demo2_b0.mp4"
+  ],
+  "vol": 2.6
+ },
+ "bossCharge_demo": {
+  "f": [
+   "bossCharge_demo_b0.mp4"
+  ],
+  "vol": 2.2
+ },
+ "bossOnde_demo": {
+  "f": [
+   "bossOnde_demo_b0.mp4",
+   "bossOnde_demo_b1.mp4",
+   "bossOnde_demo_b2.mp4",
+   "bossOnde_demo_b3.mp4"
+  ],
+  "vol": 2.6
+ },
+ "bossBarrage_demo": {
+  "f": [
+   "bossBarrage_demo_b0.mp4",
+   "bossBarrage_demo_b1.mp4",
+   "bossBarrage_demo_b2.mp4"
+  ],
+  "vol": 2.0
+ },
+ "wakeOf_hydre": {
+  "f": [
+   "wakeOf_hydre_b0.mp4"
+  ],
+  "vol": 2.0
+ },
+ "killOf_hydre2": {
+  "f": [
+   "killOf_hydre2_b0.mp4"
+  ],
+  "vol": 2.6
+ },
+ "bossOnde_hydre": {
+  "f": [
+   "bossOnde_hydre_b0.mp4"
+  ],
+  "vol": 2.6
+ },
+ "bossBarrage_hydre": {
+  "f": [
+   "bossBarrage_hydre_b0.mp4",
+   "bossBarrage_hydre_b1.mp4"
+  ],
+  "vol": 2.0
+ },
+ "wakeOf_titan": {
+  "f": [
+   "wakeOf_titan_b0.mp4",
+   "wakeOf_titan_b1.mp4",
+   "wakeOf_titan_b2.mp4",
+   "wakeOf_titan_b3.mp4"
+  ],
+  "vol": 2.0
+ },
+ "killOf_titan2": {
+  "f": [
+   "killOf_titan2_b0.mp4"
+  ],
+  "vol": 2.6
+ },
+ "bossOnde_titan": {
+  "f": [
+   "bossOnde_titan_b0.mp4"
+  ],
+  "vol": 2.6
+ },
+ "bossBarrage_titan": {
+  "f": [
+   "bossBarrage_titan_b0.mp4"
+  ],
+  "vol": 2.0
+ },
+ "wakeOf_fantome": {
+  "f": [
+   "wakeOf_fantome_b0.mp4",
+   "wakeOf_fantome_b1.mp4"
+  ],
+  "vol": 2.0
+ },
+ "killOf_fantome2": {
+  "f": [
+   "killOf_fantome2_b0.mp4"
+  ],
+  "vol": 2.6
+ },
+ "cloneBoom": {
+  "f": [
+   "cloneBoom_b0.mp4"
+  ],
+  "vol": 2.4
+ },
+ "cloneSpawn": {
+  "f": [
+   "cloneSpawn_b0.mp4"
+  ],
+  "vol": 2.0
+ },
+ "music_menu_terrien": {
+  "f": [
+   "music_menu_terrien_0.mp4"
+  ],
+  "vol": 0.53
+ },
+ "thr_grenade_terrien": {
+  "f": [
+   "thr_grenade_terrien_0.mp4"
+  ],
+  "vol": 2.307
+ },
+ "thr_sonic_terrien": {
+  "f": [
+   "thr_sonic_terrien_0.mp4"
+  ],
+  "vol": 3.22
+ },
+ "rocketGo_terrien": {
+  "f": [
+   "rocketGo_terrien_0.mp4"
+  ],
+  "vol": 0.651
+ },
+ "heal_shield": {
+  "f": [
+   "heal_shield_n0.mp4",
+   "heal_shield_n1.mp4",
+   "heal_shield_n2.mp4"
+  ],
+  "vol": 4.65
+ },
+ "hurtVoice_terrien": {
+  "f": [
+   "hurtVoice_terrien_0.mp4",
+   "hurtVoice_terrien_1.mp4",
+   "hurtVoice_terrien_2.mp4"
+  ],
+  "vol": 1.72
+ },
+ "killOutFx": {
+  "f": [
+   "killOutFx_0.mp4"
+  ],
+  "vol": 1.3
+ },
+ "invHit": {
+  "f": [
+   "invHit_0.mp4"
+  ],
+  "vol": 1.2
+ },
+ "invLoop0": {
+  "f": [
+   "invLoop0_0.mp4"
+  ],
+  "vol": 0.9
+ },
+ "invLoop1": {
+  "f": [
+   "invLoop1_0.mp4"
+  ],
+  "vol": 0.9
+ },
+ "invLoop2": {
+  "f": [
+   "invLoop2_0.mp4"
+  ],
+  "vol": 0.9
+ },
+ "invLoop3": {
+  "f": [
+   "invLoop3_0.mp4"
+  ],
+  "vol": 0.9
+ },
+ "invLoop4": {
+  "f": [
+   "invLoop4_0.mp4"
+  ],
+  "vol": 0.9
+ },
+ "invLoop5": {
+  "f": [
+   "invLoop5_0.mp4"
+  ],
+  "vol": 0.9
+ },
+ "radarOn": {
+  "f": [
+   "radarOn_0.mp4"
+  ],
+  "vol": 1
+ },
+ "radarAct": {
+  "f": [
+   "radarAct_0.mp4"
+  ],
+  "vol": 0.9
+ },
+ "cmdBoom": {
+  "f": [
+   "cmdBoom_0.mp4"
+  ],
+  "vol": 2
+ }
+}
